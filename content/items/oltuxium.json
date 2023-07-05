@@ -1,0 +1,11 @@
+{
+    "cost": 1,
+    "charge": 0.09,
+    "color": "E09430FF",
+    "research": {
+    "parent": "silicon",
+    "requirements": [
+    "silicon/200"
+  ]
+  }
+}

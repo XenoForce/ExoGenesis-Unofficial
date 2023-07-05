@@ -1,0 +1,36 @@
+{
+"type": "UnitFactory",
+"researchCostMultiplier": 0.3,
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "majoris",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "astrolite", "amount": 10},
+		{"item": "titanium", "amount": 20}
+       ],
+    "time": 400
+  },
+  {
+    "unit": "a-orion",
+    	"requirements": [
+		{"item": "silicon", "amount": 20},
+		{"item": "astrolite", "amount": 20},
+		{"item": "graphite", "amount": 10}
+       ],
+    "time": 400
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "graphite", "amount": 180},
+	{"item": "astrolite", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}

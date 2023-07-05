@@ -1,0 +1,10 @@
+{
+    "cost": 2,
+    "color": "C9DDE3FF",
+    "research": {
+    "parent": "titanium",
+    "requirements": [
+    "titanium/200"
+  ]
+  }
+}

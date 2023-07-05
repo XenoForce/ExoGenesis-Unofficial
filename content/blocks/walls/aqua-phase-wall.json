@@ -1,0 +1,14 @@
+{    
+    "type": "Wall",
+"placeableLiquid": "true",
+    "flashHit": true,
+    "chanceDeflect": 10,
+    "health": 600,
+    "size": 1,
+    "requirements": [
+        "metaglass/6",
+        "phase-fabric/6"
+    ],
+    "category": "defense",
+    "research": "phase-wall"
+}

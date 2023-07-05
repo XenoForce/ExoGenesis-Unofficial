@@ -1,0 +1,10 @@
+{
+"type": "Floor",
+"emitLight": true,
+"lightRadius": 8,
+"lightColor": "A9D8FFFF",
+"attributes": {
+  "heat": -2.5
+},
+"variants": 6
+}

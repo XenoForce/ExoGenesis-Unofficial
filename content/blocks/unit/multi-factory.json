@@ -2,24 +2,27 @@
 "type": "UnitFactory",
 "size": 3,
 "consumes": {
-"power": 5
+    "power": 5
 },
+
 "plans": [
-{
+  {
     "unit": "meteor",
-    	"requirements": [
+    "requirements": [
 		{"item": "silicon", "amount": 20},
 		{"item": "titanium", "amount": 10}
-       ],
+    ],
     "time": 300
   }
 ],
-    "requirements": [
+
+"requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "osmium", "amount": 180},
 	{"item": "thorium", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
+
 "category": "units",
-"research": "ground-factory"
+"research": "root-node-for-exogenesis"
 }

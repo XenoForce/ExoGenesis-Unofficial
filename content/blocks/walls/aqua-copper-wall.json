@@ -2,12 +2,12 @@
     "type": "Wall",
     "buildCostMultiplier": 0.1,
     "health": 320,
-"placeableLiquid": "true",
+    "placeableLiquid": "true",
     "size": 1,
     "requirements": [
         "metaglass/6",
         "copper/6"
     ],
     "category": "defense",
-    "research": "copper-wall"
+    "research": "root-node-for-exogenesis"
 }

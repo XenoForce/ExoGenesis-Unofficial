@@ -38,5 +38,5 @@
 		{ "item": "lead", "amount": 34 }
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "root-node-for-exogenesis"
 }

@@ -35,6 +35,6 @@
         "lead/100"
 	],
 	"category": "crafting",
-	"research": "graphite-press",
+	"research": "ignition-forge",
 	"outputItem": "astrolite/2"
 }

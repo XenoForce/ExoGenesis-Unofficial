@@ -1,10 +1,10 @@
 {
     "research": {
-    "parent": "dagger",
-    "requirements": [
-    "astrolite/100",
-    "silicon/200"
-    ]
+        "parent": "multifactory",
+        "requirements": [
+            "astrolite/100",
+            "silicon/200"
+        ]
     },
     "type": "flying",
     "lowAltitude": true,

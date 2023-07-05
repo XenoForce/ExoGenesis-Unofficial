@@ -1,7 +1,7 @@
 {    
     "type": "Wall",
     "lightningChance": 0.05,
-"placeableLiquid": "true",
+    "placeableLiquid": "true",
     "health": 920,
     "size": 1,
     "requirements": [
@@ -9,5 +9,5 @@
         "surge-alloy/6"
     ],
     "category": "defense",
-    "research": "surge-wall"
+    "research": "aqua-thorium-wall"
 }

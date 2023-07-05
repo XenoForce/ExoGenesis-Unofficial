@@ -33,6 +33,6 @@
         "copper/80"
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
+	"research": "crystallizer",
 	"outputItem": "oltuxium/2"
 }

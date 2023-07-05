@@ -1,6 +1,6 @@
 {    
     "type": "Wall",
-"placeableLiquid": "true",
+    "placeableLiquid": "true",
     "health": 130,
     "insulated": true,
     "absorbLasers": true,
@@ -11,5 +11,5 @@
         "plastanium/6"
     ],
     "category": "defense",
-    "research": "plastanium-wall"
+    "research": "aqua-titanium-wall"
 }

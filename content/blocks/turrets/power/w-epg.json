@@ -53,6 +53,6 @@
 		{ "item": "silicon", "amount": 265 }
 ],
 "category": "turret",
-"research": "arc",
+"research": "w-ignition",
 "shootSound": "laser"
 }

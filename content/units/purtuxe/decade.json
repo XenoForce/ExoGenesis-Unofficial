@@ -1,11 +1,11 @@
 {
     "type": "mech",
     "research": {
-    "parent": "dagger",
-    "requirements": [
-    "vurtimite/100",
-    "silicon/200"
-    ]
+        "parent": "multifactory",
+        "requirements": [
+            "vurtimite/100",
+            "silicon/200"
+        ]
     },
     "flying": false,
     "speed": 0.55,

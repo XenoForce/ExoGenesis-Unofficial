@@ -60,5 +60,5 @@
 		{ "item": "lead", "amount": 74 }
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "w-ignition"
 }

@@ -2,11 +2,11 @@
     "type": "mech",
     "outlineColor": "34353EFF",
     "research": {
-    "parent": "dagger",
-    "requirements": [
-    "valvanite/100",
-    "silicon/200"
-    ]
+        "parent": "multifactory",
+        "requirements": [
+            "valvanite/100",
+            "silicon/200"
+        ]
     },
     "flying": false,
     "speed": 1.2,

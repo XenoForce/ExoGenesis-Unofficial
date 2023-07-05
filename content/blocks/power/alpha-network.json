@@ -13,5 +13,5 @@
     { "item": "silicon", "amount": 370},
     { "item": "surge-alloy", "amount": 150}
   ],
-  "research": "surge-tower"
+  "research": "aqua-node-large"
 }

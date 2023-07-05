@@ -1,7 +1,7 @@
 {
 	"type": "SolarGenerator",
 	"size": 8,
-  "name": "Solar Farm",
+	"name": "Solar Farm",
 	"hasPower": true,
 	"powerProduction": 24,
 	"requirements": [
@@ -12,6 +12,5 @@
 		{ "item": "silicon", "amount": 380 }
 	],
 	"category": "power",
-	"research": "solar-panel"
-    
+	"research": "aqua-node-large"
 }

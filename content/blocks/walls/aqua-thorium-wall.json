@@ -1,6 +1,6 @@
 {    
     "type": "Wall",
-"placeableLiquid": "true",
+    "placeableLiquid": "true",
     "health": 800,
     "size": 1,
     "requirements": [
@@ -8,5 +8,5 @@
         "thorium/6"
     ],
     "category": "defense",
-    "research": "thorium-wall"
+    "research": "aqua-titanium-wall"
 }

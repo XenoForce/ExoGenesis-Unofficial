@@ -29,7 +29,7 @@
 		{"item": "graphite", "amount": 230}
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
+	"research": "crystallizer",
 	"outputItem": {
 		"item": "osmium",
 		"amount": 6

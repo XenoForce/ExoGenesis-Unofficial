@@ -1,11 +1,11 @@
 {
 "name": "Sol",
 "research": {
-"parent": "dagger",
-"requirements": [
-"volcanite/100",
-"silicon/200"
-]
+    "parent": "multifactory",
+    "requirements": [
+        "volcanite/100",
+        "silicon/200"
+    ]
 },
 "type": "mech",
 "armor": 7,

@@ -37,6 +37,6 @@
         "graphite/110"
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
+	"research": "crystallizer",
 	"outputItem": "vurtimite/2"
 }

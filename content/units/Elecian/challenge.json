@@ -1,11 +1,11 @@
 {
 "name": "Challenge",
 "research": {
-"parent": "dagger",
-"requirements": [
-"oltuxium/100",
-"silicon/200"
-]
+    "parent": "multifactory",
+    "requirements": [
+        "oltuxium/100",
+        "silicon/200"
+    ]
 },
 "controller": "SuicideAI",
 "type": "mech",

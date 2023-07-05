@@ -15,7 +15,7 @@
   "power": 1.2
 },
  "category": "turret",
- "research": "arc",
+ "research": "w-ignition",
  "requirements": [
   "lead/40",
   "silicon/60"

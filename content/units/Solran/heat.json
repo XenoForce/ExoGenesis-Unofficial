@@ -2,11 +2,11 @@
 "name": "Heat",
 "outlineColor": "313131FF",
 "research": {
-"parent": "dagger",
-"requirements": [
-"volcanite/100",
-"silicon/200"
-]
+    "parent": "multifactory",
+    "requirements": [
+        "volcanite/100",
+        "silicon/200"
+    ]
 },
 "type": "mech",
 "armor": 8,

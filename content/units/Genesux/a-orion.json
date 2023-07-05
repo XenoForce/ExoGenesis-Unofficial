@@ -1,13 +1,13 @@
 {
   "research": {
-  "parent": "dagger",
-  "requirements": [
-  "astrolite/100",
-  "silicon/200"
-  ]
+      "parent": "multifactory",
+      "requirements": [
+          "astrolite/100",
+          "silicon/200"
+      ]
   },
   "commandLimit": 5,
-	"outlineColor": "464A59FF",
+  "outlineColor": "464A59FF",
   "type": "legs",
 	"speed": 0.90,
 	"hitSize": 10,
@@ -18,9 +18,9 @@
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
-    "legTrns": 0.6,
+	"legTrns": 0.6,
 	"legCount": 4,
- "rippleScale": 0.6,
+	"rippleScale": 0.6,
 	"legBaseOffset": 3,
 	"legMoveSpace": 1.4,
 	"legLength": 6.5,

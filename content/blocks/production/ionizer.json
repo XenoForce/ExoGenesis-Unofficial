@@ -5,7 +5,7 @@
 	"flameColor": "73FFAEFF"
 	},
 	"size": 2,
-	 "researchCostMultiplier": 0.1,
+	"researchCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 10,
@@ -38,6 +38,6 @@
         "lead/120"
 	],
 	"category": "crafting",
-	"research": "graphite-press",
+	"research": "root-node-for-exogenesis",
 	"outputItem": "valvanite/2"
 }

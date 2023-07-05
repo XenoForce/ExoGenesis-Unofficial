@@ -1,6 +1,6 @@
 {    
     "type": "Wall",
-"placeableLiquid": "true",
+    "placeableLiquid": "true",
     "flashHit": true,
     "chanceDeflect": 10,
     "health": 600,
@@ -10,5 +10,5 @@
         "phase-fabric/6"
     ],
     "category": "defense",
-    "research": "phase-wall"
+    "research": "aqua-surge-wall"
 }

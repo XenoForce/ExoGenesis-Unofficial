@@ -29,7 +29,7 @@
     "ejectEffect": "casing2",
     "shootSound": "lasershoot",
         "bullet": { 
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "type": "basicBulletType",
         "hitEffect": {
         "type": "WaveEffect",
@@ -80,7 +80,7 @@
     "ejectEffect": "casing2",
     "shootSound": "lasershoot",
         "bullet": { 
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "type": "basicBulletType",
         "hitEffect": {
         "type": "WaveEffect",

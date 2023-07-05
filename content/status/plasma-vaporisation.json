@@ -5,7 +5,7 @@
 "effectChance": 0.5,
 "damage": 9,
 "transitionDamage": 66,
-"affinities": [ "tarred", "melting", "exogenesis-molten1"],
+"affinities": [ "tarred", "melting", "xguctt-molten1"],
 "effect": {
 "type": "MultiEffect",
 "effects": [

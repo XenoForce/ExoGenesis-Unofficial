@@ -48,7 +48,7 @@
 	"bullet": {
 	"type" : "basicBulletType",
 	"sprite" : "circle-bullet",
-	"status": "exogenesis-molten1",
+	"status": "xguctt-molten1",
 	"damage": 70,
 	"height" : 10,
 	"width" : 10,

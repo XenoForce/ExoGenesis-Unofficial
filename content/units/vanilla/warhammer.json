@@ -52,7 +52,7 @@
   "ejectEffect": "none",
   "bullet": { 
   "type": "BasicBulletType",
-  "sprite" : "exogenesis-pointy-bullet",
+  "sprite" : "xguctt-pointy-bullet",
   "damage": 400,	
   "height": 14,
   "width": 12,			
@@ -350,7 +350,7 @@
       "length": 0.001,
       "lifetime": 15,
       "lightColor": "FF875BFF",
-      "region": "exogenesis-warhammar-flames",
+      "region": "xguctt-warhammar-flames",
       "colorFrom": "FF875BFF",
       "colorTo": "FF875B05",
       "lightOpacity": 0.5

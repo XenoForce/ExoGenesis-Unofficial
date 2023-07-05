@@ -29,7 +29,7 @@
 	"immunities": [
 		"burning", 
 		"melting",
-		"exogenesis-molten1",
+		"xguctt-molten1",
 		"blasted"
 	],
 	"weapons": [
@@ -53,8 +53,8 @@
   "shootSound": "powerfulblast",
     "bullet": {
 	"type" : "basicBulletType",
-	"sprite" : "exogenesis-gauss-bullet",
-	"status": "exogenesis-molten1",
+	"sprite" : "xguctt-gauss-bullet",
+	"status": "xguctt-molten1",
 	"damage": 2000,
         "pierceBuilding": true,
         "pierceCap": 2,
@@ -174,7 +174,7 @@
     "particles": 1,
     "lifetime": 10,
     "length": 0,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "sizeFrom": 42,
     "sizeTo": 0,
     "colorFrom": "FF5845FF",
@@ -257,7 +257,7 @@
     "bullet": { 
     "type": "BasicBulletType",
     "collidesAir": true,
-    "status": "exogenesis-molten1",
+    "status": "xguctt-molten1",
     "statusDuration": 50,
     "speed": 3.5,
     "damage": 20,
@@ -402,7 +402,7 @@
     "bullet": { 
     "type": "BasicBulletType",
     "collidesAir": true,
-    "status": "exogenesis-molten1",
+    "status": "xguctt-molten1",
     "statusDuration": 50,
     "speed": 3.5,
     "damage": 20,
@@ -549,7 +549,7 @@
     "lightOpacity": 0,
     "particles": 1,
     "length": 0,
-    "region": "exogenesis-volcanic-track2",
+    "region": "xguctt-volcanic-track2",
     "lifetime": 6,
     "sizeFrom": 80.3,
     "sizeTo": 80.3,
@@ -580,7 +580,7 @@
     "lightOpacity": 0,
     "particles": 1,
     "length": 0,
-    "region": "exogenesis-volcanic-track1",
+    "region": "xguctt-volcanic-track1",
     "lifetime": 6,
     "sizeFrom": 80.3,
     "sizeTo": 80.3,

@@ -32,7 +32,7 @@
 	"hasPower" : true,
 	"shootType": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-armored-bullet",
+        "sprite": "xguctt-armored-bullet",
         "absorbable": true,
         "shrinkY": 0,
         "shrinkX": 0,

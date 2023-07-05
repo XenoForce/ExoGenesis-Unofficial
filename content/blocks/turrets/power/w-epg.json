@@ -18,7 +18,7 @@
     "powerUse": 18,
     "hasPower": true,
     "shootType": {
-    "sprite": "exogenesis-wavee",
+    "sprite": "xguctt-wavee",
     "collidesTiles": false,
     "speed": 8,
     "height": 48,

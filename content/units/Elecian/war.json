@@ -58,7 +58,7 @@
   "shootSound": "laser",
     "bullet": { 
 	"type": "LaserBulletType",
-	"status": "exogenesis-surge-charge",
+	"status": "xguctt-surge-charge",
 	"statusDuration": 100,
 	"length": 300,
 	"damage": 1500,
@@ -180,7 +180,7 @@
     "bullet": {
     "keepVelocity": false,
     "type": "MissileBulletType",
-    "sprite": "exogenesis-warhead",
+    "sprite": "xguctt-warhead",
     "shootEffect": "explosion",
     "hitEffect": {
     "type": "ExplosionEffect",  
@@ -292,7 +292,7 @@
     "sizeTo": 2,
     "length": 0,
     "lifetime": 30,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "F3E979FF",
     "colorTo": "D99F6BFF"
     },
@@ -303,7 +303,7 @@
     "sizeTo": 2,
     "length": 0,
     "lifetime": 30,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "F3E979FF",
     "colorTo": "D99F6BFF"
 	}
@@ -363,7 +363,7 @@
     "baseLength": 30,
     "interp": "circleOut",
     "cone": 360,
-    "region": "exogenesis-shape2",
+    "region": "xguctt-shape2",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E979FF",
     "sizeFrom": 5,
@@ -405,7 +405,7 @@
     "baseLength": 30,
     "interp": "circleOut",
     "cone": 360,
-    "region": "exogenesis-shape2",
+    "region": "xguctt-shape2",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E979FF",
     "sizeFrom": 5,
@@ -428,7 +428,7 @@
     "fragVelocityMin": 1,
 	"fragBullet": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-peircer",
+    "sprite": "xguctt-peircer",
     "speed": 5,
     "trailColor": "F3E979FF",
     "trailParam": 5,
@@ -483,7 +483,7 @@
     "interp": "pow3In",
     "sizeInterp": "pow5Out",
     "lifetime": 110,
-    "region": "exogenesis-shape2",
+    "region": "xguctt-shape2",
     "colorFrom": "F3E97900",
     "colorTo": "F3E979FF"
     },
@@ -498,7 +498,7 @@
     "interp": "pow3In",
     "sizeInterp": "pow5Out",
     "lifetime": 100,
-    "region": "exogenesis-shape2",
+    "region": "xguctt-shape2",
     "colorFrom": "F3E97900",
     "colorTo": "F3E979FF"
     },
@@ -513,7 +513,7 @@
     "interp": "pow3In",
     "sizeInterp": "pow5Out",
     "lifetime": 90,
-    "region": "exogenesis-shape2",
+    "region": "xguctt-shape2",
     "colorFrom": "F3E97900",
     "colorTo": "F3E979FF"
     },
@@ -578,7 +578,7 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "D99F6BFF",
     "colorTo": "D99F6BFF"
     },
@@ -590,7 +590,7 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "D99F6BFF",
     "colorTo": "D99F6BFF"
     },
@@ -613,7 +613,7 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E979FF"
     },
@@ -625,7 +625,7 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E979FF"
     },
@@ -648,7 +648,7 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "FFFFFF",
     "colorTo": "FFFFFF"
     },
@@ -660,14 +660,14 @@
     "length": 0,
     "interp": "bounceOut",
     "lifetime": 125,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "FFFFFF",
     "colorTo": "FFFFFF"
 	}
     ]
 	},
     "type": "basicBulletType",
-    "sprite": "exogenesis-peircer",
+    "sprite": "xguctt-peircer",
     "shrinkX": 0,
     "shrinkY": 0,
     "lifetime": 160,
@@ -857,7 +857,7 @@
     "colorFrom": "F3E979FF",
     "colorTo": "D99F6BFF"
     },
-    "sprite": "exogenesis-peircer",
+    "sprite": "xguctt-peircer",
     "trailColor": "F3E979FF",
     "trailParam": 5,
     "trailEffect": "none",
@@ -906,7 +906,7 @@
     "sizeTo": 106.3,
     "length": 0.01,
     "lifetime": 15,
-    "region": "exogenesis-war-wings",
+    "region": "xguctt-war-wings",
     "colorFrom": "F3E979FF",
     "colorTo": "F3E97900",
     "lightOpacity": 0,

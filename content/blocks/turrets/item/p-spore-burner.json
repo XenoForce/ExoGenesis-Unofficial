@@ -36,7 +36,7 @@
     "cone": 16,
     "lifetime": 34,
     "interp": "circleOut",
-    "region": "exogenesis-rune1",
+    "region": "xguctt-rune1",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -50,7 +50,7 @@
     "cone": 16,
     "lifetime": 38,
     "interp": "circleOut",
-    "region": "exogenesis-rune13",
+    "region": "xguctt-rune13",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -64,7 +64,7 @@
     "cone": 16,
     "lifetime": 30,
     "interp": "circleOut",
-    "region": "exogenesis-rune11",
+    "region": "xguctt-rune11",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -78,7 +78,7 @@
     "cone": 16,
     "lifetime": 33,
     "interp": "circleOut",
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -92,7 +92,7 @@
     "cone": 16,
     "lifetime": 35,
     "interp": "circleOut",
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -115,7 +115,7 @@
     "length": 60,
     "lifetime": 34,
     "interp": "circleOut",
-    "region": "exogenesis-rune1",
+    "region": "xguctt-rune1",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -128,7 +128,7 @@
     "length": 60,
     "lifetime": 38,
     "interp": "circleOut",
-    "region": "exogenesis-rune13",
+    "region": "xguctt-rune13",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -141,7 +141,7 @@
     "length": 60,
     "lifetime": 30,
     "interp": "circleOut",
-    "region": "exogenesis-rune11",
+    "region": "xguctt-rune11",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -154,7 +154,7 @@
     "length": 60,
     "lifetime": 33,
     "interp": "circleOut",
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -167,7 +167,7 @@
     "length": 60,
     "lifetime": 35,
     "interp": "circleOut",
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"

@@ -196,7 +196,7 @@
            "type": "ParticleEffect",
            "particles": 2,
            "length": 1,
-           "region": "exogenesis-triangle",
+           "region": "xguctt-triangle",
            "lifetime": 10,
            "sizeFrom": 5,
            "sizeTo": 0,
@@ -243,7 +243,7 @@
     "length": 0,
     "lifetime": 35,
     "sizeFrom": 20,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
 	        },
@@ -286,7 +286,7 @@
   "shootCone": 20,
   "shootSound": "laser",
            "bullet": { 
-           "sprite": "exogenesis-plasma",
+           "sprite": "xguctt-plasma",
             "damage": 7189,
             "splashDamage": 80,
             "splashDamageRadius": 116,
@@ -299,7 +299,7 @@
             "length": 0,
             "lifetime": 35,
             "sizeFrom": 24,
-            "region": "exogenesis-plasma",
+            "region": "xguctt-plasma",
             "colorFrom": "BF92F9FF",
             "colorTo": "BF92F9FF"
             },

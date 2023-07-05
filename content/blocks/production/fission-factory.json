@@ -21,7 +21,7 @@
     "lightColor": "774ACFFF",
     "lifetime": 35,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     },
@@ -35,7 +35,7 @@
     "spin": -11,
     "lifetime": 35,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     }

@@ -18,7 +18,7 @@
     "ammoTypes": {
         "astrolite": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-energy-partical",
+        "sprite": "xguctt-energy-partical",
         "absorbable": true,
         "shrinkY": 0,
         "shrinkX": 0,

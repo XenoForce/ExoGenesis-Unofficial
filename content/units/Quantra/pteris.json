@@ -33,7 +33,7 @@
     "bullet": { 
     "colors":["50A385B0", "57D993FF", "73FFAEFF", "FFFFFFF"],
     "type": "basicBulletType",
-    "sprite": "exogenesis-disk-bullet",
+    "sprite": "xguctt-disk-bullet",
     "damage": 18,
     "splashDamage": 10,
     "splashDamageRadius": 20,
@@ -49,7 +49,7 @@
     "particles": 1,
     "length": 0,
     "lifetime": 20,
-    "region": "exogenesis-disk-bullet-back",
+    "region": "xguctt-disk-bullet-back",
     "lightColor": "73FFAEFF",
     "colorFrom": "73FFAEFF",
     "colorTo": "57D99300",

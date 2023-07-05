@@ -74,7 +74,7 @@
     },
     "keepVelocity": false,
     "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "damage": 18,
     "width": 5,
     "height": 5,
@@ -88,7 +88,7 @@
     "length": 0,
     "lifetime": 15,
     "sizeFrom": 5,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -120,7 +120,7 @@
       "particles": 1,
       "colorFrom": "A170F4FF",
       "colorTo": "A170F4FF",
-      "region": "exogenesis-plasma-back"
+      "region": "xguctt-plasma-back"
     },
     "effect": {
     "name": "quantux-drive",

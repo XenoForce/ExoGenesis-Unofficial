@@ -245,7 +245,7 @@
     },
     "keepVelocity": true,
     "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "damage": 155,
     "width": 10,
     "height": 10,
@@ -259,7 +259,7 @@
     "length": 0,
     "lifetime": 20,
     "sizeFrom": 8,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
     },

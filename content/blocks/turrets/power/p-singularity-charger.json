@@ -146,7 +146,7 @@
     "length": 22,
     "baseLength": 22,
     "lifetime": 30,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -159,7 +159,7 @@
     "length": 22,
     "baseLength": 22,
     "lifetime": 30,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -172,7 +172,7 @@
     "length": 22,
     "baseLength": 22,
     "lifetime": 30,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -185,7 +185,7 @@
     "length": 22,
     "baseLength": 22,
     "lifetime": 30,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -198,7 +198,7 @@
     "length": 22,
     "baseLength": 22,
     "lifetime": 30,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -211,7 +211,7 @@
 	"fragCone": 360,
 	"fragBullet": {
   "type": "BasicBulletType",
-  "sprite": "exogenesis-plasma",
+  "sprite": "xguctt-plasma",
 	"lightningColor": "A170F4FF",
 	"lightning": 10,
 	"lightningLength": 6,

@@ -176,7 +176,7 @@
     "colorTo": "C2FF70FF"
     },
     "damage": 180,
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "speed": 4,
     "width": 11,
     "height": 11,
@@ -190,7 +190,7 @@
     "length": 0,
     "lifetime": 20,
     "sizeFrom": 11,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "FFFFFFFF",
     "colorTo": "C2FF70FF"
     },

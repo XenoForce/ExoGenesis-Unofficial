@@ -168,7 +168,7 @@
     "shootSound": "plasmaboom",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "hitEffect": {
     "type": "multiEffect",
     "effects": [
@@ -242,7 +242,7 @@
     "length": 0,
     "lifetime": 13,
     "sizeFrom": 7,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFAA"
     },
@@ -299,7 +299,7 @@
     "pierce": true,
     "pierceBuilding": true,
     "type": "basicBulletType",
-    "sprite": "exogenesis-star-cutter",
+    "sprite": "xguctt-star-cutter",
     "damage": 360,
     "status": "freezing",
     "statusDuration": 150,
@@ -318,7 +318,7 @@
     "length": 0,
     "lifetime": 25,
     "sizeFrom": 12,
-    "region": "exogenesis-star-cutter-effect",
+    "region": "xguctt-star-cutter-effect",
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFAA"
     },

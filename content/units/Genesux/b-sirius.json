@@ -41,7 +41,7 @@
 	"hovering": true,
 	"immunities": [
 	"burning",
-   "exogenesis-high-energy-blast", 
+   "xguctt-high-energy-blast", 
 	"melting",
 	"freezing"
 	],
@@ -78,7 +78,7 @@
     "despawnEffect": "smokeCloud",
     "smokeEffect": "smokeCloud",
     "largeHit": false,
-    "status": "exogenesis-high-energy-blast",
+    "status": "xguctt-high-energy-blast",
     "statusDuration": 50,
     "incendChance": 0,
     "hitEffect": {
@@ -122,7 +122,7 @@
     "baseLength": 250,
     "length": -250,
     "lifetime": 60,
-    "region": "exogenesis-star",
+    "region": "xguctt-star",
     "sizeInterp": "pow5Out",
     "interp": "pow3In",
     "spin": 6,
@@ -140,7 +140,7 @@
     "spin": 8,
     "interp": "swing",
     "lifetime": 120,
-    "region": "exogenesis-star",
+    "region": "xguctt-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
     },
@@ -153,7 +153,7 @@
     "spin": 6,
     "interp": "swing",
     "lifetime": 120,
-    "region": "exogenesis-star",
+    "region": "xguctt-star",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
     }

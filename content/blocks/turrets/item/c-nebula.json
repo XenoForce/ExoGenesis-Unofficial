@@ -17,7 +17,7 @@
 	"ammoTypes": {
         "omega-blue": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "status": "freezing",
         "lightning": 7,
         "lightningDamage": 20,
@@ -58,7 +58,7 @@
         "length": 0,
         "lifetime": 24,
         "sizeFrom": 7,
-        "region": "exogenesis-plasma-back",
+        "region": "xguctt-plasma-back",
         "colorFrom": "A9D8FFFF",
         "colorTo": "66B1FFAA"
         },
@@ -75,7 +75,7 @@
         },
         "surge-alloy": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "status": "shocked",
         "lightning": 7,
         "lightningDamage": 20,
@@ -115,7 +115,7 @@
         "length": 0,
         "lifetime": 24,
         "sizeFrom": 7,
-        "region": "exogenesis-plasma-back",
+        "region": "xguctt-plasma-back",
         "colorFrom": "F3E979FF",
         "colorTo": "D99F6BAA"
         },
@@ -130,7 +130,7 @@
         },
         "astrolite": {
         "type": "basicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "status": "freezing",
         "weaveMag": 8,
         "weaveScale": -50,
@@ -165,7 +165,7 @@
         "length": 0,
         "lifetime": 24,
         "sizeFrom": 7,
-        "region": "exogenesis-plasma-back",
+        "region": "xguctt-plasma-back",
         "colorFrom": "FFFFFF",
         "colorTo": "A9D8FFFF"
         },

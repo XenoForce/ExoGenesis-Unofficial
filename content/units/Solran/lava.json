@@ -27,7 +27,7 @@
 	"immunities": [
 		"burning", 
 		"melting",
-		"exogenesis-molten1",
+		"xguctt-molten1",
 		"blasted"
 	],
 	"weapons": [
@@ -49,8 +49,8 @@
   "shootSound": "shootBig",
     "bullet": {
 	"type" : "basicBulletType",
-	"sprite" : "exogenesis-gauss-bullet",
-	"status": "exogenesis-molten1",
+	"sprite" : "xguctt-gauss-bullet",
+	"status": "xguctt-molten1",
 	"damage": 400,
 	"height" : 20,
 	"width" : 20,
@@ -166,7 +166,7 @@
     "particles": 1,
     "lifetime": 10,
     "length": 0,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "sizeFrom": 36,
     "sizeTo": 0,
     "colorFrom": "FF5845FF",
@@ -231,7 +231,7 @@
     "lightOpacity": 0,
     "particles": 1,
     "length": 0,
-    "region": "exogenesis-lava-track2",
+    "region": "xguctt-lava-track2",
     "lifetime": 6,
     "sizeFrom": 27,
     "sizeTo": 27,
@@ -262,7 +262,7 @@
     "lightOpacity": 0,
     "particles": 1,
     "length": 0,
-    "region": "exogenesis-lava-track1",
+    "region": "xguctt-lava-track1",
     "lifetime": 6,
     "sizeFrom": 27,
     "sizeTo": 27,

@@ -45,7 +45,7 @@
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "xguctt-peircer",
         "absorbable": false,
         "pierceCap": 3,
         "pierce": false,
@@ -88,7 +88,7 @@
 	    "fragBullets": 15,
 	    "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-peircer",
+        "sprite": "xguctt-peircer",
         "absorbable": true,
         "speed": 4,
          "trailColor": "F3E979FF",

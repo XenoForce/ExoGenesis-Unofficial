@@ -29,7 +29,7 @@
         "length": 0,
         "interp": "swingIn",
         "lifetime": 100,
-        "region": "exogenesis-energy-partical",
+        "region": "xguctt-energy-partical",
         "colorFrom": "A9D8FFFF",
         "colorTo": "A9D8FFFF"
         },
@@ -75,7 +75,7 @@
         "height": 21,
         "shrinkY": 0,
         "shrinkX": 0,
-        "sprite": "exogenesis-energy-partical"
+        "sprite": "xguctt-energy-partical"
     },
     "requirements": [
         "astrolite/300",

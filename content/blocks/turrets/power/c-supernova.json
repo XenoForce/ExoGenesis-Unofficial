@@ -23,7 +23,7 @@
     "lifetime": 15,
     "length": 0,
     "interp": "swingIn",
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "sizeFrom": 46,
     "sizeTo": 0,
     "lightColor": "A9D8FFFF",
@@ -36,7 +36,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 10,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -63,7 +63,7 @@
     "layer": 109,
     "lifetime": 135,
     "lightColor": "A9D8FFFF",
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
     },
@@ -77,7 +77,7 @@
     "layer": 109,
     "lifetime": 135,
     "lightColor": "A9D8FFFF",
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FFFF"
     },
@@ -172,7 +172,7 @@
     "shootType" : {
     "type": "empBulletType",
     "sprite": "circle-bullet",
-    "status": "exogenesis-high-energy-blast",
+    "status": "xguctt-high-energy-blast",
     "timeIncrease": 0,
     "powerDamageScl": 1,
     "powerSclDecrease": 0.1,
@@ -328,7 +328,7 @@
 	"fragCone": 360,
 	"fragBullet": {
     "type": "basicBulletType",
-    "sprite": "exogenesis-energy-partical",
+    "sprite": "xguctt-energy-partical",
     "hitEffect": {
     "type": "ParticleEffect",
     "line": true,
@@ -348,7 +348,7 @@
     "length": 0,
     "interp": "swingIn",
     "spin": 7,
-    "region": "exogenesis-energy-partical-back",
+    "region": "xguctt-energy-partical-back",
     "sizeFrom": 20,
     "sizeTo": 0,
     "colorFrom": "A9D8FFFF",

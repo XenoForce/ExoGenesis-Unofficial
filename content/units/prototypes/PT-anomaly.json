@@ -54,7 +54,7 @@
     "shootSound": "laser",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "exogenesis-armored-bullet",
+    "sprite": "xguctt-armored-bullet",
     "lightColor": "A9D8FFFF",
 	"shootEffect": {
     "type": "ParticleEffect",
@@ -176,7 +176,7 @@
     "length": 35,
     "cone": -360,
     "spin": 4,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "sizeFrom": 5,
     "sizeTo": 0,
     "colorFrom": "A170F4FF",
@@ -198,7 +198,7 @@
     "lifetime": 34,
     "length": 0,
     "cone": -360,
-    "region": "exogenesis-wavee-back",
+    "region": "xguctt-wavee-back",
     "sizeFrom": 26,
     "sizeTo": 0,
     "colorFrom": "A170F4FF",

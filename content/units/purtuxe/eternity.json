@@ -64,7 +64,7 @@
     "shootSound": "none",
     "bullet": { 
     "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "damage": 87,
     "weaveMag": 2,
     "weaveScale": 2,
@@ -100,7 +100,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -112,7 +112,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -123,7 +123,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -134,7 +134,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -145,7 +145,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     }
@@ -257,7 +257,7 @@
     "lightColor": "774ACFFF",
     "lifetime": 35,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400",
     "cone": 360
@@ -272,7 +272,7 @@
     "spin": -11,
     "lifetime": 35,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400",
     "cone": 360
@@ -308,7 +308,7 @@
     "lightColor": "774ACFFF",
     "lifetime": 125,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF",
     "cone": 360
@@ -323,7 +323,7 @@
     "spin": -11,
     "lifetime": 125,
     "layer": 109,
-    "region": "exogenesis-runic-circle",
+    "region": "xguctt-runic-circle",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF",
     "cone": 360
@@ -338,7 +338,7 @@
     "offsetX": 2.5,
     "spin": 1,
     "lifetime": 120,
-    "region": "exogenesis-rune1",
+    "region": "xguctt-rune1",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     },
@@ -352,7 +352,7 @@
     "baseLength": -75,
     "spin": 1,
     "lifetime": 110,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     },
@@ -366,7 +366,7 @@
     "baseLength": -75,
     "spin": 1,
     "lifetime": 100,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     },
@@ -379,7 +379,7 @@
     "baseLength": -75,
     "spin": -1,
     "lifetime": 90,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     },
@@ -392,7 +392,7 @@
     "baseLength": -75,
     "spin": -1,
     "lifetime": 80,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     },
@@ -405,7 +405,7 @@
     "baseLength": -75,
     "spin": -1,
     "lifetime": 70,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F4FF"
     }
@@ -423,7 +423,7 @@
     "length": 12,
     "baseLength": 12,
     "lifetime": 30,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -435,7 +435,7 @@
     "length": 12,
     "baseLength": 12,
     "lifetime": 30,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -446,7 +446,7 @@
     "length": 12,
     "baseLength": 12,
     "lifetime": 30,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -457,7 +457,7 @@
     "length": 12,
     "baseLength": 12,
     "lifetime": 30,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -468,7 +468,7 @@
     "length": 12,
     "baseLength": 12,
     "lifetime": 40,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     }
@@ -517,7 +517,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -530,7 +530,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -542,7 +542,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -554,7 +554,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -566,7 +566,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -578,7 +578,7 @@
     "length": 28,
     "baseLength": 28,
     "lifetime": 30,
-    "region": "exogenesis-triangle",
+    "region": "xguctt-triangle",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F400"
@@ -624,7 +624,7 @@
     "length": 40,
     "lifetime": 30,
     "layer": 109,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -638,7 +638,7 @@
     "length": 50,
     "lifetime": 40,
     "layer": 109,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -652,7 +652,7 @@
     "length": 60,
     "lifetime": 50,
     "layer": 109,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -665,7 +665,7 @@
     "length": 70,
     "lifetime": 60,
     "layer": 109,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -678,7 +678,7 @@
     "length": 80,
     "lifetime": 70,
     "layer": 109,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -693,7 +693,7 @@
     "lightColor": "774ACFFF",
     "lifetime": 55,
     "layer": 109,
-    "region": "exogenesis-square",
+    "region": "xguctt-square",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     },
@@ -707,7 +707,7 @@
     "spin": -11,
     "lifetime": 55,
     "layer": 109,
-    "region": "exogenesis-square",
+    "region": "xguctt-square",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     }
@@ -752,7 +752,7 @@
     "length": 40,
     "lifetime": 30,
     "layer": 109,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -766,7 +766,7 @@
     "length": 50,
     "lifetime": 40,
     "layer": 109,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -780,7 +780,7 @@
     "length": 60,
     "lifetime": 50,
     "layer": 109,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -794,7 +794,7 @@
     "length": 70,
     "lifetime": 60,
     "layer": 109,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -808,7 +808,7 @@
     "length": 80,
     "lifetime": 70,
     "layer": 109,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "lightColor": "A170F4FF",
     "colorFrom": "A170F4FF",
     "colorTo": "A170F4FF"
@@ -823,7 +823,7 @@
     "lightColor": "774ACFFF",
     "lifetime": 55,
     "layer": 109,
-    "region": "exogenesis-square",
+    "region": "xguctt-square",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     },
@@ -837,7 +837,7 @@
     "spin": -11,
     "lifetime": 55,
     "layer": 109,
-    "region": "exogenesis-square",
+    "region": "xguctt-square",
     "colorFrom": "774ACFFF",
     "colorTo": "A170F400"
     }
@@ -851,7 +851,7 @@
   "fragCone": 360,
   "fragBullet": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-armored-bullet",
+    "sprite": "xguctt-armored-bullet",
     "absorbable": true,
     "shrinkY": 0,
     "shrinkX": 0,
@@ -946,7 +946,7 @@
     "lifetime": 34,
     "length": 0,
     "cone": -360,
-    "region": "exogenesis-blue-pierce",
+    "region": "xguctt-blue-pierce",
     "sizeFrom": 13,
     "sizeTo": 0,
     "colorFrom": "A170F4FF",
@@ -984,7 +984,7 @@
     "length": 20,
     "cone": -360,
     "spin": 0.6,
-    "region": "exogenesis-triangle",
+    "region": "xguctt-triangle",
     "sizeFrom": 0,
     "sizeTo": 3,
     "colorFrom": "A170F400",

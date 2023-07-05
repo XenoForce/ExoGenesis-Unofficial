@@ -68,7 +68,7 @@
     "shootType": {
   "type": "BasicBulletType",
   "sprite" : "circle-bullet",
-  "status" : "exogenesis-molten1",
+  "status" : "xguctt-molten1",
   "statusDuration": 300,
   "damage": 180,	
   "splashDamage": 250,

@@ -50,7 +50,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -62,7 +62,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -73,7 +73,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -84,7 +84,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -95,7 +95,7 @@
     "length": 3,
     "baseLength": 3,
     "lifetime": 18,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     }

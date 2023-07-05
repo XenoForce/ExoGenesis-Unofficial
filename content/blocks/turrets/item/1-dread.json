@@ -19,7 +19,7 @@
     "shootSound": "shootBig",
     "ammoTypes": {
     "thorium": {
-    "sprite": "exogenesis-gauss-bullet",
+    "sprite": "xguctt-gauss-bullet",
     "speed": 8,
     "height": 42,
     "width": 25,
@@ -42,7 +42,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -249,7 +249,7 @@
     "status": "blasted"
     },
     "osmium": {
-    "sprite": "exogenesis-gauss-bullet",
+    "sprite": "xguctt-gauss-bullet",
     "speed": 8,
     "height": 42,
     "width": 25,
@@ -271,7 +271,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -478,8 +478,8 @@
     "knockback": 30
     },
     "surge-alloy": {
-    "sprite": "exogenesis-gauss-bullet",
-    "status": "exogenesis-surge-charge",
+    "sprite": "xguctt-gauss-bullet",
+    "status": "xguctt-surge-charge",
 	"statusDuration": "100",
     "speed": 8,
     "height": 42,
@@ -502,7 +502,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,
@@ -714,7 +714,7 @@
     },
     "voltirium-alloy": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-gauss-bullet",
+    "sprite": "xguctt-gauss-bullet",
     "speed": 8,
     "damage": 2700,
     "height": 42,
@@ -734,7 +734,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 8,
     "sizeFrom": 25,
     "sizeTo": 1,

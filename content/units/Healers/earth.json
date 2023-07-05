@@ -178,7 +178,7 @@
     "collidesTeam": true,
     "healPercent": 10,
     "type": "basicBulletType",
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "damage": 120,
     "width": 10,
     "height": 10,
@@ -192,7 +192,7 @@
     "length": 0,
     "lifetime": 25,
     "sizeFrom": 9,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "84F491FF",
     "colorTo": "64CF8DAA"
     },
@@ -242,7 +242,7 @@
       "particles": 2,
       "colorFrom": "F2FFF3FF",
       "colorTo": "84F491FF",
-      "region": "exogenesis-heal"
+      "region": "xguctt-heal"
     }
     },
     "range": 185,

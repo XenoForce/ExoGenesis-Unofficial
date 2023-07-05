@@ -20,7 +20,7 @@
 	"hasPower" : true,
 	"shootType" : {
 		"type" : "basicBulletType",
-		"sprite" : "exogenesis-trident",
+		"sprite" : "xguctt-trident",
 		"damage": 20,	
 		"height" : 20,
 		"width" : 11,			

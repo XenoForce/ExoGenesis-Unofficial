@@ -21,7 +21,7 @@
 	"ammoTypes": {
         "gamma-green": {
 		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-slice",
+		"sprite" : "xguctt-slice",
 		"damage": 3400,	
         "hitSound": "laser",
         "lightRadius": 150,
@@ -131,7 +131,7 @@
         },
         "rutuxium": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "lightRadius": 140,
         "lightColor": "322252FF",
         "status": {
@@ -214,7 +214,7 @@
 	    "fragCone": 360,
 	    "fragBullet": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
 	    "lightningColor": "9057F2FF",
      	"lightning": 10,
     	"lightningLength": 6,
@@ -324,7 +324,7 @@
       "hittable": false,
       "reflectable": false,
       "absorbable": true,
-      "sprite": "exogenesis-plasma",
+      "sprite": "xguctt-plasma",
       "homingPower": 0.1205,
       "homingRange": 380,
       "homingDelay": 55,

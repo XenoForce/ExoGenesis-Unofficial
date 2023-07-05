@@ -21,7 +21,7 @@
     "sprite": "circle-bullet",
     "lightRadius": 80,
     "lightColor": "BF92F9FF",
-    "status": "exogenesis-sap-inferno",
+    "status": "xguctt-sap-inferno",
     "statusDuration": 100,
     "speed": 6,
     "hitSound": "plasmaboom",

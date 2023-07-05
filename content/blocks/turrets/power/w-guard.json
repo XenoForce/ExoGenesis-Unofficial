@@ -26,7 +26,7 @@
     "hasPower": true,
     "shootType": {
         "type": "BasicBulletType",
-        "sprite": "exogenesis-armored-bullet",
+        "sprite": "xguctt-armored-bullet",
         "absorbable": true,
         "speed": 6,
         "lifetime": 40,

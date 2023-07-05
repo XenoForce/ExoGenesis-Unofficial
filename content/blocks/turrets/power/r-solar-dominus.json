@@ -18,7 +18,7 @@
     "length": 0,
     "lifetime": 15,
     "interp": "swingIn",
-    "region": "exogenesis-spikething",
+    "region": "xguctt-spikething",
     "offsetX": 8,
     "sizeFrom": 29,
     "sizeTo": 1,
@@ -34,7 +34,7 @@
 	
     "shootType" : {
         "type": "basicBulletType",
-        "sprite": "exogenesis-circle-spike",
+        "sprite": "xguctt-circle-spike",
         "status": "melting",
         "lightRadius": 20,
         "statusDuration": 130,
@@ -101,7 +101,7 @@
         "incendChance": 10,
         "incendSpread": 7,
         "incendAmount": 4,
-        "sprite": "exogenesis-circle-spike",
+        "sprite": "xguctt-circle-spike",
         "status": "melting",
         "statusDuration": 100,
         "splashDamageRadius": 40,
@@ -162,7 +162,7 @@
 	    "fragBullet": {
         "type": "BasicBulletType",
         "spin": 2.5,
-        "sprite": "exogenesis-circle-spike",
+        "sprite": "xguctt-circle-spike",
         "status": "melting",
         "statusDuration": 100,
         "splashDamageRadius": 40,

@@ -34,7 +34,7 @@
     "hasPower": true,
     "shootType": {
 	"type" : "basicBulletType",
-	"sprite" : "exogenesis-peircer",
+	"sprite" : "xguctt-peircer",
 	"status": "sapped",
 	"damage": 300,
 	"height" : 22,

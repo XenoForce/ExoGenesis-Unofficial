@@ -33,7 +33,7 @@
     "spin": 10,
     "layer": 109,
     "lifetime": 105,
-    "region": "exogenesis-wide",
+    "region": "xguctt-wide",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FF00"
     },
@@ -46,7 +46,7 @@
     "spin": -10,
     "layer": 109,
     "lifetime": 105,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "A9D8FFFF",
     "colorTo": "A9D8FF00"
     },

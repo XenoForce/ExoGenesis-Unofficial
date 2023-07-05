@@ -23,7 +23,7 @@
     "ammoTypes": {
     "graphite": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-impactor",
+    "sprite": "xguctt-impactor",
     "speed": 7,
     "spin": 0.6,
     "damage": 10000,
@@ -365,7 +365,7 @@
     },
     "volcanite": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-impactor",
+    "sprite": "xguctt-impactor",
     "speed": 7,
     "spin": 0.6,
     "height": 45,
@@ -706,7 +706,7 @@
     },
     "osmium": {
     "type": "BasicBulletType",
-    "sprite": "exogenesis-impactor",
+    "sprite": "xguctt-impactor",
     "speed": 7,
     "spin": 0.6,
     "height": 45,

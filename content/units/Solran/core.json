@@ -57,7 +57,7 @@
     "sideLength": 1,
     "sideWidth": 1,
     "colors": ["FF5845FF", "FFC1BBFF", "FFFFFF"],
-    "status": "exogenesis-molten1",
+    "status": "xguctt-molten1",
     "statusDuration": 50,
     "hitEffect": {
     "type": "ParticleEffect",
@@ -83,7 +83,7 @@
     "length": 0,
     "lifetime": 25,
     "layer": 109,
-    "region": "exogenesis-tall",
+    "region": "xguctt-tall",
     "colorFrom": "FF5845FF",
     "colorTo": "FF5845FF"
     },
@@ -130,7 +130,7 @@
   "ejectEffect": "casing1",
   "bullet": {
 		"type" : "basicBulletType",
-		"sprite" : "exogenesis-peircer",
+		"sprite" : "xguctt-peircer",
 		"status": "melting",
 		"damage": 50,
 		"height" : 12,

@@ -24,7 +24,7 @@
     "ammoTypes": {
         "graphite": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-orb",
+        "sprite": "xguctt-orb",
         "speed": 3,
         "lifetime": 170,
         "damage": 58,
@@ -49,7 +49,7 @@
         },
         "silicon": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "speed": 3.4,
         "lifetime": 170,
         "damage": 46,

@@ -18,7 +18,7 @@
     "shootSound": "laser",
     "shootType": {
       "type": "FlakBulletType",
-      "sprite": "exogenesis-bomb-bolt",
+      "sprite": "xguctt-bomb-bolt",
       "explodeRange": 25,
       "collidesAir": true,
       "collidesGround": false,

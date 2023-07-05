@@ -35,7 +35,7 @@
             "length": 0,
             "lifetime": 25,
             "sizeFrom": 80,
-            "region": "exogenesis-blue-pierce",
+            "region": "xguctt-blue-pierce",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
             },
@@ -45,7 +45,7 @@
             "length": 0,
             "lifetime": 25,
             "sizeFrom": 20,
-            "region": "exogenesis-star-wide",
+            "region": "xguctt-star-wide",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
 			},
@@ -95,7 +95,7 @@
             "length": 0,
             "lifetime": 25,
             "sizeFrom": 20,
-            "region": "exogenesis-star-wide",
+            "region": "xguctt-star-wide",
             "colorFrom": "A9D8FFFF",
             "colorTo": "66B1FFFF"
             },

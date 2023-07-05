@@ -54,7 +54,7 @@
     "recoil": 4,
     "shootSound": "shotgun",
     "bullet": { 
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "damage": 168,
     "weaveMag": 4,
     "weaveScale": 2,
@@ -76,7 +76,7 @@
     "length": 5,
     "baseLength": 5,
     "lifetime": 30,
-    "region": "exogenesis-rune2",
+    "region": "xguctt-rune2",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -88,7 +88,7 @@
     "length": 5,
     "baseLength": 5,
     "lifetime": 30,
-    "region": "exogenesis-rune3",
+    "region": "xguctt-rune3",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -99,7 +99,7 @@
     "length": 5,
     "baseLength": 5,
     "lifetime": 30,
-    "region": "exogenesis-rune4",
+    "region": "xguctt-rune4",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -110,7 +110,7 @@
     "length": 5,
     "baseLength": 5,
     "lifetime": 30,
-    "region": "exogenesis-rune5",
+    "region": "xguctt-rune5",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     },
@@ -121,7 +121,7 @@
     "length": 5,
     "baseLength": 5,
     "lifetime": 40,
-    "region": "exogenesis-rune6",
+    "region": "xguctt-rune6",
     "colorFrom": "A170F4FF",
     "colorTo": "774ACFFF"
     }

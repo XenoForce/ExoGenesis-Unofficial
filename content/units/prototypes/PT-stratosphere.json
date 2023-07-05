@@ -118,7 +118,7 @@
     "collidesTeam": true,
     "healPercent": 5,
     "type": "basicBulletType",
-    "sprite": "exogenesis-star-bullet",
+    "sprite": "xguctt-star-bullet",
     "spin": 12,
     "lightColor": "A9D8FFFF",
     "damage": 200,
@@ -137,7 +137,7 @@
     "length": 0,
     "lifetime": 25,
     "sizeFrom": 6,
-    "region": "exogenesis-plasma-back",
+    "region": "xguctt-plasma-back",
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFAA"
     },
@@ -204,7 +204,7 @@
     "shootSound": "laser",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
     "lightColor": "A9D8FFFF",
 	"shootEffect": {
     "type": "ParticleEffect",
@@ -315,7 +315,7 @@
     "shootSound": "laser",
     "shootCone": 45,
 	"bullet": {
-    "sprite": "exogenesis-plasma",
+    "sprite": "xguctt-plasma",
 	"shootEffect": {
     "lightColor": "A9D8FFFF",
     "type": "ParticleEffect",
@@ -431,7 +431,7 @@
         "particles": 1,
         "colorFrom": "66B1FFFF",
         "colorTo": "A9D8FFFF",
-        "region": "exogenesis-plasma-back"
+        "region": "xguctt-plasma-back"
 	    },
 	    {
         "type": "ParticleEffect",

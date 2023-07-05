@@ -24,7 +24,7 @@
     "ammoTypes": {
         "graphite": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "speed": 3,
         "lifetime": 280,
         "shrinkY": 0,
@@ -48,7 +48,7 @@
         },
         "silicon": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "speed": 3.4,
         "lifetime": 290,
         "shrinkY": 0,
@@ -72,7 +72,7 @@
         },
         "metaglass": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "speed": 3.2,
         "lifetime": 280,
         "damage": 88,
@@ -103,7 +103,7 @@
         },
         "osmium": {
         "type": "artilleryBulletType",
-        "sprite": "exogenesis-plasma",
+        "sprite": "xguctt-plasma",
         "speed": 2.7,
         "lifetime": 280,
         "damage": 227,

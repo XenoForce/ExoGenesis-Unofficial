@@ -57,7 +57,7 @@
   "shootSound": "plasmaboom",
     "bullet": { 
     "type": "BasicBulletType",
-	"sprite" : "exogenesis-plasma",
+	"sprite" : "xguctt-plasma",
     "status": {
     "name": "eroding",
     "damage": 0.94,
@@ -271,7 +271,7 @@
   "ejectEffect": "casing2",
   "bullet": {
     "type": "basicBulletType",
-    "sprite": "exogenesis-armored-bullet",
+    "sprite": "xguctt-armored-bullet",
     "damage": 370,
     "width": 8,
 	"buildingDamageMultiplier": 0.7,

@@ -161,7 +161,7 @@
   "lightColor": "BF92F9FF",
   "lifetime": 125,
   "layer": 109,
-  "region": "exogenesis-square",
+  "region": "xguctt-square",
   "colorFrom": "665C9FFF",
   "colorTo": "BF92F9FF",
   "cone": 360
@@ -176,7 +176,7 @@
   "spin": -11,
   "lifetime": 125,
   "layer": 109,
-  "region": "exogenesis-square",
+  "region": "xguctt-square",
   "colorFrom": "665C9FFF",
   "colorTo": "BF92F9FF",
   "cone": 360

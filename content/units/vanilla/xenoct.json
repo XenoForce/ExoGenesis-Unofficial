@@ -231,7 +231,7 @@
   "bullet": { 
   "type": "BasicBulletType",
   "sprite" : "circle-bullet",
-  "status" : "exogenesis-sap-inferno",
+  "status" : "xguctt-sap-inferno",
   "statusDuration": 200,
   "lightRadius": 80,
   "lightColor": "BF92F9FF",

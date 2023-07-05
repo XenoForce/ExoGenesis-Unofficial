@@ -64,14 +64,14 @@
 	"ammoTypes": {
         "gamma-green": {
 		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-electric-pulse",
+		"sprite" : "xguctt-electric-pulse",
         "trailChance": 1,
         "trailEffect": {
         "type": "ParticleEffect",
         "particles": 1,
         "sizeFrom": 25,
         "sizeTo": 25,
-        "region": "exogenesis-pulse-trail",
+        "region": "xguctt-pulse-trail",
         "length": 0,
         "lifetime": 15,
         "colorFrom": "73FFAEFF",
@@ -82,7 +82,7 @@
 		"absorbable": false,
 		"height" : 46,
 		"width" : 46,
-		"status": "exogenesis-irradiated",
+		"status": "xguctt-irradiated",
 	    "hitShake" : 5,
 		"hitSize": 35,
 		"speed": 6,
@@ -274,7 +274,7 @@
         },
         "xanium": {
 		"type" : "BasicBulletType",
-		"sprite" : "exogenesis-plasma",
+		"sprite" : "xguctt-plasma",
         "trailChance": 1,
         "trailRotation": true,
         "trailEffect": {
@@ -289,7 +289,7 @@
         },
 		"damage": 2000,	
 		"statusDuration": 150,
-		"status": "exogenesis-xegon-fier",
+		"status": "xguctt-xegon-fier",
 		"absorbable": false,
 		"splashDamage" : 7400,
 		"splashDamageRadius" : 90,	

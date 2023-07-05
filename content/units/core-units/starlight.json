@@ -78,7 +78,7 @@
   "length": 0,
   "lifetime": 25,
   "interp": "swingIn",
-  "region": "exogenesis-spikething",
+  "region": "xguctt-spikething",
   "offsetX": 3,
   "sizeFrom": 10,
   "sizeTo": 1,
@@ -123,7 +123,7 @@
       "length": 0,
       "interp": "swingIn",
       "lifetime": 10,
-      "region": "exogenesis-energy-partical-back",
+      "region": "xguctt-energy-partical-back",
       "colorFrom": "A9D8FFFF",
       "colorTo": "A9D8FFFF"
       }

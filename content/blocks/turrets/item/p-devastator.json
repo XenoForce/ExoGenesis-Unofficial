@@ -40,7 +40,7 @@
     "trailColor": "8A73C6FF",
     "frontColor": "BF92F9FF",
     "backColor": "8A73C6FF",
-    "hitEffect": "blockExplosion",
+    "hitEffect": "flakExplosion",
     "shootEffect": "shootBig",
     "smokeEffect": "shootBigSmoke2",
     "fragBullets": 4,

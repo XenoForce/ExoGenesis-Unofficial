@@ -7,7 +7,7 @@
 	"liquidCapacity": 80,
 	"itemCapacity": 20,
 	"craftTime": 100,
-	"drawer": "drawGlow",
+	//"drawer": "drawGlow",    //quick-fix
 	"craftEffect": "formsmoke",
 	"updateEffect": "plasticburn",
 	"consumes": {

@@ -1,6 +1,6 @@
 {	
     "type": "GenericCrafter",
-	"drawer": "DrawSmelter",
+	//"drawer": "DrawSmelter",    //quick-fix
 	"size": 4,
 	"hasPower": true,
 	"hasItems": true,

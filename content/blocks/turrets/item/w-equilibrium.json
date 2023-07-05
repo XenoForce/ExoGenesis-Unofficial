@@ -104,7 +104,7 @@
         "hitSound": "bigshellbullet",
         "shootEffect": "massiveExplosion",
         "smokeEffect": "shieldWave",
-        "hitEffect": "impactShockwave",
+        "hitEffect": "flakExplosion",
         "knockback": 40,
         "hitShake": 20,
         "ammoMultiplier": 1,

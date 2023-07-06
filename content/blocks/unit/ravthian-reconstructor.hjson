@@ -1,42 +1,57 @@
-{
-	"type": "Reconstructor",
-	"size": 11,
-	"constructTime": 3000,
-	"consumes": {
-		"power": 28,
-		"items": {
-			"items": [
-				{"item": "omega-blue", "amount": 1000},
-				{"item": "alpha-yellow", "amount":1000},
-				{"item": "primal-red", "amount": 1000},
-				{"item": "gamma-green", "amount": 1000},
-				{"item": "osmium", "amount": 1500},
-				{"item": "rutuxium", "amount": 1000},
-				{"item": "phase-fabric", "amount": 1720},
-				{"item": "silicon", "amount": 1520},
-				{"item": "plastanium", "amount": 2700}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "phase-fabric", "amount": 1250},
-		{"item": "osmium", "amount": 1167},
-		{"item": "plastanium", "amount": 1280},
-	    {"item": "titanium", "amount": 950},
-		{"item": "silicon", "amount": 1200},
-		{"item": "surge-alloy", "amount": 1280}
-	],
-	"upgrades": [
-		["era", "epoch"],
-		["zoom", "hurtle"],
-		["b-sirius", "b-eros"],
-		["centauri", "altair"],
-		["core", "fusion"],
-		["eruption", "volcanic"],
-		["hostile", "assault"],
-		["moon", "earth"],
-		["disaccord", "contention"]
-	],
-	"category": "units",
-	"research": "hyperius-reconstructor"
+type: Reconstructor
+
+size: 11
+
+consumes: {
+	power: 28
+	items: {
+		items: [
+			omega-blue/1000
+			alpha-yellow/1000
+			primal-red/1000
+			gamma-green/1000
+			osmium/1500
+			rutuxium/1000
+			phase-fabric/1720
+			silicon/1520
+			plastanium/2700
+		]
+	}
+}
+
+constructTime: 3000
+
+upgrades: [
+	[ era       , epoch      ]
+	[ zoom      , hurtle     ]
+	[ b-sirius  , b-eros     ]
+	[ centauri  , altair     ]
+	[ core      , fusion     ]
+	[ eruption  , volcanic   ]
+	[ hostile   , assault    ]
+	[ moon      , earth      ]
+	[ disaccord , contention ]
+]
+
+category: units
+
+requirements: [
+	phase-fabric/1250
+	osmium/1167
+	plastanium/1280
+	titanium/950
+	silicon/1200
+	surge-alloy/1280
+]
+
+research: {
+  requirements: [
+	phase-fabric/1250
+	osmium/1167
+	plastanium/1280
+	titanium/950
+	silicon/1200
+	surge-alloy/1280
+  ]
+  parent: hyperius-reconstructor
 }

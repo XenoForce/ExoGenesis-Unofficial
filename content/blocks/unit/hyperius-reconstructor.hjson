@@ -1,38 +1,52 @@
-{
-	"type": "Reconstructor",
-	"size": 9,
-	"constructTime": 2000,
-	"consumes": {
-		"power": 22,
-		"items": {
-			"items": [
-				{"item": "osmium", "amount": 890},
-				{"item": "xanium", "amount": 850},
-				{"item": "surge-alloy", "amount": 920},
-				{"item": "silicon", "amount": 1920},
-				{"item": "plastanium", "amount": 1380}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "jupiteium", "amount": 850},
-		{"item": "plastanium", "amount": 680},
-	    {"item": "titanium", "amount": 750},
-		{"item": "silicon", "amount": 1200},
-		{"item": "surge-alloy", "amount": 1280}
-	],
-	"upgrades": [
-		["eon", "era"],
-		["dash", "zoom"],
-		["planetoide", "moon"],
-		["b-oort", "b-sirius"],
-		["vega", "centauri"],
-		["radiative", "core"],
-		["lava", "eruption"],
-		["urtica", "thymus"],
-		["combat", "hostile"],
-		["disagreement", "disaccord"]
-	],
-	"category": "units",
-	"research": "mass-reconstructor"
+type: Reconstructor
+
+size: 9
+
+consumes: {
+	power: 22
+	items: {
+		items: [
+			osmium/890
+			xanium/850
+			surge-alloy/920
+			silicon/1920
+			plastanium/1380
+		]
+	}
+}
+
+constructTime: 2000
+
+upgrades: [
+	[ eon          , era       ]
+	[ dash         , zoom      ]
+	[ planetoide   , moon      ]
+	[ b-oort       , b-sirius  ]
+	[ vega         , centauri  ]
+	[ radiative    , core      ]
+	[ lava         , eruption  ]
+	[ urtica       , thymus    ]
+	[ combat       , hostile   ]
+	[ disagreement , disaccord ]
+]
+
+category: units
+
+requirements: [
+	jupiteium/850
+	plastanium/680
+	titanium/750
+	silicon/1200
+	surge-alloy/1280
+]
+
+research: {
+  requirements: [
+	jupiteium/850
+	plastanium/680
+	titanium/750
+	silicon/1200
+	surge-alloy/1280
+  ]
+  parent: mass-reconstructor
 }

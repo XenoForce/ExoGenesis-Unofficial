@@ -1,37 +1,51 @@
-{
-	"type": "Reconstructor",
-	"size": 7,
-	"constructTime": 1500,
-	"consumes": {
-		"power": 18,
-		"items": {
-			"items": [
-				{"item": "silicon", "amount": 980},
-                {"item": "osmium", "amount": 700},
-				{"item": "plastanium", "amount": 820},
-				{"item": "titanium", "amount": 780}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "lead", "amount": 850},
-		{"item": "plastanium", "amount": 580},
-	    {"item": "osmium", "amount": 650},
-		{"item": "silicon", "amount": 480},
-		{"item": "thorium", "amount": 380}
-	],
-	"upgrades": [
-		["millennia", "eon"],
-		["pace", "dash"],
-		["comet", "planetoide"],
-		["b-kuiper", "b-oort"],
-		["kentaurus", "vega"],
-		["photosphere", "radiative"],
-		["magma", "lava"],
-		["aster", "urtica"],
-		["strife", "combat"],
-		["debate", "disagreement"]
-	],
-	"category": "units",
-	"research": "multi-reconstructor"
+type: Reconstructor
+
+size: 7
+
+consumes: {
+	power: 18
+	items: {
+		items: [
+			silicon/980
+			osmium/700
+			plastanium/820
+			titanium/780
+		]
+	}
+}
+
+constructTime: 1500
+
+upgrades: [
+	[ millennia   , eon          ]
+	[ pace        , dash         ]
+	[ comet       , planetoide   ]
+	[ b-kuiper    , b-oort       ]
+	[ kentaurus   , vega         ]
+	[ photosphere , radiative    ]
+	[ magma       , lava         ]
+	[ aster       , urtica       ]
+	[ strife      , combat       ]
+	[ debate      , disagreement ]
+]
+
+category: units
+
+requirements: [
+	lead/850
+	plastanium/580
+	osmium/650
+	silicon/480
+	thorium/380
+]
+
+research: {
+  requirements: [
+	lead/850
+	plastanium/580
+	osmium/650
+	silicon/480
+	thorium/380
+  ]
+  parent: multi-reconstructor
 }

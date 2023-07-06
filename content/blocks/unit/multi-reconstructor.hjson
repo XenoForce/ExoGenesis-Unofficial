@@ -1,36 +1,49 @@
-{
-	"type": "Reconstructor",
-	"size": 5,
-	"constructTime": 800,
-	"consumes": {
-		"power": 13,
-		"items": {
-			"items": [
-				{"item": "silicon", "amount": 640},
-				{"item": "osmium", "amount": 540},
-				{"item": "titanium", "amount": 480},
-				{"item": "thorium", "amount": 250}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "osmium", "amount": 350},
-		{"item": "silicon", "amount": 180},
-		{"item": "metaglass", "amount": 280},
-		{"item": "thorium", "amount": 100}
-	],
-	"upgrades": [
-        ["century", "millennia"],
-        ["agility", "pace"],
-        ["asteroid", "comet"],
-		["b-galileo", "b-kuiper"],
-		["gacrux", "kentaurus"],
-		["corona", "photosphere"],
-		["molten", "magma"],
-		["irises", "aster"],
-		["disrespect", "strife"],
-		["dispute", "debate"]
-	],
-	"category": "units",
-	"research": "helix-reconstructor"
+type: Reconstructor
+
+size: 5
+
+consumes: {
+	power: 13
+	items: {
+		items: [
+			silicon/640
+			osmium/540
+			titanium/480
+			thorium/250
+		]
+	}
+}
+
+constructTime: 800
+
+upgrades: [
+	[ century    , millennia   ]
+	[ agility    , pace        ]
+	[ asteroid   , comet       ]
+	[ b-galileo  , b-kuiper    ]
+	[ gacrux     , kentaurus   ]
+	[ corona     , photosphere ]
+	[ molten     , magma       ]
+	[ irises     , aster       ]
+	[ disrespect , strife      ]
+	[ dispute    , debate      ]
+]
+
+category: units
+
+requirements: [
+	osmium/350
+	silicon/180
+	metaglass/280
+	thorium/100
+]
+
+research: {
+  requirements: [
+	osmium/350
+	silicon/180
+	metaglass/280
+	thorium/100
+  ]
+  parent: helix-reconstructor
 }

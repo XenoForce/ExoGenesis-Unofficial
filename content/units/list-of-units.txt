@@ -1,0 +1,126 @@
+In "Multi-Factory":
+
+	"unit": "meteor"
+
+----------------------------------------------------
+In "Ele-Factory":
+
+	"unit": "challenge"
+	"unit": "conflict"
+
+----------------------------------------------------
+In "Gen-Factory":
+
+	"unit": "majoris"
+	"unit": "a-orion"
+
+----------------------------------------------------
+In "Pur-Factory":
+
+	"unit": "decade"
+	"unit": "speed"
+
+----------------------------------------------------
+In "Qua-Factory":
+
+	"unit": "pteris"
+
+----------------------------------------------------
+In "Sol-Factory":
+
+	"unit": "sol"
+	"unit": "heat"
+
+----------------------------------------------------
+In "Helix-Reconstructor":              //Make T2.
+
+	upgrades: [
+		["decade"    , "century"    ]
+		["speed"     , "agility"    ]
+		["meteor"    , "asteroid"   ]
+		["a-orion"   , "b-galileo"  ]
+		["majoris"   , "gacrux"     ]
+		["sol"       , "corona"     ]
+		["heat"      , "molten"     ]
+		["pteris"    , "irises"     ]
+		["challenge" , "disrespect" ]
+		["conflict"  , "dispute"    ]
+	]
+
+----------------------------------------------------
+In "Multi-Reconstructor":              //Make T3.
+
+	"upgrades": [
+		["century"    , "millennia"   ]
+		["agility"    , "pace"        ]
+		["asteroid"   , "comet"       ]
+		["b-galileo"  , "b-kuiper"    ]
+		["gacrux"     , "kentaurus"   ]
+		["corona"     , "photosphere" ]
+		["molten"     , "magma"       ]
+		["irises"     , "aster"       ]
+		["disrespect" , "strife"      ]
+		["dispute"    , "debate"      ]
+	]
+
+----------------------------------------------------
+In "Mass-Reconstructor":               //Make T4.
+
+	"upgrades": [
+		["millennia"   , "eon"          ]
+		["pace"        , "dash"         ]
+		["comet"       , "planetoide"   ]
+		["b-kuiper"    , "b-oort"       ]
+		["kentaurus"   , "vega"         ]
+		["photosphere" , "radiative"    ]
+		["magma"       , "lava"         ]
+		["aster"       , "urtica"       ]
+		["strife"      , "combat"       ]
+		["debate"      , "disagreement" ]
+	]
+
+----------------------------------------------------
+In "Hyperius-Reconstructor":           //Make T5.
+
+	"upgrades": [
+		["eon"          , "era"       ]
+		["dash"         , "zoom"      ]
+		["planetoide"   , "moon"      ]
+		["b-oort"       , "b-sirius"  ]
+		["vega"         , "centauri"  ]
+		["radiative"    , "core"      ]
+		["lava"         , "eruption"  ]
+		["urtica"       , "thymus"    ]
+		["combat"       , "hostile"   ]
+		["disagreement" , "disaccord" ]
+	]
+
+----------------------------------------------------
+In "Ravthian-Reconstructor":           //Make T6.
+
+	"upgrades": [
+		["era"       , "epoch"      ]
+		["zoom"      , "hurtle"     ]
+		["b-sirius"  , "b-eros"     ]
+		["centauri"  , "altair"     ]
+		["core"      , "fusion"     ]
+		["eruption"  , "volcanic"   ]
+		["hostile"   , "assault"    ]
+		["moon"      , "earth"      ]
+		["disaccord" , "contention" ]
+	]
+
+----------------------------------------------------
+In "Auvathia-Reconstructor":           //Make T7.
+
+	"upgrades": [
+		["fusion"     , "collapse"    ]
+		["b-eros"     , "b-atlas"     ]
+		["altair"     , "universalis" ]
+		["epoch"      , "eternity"    ]
+		["contention" , "battle"      ]
+		["assault"    , "bloodshed"   ]
+	]
+
+----------------------------------------------------
+

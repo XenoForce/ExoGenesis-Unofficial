@@ -39,9 +39,11 @@
 	"hitEffect":"instHit"
 		}
 	},
+	
 	"consumes" : {
 		"power": 20
-			},
+	},
+    
 	"requirements": [
 		"titanium/750",
         "thorium/460",
@@ -50,6 +52,7 @@
         "surge-alloy/860",
 		"silicon/1000"
 	],
+	
 	"category": "turret",
-	"research": "foreshadow"
+	"research": "1-breakthrough"
 }

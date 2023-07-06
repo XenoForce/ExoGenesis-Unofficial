@@ -60,7 +60,7 @@
       "spaceMag": 40,
       "fragBullets": 1,
       "fragCone": 360,
-	     "fragBullet": {
+	  "fragBullet": {
         "type": "ShrapnelBulletType",
         "serrations": 1,
         "status": "melting",
@@ -68,9 +68,9 @@
         "width": 17,
         "toColor": "ffb98b",
         "damage": 60
-   }
+      }
 	},
-
+	
 	"requirements": [
 	    "titanium/600",
         "surge-alloy/700",
@@ -79,6 +79,7 @@
         "silicon/700",
         "jupiteium/340"
 	],
+	
 	"category": "turret",
-	"research": "meltdown"
+	"research": "y-excalibur"
 }

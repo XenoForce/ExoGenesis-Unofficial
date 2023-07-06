@@ -1,8 +1,8 @@
 type: SolarGenerator
 powerProduction: 900
 
-name: ExoGenesis Mod
-description: ExoGenesis Mod
+name: ExoGenesis Units
+description: ExoGenesis Units
 
 health: 99000
 size: 2
@@ -11,6 +11,6 @@ requirements: []
 buildCostMultiplier: 0.1
 
 category: logic
-research: duo
+research: root-node-for-exogenesis
 
 alwaysUnlocked: true

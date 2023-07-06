@@ -25,12 +25,14 @@
     "time": 400
   }
 ],
-    "requirements": [
+
+"requirements": [
 	{"item": "silicon", "amount": 580},
 	{"item": "graphite", "amount": 180},
 	{"item": "astrolite", "amount": 180},
 	{"item": "titanium", "amount": 160}
 ],
+
 "category": "units",
-"research": "root-node-for-exogenesis"
+"research": "exogenesis-units"
 }

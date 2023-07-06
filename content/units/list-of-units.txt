@@ -123,4 +123,28 @@ In "Auvathia-Reconstructor":           //Make T7.
 	]
 
 ----------------------------------------------------
+In "Advancer-Reconstructor":           //Make vanilla T6.
+
+	"upgrades": [
+        ["eclipse" , "twilight" ]
+        ["reign"   , "king"     ]
+        ["toxopid" , "toxicity" ]
+		["oct"     , "hex"      ]
+		["omura"   , "orca"     ]
+		["navanax" , "mariana"  ]
+        ["corvus"  , "stella"   ]
+	]
+
+----------------------------------------------------
+In "Placeholder-Reconstructor":        //Make vanilla T7.
+
+	"upgrades": [
+		["twilight" , "nadir"        ]
+		["king"     , "warhammer"    ]
+		["mariana"  , "magnapinna"   ]
+		["toxicity" , "xenoct"       ]
+		["hex"      , "colossus"     ]
+		["orca"     , "balaenoptera" ]
+		["stella"   , "virgo"        ]
+	]
 

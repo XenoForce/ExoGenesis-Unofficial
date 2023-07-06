@@ -36,5 +36,5 @@
 		{ "item": "volcanite", "amount": 34 }
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "w-ignition"
 }

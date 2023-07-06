@@ -20,7 +20,7 @@
 		{ "item": "plastanium", "amount": 600 }
 ],
 "category": "power",
-"research": "rtg-generator",
+"research": "solar-farm",
 "loopSound": "hum",
 "loopSoundVolume": 1.95,
 "ambientSound": "machine",

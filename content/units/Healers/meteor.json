@@ -2,7 +2,7 @@
         "type": "flying",
         "controller": "repairAI",
         "canHeal": true,
-        "research": "multifactory",
+        "research": "multi-factory",
         "lowAltitude": true,
         "speed": 2.4,
         "accel": 0.1,

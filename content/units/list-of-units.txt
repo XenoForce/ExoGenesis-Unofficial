@@ -1,32 +1,32 @@
-In "Multi-Factory":
+In "Multi-Factory":          //Healers  (only go to T6.)
 
 	"unit": "meteor"
 
 ----------------------------------------------------
-In "Ele-Factory":
+In "Ele-Factory":            //Elecian
 
 	"unit": "challenge"
 	"unit": "conflict"
 
 ----------------------------------------------------
-In "Gen-Factory":
+In "Gen-Factory":            //Genesux
 
 	"unit": "majoris"
 	"unit": "a-orion"
 
 ----------------------------------------------------
-In "Pur-Factory":
+In "Pur-Factory":            //Purtuxe
 
 	"unit": "decade"
 	"unit": "speed"
 
 ----------------------------------------------------
-In "Qua-Factory":
+In "Qua-Factory":            //Quantra
 
 	"unit": "pteris"
 
 ----------------------------------------------------
-In "Sol-Factory":
+In "Sol-Factory":            //Solran
 
 	"unit": "sol"
 	"unit": "heat"

@@ -2,7 +2,7 @@
 "name": "Heat",
 "outlineColor": "313131FF",
 "research": {
-    "parent": "multifactory",
+    "parent": "sol-factory",
     "requirements": [
         "volcanite/100",
         "silicon/200"
@@ -25,7 +25,7 @@
     "melting",
     "burning",
     "blasted"
-		],
+],
 "weapons": [
   {
   "name": "heat-weapon",

@@ -1,6 +1,6 @@
 {
   "research": {
-      "parent": "multifactory",
+      "parent": "gen-factory",
       "requirements": [
           "astrolite/100",
           "silicon/200"

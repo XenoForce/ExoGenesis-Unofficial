@@ -1,7 +1,7 @@
 {
 "name": "Challenge",
 "research": {
-    "parent": "multifactory",
+    "parent": "ele-factory",
     "requirements": [
         "oltuxium/100",
         "silicon/200"

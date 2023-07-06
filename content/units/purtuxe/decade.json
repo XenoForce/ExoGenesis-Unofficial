@@ -1,7 +1,7 @@
 {
     "type": "mech",
     "research": {
-        "parent": "multifactory",
+        "parent": "pur-factory",
         "requirements": [
             "vurtimite/100",
             "silicon/200"

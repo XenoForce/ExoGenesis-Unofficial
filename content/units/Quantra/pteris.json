@@ -2,7 +2,7 @@
     "type": "mech",
     "outlineColor": "34353EFF",
     "research": {
-        "parent": "multifactory",
+        "parent": "qua-factory",
         "requirements": [
             "valvanite/100",
             "silicon/200"

@@ -1,40 +1,47 @@
-{
-"type": "UnitFactory",
-"researchCostMultiplier": 0.3,
-"size": 3,
+type: UnitFactory
 
-"consumes": {
-    "power": 5
-},
+size: 3
 
-"plans": [
-{
-    "unit": "sol",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 20},
-		{"item": "lead", "amount": 10}
-       ],
-    "time": 580
-  },
+consumes: {
+    power: 5
+}
+
+plans: [
   {
-    "unit": "heat",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "volcanite", "amount": 20},
-		{"item": "titanium", "amount": 10}
-       ],
-    "time": 580
+	unit: sol
+	requirements: [
+		silicon/20
+		volcanite/20
+		lead/10
+	]
+	time: 580
   }
-],
+  {
+	unit: heat
+	requirements: [
+		silicon/20
+		volcanite/20
+		titanium/10
+	]
+	time: 580
+  }
+]
 
-"requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "graphite", "amount": 180},
-	{"item": "volcanite", "amount": 180},
-	{"item": "titanium", "amount": 160}
-],
+category: units
 
-"category": "units",
-"research": "exogenesis-units"
+requirements: [
+	silicon/580
+	graphite/180
+	volcanite/180
+	titanium/160
+]
+
+research: {
+  requirements: [
+	silicon/580
+	graphite/180
+	volcanite/180
+	titanium/160
+  ]
+  parent: exogenesis-units
 }

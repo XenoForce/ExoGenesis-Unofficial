@@ -1,40 +1,47 @@
-{
-"type": "UnitFactory",
-"researchCostMultiplier": 0.3,
-"size": 3,
+type: UnitFactory
 
-"consumes": {
-    "power": 5
-},
+size: 3
 
-"plans": [
-{
-    "unit": "decade",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "titanium", "amount": 20},
-		{"item": "vurtimite", "amount": 25}
-       ],
-    "time": 460
-  },
+consumes: {
+    power: 5
+}
+
+plans: [
   {
-    "unit": "speed",
-    	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "metaglass", "amount": 20},
-		{"item": "vurtimite", "amount": 25}
-       ],
-    "time": 460
+	unit: decade
+	requirements: [
+		silicon/20
+		titanium/20
+		vurtimite/25
+	]
+	time: 460
   }
-],
+  {
+	unit: speed
+	requirements: [
+		silicon/20
+		metaglass/20
+		vurtimite/25
+	]
+	time: 460
+  }
+]
 
-"requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "osmium", "amount": 180},
-	{"item": "vurtimite", "amount": 180},
-	{"item": "titanium", "amount": 160}
-],
+category: units
 
-"category": "units",
-"research": "exogenesis-units"
+requirements: [
+	silicon/580
+	osmium/180
+	vurtimite/180
+	titanium/160
+]
+
+research: {
+  requirements: [
+	silicon/580
+	osmium/180
+	vurtimite/180
+	titanium/160
+  ]
+  parent: exogenesis-units
 }

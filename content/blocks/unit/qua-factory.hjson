@@ -1,31 +1,38 @@
-{
-"type": "UnitFactory",
-"researchCostMultiplier": 0.3,
-"size": 3,
+type: UnitFactory
 
-"consumes": {
-    "power": 5
-},
+size: 3
 
-"plans": [
-{
-	"unit": "pteris",
-	"requirements": [
-		{"item": "silicon", "amount": 20},
-		{"item": "valvanite", "amount": 20},
-		{"item": "titanium", "amount": 10}
-	],
-	"time": 300
+consumes: {
+    power: 5
 }
-],
 
-"requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "lead", "amount": 180},
-	{"item": "valvanite", "amount": 180},
-	{"item": "titanium", "amount": 160}
-],
+plans: [
+  {
+	unit: pteris
+	requirements: [
+		silicon/20
+		valvanite/20
+		titanium/10
+	]
+	time: 300
+  }
+]
 
-"category": "units",
-"research": "exogenesis-units"
+category: units
+
+requirements: [
+	silicon/580
+	lead/180
+	valvanite/180
+	titanium/160
+]
+
+research: {
+  requirements: [
+	silicon/580
+	lead/180
+	valvanite/180
+	titanium/160
+  ]
+  parent: exogenesis-units
 }

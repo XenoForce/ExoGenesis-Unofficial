@@ -1,39 +1,46 @@
-{
-"type": "UnitFactory",
-"researchCostMultiplier": 0.3,
-"size": 3,
+type: UnitFactory
 
-"consumes": {
-    "power": 5
-},
+size: 3
 
-"plans": [
-{
-	"unit": "challenge",
-	"requirements": [
-		{"item": "oltuxium", "amount": 15},
-		{"item": "silicon", "amount": 25},
-		{"item": "coal", "amount": 10}
-	],
-	"time": 480
-},
-{
-	"unit": "conflict",
-	"requirements": [
-		{"item": "oltuxium", "amount": 15},
-		{"item": "silicon", "amount": 25}
-	],
-	"time": 480
+consumes: {
+    power: 5
 }
-],
 
-"requirements": [
-	{"item": "silicon", "amount": 580},
-	{"item": "graphite", "amount": 180},
-	{"item": "oltuxium", "amount": 180},
-	{"item": "titanium", "amount": 160}
-],
+plans: [
+  {
+	unit: challenge
+	requirements: [
+		oltuxium/15
+		silicon/25
+		coal/10
+	]
+	time: 480
+  }
+  {
+	unit: conflict
+	requirements: [
+		oltuxium/15
+		silicon/25
+	]
+	time: 480
+  }
+]
 
-"category": "units",
-"research": "exogenesis-units"
+category: units
+
+requirements: [
+	silicon/580
+	graphite/180
+	oltuxium/180
+	titanium/160
+]
+
+research: {
+  requirements: [
+	silicon/580
+	graphite/180
+	oltuxium/180
+	titanium/160
+  ]
+  parent: exogenesis-units
 }

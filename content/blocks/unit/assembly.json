@@ -1,13 +1,16 @@
 {
 "type": "UnitFactory",
+
 "size": 7,
+
 "consumes": {
-"power": 25
+    "power": 25
 },
+
 "plans": [
-{
+  {
     "unit": "PT-solstice",
-    	"requirements": [
+    "requirements": [
         "silicon/1000",
         "surge-alloy/750",
         "primal-red/780",
@@ -15,12 +18,12 @@
         "plastanium/1100",
         "titanium/980",
         "lead/580"
-       ],
+    ],
     "time": 3000
   },
   {
     "unit": "PT-anomaly",
-    	"requirements": [
+    "requirements": [
         "silicon/1000",
         "surge-alloy/750",
         "rutuxium/780",
@@ -28,12 +31,12 @@
         "plastanium/1100",
         "titanium/980",
         "lead/580"
-       ],
+    ],
     "time": 3000
   },
   {
     "unit": "PT-redox",
-    	"requirements": [
+    "requirements": [
         "silicon/1000",
         "surge-alloy/750",
         "gamma-green/780",
@@ -41,12 +44,12 @@
         "plastanium/1100",
         "titanium/980",
         "lead/580"
-       ],
+    ],
     "time": 3000
   },
   {
     "unit": "PT-surge",
-    	"requirements": [
+    "requirements": [
         "silicon/1000",
         "surge-alloy/750",
         "alpha-yellow/780",
@@ -54,12 +57,12 @@
         "plastanium/1100",
         "titanium/980",
         "lead/580"
-       ],
+    ],
     "time": 3000
   },
   {
     "unit": "PT-stratosphere",
-    	"requirements": [
+    "requirements": [
         "silicon/1000",
         "surge-alloy/750",
         "omega-blue/780",
@@ -67,19 +70,21 @@
         "plastanium/1100",
         "titanium/980",
         "lead/580"
-       ],
+    ],
     "time": 3000
   }
 ],
-    "requirements": [
-        "silicon/1500",
-        "surge-alloy/750",
-        "metaglass/680",
-        "lead/1800",
-        "osmium/1800",
-        "plastanium/1100",
-        "titanium/980"
+
+"requirements": [
+    "silicon/1500",
+    "surge-alloy/750",
+    "metaglass/680",
+    "lead/1800",
+    "osmium/1800",
+    "plastanium/1100",
+    "titanium/980"
 ],
+
 "category": "units",
-"research": "core-nucleus"
+"research": "root-node-for-exogenesis"
 }

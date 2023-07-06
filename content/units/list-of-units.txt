@@ -126,13 +126,13 @@ In "Auvathia-Reconstructor":           //Make T7.
 In "Advancer-Reconstructor":           //Make vanilla T6.
 
 	"upgrades": [
-        ["eclipse" , "twilight" ]
-        ["reign"   , "king"     ]
-        ["toxopid" , "toxicity" ]
+		["eclipse" , "twilight" ]
+		["reign"   , "king"     ]
+		["toxopid" , "toxicity" ]
 		["oct"     , "hex"      ]
 		["omura"   , "orca"     ]
 		["navanax" , "mariana"  ]
-        ["corvus"  , "stella"   ]
+		["corvus"  , "stella"   ]
 	]
 
 ----------------------------------------------------
@@ -147,4 +147,13 @@ In "Placeholder-Reconstructor":        //Make vanilla T7.
 		["orca"     , "balaenoptera" ]
 		["stella"   , "virgo"        ]
 	]
+
+----------------------------------------------------
+In "Assembly":               //Prototype Units.
+
+    "unit": "PT-solstice"
+    "unit": "PT-anomaly"
+    "unit": "PT-redox"             //In "Quantra" folder, for some reason.
+    "unit": "PT-surge"
+    "unit": "PT-stratosphere"
 

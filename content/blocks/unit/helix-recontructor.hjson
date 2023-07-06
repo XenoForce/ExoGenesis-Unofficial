@@ -1,35 +1,48 @@
-{
-	"type": "Reconstructor",
-	"size": 3,
-	"constructTime": 600,
-	"consumes": {
-		"power": 8,
-		"items": {
-			"items": [
-				{"item": "silicon", "amount": 80},
-				{"item": "graphite", "amount": 120},
-				{"item": "osmium", "amount": 80}
-			]
-		}
-	},
-	"requirements": [
-		{"item": "osmium", "amount": 250},
-		{"item": "silicon", "amount": 240},
-		{"item": "graphite", "amount": 180},
-		{"item": "lead", "amount": 160}
-	],
-	"upgrades": [
-        ["decade", "century"],
-        ["speed", "agility"],
-        ["meteor", "asteroid"],
-		["a-orion", "b-galileo"],
-		["majoris", "gacrux"],
-		["sol", "corona"],
-		["heat", "molten"],
-		["pteris", "irises"],
-		["challenge", "disrespect"],
-		["conflict", "dispute"]
-	],
-	"category": "units",
-	"research": "multi-factory"
+type: Reconstructor
+
+size: 3
+
+consumes: {
+	power: 8
+	items: {
+		items: [
+			silicon/80
+			graphite/120
+			osmium/80
+		]
+	}
+}
+
+constructTime: 600
+
+upgrades: [
+	[ decade    , century    ]
+	[ speed     , agility    ]
+	[ meteor    , asteroid   ]
+	[ a-orion   , b-galileo  ]
+	[ majoris   , gacrux     ]
+	[ sol       , corona     ]
+	[ heat      , molten     ]
+	[ pteris    , irises     ]
+	[ challenge , disrespect ]
+	[ conflict  , dispute    ]
+]
+
+category: units
+
+requirements: [
+	osmium/250
+	silicon/240
+	graphite/180
+	lead/160
+]
+
+research: {
+  requirements: [
+	osmium/250
+	silicon/240
+	graphite/180
+	lead/160
+  ]
+  parent: exogenesis-units
 }

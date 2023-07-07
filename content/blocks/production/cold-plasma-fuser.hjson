@@ -1,6 +1,14 @@
-{	
-	"type": "GenericCrafter",
-	"drawer": {
+type: GenericCrafter
+
+size: 3
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 30
+craftTime: 150
+
+drawer: {
   "type": "drawArcSmelter",
   "flameColor": "66B1FFFF",
   "midColor": "A9D8FFFF",
@@ -13,53 +21,52 @@
   "particleLen": 5,
   "particleStroke": 0.9,
   "particleLife": 80
-	},
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 150,
-	"craftEffect": {
-	"type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 40,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "A9D8FFFF",
-    "colorTo": "66B1FFFF"
-	},
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-                        "titanium/3",
-                        "copper/3",
-			"astrolite/5",
-			"silicon/4"
-			]
-		}
-	},
-	"requirements": [
-	    "silicon/180",
-		"titanium/160",
-		"thorium/140",
-		"plastanium/160",
-        "astrolite/440"
-	],
-	"category": "crafting",
-	"research": "crystallizer",
-	"outputItem": "omega-blue/2"
 }
 
+craftEffect: {
+  "type": "WaveEffect",
+  "lifetime": 25,
+  "sizeFrom": 0,
+  "sizeTo": 40,
+  "strokeFrom": 4,
+  "strokeTo": 0,
+  "colorFrom": "A9D8FFFF",
+  "colorTo": "66B1FFFF"
+}
 
+updateEffect: none
 
+consumes: {
+	power: 2
+	items: {
+		items: [
+			titanium/3
+			copper/3
+			astrolite/5
+			silicon/4
+		]
+	}
+}
 
+outputItem: omega-blue/2
 
+category: crafting
 
+requirements: [
+    silicon/180
+    titanium/160
+    thorium/140
+    plastanium/160
+    astrolite/440
+]
 
-
-
-
+research: {
+  requirements: [
+      silicon/180
+      titanium/160
+      thorium/140
+      plastanium/160
+      astrolite/440
+  ]
+  parent: crystallizer
+}

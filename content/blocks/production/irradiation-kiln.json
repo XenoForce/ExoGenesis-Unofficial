@@ -58,6 +58,6 @@
         "osmium/530"
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "gamma-forge",
 	"outputItem": "gamma-green/10"
 }

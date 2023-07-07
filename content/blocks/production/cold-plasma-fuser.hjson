@@ -50,7 +50,7 @@
         "astrolite/440"
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "crystallizer",
 	"outputItem": "omega-blue/2"
 }
 

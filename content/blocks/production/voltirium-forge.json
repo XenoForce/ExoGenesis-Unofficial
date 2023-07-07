@@ -43,6 +43,6 @@
         "osmium/330"
 	],
 	"category": "crafting",
-	"research": "alloy-kiln",
+	"research": "jupiteium-furnace",
 	"outputItem": "voltirium-alloy/3"
 }

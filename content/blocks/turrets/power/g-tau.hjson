@@ -1,15 +1,17 @@
-{
-    "type": "PowerTurret",
-    "researchCostMultiplier": 0.1,
-    "size": 1,
-    "health": 240,
-    "reloadTime": 34,
-    "range": 180,
-    "inaccuracy": 1,
-    "shots": 1,
-    "targetAir": false,
-    "targetGround": true,
-    "shootEffect": {
+type: PowerTurret
+
+size: 1
+
+health: 240
+
+"reloadTime": 34,
+"range": 180,
+"inaccuracy": 1,
+"shots": 1,
+"targetAir": false,
+"targetGround": true,
+
+"shootEffect": {
     "type": "ParticleEffect",
     "line": true,
     "particles": 5,
@@ -20,60 +22,70 @@
     "lenTo": 0,
     "colorFrom": "73FFAEFF",
     "colorTo": "73FFAEFF"
+}
+
+"shootCone": 0.08,
+"recoilAmount": 0.7,
+"restitution": 0.06,
+"rotateSpeed": 5,
+"shootSound": "sap",
+"powerUse": 1,
+"hasPower": true,
+
+"shootType": {
+    "type": "BasicBulletType",
+    "sprite": "xguctt-plasma",
+    "absorbable": true,
+    "shrinkY": 0.1,
+    "shrinkX": 0.1,
+    "speed": 4,
+    "trailColor": "73FFAEFF",
+    "trailLength": 10,
+    "trailWidth": 2,
+    "lifetime": 40,
+    "damage": 18,
+    "status": "xguctt-irradiated",
+    "height": 7,
+    "width": 7,
+    "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 10,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
     },
-    "shootCone": 0.08,
-    "recoilAmount": 0.7,
-    "restitution": 0.06,
-    "rotateSpeed": 5,
-    "shootSound": "sap",
-    "powerUse": 1,
-    "hasPower": true,
-    "shootType": {
-        "type": "BasicBulletType",
-        "sprite": "xguctt-plasma",
-        "absorbable": true,
-        "shrinkY": 0.1,
-        "shrinkX": 0.1,
-        "speed": 4,
-        "trailColor": "73FFAEFF",
-        "trailLength": 10,
-        "trailWidth": 2,
-        "lifetime": 40,
-        "damage": 18,
-        "status": "xguctt-irradiated",
-        "height": 7,
-        "width": 7,
-        "hitEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 5,
-        "lifetime": 10,
-        "length": 35,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        "despawnEffect": {
-        "type": "WaveEffect",
-        "lifetime": 25,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 4,
-        "strokeTo": 0,
-        "colorFrom": "73FFAEFF",
-        "colorTo": "73FFAEFF"
-        },
-        "homingPower": 0.00389,
-        "homingRange": 20,
-        "frontColor": "FFFFFFFF",
-        "backColor": "73FFAEFF"
+    "despawnEffect": {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 10,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "73FFAEFF"
     },
-    "requirements": [
-        "valvanite/20",
-        "lead/140"
-    ],
-    "category": "turret",
-    "research": "w-ignition"
+    "homingPower": 0.00389,
+    "homingRange": 20,
+    "frontColor": "FFFFFFFF",
+    "backColor": "73FFAEFF"
+}
+
+category: turret
+
+requirements: [
+    valvanite/20
+    lead/140
+]
+
+research: {
+  requirements: [
+    valvanite/20
+    lead/140
+  ]
+  parent: exogenesis-turrets
 }

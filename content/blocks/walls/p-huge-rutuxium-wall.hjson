@@ -1,7 +1,9 @@
-{
-"type": "MendProjector",
-"health": 36000,
-"size": 3,
+type: MendProjector
+
+size: 3
+
+health: 36000
+
 "hasPower": false,
 "healPercent": 0.7,
 "range": 1,
@@ -10,10 +12,18 @@
 "phaseRangeBoost": 0,
 "baseColor": "A774EAFF",
 "phaseColor": "A774EAFF",
-"category": "defense",
-"research": "p-rutuxium-wall",
-"requirements": [
-  "rutuxium/900",
-  "vurtimite/450"
+
+category: defense
+
+requirements: [
+    rutuxium/900
+    vurtimite/450
 ]
+
+research: {
+  requirements: [
+      rutuxium/900
+      vurtimite/450
+  ]
+  parent: p-large-rutuxium-wall
 }

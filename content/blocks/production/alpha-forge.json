@@ -31,7 +31,7 @@
 		{"item": "oltuxium", "amount": 440}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "fuser-oven",
 	"outputItem": {
 		"item": "alpha-yellow",
 		"amount": 2

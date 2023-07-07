@@ -40,7 +40,7 @@
 		{"item": "valvanite", "amount": 640}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "ionizer",
 	"outputItem": {
 		"item": "gamma-green",
 		"amount": 2

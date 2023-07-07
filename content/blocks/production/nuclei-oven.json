@@ -28,7 +28,7 @@
     "thorium/300"
 	],
 	"category": "crafting",
-	"research": "silicon-crucible",
+	"research": "ton-forge",
 	"outputItems": [
 	"titanium/2",
 	"xytranite/1"

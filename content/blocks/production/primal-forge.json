@@ -31,7 +31,7 @@
 		{"item": "plastanium", "amount": 140}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "ignition-forge",
 	"outputItem": {
 		"item": "primal-red",
 		"amount": 2

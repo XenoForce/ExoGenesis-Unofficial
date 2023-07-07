@@ -31,7 +31,7 @@
     "thorium/300"
 	],
 	"category": "crafting",
-	"research": "silicon-crucible",
+	"research": "crystallizer",
 	"outputItems": [
 	"genvunite/1",  
 	"silicon/3"   

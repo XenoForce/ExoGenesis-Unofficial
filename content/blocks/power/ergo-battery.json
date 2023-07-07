@@ -14,7 +14,7 @@
 		"powerBuffered": 837000
 	},
 	"category": "power",
-	"research": "battery",
+	"research": "aqua-node-large",
 	"requirements": [
 		{ "item": "titanium", "amount": 280 },
 		{ "item": "silicon", "amount": 480 },

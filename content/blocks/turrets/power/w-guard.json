@@ -48,5 +48,5 @@
 		{ "item": "silicon", "amount": 65 }
     ],
     "category": "turret",
-    "research": "w-ignition"
+    "research": "exogenesis-turrets"
 }

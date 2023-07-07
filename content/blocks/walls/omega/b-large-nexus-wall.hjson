@@ -1,16 +1,25 @@
-{ 
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "deflectSound": "sap",
-    "chanceDeflect": 30.0,
-    "flashHit": true,
-    "flashColor": "79F2EEFF",
-    "health": 11200,
-    "size": 2,
-    "requirements": [
-        {"item": "omega-blue", "amount": 268},
-        {"item": "phase-fabric", "amount": 88}
-    ],
-    "category": "defense",
-    "research": "b-nexus-wall"
+type: Wall
+
+size: 2
+
+health: 11200
+
+"deflectSound": "sap",
+"chanceDeflect": 30.0,
+"flashHit": true,
+"flashColor": "79F2EEFF",
+
+category: defense
+
+requirements: [
+    omega-blue/268
+    phase-fabric/88
+]
+
+research: {
+  requirements: [
+      omega-blue/268
+      phase-fabric/88
+  ]
+  parent: b-nexus-wall
 }

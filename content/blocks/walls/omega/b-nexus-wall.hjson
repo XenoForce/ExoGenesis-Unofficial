@@ -1,17 +1,25 @@
-{ 
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "deflectSound": "sap",
-    "chanceDeflect": 30.0,
-    "flashHit": true,
-    "flashColor": "79F2EEFF",
-    "health": 2800,
-    "size": 1,
-    "requirements": [
-        {"item": "omega-blue", "amount": 146},
-        {"item": "phase-fabric", "amount": 78}
-         
-    ],
-    "category": "defense",
-    "research": "exogenesis-walls"
+type: Wall
+
+size: 1
+
+health: 2800
+
+"deflectSound": "sap",
+"chanceDeflect": 30.0,
+"flashHit": true,
+"flashColor": "79F2EEFF",
+
+category: defense
+
+requirements: [
+    omega-blue/146
+    phase-fabric/78
+]
+
+research: {
+  requirements: [
+      omega-blue/146
+      phase-fabric/78
+  ]
+  parent: exogenesis-walls
 }

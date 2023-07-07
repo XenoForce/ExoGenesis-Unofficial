@@ -1,29 +1,44 @@
+type: payload
+flying: true
+
+health: 6320
+armor: 10
+
+speed: 0.8
+
+research: {
+  requirements: [
+      silicon/980
+      osmium/700
+      plastanium/820
+      titanium/780
+  ]
+  parent: comet
+}
+
+"canHeal": true,
+"controller": "repairAI",
+"lowAltitude": true,
+"accel": 0.1,
+"drag": 0.02,
+"hitSize": 38,
+"payloadCapacity": 2184,
+
+"mineSpeed": 3.2,
+"buildSpeed": 1.8,
+"mineTier": 4,
+"itemCapacity": 160,
+"engineOffset": 21,
+"engineSize": 5.6,
+"range": 180,
+"targetAir": true,
+
+// "commandLimit": 8,
+
+"faceTarget": true,
+
+weapons: [
 {
-        "type": "payload",
-        "canHeal": true,
-        "controller": "repairAI",
-    "research": "comet",
-        "lowAltitude": true,
-        "speed": 0.8,
-        "accel": 0.1,
-        "drag": 0.02,
-        "flying": true,
-        "health": 6320,
-        "hitSize": 38,
-        "payloadCapacity": 2184,
-        "armor": 10,
-        "mineSpeed": 3.2,
-        "buildSpeed": 1.8,
-        "mineTier": 4,
-        "itemCapacity": 160,
-        "engineOffset": 21,
-        "engineSize": 5.6,
-        "range": 180,
-        "targetAir": true,
-        "commandLimit": 8,
-        "faceTarget": true,
-	    "weapons": [
-	   {
     "name": "nuba-weapon",
     "shootCone": 15,
     "alternate": true,
@@ -51,8 +66,9 @@
     "sideLength": 0,
     "sideWidth": 0
     }
-  },
-  {
+}
+
+{
     "name": "nuba-weapon",
     "shootCone": 15,
     "alternate": true,
@@ -80,8 +96,9 @@
     "sideLength": 0,
     "sideWidth": 0
     }
-  },
-  {
+}
+
+{
     "name": "planetoide-weapon",
     "shootCone": 15,
     "mirror": false,
@@ -164,16 +181,14 @@
     "lightningLengthRand": 8
     }
 
-		}
-     ],
-    "abilities": [
-        {
-              "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 90,
-              "amount": 400,
-              "reload": 108
-        }
-        ]
-    
-    
 }
+]
+
+abilities: [
+{
+    "type": "mindustry.entities.abilities.RepairFieldAbility",
+    "range": 90,
+    "amount": 400,
+    "reload": 108
+}
+]

@@ -1,14 +1,23 @@
-{
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "health": 2900,
-    "size": 1,
-    "insulated": true,
-    "absorbLasers": true,
-    "requirements": [
-		    {"item": "gamma-green", "amount": 108},
-            {"item": "xanium", "amount": 26}
-    ],
-    "category": "defense",
-    "research": "exogenesis-walls"
+type: Wall
+
+size: 1
+
+health: 2900
+
+insulated: true
+absorbLasers: true
+
+category: defense
+
+requirements: [
+    gamma-green/108
+    xanium/26
+]
+
+research: {
+  requirements: [
+      gamma-green/108
+      xanium/26
+  ]
+  parent: exogenesis-walls
 }

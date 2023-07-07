@@ -1,14 +1,23 @@
-{   
-    "type": "Wall",
-    "buildCostMultiplier": 0.1,
-    "health": 26100,
-    "size": 3,
-    "insulated": true,
-    "absorbLasers": true,
-    "requirements": [
-		    {"item": "gamma-green", "amount": 258},
-            {"item": "xanium", "amount": 46}
-    ],
-    "category": "defense",
-    "research": "g-large-gamma-wall"
+type: Wall
+
+size: 3
+
+health: 26100
+
+insulated: true
+absorbLasers: true
+
+category: defense
+
+requirements: [
+    gamma-green/258
+    xanium/46
+]
+
+research: {
+  requirements: [
+      gamma-green/258
+      xanium/46
+  ]
+  parent: g-large-gamma-wall
 }

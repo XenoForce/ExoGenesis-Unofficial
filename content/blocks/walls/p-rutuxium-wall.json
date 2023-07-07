@@ -11,7 +11,7 @@
 "baseColor": "A774EAFF",
 "phaseColor": "A774EAFF",
 "category": "defense",
-"research": "surge-wall",
+"research": "aqua-surge-wall",
 "requirements": [
   "rutuxium/100",
   "vurtimite/50"

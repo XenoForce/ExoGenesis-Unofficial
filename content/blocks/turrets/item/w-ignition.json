@@ -38,5 +38,5 @@
 		{ "item": "lead", "amount": 34 }
     ],
     "category": "turret",
-    "research": "root-node-for-exogenesis"
+    "research": "exogenesis-turrets"
 }

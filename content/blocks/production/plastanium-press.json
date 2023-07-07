@@ -31,6 +31,6 @@
         "lead/630"
 	],
 	"category": "crafting",
-	"research": "plastanium-compressor",
+	"research": "ionizer",
 	"outputItem": "plastanium/6"
 }

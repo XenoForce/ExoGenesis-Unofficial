@@ -38,6 +38,6 @@
         "lead/120"
 	],
 	"category": "crafting",
-	"research": "root-node-for-exogenesis",
+	"research": "exogenesis-production",
 	"outputItem": "valvanite/2"
 }

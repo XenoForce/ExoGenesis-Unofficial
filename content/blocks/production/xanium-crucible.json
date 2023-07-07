@@ -29,7 +29,7 @@
 		{"item": "plastanium", "amount": 300}
 	],
 	"category": "crafting",
-	"research": "plastanium-compressor",
+	"research": "plastanium-press",
 	"outputItem": {
 		"item": "xanium",
 		"amount": 4

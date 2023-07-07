@@ -26,7 +26,7 @@
 		{"item": "graphite", "amount": 180}
 	],
 	"category": "crafting",
-	"research": "blast-mixer",
+	"research": "ignition-forge",
 	"outputItem": {
 		"item": "azuid-azide",
 		"amount": 4

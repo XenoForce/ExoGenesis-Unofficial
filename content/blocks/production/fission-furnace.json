@@ -40,6 +40,6 @@
 		{"item": "titanium", "amount": 270}
 	],
 	"category": "crafting",
-	"research": "alloy-smelter",
+	"research": "anomaly-kiln",
 	"outputItem": "rutuxium/3"
 }

@@ -37,7 +37,7 @@
 	"category": "power",
     "loopSound": "pulse",
     "loopSoundVolume": 1.0,
-	"research": "impact-reactor",
+	"research": "rtg-big",
 	"ambientSound": "hum",
 	"ambientSoundVolume": 0.85
 }

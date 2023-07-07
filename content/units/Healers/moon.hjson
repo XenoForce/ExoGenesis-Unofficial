@@ -1,32 +1,46 @@
+type: payload
+flying: true
+
+health: 26320
+armor: 16
+
+speed: 0.6
+
+research: {
+  requirements: [
+      osmium/890
+      xanium/850
+      surge-alloy/920
+      silicon/1920
+      plastanium/1380
+  ]
+  parent: planetoide
+}
+
+"canHeal": true,
+"controller": "BuilderAI",
+"buildBeamOffset": 43,
+"rotateSpeed": 1,
+"lowAltitude": true,
+"accel": 0.1,
+"drag": 0.02,
+"hitSize": 78,
+"payloadCapacity": 6484,
+
+"mineSpeed": 4.3,
+"buildSpeed": 6,
+"mineTier": 5,
+"itemCapacity": 360,
+"engineOffset": 42,
+"engineSize": 7.8,
+"drawShields": false,
+"range": 220,
+"targetAir": true,
+"commandLimit": 8,
+"rotateShooting": false,
+
+weapons: [
 {
-        "type": "payload",
-        "canHeal": true,
-        "controller": "BuilderAI",
-    "research": "planetoide",
-        "buildBeamOffset": 43,
-        "rotateSpeed": 1,
-        "lowAltitude": true,
-        "speed": 0.6,
-        "accel": 0.1,
-        "drag": 0.02,
-        "flying": true,
-        "health": 26320,
-        "hitSize": 78,
-        "payloadCapacity": 6484,
-        "armor": 16,
-        "mineSpeed": 4.3,
-        "buildSpeed": 6,
-        "mineTier": 5,
-        "itemCapacity": 360,
-        "engineOffset": 42,
-        "engineSize": 7.8,
-        "drawShields": false,
-        "range": 220,
-        "targetAir": true,
-        "commandLimit": 8,
-        "rotateShooting": false,
-	    "weapons": [
-	   {
     "name": "nuba-gunner",
     "shootCone": 15,
     "mirror": true,
@@ -60,8 +74,9 @@
     "backColor": "84F491FF",
     "lifetime": 55
     }
-  },
-  {
+}
+  
+{
     "name": "nodens-laser",
     "shootCone": 15,
     "alternate": true,
@@ -89,8 +104,9 @@
     "sideLength": 8,
     "sideWidth": 1
     }
-  },
-  {
+}
+
+{
     "name": "moon-weapon",
     "shootCone": 15,
     "mirror": false,
@@ -198,24 +214,21 @@
                 "drag" : 0.04
             }
     }
-
-		}
-     ],
-    "abilities": [
-        {
-              "type": "mindustry.entities.abilities.RepairFieldAbility",
-              "range": 100,
-              "amount": 900,
-              "reload": 198
-        },
-        {
-            "type": "mindustry.entities.abilities.ForceFieldAbility",
-            "radius": 67,
-            "regen": 7,
-            "max": 3500,
-            "cooldown": 250
-        }
-        ]
-    
-    
 }
+]
+
+abilities: [
+{
+      "type": "mindustry.entities.abilities.RepairFieldAbility",
+      "range": 100,
+      "amount": 900,
+      "reload": 198
+}
+{
+    "type": "mindustry.entities.abilities.ForceFieldAbility",
+    "radius": 67,
+    "regen": 7,
+    "max": 3500,
+    "cooldown": 250
+}
+]

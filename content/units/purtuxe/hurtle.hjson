@@ -1,22 +1,42 @@
+type: naval
+
+health: 200000
+armor: 48
+
+speed: 0.8
+
+research: {
+  requirements: [
+      omega-blue/1000
+      alpha-yellow/1000
+      primal-red/1000
+      gamma-green/1000
+      osmium/1500
+      rutuxium/1000
+      phase-fabric/1720
+      silicon/1520
+      plastanium/2700
+  ]
+  parent: zoom
+}
+
+"drag": 0.17,
+
+// "commandLimit": 12,
+
+"targetAir": true,
+"hitSize": 97,
+
+"accel": 0.11,
+"rotateSpeed": 0.8,
+"trailX": 27,
+"trailY": -50,
+"trailScl": 8,
+"trailLength": 95,
+"rotateShooting": false,
+
+weapons: [
 {
-    "research": "zoom",
-    "type": "naval",
-    "armor": 48,
-    "drag": 0.17,
-    "commandLimit": 12,
-    "targetAir": true,
-    "hitSize": 97,
-    "health": 200000,
-    "speed": 0.80,
-    "accel": 0.11,
-    "rotateSpeed": 0.8,
-    "trailX": 27,
-    "trailY": -50,
-    "trailScl": 8,
-    "trailLength": 95,
-    "rotateShooting": false,
-	"weapons": [
-		{
     "name": "sap-art",
     "top": true,
     "mirror": true,
@@ -35,26 +55,28 @@
     "shotDelay": 5,
     "ejectEffect": "casing2",
     "shootSound": "bang",
-           "bullet": { 
-             "type": "basicBulletType",
-             "hitEffect": "blastExplosion",
-             "shootEffect": "shootBig",
-             "despawnEffect": "blastExplosion",
-             "splashDamage": 20,
-             "splashDamageRadius": 25,
-             "lifetime": 90,
-             "damage": 110,
-             "status": "sapped",
-             "statusDuration": 100,
-             "speed": 4,
-             "width": 15,
-             "height": 15,
-             "backColor": "774ACFFF",
-             "frontColor": "A170F4FF"
-           }
-			},
-			{
-   "name": "sap-art",
+    
+    bullet: {
+        "type": "basicBulletType",
+        "hitEffect": "blastExplosion",
+        "shootEffect": "shootBig",
+        "despawnEffect": "blastExplosion",
+        "splashDamage": 20,
+        "splashDamageRadius": 25,
+        "lifetime": 90,
+        "damage": 110,
+        "status": "sapped",
+        "statusDuration": 100,
+        "speed": 4,
+        "width": 15,
+        "height": 15,
+        "backColor": "774ACFFF",
+        "frontColor": "A170F4FF"
+    }
+}
+
+{
+    "name": "sap-art",
     "top": true,
     "mirror": true,
     "alternate": true,
@@ -70,89 +92,96 @@
     "shootCone": 20,
     "ejectEffect": "casing2",
     "shootSound": "bang",
-           "bullet": { 
-             "type": "basicBulletType",
-             "hitEffect": "blastExplosion",
-             "shootEffect": "shootBig",
-             "despawnEffect": "blastExplosion",
-             "splashDamage": 20,
-             "splashDamageRadius": 25,
-             "lifetime": 90,
-             "damage": 110,
-             "status": "sapped",
-             "statusDuration": 100,
-             "speed": 4,
-             "width": 15,
-             "height": 15,
-             "backColor": "774ACFFF",
-             "frontColor": "A170F4FF"
-			 }
-	      },
-			{
-  "name": "ergo-cannon",
-  "x": 0,
-  "y": -26,
-  "mirror": false,
-  "top": true,
-  "shake": 1,
-  "reload": 480,
-  "recoil": 2,
-  "rotate": true,
-  "shootY": 13,
-  "rotateSpeed": 1.9,
-  "soundPitchMin": 1.80,
-  "soundPitchMax": 2.05,
+    
+    bullet: {
+        "type": "basicBulletType",
+        "hitEffect": "blastExplosion",
+        "shootEffect": "shootBig",
+        "despawnEffect": "blastExplosion",
+        "splashDamage": 20,
+        "splashDamageRadius": 25,
+        "lifetime": 90,
+        "damage": 110,
+        "status": "sapped",
+        "statusDuration": 100,
+        "speed": 4,
+        "width": 15,
+        "height": 15,
+        "backColor": "774ACFFF",
+        "frontColor": "A170F4FF"
+    }
+}
+
+{
+    "name": "ergo-cannon",
+    "x": 0,
+    "y": -26,
+    "mirror": false,
+    "top": true,
+    "shake": 1,
+    "reload": 480,
+    "recoil": 2,
+    "rotate": true,
+    "shootY": 13,
+    "rotateSpeed": 1.9,
+    "soundPitchMin": 1.80,
+    "soundPitchMax": 2.05,
     "shootSound": "beam",
     "continuous": true,
     "cooldownTime": 390,
-    "bullet": {
-    "type": "ContinuousLaserBulletType",
-    "damage": 80,
-    "length": 420,
-    "width": 5,
-    "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 5,
-    "lifetime": 30,
-    "length": 35,
-    "cone": -360,
-    "lenFrom": 20,
-    "lenTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "A170F4FF"
-      },
-    "drawSize": 300,
-    "lifetime": 200,
-    "shake": 1,
-    "status": "slow",
-    "statusDuration": 100,
-    "shootEffect": {
-    "type": "WaveEffect",
-    "lifetime": 35,
-    "sizeFrom": 0,
-    "sizeTo": 55,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "FFFFFF",
-    "colorTo": "A170F4FF"
-              },
-    "despawnEffect": "smokeCloud",
-    "smokeEffect": "smokeCloud",
-    "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
-    "fragBullets": 1,
-    "fragCone": 360,
-	"fragBullet": {
-        "type": "ShrapnelBulletType",
-        "serrations": 1,
-        "status": "melting",
-        "length": 52,
-        "width": 10,
-        "fromColor": "FFFFFF",
-        "toColor": "A170F4FF",
-        "damage": 50
-	}
-            }
+    
+    bullet: {
+        "type": "ContinuousLaserBulletType",
+        "damage": 80,
+        "length": 420,
+        "width": 5,
+        
+        hitEffect: {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 5,
+          "lifetime": 30,
+          "length": 35,
+          "cone": -360,
+          "lenFrom": 20,
+          "lenTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "A170F4FF"
+        }
+        
+        "drawSize": 300,
+        "lifetime": 200,
+        "shake": 1,
+        "status": "slow",
+        "statusDuration": 100,
+        
+        shootEffect: {
+          "type": "WaveEffect",
+          "lifetime": 35,
+          "sizeFrom": 0,
+          "sizeTo": 55,
+          "strokeFrom": 4,
+          "strokeTo": 0,
+          "colorFrom": "FFFFFF",
+          "colorTo": "A170F4FF"
+        }
+        
+        "despawnEffect": "smokeCloud",
+        "smokeEffect": "smokeCloud",
+        "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
+        "fragBullets": 1,
+        "fragCone": 360,
+        
+        fragBullet: {
+            "type": "ShrapnelBulletType",
+            "serrations": 1,
+            "status": "melting",
+            "length": 52,
+            "width": 10,
+            "fromColor": "FFFFFF",
+            "toColor": "A170F4FF",
+            "damage": 50
+        }
+    }
 }
-        ]
-}
+]

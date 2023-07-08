@@ -1,15 +1,30 @@
-{
-"name": "Thyme",
-"research": "aster",
-"type": "legs",
+type: legs
+name: Thyme
+
+health: 16000
+armor: 10
+
+speed: 0.52
+
+research: {
+  requirements: [
+      osmium/890
+      xanium/850
+      surge-alloy/920
+      silicon/1920
+      plastanium/1380
+  ]
+  parent: aster
+}
+
 "outlineColor": "34353EFF",
-"armor": 10,
 "outlines": true,
 "groundLayer": 75,
 "rotateSpeed": 2.5,
 "canDrown": false,
 "hitSize": 38,
 "buildSpeed": 3.6,
+
 "legCount": 8,
 "legMoveSpace": 1,
 "legLength": 37,
@@ -25,18 +40,20 @@
 "visualElevation": 0.78,
 "allowLegStep": true,
 "hovering": true,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "drownTimeMultiplier": 10,
 "singleTarget": true,
-"speed": 0.52,
-"health": 16000,
 "range": 215,
-"immunities": [
-		"corroded",
-		"slow"
-		],
-"weapons": [
-  {
+
+immunities: [
+	corroded
+	slow
+]
+
+weapons: [
+{
     "name": "disk-launcher",
     "top": false,
     "shootY": 7,
@@ -51,8 +68,9 @@
     "ejectEffect": "none",
     "recoil": 1,
     "shootSound": "laser",
+    
     "bullet": { 
-    "colors":["57D993aa", "73FFAEFF", "FFFFFFF"],
+      "colors":["57D993aa", "73FFAEFF", "FFFFFFF"],
       "type": "LaserBulletType",
       "length": 200,
       "width": 22,
@@ -86,8 +104,9 @@
       "sideLength": 32,
       "sideWidth": 1
      }
-  },
-	{
+}
+  
+{
     "name": "quantra-bolter",
     "top": true,
     "x": 7,
@@ -177,7 +196,8 @@
     "backColor": "73FFAEFF",
     "frontColor": "FFFFFF"
 }
-},
+}
+
 {
   "name": "thymus-mount",
   "x": 16,
@@ -254,42 +274,46 @@
     "lightColor": "73FFAEFF",
     "colorFrom": "73FFAEFF",
     "colorTo": "57D993FF"
-    },
+    }
+    
     "lightColor": "73FFAEFF",
     "backColor": "73FFAEFF",
     "frontColor": "FFFFFF"
     }
-    }
-     ],
-    "abilities": [
-        {
-        "type": "mindustry.entities.abilities.RepairFieldAbility",
-         "activeEffect": {
-        "type": "WaveEffect",
-        "lifetime": 45,
-        "sizeFrom": 0,
-        "sizeTo": 180,
-        "sides": 8,
-        "strokeFrom": 3,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
-        },
-        "healEffect": {
-        "type": "WaveEffect",
-        "lifetime": 45,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
-        },
-        "range": 180,
-        "amount": 1000,
-        "reload": 280
-            }
-    ]
 }
+]
+
+abilities: [
+{
+    "type": "mindustry.entities.abilities.RepairFieldAbility",
+    
+    activeEffect: {
+      "type": "WaveEffect",
+      "lifetime": 45,
+      "sizeFrom": 0,
+      "sizeTo": 180,
+      "sides": 8,
+      "strokeFrom": 3,
+      "strokeTo": 0,
+      "lightColor": "73FFAEFF",
+      "colorFrom": "73FFAEFF",
+      "colorTo": "57D993FF"
+    }
+    
+    healEffect: {
+      "type": "WaveEffect",
+      "lifetime": 45,
+      "sizeFrom": 0,
+      "sizeTo": 10,
+      "strokeFrom": 2,
+      "strokeTo": 0,
+      "lightColor": "73FFAEFF",
+      "colorFrom": "73FFAEFF",
+      "colorTo": "57D993FF"
+    }
+    
+    "range": 180,
+    "amount": 1000,
+    "reload": 280
+}
+]

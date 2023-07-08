@@ -1,24 +1,39 @@
-{
-"name": "Aster",
-"type": "mech",
-"research": "irises",
-"armor": 5,
+type: mech
+flying: false
+name: Aster
+
+health: 1000
+armor: 5
+
+speed: 0.72
+
+research: {
+  requirements: [
+      silicon/640
+      osmium/540
+      titanium/480
+      thorium/250
+  ]
+  parent: irises
+}
+
 "rotateSpeed": 3,
 "outlineColor": "34353EFF",
 "hitSize": 24,
 "mechFrontSway": 0.55,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "buildSpeed": 2.6,
-"speed": 0.72,
-"flying": false,
-"health": 1000,
 "range": 120,
-"immunities": [
-		"corroded",
-		"slow"
-		],
-"weapons": [
-  {
+
+immunities: [
+	corroded
+	slow
+]
+
+weapons: [
+{
   "name": "gamma-flak-weapon",
   "x": 13,
   "y": 0,
@@ -31,6 +46,7 @@
   "shots": 1,
   "shootSound": "laser",
   "ejectEffect": "none",
+  
   "bullet": {
     "type": "FlakBulletType",
 	"sprite" : "xguctt-plasma",
@@ -40,9 +56,9 @@
 	"statusDuration": 300,
 	"explodeRange" : 35,
 	"damage": 50,
-  "collidesGround": true,
-  "collidesTiles": true,
-  "trailRotation": true,
+	"collidesGround": true,
+	"collidesTiles": true,
+	"trailRotation": true,
 	"scaleVelocity": true,
 	"splashDamage": 100,
 	"splashDamageRadius": 60,	
@@ -56,6 +72,7 @@
 	"shrinkY": 0,
     "hitEffect": {
     "type": "MultiEffect",
+    
 	"effects": [
 	{
 	"type": "ParticleEffect",
@@ -205,49 +222,54 @@
     "colorTo": "73FFAEFF",
     "sizeFrom": 4,
     "sizeTo": 0
-	},
+	}
+	
 	"frontColor": "FFFFFFFF",
 	"backColor": "73FFAEFF"
     }
-  }
-    ],
-    "abilities": [
-      {
-        "type": "mindustry.entities.abilities.RepairFieldAbility",
-        "activeEffect": {
-        "type": "WaveEffect",
-        "lifetime": 45,
-        "sizeFrom": 0,
-        "sizeTo": 160,
-        "sides": 8,
-        "strokeFrom": 3,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
-        },
-        "healEffect": {
-        "type": "WaveEffect",
-        "lifetime": 45,
-        "sizeFrom": 0,
-        "sizeTo": 10,
-        "strokeFrom": 2,
-        "strokeTo": 0,
-        "lightColor": "73FFAEFF",
-        "colorFrom": "73FFAEFF",
-        "colorTo": "57D993FF"
-        },
-        "range": 160,
-        "amount": 90,
-        "reload": 240
-        },
-        {
-        "type": "mindustry.entities.abilities.StatusFieldAbility",
-        "activeEffect": "none",
-        "range" : 120,
-        "reload" : 100,
-        "duration" : 120,
-        "effect": "overclock"
-      }
-   ]
 }
+]
+
+abilities: [
+{
+    "type": "mindustry.entities.abilities.RepairFieldAbility",
+    
+    activeEffect: {
+      "type": "WaveEffect",
+      "lifetime": 45,
+      "sizeFrom": 0,
+      "sizeTo": 160,
+      "sides": 8,
+      "strokeFrom": 3,
+      "strokeTo": 0,
+      "lightColor": "73FFAEFF",
+      "colorFrom": "73FFAEFF",
+      "colorTo": "57D993FF"
+    }
+    
+    healEffect: {
+      "type": "WaveEffect",
+      "lifetime": 45,
+      "sizeFrom": 0,
+      "sizeTo": 10,
+      "strokeFrom": 2,
+      "strokeTo": 0,
+      "lightColor": "73FFAEFF",
+      "colorFrom": "73FFAEFF",
+      "colorTo": "57D993FF"
+    },
+    
+    "range": 160,
+    "amount": 90,
+    "reload": 240
+}
+        
+{
+    "type": "mindustry.entities.abilities.StatusFieldAbility",
+    "activeEffect": "none",
+    "range" : 120,
+    "reload" : 100,
+    "duration" : 120,
+    "effect": "overclock"
+}
+]

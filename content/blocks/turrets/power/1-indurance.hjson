@@ -1,7 +1,9 @@
-{
-"type": "PowerTurret",
-"size": 4,
-"health": 1000,
+type: PowerTurret
+
+size: 4
+
+health: 1000
+
 "range": 200,
 "reloadTime": 15,
 "shootSound": "laser",
@@ -15,7 +17,8 @@
 "targetGround": true,
 "recoilAmount": 4,
 "powerUse": 17,
-"shootType": {
+
+shootType: {
   "type": "LaserBulletType",
   "colors":["84F49170", "84F491FF", "FFFFFF"],
   "length": 200,
@@ -28,13 +31,23 @@
   "sideAngle": 15,
   "sideWidth": 0,
   "sideLength": 0
-  },
-    "requirements": [
-        "thorium/400",
-        "genvunite/340",
-        "silicon/600",
-        "copper/430"
-    ],
-    "category": "turret",
-    "research": "1-punisher"
+}
+
+category: turret
+
+requirements: [
+    thorium/400
+    genvunite/340
+    silicon/600
+    copper/430
+]
+
+research: {
+  requirements: [
+      thorium/400
+      genvunite/340
+      silicon/600
+      copper/430
+  ]
+  parent: 1-punisher
 }

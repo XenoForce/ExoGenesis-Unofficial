@@ -1,28 +1,31 @@
-{
-	"type": "itemTurret",
-	"health": 1900,
-    "coolantMultiplier": 1.0,
-    "reloadTime": 185,
-    "restitution": 0.1,
-    "ammoUseEffect": "casing4",
-    "range": 450,
-    "recoilAmount": 7,
-    "shootShake": 5,
-    "shots": 1,
-    "size":  5,
-    "shootSound": "shootBig",
-    "ammoTypes": {
-    "volcanite": {
+type: itemTurret
+
+health: 1900
+
+"coolantMultiplier": 1.0,
+"reloadTime": 185,
+"restitution": 0.1,
+"ammoUseEffect": "casing4",
+"range": 450,
+"recoilAmount": 7,
+"shootShake": 5,
+"shots": 1,
+"size":  5,
+"shootSound": "shootBig",
+
+ammoTypes: {
+volcanite: {
     "speed": 7,
     "height": 43,
     "width": 32,
     "lifetime": 80,
     "damage": 1000,
     "knockback": 13,
-	"frontColor": "FFFFFFF",
+    "frontColor": "FFFFFFF",
     "backColor": "403F3FFF",
     "shootEffect": {
     "type": "multiEffect",
+    
     "effects": [
     {
     "type": "ParticleEffect",
@@ -177,8 +180,9 @@
     "trailParam": 5,
     "trailLength": 15,
     "trailWidth": 5
-    },
-    "silicon": {
+}
+
+silicon: {
     "speed": 7,
     "height": 43,
     "width": 32,
@@ -367,8 +371,9 @@
     "trailParam": 5,
     "trailLength": 15,
     "trailWidth": 5
-    },
-    "primal-red": {
+}
+
+primal-red: {
     "status": "xguctt-molten1",
 	"statusDuration": "100",
     "speed": 7,
@@ -587,24 +592,37 @@
     "trailParam": 5,
     "trailLength": 15,
     "trailWidth": 5
+}
+}
+
+consumes: {
+    liquid: {
+        "liquid": "slag",
+        "optional": true,
+        "update": false,
+        "amount": 0.4
     }
-    },
-    "consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.4
-	}
-	},
-	"requirements": [
-	    "osmium/350",
-        "silicon/790",
-        "jupiteium/470",
-        "volcanite/800",
-        "titanium/500",
-        "primal-red/600"
-	],
-	"category": "turret",
-	"research": "r-demon"
+}
+
+category: turret
+
+requirements: [
+    osmium/350
+    silicon/790
+    jupiteium/470
+    volcanite/800
+    titanium/500
+    primal-red/600
+]
+
+research: {
+  requirements: [
+      osmium/350
+      silicon/790
+      jupiteium/470
+      volcanite/800
+      titanium/500
+      primal-red/600
+  ]
+  parent: r-demon
 }

@@ -1,27 +1,31 @@
-{
-	"type": "itemTurret",
-    "coolantMultiplier": 0.9,
-    "ammoPerShot": 30,
-    "ammoCapacity": 90,
-    "reloadTime": 260,
-    "restitution": 0.1,
-    "ammoUseEffect": "casing4",
-    "range": 500,
-    "recoilAmount": 8,
-    "shootShake": 10,
-    "consumes": {
-	"liquid": {
-	"liquid": "slag",
-	"optional": true,
-	"update": false,
-	"amount": 0.7
-	}
-	},
-    "shots": 1,
-    "size":  7,
-    "shootSound": "shootBig",
-    "ammoTypes": {
-    "graphite": {
+type: itemTurret
+
+size: 7
+
+"coolantMultiplier": 0.9,
+"ammoPerShot": 30,
+"ammoCapacity": 90,
+"reloadTime": 260,
+"restitution": 0.1,
+"ammoUseEffect": "casing4",
+"range": 500,
+"recoilAmount": 8,
+"shootShake": 10,
+
+consumes: {
+    liquid: {
+        "liquid": "slag",
+        "optional": true,
+        "update": false,
+        "amount": 0.7
+    }
+}
+
+"shots": 1,
+"shootSound": "shootBig",
+
+ammoTypes: {
+graphite: {
     "type": "BasicBulletType",
     "sprite": "xguctt-impactor",
     "speed": 7,
@@ -361,9 +365,10 @@
     "despawnEffect": "blastExplosion",
     "frontColor": "95ABD9FF",
     "backColor": "6B77A1FF"
-	}
-    },
-    "volcanite": {
+    }
+}
+
+volcanite: {
     "type": "BasicBulletType",
     "sprite": "xguctt-impactor",
     "speed": 7,
@@ -702,9 +707,10 @@
     "despawnEffect": "blastExplosion",
     "frontColor": "FFFFFFF",
     "backColor": "FF8142FF"
-	}
-    },
-    "osmium": {
+    }
+}
+
+osmium: {
     "type": "BasicBulletType",
     "sprite": "xguctt-impactor",
     "speed": 7,
@@ -1031,7 +1037,7 @@
     "sizeTo": 0
     }
     ]
-	},
+    },
     "lifetime": 60,
     "splashDamage": 800,
     "splashDamageRadius": 60,
@@ -1044,16 +1050,28 @@
     "frontColor": "E2F5FBFF",
     "backColor": "C9DDE3FF"
     }
-    }
-	},
-	"requirements": [
-	    "graphite/600",
-        "silicon/700",
-        "jupiteium/900",
-        "volcanite/1200",
-        "xanium/1000",
-        "primal-red/2000"
-	],
-	"category": "turret",
-	"research": "r-demon"
+}
+}
+
+category: turret
+
+requirements: [
+    graphite/600
+    silicon/700
+    jupiteium/900
+    volcanite/1200
+    xanium/1000
+    primal-red/2000
+]
+
+research: {
+  requirements: [
+      graphite/600
+      silicon/700
+      jupiteium/900
+      volcanite/1200
+      xanium/1000
+      primal-red/2000
+  ]
+  parent: r-demon
 }

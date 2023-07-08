@@ -3,7 +3,7 @@ type: legs
 health: 56700
 armor: 16
 
-speed: 0.37
+speed: 0.7
 
 research: {
   requirements: [

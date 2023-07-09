@@ -143,6 +143,5 @@
 		{ "item": "osmium", "amount": 4300}
 	],
 	"category": "turret",
-	"research": "meltdown"
+	"research": "w-forebode"
 }
-

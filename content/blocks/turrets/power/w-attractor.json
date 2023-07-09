@@ -14,7 +14,7 @@
   "power": 5.2
 },
 "category": "turret",
-"research": "parallax",
+"research": "g-puddle",
 "requirements": [
   "silicon/450",
   "metaglass/200",

@@ -11,7 +11,7 @@
   "power": 10.2
 },
 "category": "turret",
-"research": "segment",
+"research": "w-attractor",
 "requirements": [
   "silicon/450",
   "thorium/240",

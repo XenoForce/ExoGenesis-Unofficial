@@ -9,7 +9,13 @@ health: 1600
 "restitution": 0.08,
 "reloadTime" : 6,
 "heatColor": "FFFFFFF",
-"shots": 4,
+
+shoot: {
+	type: ShootSpread
+	spread: 0
+	shots: 4
+}
+
 "shootLength": 3,
 "hasPower": true,
 "targetAir" : false, 

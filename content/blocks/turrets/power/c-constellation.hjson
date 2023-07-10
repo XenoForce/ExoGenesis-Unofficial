@@ -6,7 +6,13 @@ health: 8660
 
 "reloadTime": 300,
 "range": 1000,
-"shots": 1,
+
+shoot: {
+	type: ShootSpread
+	spread: 0
+	shots: 1
+}
+
 "targetAir": true,
 "targetGround": true,
 "shootCone": 0.08,

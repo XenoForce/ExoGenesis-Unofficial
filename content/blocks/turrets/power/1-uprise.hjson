@@ -24,7 +24,7 @@ consumes: {
 	}
 }
 
-"coolantUsage": 2.5,
+// "coolantUsage": 2.5,
 "update": true,
 "hasPower": true,
 "shootEffect": "shootBigSmoke2",

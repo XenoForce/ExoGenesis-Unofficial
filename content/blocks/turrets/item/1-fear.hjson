@@ -10,7 +10,7 @@ health: 8660
 "reloadTime": 500,
 "range": 1000,
 "shootLength": 8,
-"coolantUsage": 3,
+// "coolantUsage": 3,
 "ammoUseEffect": "casing3Double",
 "coolantMultiplier": 0.5,
 "targetAir": true, 

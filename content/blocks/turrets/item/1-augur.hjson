@@ -8,7 +8,7 @@ health: 850
 "ammoPerShot" : 10,
 "reloadTime": 400,
 "range": 600,
-"coolantUsage": 1.2,
+// "coolantUsage": 1.2,
 "ammoUseEffect": "casing3Double",
 "coolantMultiplier": 0.5,
 "targetAir" : true, 

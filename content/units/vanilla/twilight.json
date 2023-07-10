@@ -34,7 +34,9 @@
     "engineSize": 7,
     "lowAltitude": true,
     "targetAir": true,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
     "immunities": [
 	"blasted",
 	"wet",

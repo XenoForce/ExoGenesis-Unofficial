@@ -15,7 +15,8 @@
         "armor": 4,
         "faceTarget": false,
         "engineOffset": 8.5,
-        "commandLimit": 10,
+        
+        // "commandLimit": 10,
         
         "targetAir": true,
 	    "weapons": [

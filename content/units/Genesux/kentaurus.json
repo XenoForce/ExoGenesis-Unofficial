@@ -20,7 +20,9 @@
     "engineSize": 3.4,
     "range": 150,
     "targetAir": true,
-    "commandLimit": 12,
+    
+    // "commandLimit": 12,
+    
     "faceTarget": true,
 	"weapons": [
 	   {

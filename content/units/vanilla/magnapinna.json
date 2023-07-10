@@ -18,7 +18,9 @@
     "boostMultiplier": 1.0,
     "engineOffset": 51,
     "engineSize": 9,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
     "lowAltitude": true,
     "targetAir": true,
     "range": 300,

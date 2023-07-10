@@ -18,7 +18,9 @@
   "lowAltitude": true,
   "groundLayer": 99,
   "targetAir": true,
-  "commandLimit": 11,
+  
+  // "commandLimit": 11,
+  
 	"immunities": [
 		"burning", 
 		"wet",

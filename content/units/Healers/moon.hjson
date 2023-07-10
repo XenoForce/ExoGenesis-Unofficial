@@ -36,7 +36,9 @@ research: {
 "drawShields": false,
 "range": 220,
 "targetAir": true,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "rotateShooting": false,
 
 weapons: [

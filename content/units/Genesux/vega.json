@@ -24,7 +24,9 @@
     "maxRange": 180,
     "aimDst": 180,
     "targetAir": true,
-    "commandLimit": 10,
+    
+    // "commandLimit": 10,
+    
 	"weapons": [
 	       {
   "name": "vega-weapon",

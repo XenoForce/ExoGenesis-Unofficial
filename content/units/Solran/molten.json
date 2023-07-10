@@ -12,7 +12,9 @@
 "type": "mech",
 "armor": 12,
 "hitSize": 25,
-"commandLimit": 6,
+
+// "commandLimit": 6,
+
 "rotateShooting": false,
 "mechStepParticles": false,
 "mechStepShake": 0,

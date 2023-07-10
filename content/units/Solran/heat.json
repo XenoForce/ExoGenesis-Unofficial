@@ -16,7 +16,9 @@
 "mechFrontSway": 0,
 "mechSideSway": 0,
 "rotateShooting": false,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "speed": 1.3,
 "flying": false,
 "health": 300,

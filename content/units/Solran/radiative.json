@@ -15,7 +15,9 @@
 "canDrown": false,
 "hitSize": 38,
 "mechFrontSway": 1,
-"commandLimit": 6,
+
+// "commandLimit": 6,
+
 "mechLegColor": "313131FF",
 "mechStepParticles": true,
 "mechStepShake": 2,

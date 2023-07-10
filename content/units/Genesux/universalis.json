@@ -28,7 +28,9 @@
     "engineSize": 0.01,
     "lowAltitude": true,
     "targetAir": true,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
 	"weapons": [
 	   {
     "name": "cold-plasma-artillery",

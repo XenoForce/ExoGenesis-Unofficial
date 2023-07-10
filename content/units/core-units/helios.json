@@ -12,7 +12,9 @@
 "armor": 8,
 "hitSize": 23,
 "mechFrontSway": 0.55,
-"commandLimit": 10,
+
+// "commandLimit": 10,
+
 "speed": 0.76,
 "flying": false,
 "health": 2700,

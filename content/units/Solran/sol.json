@@ -9,7 +9,9 @@
 },
 "type": "mech",
 "armor": 7,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "speed": 0.5,
 "hitSize": 8,
 "flying": false,

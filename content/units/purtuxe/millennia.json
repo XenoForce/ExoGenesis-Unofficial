@@ -17,7 +17,8 @@
     "mineTier": 4,
     "mineSpeed": 6.1,
     "armor": 15,
-    "commandLimit": 9,
+    
+    // "commandLimit": 9,
 
     "weapons": [
     {

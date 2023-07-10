@@ -14,7 +14,9 @@
     "type": "naval",
     "armor": 30,
     "drag": 0.17,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
     "targetAir": true,
     "range": 300,
     "hitSize": 64,

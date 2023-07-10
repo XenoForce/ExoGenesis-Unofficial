@@ -19,7 +19,9 @@
 "rotateSpeed": 0.8,
 "canDrown": false,
 "hitSize": 60,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "mechStepParticles": true,
 "mechStepShake": 6,
 "singleTarget": true,

@@ -15,7 +15,9 @@
 "mechStepShake": 0,
 "rotateSpeed": 2.8,
 "hitSize": 31,
-"commandLimit": 6,
+
+// "commandLimit": 6,
+
 "mechFrontSway": 0,
 "mechSideSway": 0,
 "rotateShooting": false,

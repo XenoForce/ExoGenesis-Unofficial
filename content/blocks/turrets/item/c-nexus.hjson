@@ -4,7 +4,11 @@ size: 8
 
 health: 8660
 
-"shots": 1,
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "shootShake": 3,
 "reloadTime": 8.25,
 "range": 430,

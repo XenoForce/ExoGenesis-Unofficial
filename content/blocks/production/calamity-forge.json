@@ -175,5 +175,10 @@
         "osmium/3000"
 	],
 	"category": "crafting",
-	"outputItem": "calamity-crystal/1"
+	"outputItem": "calamity-crystal/1",
+	
+	"research": {
+		"requirements": [ copper/1 ],
+		"parent": "exogenesis-production"
+	}
 }

@@ -9,7 +9,12 @@ health: 3880
 "restitution": 0.08,
 "range": 300,
 "heatColor": "FFFFFFF ",
-"shots" : 1,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "targetAir" : true, 
 "recoilAmount": 5,
 "targetGround" : true,

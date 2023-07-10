@@ -14,7 +14,7 @@ health: 4360
 shoot: {
 	type: ShootSpread
 	shots: 1
-	spread: 2
+	spread: 0
 }
 
 "recoilAmount": 4,

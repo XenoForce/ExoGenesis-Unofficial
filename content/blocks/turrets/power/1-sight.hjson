@@ -11,9 +11,9 @@ health: 480
 "burstSpacing": 4,
 
 shoot: {
-  type: ShootSpread
-  spread: 0
-  shots: 5
+	type: ShootSpread
+	spread: 0
+	shots: 5
 }
 
 "targetAir": true,

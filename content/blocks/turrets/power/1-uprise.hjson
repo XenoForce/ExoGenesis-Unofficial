@@ -7,11 +7,17 @@ health: 8660
 "unitSort": "strongest",
 "reloadTime": 170,
 "range": 345,
-"shots" : 1,
+
+shoot: {
+	type: ShootSpread
+	spread: 0
+	shots: 1
+}
+
 "heatColor": "FFFFFFF",
-"targetAir" : true, 
-"targetGround" : true,
-"shootCone" : 40,
+"targetAir": true, 
+"targetGround": true,
+"shootCone": 40,
 // "powerUse": 48,
 "coolantMultiplier": 1.0,
 

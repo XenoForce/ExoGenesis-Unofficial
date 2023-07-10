@@ -22,8 +22,9 @@
 	"chargeEffect": "lancerLaserCharge",
 	"chargeBeginEffect": "lancerLaserChargeBegin",
 	
-    "powerUse": 2,
+    // "powerUse": 2,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "xguctt-armored-bullet",

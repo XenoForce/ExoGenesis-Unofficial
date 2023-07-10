@@ -26,7 +26,7 @@ health: 240
   "colorTo": "FF5845FF"
 }
 
-"powerUse": 2,
+// "powerUse": 2,
 "hasPower": true,
 
 "shootType": {

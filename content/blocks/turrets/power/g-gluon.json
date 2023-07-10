@@ -14,8 +14,9 @@
     "restitution": 0.06,
     "rotateSpeed": 3,
     "shootSound": "laser",
-    "powerUse": 2,
+    // "powerUse": 2,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "xguctt-electric-pulse",

@@ -9,7 +9,7 @@ health: 8789000
 "shots" : 1,
 "targetAir" : true, 
 "targetGround" : true,
-"powerUse": 753,
+// "powerUse": 753,
 "coolantMultiplier": 2.7,
 "heatColor": "74C2E8FF",
 "shootLength": -17,
@@ -125,7 +125,7 @@ shootType: {
 		hitEffect: {
 			type: MultiEffect
 			
-			effect: [
+			effects: [
 			{
 				"type": "ParticleEffect",
 				"particles": 10,

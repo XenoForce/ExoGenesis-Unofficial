@@ -16,8 +16,9 @@
 	"restitution" : 0.08, 
 	"shootSound" : "laser",
 
-    "powerUse" : 1,
+    // "powerUse" : 1,
 	"hasPower" : true,
+	
 	"shootType" : {
 		"type" : "basicBulletType",
 		"sprite" : "xguctt-trident",

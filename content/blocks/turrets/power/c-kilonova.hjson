@@ -13,7 +13,7 @@ health: 6880
 "targetAir" : true, 
 "recoilAmount": 5,
 "targetGround" : true,
-"powerUse": 93,
+// "powerUse": 93,
 "update": true,
 "hasPower": true,
 

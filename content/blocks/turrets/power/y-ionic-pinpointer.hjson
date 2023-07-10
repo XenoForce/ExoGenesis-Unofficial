@@ -19,7 +19,7 @@ health: 3180
 "rotateSpeed": 8,
 "shootSound" : "railgun",
 
-"powerUse" : 18,
+// "powerUse" : 18,
 "hasPower" : true,
 
 shootType : {

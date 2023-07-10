@@ -29,7 +29,7 @@ shootEffect: {
 "restitution" : 0.2, 
 "rotateSpeed": 2,
 "shootSound" : "laser",
-"powerUse": 35,
+// "powerUse": 35,
 "hasPower" : true,
 
 shootType: {

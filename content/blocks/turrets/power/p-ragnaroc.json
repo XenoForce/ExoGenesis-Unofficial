@@ -201,8 +201,9 @@
     "targetAir": true,
     "targetGround": true,
 
-    "powerUse": 2000,
+    // "powerUse": 2000,
     "hasPower": true,
+    
     "shootType": {
     "sprite": "xguctt-wavee",
     "collidesTiles": true,

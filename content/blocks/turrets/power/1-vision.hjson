@@ -9,7 +9,7 @@ health: 8660
 "inaccuracy": 2,
 "shots": 1,
 "hasPower": true,
-"powerUse": 160,
+// "powerUse": 160,
 
 "targetAir": true, 
 "targetGround": true,

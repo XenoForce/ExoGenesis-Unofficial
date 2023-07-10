@@ -16,7 +16,7 @@ health: 1000
 "heatColor": "FFFFFF",
 "recoilAmount": 3,
 "hasPower": true,
-"powerUse": 67,
+// "powerUse": 67,
 "chargeSound": "lasercharge",
 "chargeTime" : 80,
 "chargeEffects" : 1,

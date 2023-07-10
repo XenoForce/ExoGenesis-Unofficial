@@ -9,7 +9,7 @@ health: 1900
 "shots": 1,
 "targetAir": true, 
 "targetGround": true,
-"powerUse": 28,
+// "powerUse": 28,
 "update": true,
 "hasPower": true,
 

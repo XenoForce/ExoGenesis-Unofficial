@@ -15,7 +15,7 @@
     "restitution": 0.05,
     "shootSound": "shotgun",
     "hasPower": true,
-    "powerUse": 14,
+    // "powerUse": 14,
     "shootType": {
 	"type" : "basicBulletType",
 	"sprite": "missile",

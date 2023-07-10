@@ -101,7 +101,7 @@ shootEffect: {
     ]
 }
 
-"powerUse": 28,
+// "powerUse": 28,
 "hasPower": true,
 
 shootType: {

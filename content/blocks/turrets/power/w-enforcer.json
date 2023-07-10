@@ -17,7 +17,8 @@
     "restitution": 0.05,
     "shootSound": "laser",
     "hasPower": true,
-    "powerUse": 18,
+    // "powerUse": 18,
+    
     "shootType": {
 	"type" : "pointBulletType",
 	"damage": 30,

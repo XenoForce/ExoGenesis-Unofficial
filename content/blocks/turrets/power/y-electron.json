@@ -42,8 +42,9 @@
 	},
 	
     "shootSound": "lasershoot",
-    "powerUse": 1,
+    // "powerUse": 1,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "xguctt-electric-pulse",

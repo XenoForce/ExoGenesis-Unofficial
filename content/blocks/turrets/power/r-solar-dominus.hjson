@@ -11,7 +11,7 @@ health: 8660
 "targetGround": true,
 "shootCone": 30,
 "spread": 30,
-"powerUse": 83,
+// "powerUse": 83,
 "update": true,
 "hasPower": true,
 

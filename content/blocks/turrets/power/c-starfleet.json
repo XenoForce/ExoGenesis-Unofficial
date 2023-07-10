@@ -15,8 +15,9 @@
     "restitution": 0.06,
     "rotateSpeed": 5,
     "shootSound": "laser",
-    "powerUse": 1,
+    // "powerUse": 1,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "speed": 5,

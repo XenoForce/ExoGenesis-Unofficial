@@ -9,7 +9,8 @@
 	"targetGround" : true,
 	"shootCone" : 40,
 	"spread" : 4,
-	"powerUse": 34,
+	// "powerUse": 34,
+	
  "consumes": {
 	"liquid": {
 	"liquid": "cryofluid",

@@ -18,7 +18,7 @@ health: 1000
 "targetGround": true,
 "heatColor": "A170F4FF",
 "recoilAmount": 3,
-"powerUse": 27,
+// "powerUse": 27,
 
 shootType: {
 	"type": "LaserBulletType",

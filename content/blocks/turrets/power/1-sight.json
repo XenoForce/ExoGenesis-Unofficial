@@ -30,7 +30,7 @@
     "rotateSpeed": 3,
     "shootSound": "laser",
     
-    "powerUse": 24,
+    // "powerUse": 24,
     "hasPower": true,
     "shootType": {
 	"type" : "basicBulletType",

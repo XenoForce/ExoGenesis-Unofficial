@@ -20,7 +20,7 @@ health: 1500
 "restitution" : 0.08, 
 "shootSound" : "laser",
 
-"powerUse" : 3,
+// "powerUse" : 3,
 "hasPower" : true,
 
 shootType: {

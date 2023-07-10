@@ -14,13 +14,14 @@
 	"targetGround" : true,
 	"shootLength": 6,
 	"heatColor": "FFFFFF",
-	"powerUse": 200,
+	// "powerUse": 200,
     "coolantMultiplier": 0.8,
     "update": true,
     "hasPower": true,
     "chargeSound": "lasercharge",
 	"chargeTime": 120,
 	"chargeEffects": 1,
+	
 	"chargeBeginEffect": {
     "type": "multiEffect",
     "lifetime": 120,

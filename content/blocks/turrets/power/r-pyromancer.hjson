@@ -71,7 +71,7 @@ shootEffect: {
 
 "targetAir": true,
 "targetGround": true,
-"powerUse": 38,
+// "powerUse": 38,
 "hasPower": true,
 
 shootType: {

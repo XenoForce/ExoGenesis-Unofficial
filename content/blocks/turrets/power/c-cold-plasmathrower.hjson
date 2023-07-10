@@ -19,7 +19,7 @@ health: 1600
 "inaccuracy" : 5, 
 "rotateSpeed": 4.0,
 "shootSound": "flame",
-"powerUse": 10,
+// "powerUse": 10,
 
 shootType: {
 	"type": "BasicBulletType",

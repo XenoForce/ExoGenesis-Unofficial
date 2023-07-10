@@ -28,8 +28,9 @@
 	"rotateSpeed": 5,
 	
 	"shootSound" : "laser",
-	"powerUse": 60,
+	// "powerUse": 60,
 	"hasPower" : true,
+	
 	"shootType": {
 		"type" : "BasicBulletType",
 		"sprite" : "xguctt-slice",

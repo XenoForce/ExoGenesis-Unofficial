@@ -12,7 +12,7 @@ health: 8660
 "targetAir" : true, 
 "targetGround" : true,
 "shootCone" : 40,
-"powerUse": 48,
+// "powerUse": 48,
 "coolantMultiplier": 1.0,
 
 consumes: {

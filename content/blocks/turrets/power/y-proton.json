@@ -15,8 +15,9 @@
     "restitution": 0.06,
     "rotateSpeed": 5,
     "shootSound": "lasershoot",
-    "powerUse": 1,
+    // "powerUse": 1,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "xguctt-plasma",

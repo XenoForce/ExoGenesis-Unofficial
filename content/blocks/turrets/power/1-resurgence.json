@@ -8,7 +8,8 @@
   "shootLength": 10,
 	"targetAir" : true, 
 	"targetGround" : true,
-	"powerUse": 4,
+	// "powerUse": 4,
+	
  "consumes": {
 	"liquid": {
 	"liquid": "water",

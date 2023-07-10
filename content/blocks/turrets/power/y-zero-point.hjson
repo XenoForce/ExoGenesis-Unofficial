@@ -46,7 +46,7 @@ chargeBeginEffect: {
   "cone": 360
 }
 
-"powerUse" : 30,
+// "powerUse" : 30,
 "hasPower" : true,
 
 shootType: {

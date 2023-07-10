@@ -48,7 +48,7 @@ chargeBeginEffect: {
     "colorTo": "84F491FF"
 }
 
-"powerUse": 40,
+// "powerUse": 40,
 "hasPower": true,
 
 shootType: {

@@ -14,7 +14,7 @@ health: 8660
 "restitution": 0.06,
 "rotateSpeed": 0.8,
 "shootSound": "laserblast",
-"powerUse": 37,
+// "powerUse": 37,
 "chargeSound": "lasercharge",
 "chargeTime": 80,
 "chargeEffects": 1,

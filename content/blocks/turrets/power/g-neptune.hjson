@@ -16,7 +16,7 @@ health: 10000
 "recoilAmount" : 6,
 "restitution" : 0.08, 
 "shootSound": "plasmaboom",
-"powerUse" : 25,
+// "powerUse" : 25,
 "hasPower" : true,
 
 shootType: {

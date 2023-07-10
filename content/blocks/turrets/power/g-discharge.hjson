@@ -7,7 +7,7 @@ health: 2500
 "targetAir": true,
 "targetGround": true,
 "hasPower": true,
-"powerUse": 20,
+// "powerUse": 20,
 "inaccuracy": 0,
 "reloadTime": 15,
 "shots": 6,

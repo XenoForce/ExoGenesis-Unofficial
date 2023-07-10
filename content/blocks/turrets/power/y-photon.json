@@ -17,8 +17,9 @@
     "shootSound": "lasershoot",
     
 
-    "powerUse": 6,
+    // "powerUse": 6,
     "hasPower": true,
+    
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "xguctt-plasma",

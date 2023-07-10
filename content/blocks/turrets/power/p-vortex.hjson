@@ -16,7 +16,7 @@ health: 840
 "restitution": 0.06,
 "rotateSpeed": 3,
 "hasPower": true,
-"powerUse": 18,
+// "powerUse": 18,
 "shootSound": "laser",
 
 shootType: {

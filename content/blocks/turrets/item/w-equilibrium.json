@@ -363,5 +363,8 @@
 		{ "item": "osmium", "amount": 4300}
 	],
 	"category": "turret",
-	"research": "core-nucleus"
+	"research": {
+	  "requirements": [ copper/1 ],
+	  "parent": "exogenesis-turrets"
+	}
 }

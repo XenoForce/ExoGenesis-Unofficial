@@ -27,7 +27,9 @@
     "engineSize": 5,
     "lowAltitude": true,
     "targetAir": true,
-    "commandLimit": 10,
+    
+    // "commandLimit": 10,
+    
 	"weapons": [
 	   {
     "name": "cold-plasma-gunner",

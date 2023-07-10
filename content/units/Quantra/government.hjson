@@ -10,7 +10,9 @@
 "hitSize": 58,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.8,
-"commandLimit": 10,
+
+// "commandLimit": 10,
+
 "mechStepParticles": true,
 "mechStepShake": 3,
 "singleTarget": true,

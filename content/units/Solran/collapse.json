@@ -31,7 +31,9 @@
 "visualElevation": 0.75,
 "allowLegStep": true,
 "hovering": true,
-"commandLimit": 5,
+
+// "commandLimit": 5,
+
 "singleTarget": true,
 "speed": 0.22,
 "health": 250000,

@@ -14,7 +14,9 @@
         "engineOffset": 8,
         "range": 200,
         "targetAir": true,
-        "commandLimit": 8,
+        
+        // "commandLimit": 8,
+        
         "faceTarget": true,
 	    "weapons": [
 	   {

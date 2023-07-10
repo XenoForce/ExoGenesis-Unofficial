@@ -41,7 +41,9 @@
     "engineOffset": 57,
     "engineSize": 8.5,
     "targetAir": true,
-    "commandLimit": 10,
+    
+    // "commandLimit": 10,
+    
     "immunities": [
 		"sapped",
 		"wet",

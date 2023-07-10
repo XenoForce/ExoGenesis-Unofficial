@@ -22,7 +22,9 @@
     "maxRange": 180,
     "aimDst": 180,
     "targetAir": true,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
     "faceTarget": true,
 	"weapons": [
 	   {

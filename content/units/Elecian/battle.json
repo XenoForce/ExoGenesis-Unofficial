@@ -24,7 +24,9 @@
     "engineSize": 6,
     "lowAltitude": true,
     "targetAir": true,
-    "commandLimit": 10,
+    
+    // "commandLimit": 10,
+    
 	"weapons": [
 	   {
 	"name": "big-shock-artillery",

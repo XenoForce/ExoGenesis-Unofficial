@@ -38,7 +38,9 @@ research: {
 "hitSize": 36,
 "mechFrontSway": 1.6,
 "mechSideSway": 0.8,
-"commandLimit": 8,
+
+// "commandLimit": 8,
+
 "mechStepParticles": true,
 "mechStepShake": 1,
 "singleTarget": true,

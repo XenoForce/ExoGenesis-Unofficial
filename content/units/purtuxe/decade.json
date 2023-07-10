@@ -13,7 +13,8 @@
     "health": 276,
     "buildSpeed": 0.8,
     "armor": 4,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
 
     "weapons": [
     {

@@ -36,7 +36,9 @@
     "visualElevation": 0.75,
     "allowLegStep": true,
     "hovering": true,
-    "commandLimit": 8,
+    
+    // "commandLimit": 8,
+    
 	"armor": 460,
 	"drag": 0.2,
 	"range": 450,

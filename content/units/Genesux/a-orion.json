@@ -6,7 +6,9 @@
           "silicon/200"
       ]
   },
-  "commandLimit": 5,
+  
+  // "commandLimit": 5,
+  
   "outlineColor": "464A59FF",
   "type": "legs",
 	"speed": 0.90,

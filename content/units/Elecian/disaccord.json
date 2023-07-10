@@ -22,7 +22,9 @@
         "engineSize": 7,
         "lowAltitude": true,
         "targetAir": true,
-        "commandLimit": 10,
+        
+        // "commandLimit": 10,
+        
 	    "weapons": [
 	   {
   "name": "shock-artillery",

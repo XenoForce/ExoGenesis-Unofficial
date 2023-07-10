@@ -25,7 +25,9 @@
         "engineSize": 7.8,
         "lowAltitude": true,
         "targetAir": true,
-        "commandLimit": 10,
+        
+        // "commandLimit": 10,
+        
 	    "weapons": [
 	   {
   "name": "alpha-rocket",

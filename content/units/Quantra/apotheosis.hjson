@@ -2,7 +2,9 @@
     "research": "gamma-core",
     "type": "naval",
     "armor": 100,
-    "commandLimit": 6,
+    
+    // "commandLimit": 6,
+    
     "targetAir": true,
     "lightRadius": 320,
     "range": 560,

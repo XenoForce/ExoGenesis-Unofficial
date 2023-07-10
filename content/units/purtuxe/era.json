@@ -19,7 +19,9 @@
     "mineTier": 6,
     "mineSpeed": 7.6,
     "armor": 28,
-    "commandLimit": 9,
+    
+    // "commandLimit": 9,
+    
     "legCount": 8,
     "legMoveSpace": 0.8,
     "legPairOffset": 3,

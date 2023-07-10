@@ -20,7 +20,9 @@
         "lowAltitude": true,
         "range": 140,
         "targetAir": true,
-        "commandLimit": 10,
+        
+        // "commandLimit": 10,
+        
 	    "weapons": [
 	   {
   "name": "surge-bolter",

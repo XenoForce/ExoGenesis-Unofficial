@@ -1,24 +1,37 @@
-{
-"type": "TractorBeamTurret",
+type: TractorBeamTurret
+
+size: 3
+
+health: 1200
+
 "targetGround": false,
 "shootLength": 10,
 "rotateSpeed": 8,
 "range": 300,
-"size": 3,
-"health": 1200,
 "force": 32,
 "scaledForce": 22,
 "damage": 0.5,
 "laserWidth": 1.1,
-"consumes": {
-  "power": 5.2
-},
-"category": "turret",
-"research": "g-puddle",
-"requirements": [
-  "silicon/450",
-  "metaglass/200",
-  "titanium/185",
-  "plastanium/235"
-  ]
+
+consumes: {
+	power: 5.2
+}
+
+category: turret
+
+requirements: [
+	silicon/450
+	metaglass/200
+	titanium/185
+	plastanium/235
+]
+
+research: {
+	requirements: [
+		silicon/450
+		metaglass/200
+		titanium/185
+		plastanium/235
+	]
+	parent: g-puddle
 }

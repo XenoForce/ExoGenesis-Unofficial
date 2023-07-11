@@ -1,56 +1,71 @@
-{
-    "type": "ItemTurret",
-    "researchCostMultiplier": 0.4,
-    "size": 3,
-    "health": 900,
-    "maxAmmo": 100,
-    "ammoPerShot": 10,
-    "reloadTime": 220,
-    "range": 460,
-    "targetAir": true,
-    "targetGround": true,
-    "rotateSpeed": 4,
-    "recoilAmount": 7,
-    "restitution": 0.2,
-    "shootSound": "railgun",
-    "ammoUseEffect": "casing3",
-    "ammoTypes": {
-        "osmium": {
-            "type": "pointBulletType",
-            "status": "melting",
-            "damage": 200,
-            "speed": 460,
-            "ammoMultiplier": 3,
-            "pierce": true,
-            "collidesTiles": true,
-            "trailEffect": "instTrail",
-			"trailSpacing": 20,
-            "hitEffect": "instBomb",
-            "smokeEffect": "shootBig2"
-        },
-        "thorium": {
-            "type": "pointBulletType",
-            "damage": 320,
-            "speed": 460,
-            "ammoMultiplier": 1,
-            "pierce": true,
-            "collidesTiles": true,
-            "trailEffect": "instTrail",
-			"trailSpacing": 20,
-            "hitEffect": "instBomb",
-            "smokeEffect": "shootBig2"
-        }
-    },
-    "consumes": {
-        "power": 5
-    },
-    "requirements": [
-		{ "item": "plastanium", "amount": 200 },
-		{ "item": "osmium", "amount": 400 },
-		{ "item": "silicon", "amount": 520 },
-		{ "item": "metaglass", "amount": 370 },
-		{ "item": "titanium", "amount": 400 }
-    ],
-    "category": "turret",
-    "research": "w-enforcer"
+type: ItemTurret
+
+size: 3
+
+health: 900
+
+"maxAmmo": 100,
+"ammoPerShot": 4,
+"reloadTime": 220,
+"range": 460,
+"targetAir": true,
+"targetGround": true,
+"rotateSpeed": 4,
+"recoilAmount": 7,
+"restitution": 0.2,
+"shootSound": "railgun",
+"ammoUseEffect": "casing3",
+
+ammoTypes: {
+osmium: {
+	"type": "pointBulletType",
+	"status": "melting",
+	"damage": 200,
+	"speed": 460,
+	"ammoMultiplier": 3,
+	"pierce": true,
+	"collidesTiles": true,
+	"trailEffect": "instTrail",
+	"trailSpacing": 20,
+	"hitEffect": "instBomb",
+	"smokeEffect": "shootBig2"
+}
+
+thorium: {
+	"type": "pointBulletType",
+	"damage": 320,
+	"speed": 460,
+	"ammoMultiplier": 1,
+	"pierce": true,
+	"collidesTiles": true,
+	"trailEffect": "instTrail",
+	"trailSpacing": 20,
+	"hitEffect": "instBomb",
+	"smokeEffect": "shootBig2"
+}
+}
+
+consumes: {
+	power: 5
+}
+
+category: turret
+
+requirements: [
+	plastanium/200
+	osmium/400
+	silicon/520
+	metaglass/370
+	titanium/400
+]
+
+research: {
+	requirements: [
+		plastanium/200
+		osmium/400
+		silicon/520
+		metaglass/370
+		titanium/400
+	]
+	parent: w-enforcer
 }

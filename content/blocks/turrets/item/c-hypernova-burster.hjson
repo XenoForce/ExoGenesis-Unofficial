@@ -1519,5 +1519,5 @@ research: {
 		xanium/3750
 		osmium/4800
 	]
-	parent: exogenesis-turrets
+	parent: c-constellation
 }

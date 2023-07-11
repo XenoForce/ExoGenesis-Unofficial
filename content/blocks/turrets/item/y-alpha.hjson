@@ -213,5 +213,5 @@ research: {
 		xanium/800
 		copper/3560
 	]
-	parent: divinity-core
+	parent: exogenesis-turrets
 }

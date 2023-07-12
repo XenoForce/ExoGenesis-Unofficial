@@ -1,0 +1,24 @@
+type: Wall
+
+size: 1
+
+health: 600
+
+placeableLiquid: true
+flashHit: true
+chanceDeflect: 10
+
+category: defense
+
+requirements: [
+	metaglass/6
+	phase-fabric/6
+]
+
+research: {
+	requirements: [
+		metaglass/6
+		phase-fabric/6
+	]
+	parent: exogenesis-walls
+}

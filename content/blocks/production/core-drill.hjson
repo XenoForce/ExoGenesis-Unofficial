@@ -1,0 +1,53 @@
+type: Separator
+
+size: 9
+
+"liquidCapacity": 50,
+"spinnerSpeed": 4,
+"craftTime": 4,
+"hasItems": true,
+"hasLiquids": true,
+"hasPower": true,
+
+consumes: {
+	power: 8
+	liquid: {
+		"liquid": "slag", 
+		"amount": 1.2
+	}
+}
+
+results: [
+	titanium/10
+	surge-alloy/8
+	graphite/11
+	thorium/11
+	lead/10
+	osmium/12
+	copper/10
+	sand/13
+	scrap/12
+]
+
+category: crafting
+
+requirements: [
+	copper/200
+	osmium/400
+	silicon/200
+	titanium/400
+	plastanium/230
+	surge-alloy/260
+]
+
+research: {
+	requirements: [
+		copper/200
+		osmium/400
+		silicon/200
+		titanium/400
+		plastanium/230
+		surge-alloy/260
+	]
+	parent: ton-forge
+}

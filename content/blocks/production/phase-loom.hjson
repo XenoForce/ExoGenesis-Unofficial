@@ -1,0 +1,49 @@
+type: GenericCrafter
+
+size: 3
+
+"drawer": "drawWeave",
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 40,
+"craftTime": 180,
+"craftEffect": "smeltsmoke",
+"updateEffect": "none",
+"ambientSound": "techloop",
+"ambientSoundVolume": 0.02,
+
+consumes: {
+	power: 6
+	items: {
+		items: [
+			sand/10
+			thorium/14
+			silicon/6
+		]
+	}
+}
+
+outputItem: phase-fabric/6
+
+category: crafting
+
+requirements: [
+	silicon/450
+	titanium/400
+	lead/300
+	osmium/700
+	thorium/300
+	phase-fabric/800
+]
+
+research: {
+		requirements: [
+		silicon/450
+		titanium/400
+		lead/300
+		osmium/700
+		thorium/300
+		phase-fabric/800
+	]
+	parent: exogenesis-production
+}

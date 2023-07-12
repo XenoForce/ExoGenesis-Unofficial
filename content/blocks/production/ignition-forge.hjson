@@ -1,31 +1,42 @@
-{	
-    "researchCostMultiplier": 0.1,
-    "type": "GenericCrafter",
-	"drawer": {
+type: GenericCrafter
+
+size: 2
+
+drawer: {
 	"type": "DrawSmelter",
 	"flameColor": "ffc099"
-	},
-	"size": 2,
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 10,
-	"craftTime": 40,
-	"craftEffect": "smeltsmoke",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-               "coal/1",
-               "graphite/2"
-			]
-		}
-	},
-	"requirements": [
-        "copper/80",
-        "lead/120"
-	],
-	"category": "crafting",
-	"research": "ionizer",
-	"outputItem": "volcanite/2"
+}
+
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 10,
+"craftTime": 40,
+"craftEffect": "smeltsmoke",
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			coal/1
+			graphite/2
+		]
+	}
+}
+
+outputItem: volcanite/2
+
+category: crafting
+
+requirements: [
+	copper/80
+	lead/120
+]
+
+research: {
+	requirements: [
+		copper/80
+		lead/120
+	]
+	parent: ionizer
 }

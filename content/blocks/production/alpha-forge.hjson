@@ -1,39 +1,53 @@
-{	
-    "type": "GenericCrafter",
-	"drawer": {
+type: GenericCrafter
+
+size: 3
+
+drawer: {
 	"type": "DrawSmelter",
 	"flameColor": "F3E979FF"
-	},
-	"size": 3,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"craftTime": 150,
-	"itemCapacity": 30,
-	"craftEffect": "instBomb",
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-			"titanium/3",
-                        "copper/3",
-			"oltuxium/5",
-			"silicon/4"
-			]
-		}
-	},
-	"requirements": [
-		{"item": "silicon", "amount": 160},
-		{"item": "lead", "amount": 160},
-		{"item": "thorium", "amount": 140},
-		{"item": "titanium", "amount": 160},
-		{"item": "oltuxium", "amount": 440}
-	],
-	"category": "crafting",
-	"research": "fuser-oven",
-	"outputItem": {
-		"item": "alpha-yellow",
-		"amount": 2
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"craftTime": 150,
+"itemCapacity": 30,
+"craftEffect": "instBomb",
+"updateEffect": "none",
+
+consumes: {
+	power: 2,
+	items: {
+		items: [
+			titanium/3
+			copper/3
+			oltuxium/5
+			silicon/4
+		]
 	}
+}
+
+outputItem: {
+	alpha-yellow/2
+}
+
+category: crafting
+
+requirements: [
+	silicon/160
+	lead/160
+	thorium/140
+	titanium/160
+	oltuxium/240
+]
+
+research: {
+	requirements: [
+		silicon/160
+		lead/160
+		thorium/140
+		titanium/160
+		oltuxium/240
+	]
+	parent: fuser-oven
 }

@@ -32,7 +32,7 @@ updateEffect: {
 "expanded": true,
 
 consumes: {
-	power: 45
+	power: 15
 	liquid: {
 		"liquid": "water",
 		"amount": 0.31,

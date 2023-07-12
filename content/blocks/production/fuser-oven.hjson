@@ -1,0 +1,50 @@
+type: GenericCrafter
+
+size: 2
+
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 10,
+"craftTime": 40,
+
+craftEffect: {
+	"type": "ParticleEffect",
+	"particles": 1,
+	"sizeFrom": 7,
+	"sizeTo": 7,
+	"length": 0,
+	"lifetime": 60,
+	"region": "xguctt-fuser-lights",
+	"colorFrom": "F3E979FF",
+	"colorTo": "F3E979AA",
+	"cone": 360
+}
+
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			silicon/1
+			copper/2
+		]
+	}
+}
+
+outputItem: oltuxium/2
+
+category: crafting
+
+requirements: [
+	silicon/40
+	copper/80
+]
+
+research: {
+	requirements: [
+		silicon/40
+		copper/80
+	]
+	parent: crystallizer
+}

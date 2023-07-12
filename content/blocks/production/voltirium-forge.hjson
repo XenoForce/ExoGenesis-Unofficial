@@ -9,21 +9,21 @@ itemCapacity: 40
 craftTime: 250
 
 drawer: {
-  "type": "DrawSmelter",
-  "flameRadius": 5,
-  "flameColor": "8894FFFF"
+	"type": "DrawSmelter",
+	"flameRadius": 5,
+	"flameColor": "8894FFFF"
 }
 
 craftEffect: {
-  "type": "WaveEffect",
-  "lifetime": 25,
-  "sizeFrom": 0,
-  "sizeTo": 65,
-  "strokeFrom": 3,
-  "strokeTo": 0,
-  "lightColor": "8894FFFF",
-  "colorFrom": "8894FFFF",
-  "colorTo": "7983E2FF"
+	"type": "WaveEffect",
+	"lifetime": 25,
+	"sizeFrom": 0,
+	"sizeTo": 65,
+	"strokeFrom": 3,
+	"strokeTo": 0,
+	"lightColor": "8894FFFF",
+	"colorFrom": "8894FFFF",
+	"colorTo": "7983E2FF"
 }
 
 updateEffect: none
@@ -45,22 +45,22 @@ outputItem: voltirium-alloy/3
 category: crafting
 
 requirements: [
-    surge-alloy/1000
-    plastanium/670
-    jupiteium/870
-    titanium/400
-    silicon/1000
-    osmium/330
+	surge-alloy/1000
+	plastanium/670
+	jupiteium/870
+	titanium/400
+	silicon/1000
+	osmium/330
 ]
 
 research: {
-  requirements: [
-      surge-alloy/1000
-      plastanium/670
-      jupiteium/870
-      titanium/400
-      silicon/1000
-      osmium/330
-  ]
-  parent: jupiteium-furnace
+	requirements: [
+		surge-alloy/1000
+		plastanium/670
+		jupiteium/870
+		titanium/400
+		silicon/1000
+		osmium/330
+	]
+	parent: jupiteium-furnace
 }

@@ -9,29 +9,29 @@ itemCapacity: 30
 craftTime: 150
 
 drawer: {
-  "type": "drawArcSmelter",
-  "flameColor": "66B1FFFF",
-  "midColor": "A9D8FFFF",
-  "flameRad": 1.6,
-  "circleSpace": 2,
-  "circleStroke": 0.9,
-  "alpha": 2,
-  "particleRad": 10,
-  "particles": 32,
-  "particleLen": 5,
-  "particleStroke": 0.9,
-  "particleLife": 80
+	"type": "drawArcSmelter",
+	"flameColor": "66B1FFFF",
+	"midColor": "A9D8FFFF",
+	"flameRad": 1.6,
+	"circleSpace": 2,
+	"circleStroke": 0.9,
+	"alpha": 2,
+	"particleRad": 10,
+	"particles": 32,
+	"particleLen": 5,
+	"particleStroke": 0.9,
+	"particleLife": 80
 }
 
 craftEffect: {
-  "type": "WaveEffect",
-  "lifetime": 25,
-  "sizeFrom": 0,
-  "sizeTo": 40,
-  "strokeFrom": 4,
-  "strokeTo": 0,
-  "colorFrom": "A9D8FFFF",
-  "colorTo": "66B1FFFF"
+	"type": "WaveEffect",
+	"lifetime": 25,
+	"sizeFrom": 0,
+	"sizeTo": 40,
+	"strokeFrom": 4,
+	"strokeTo": 0,
+	"colorFrom": "A9D8FFFF",
+	"colorTo": "66B1FFFF"
 }
 
 updateEffect: none
@@ -53,20 +53,20 @@ outputItem: omega-blue/2
 category: crafting
 
 requirements: [
-    silicon/180
-    titanium/160
-    thorium/140
-    plastanium/160
-    astrolite/440
+	silicon/180
+	titanium/160
+	thorium/140
+	plastanium/160
+	astrolite/440
 ]
 
 research: {
-  requirements: [
-      silicon/180
-      titanium/160
-      thorium/140
-      plastanium/160
-      astrolite/440
-  ]
-  parent: crystallizer
+	requirements: [
+		silicon/180
+		titanium/160
+		thorium/140
+		plastanium/160
+		astrolite/440
+	]
+	parent: crystallizer
 }

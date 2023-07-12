@@ -6,7 +6,7 @@ health: 85
 
 "maxAmmo": 25,
 "ammoPerShot": 1,
-"reloadTime": 12,
+"reload": 12,
 "range": 150,
 "targetAir": true,
 "targetGround": true,

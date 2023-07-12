@@ -4,7 +4,7 @@ size: 1
 
 health: 140
 
-"reloadTime": 45,
+"reload": 45,
 "range": 90,
 "maxAmmo": 12,
 "inaccuracy": 3,

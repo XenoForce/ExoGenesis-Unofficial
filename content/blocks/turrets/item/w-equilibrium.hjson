@@ -5,7 +5,7 @@ size: 14
 health: 143600
 
 "range": 800,
-"reloadTime" : 380,
+"reload" : 380,
 "inaccuracy": 0,
 
 shoot: {

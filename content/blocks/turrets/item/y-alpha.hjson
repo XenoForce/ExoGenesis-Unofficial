@@ -4,7 +4,7 @@ size: 12
 
 health: 8789000
 
-"reloadTime": 250,
+"reload": 250,
 "range": 700,
 "heatColor": "F3E979FF",
 "recoilAmount": 13,

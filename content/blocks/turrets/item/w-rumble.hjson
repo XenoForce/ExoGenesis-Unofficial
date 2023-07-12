@@ -5,7 +5,7 @@ size: 4
 health: 520
 
 "targetAir": false,
-"reloadTime": 86,
+"reload": 86,
 "range": 400,
 "recoilAmount": 3,
 "shootShake": 4,

@@ -1,0 +1,22 @@
+type: Wall
+
+size: 1
+
+health: 320
+
+placeableLiquid: true
+
+category: defense
+
+requirements: [
+	metaglass/6
+	copper/6
+]
+
+research: {
+	requirements: [
+		metaglass/6
+		copper/6
+	]
+	parent: exogenesis-walls
+}

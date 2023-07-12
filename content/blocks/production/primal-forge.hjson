@@ -1,0 +1,51 @@
+type: GenericCrafter
+
+size: 3
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "F66332FF"
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"itemCapacity": 20,
+"craftTime": 150,
+"craftEffect": "massiveExplosion",
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			copper/3
+			lead/3
+			titanium/4
+			volcanite/5
+		]
+	}
+}
+
+outputItem: primal-red/2
+
+category: crafting
+
+requirements: [
+	silicon/160
+	volcanite/250
+	thorium/140
+	titanium/160
+	plastanium/140
+]
+
+research: {
+	requirements: [
+		silicon/160
+		volcanite/250
+		thorium/140
+		titanium/160
+		plastanium/140
+	]
+	parent: ignition-forge
+}

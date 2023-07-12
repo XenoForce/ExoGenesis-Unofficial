@@ -1,43 +1,56 @@
-{	
-    "type": "GenericCrafter",
-	"drawer": {
+type: GenericCrafter
+
+size: 2
+
+drawer: {
 	"type": "DrawSmelter",
 	"flameColor": "73FFAEFF"
-	},
-	"size": 2,
-	"researchCostMultiplier": 0.1,
-	"hasPower": true,
-	"hasItems": true,
-	"itemCapacity": 10,
-	"craftEffect": {
-    "type": "ParticleEffect",
-    "particles": 6,
-    "length": 20,
-    "baseLength": -20,
-    "offset": 3,
-    "cone": 360,
-    "lifetime": 28,
-    "sizeFrom": 0,
-    "sizeTo": 2,
-    "colorTo": "73FFAEFF",
-    "colorFrom": "73FFAEFF"
-    },
-	"craftTime": 40,
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-               "lead/1",
-               "copper/2"
-			]
-		}
-	},
-	"requirements": [
-        "copper/90",
-        "lead/120"
-	],
-	"category": "crafting",
-	"research": "exogenesis-production",
-	"outputItem": "valvanite/2"
+}
+
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 10,
+
+craftEffect: {
+	"type": "ParticleEffect",
+	"particles": 6,
+	"length": 20,
+	"baseLength": -20,
+	"offset": 3,
+	"cone": 360,
+	"lifetime": 28,
+	"sizeFrom": 0,
+	"sizeTo": 2,
+	"colorTo": "73FFAEFF",
+	"colorFrom": "73FFAEFF"
+}
+
+"craftTime": 40,
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			lead/1
+			copper/2
+		]
+	}
+}
+
+outputItem: valvanite/2
+
+category: crafting
+
+requirements: [
+	copper/90
+	lead/120
+]
+
+research: {
+	requirements: [
+		copper/90
+		lead/120
+	]
+	parent: "exogenesis-production"
 }

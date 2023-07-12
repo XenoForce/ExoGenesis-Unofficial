@@ -1,0 +1,55 @@
+type: GenericCrafter
+
+size: 2
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "C3A0FFFF"
+}
+
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 10,
+"craftTime": 40,
+
+craftEffect: {
+	"type": "ParticleEffect",
+	"line": true,
+	"particles": 18,
+	"lifetime": 38,
+	"length": 45,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+	"colorFrom": "C3A0FFFF",
+	"colorTo": "774ACFFF"
+}
+
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			lead/2
+			graphite/1
+		]
+	}
+}
+
+outputItem: vurtimite/2
+
+category: crafting
+
+requirements: [
+	silicon/20
+	graphite/110
+]
+
+research: {
+	requirements: [
+		silicon/20
+		graphite/110
+	]
+	parent: crystallizer
+}

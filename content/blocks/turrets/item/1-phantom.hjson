@@ -5,7 +5,7 @@ size: 5
 health: 1900
 
 "coolantMultiplier": 1.0,
-"reloadTime": 6.5,
+"reload": 6.5,
 "restitution": 0.1,
 "ammoUseEffect": "casing3",
 "range": 300,

@@ -5,7 +5,7 @@ size: 8
 health: 8660
 
 "coolantMultiplier": 1.5,
-"reloadTime": 10,
+"reload": 10,
 "restitution": 0.1,
 "unitSort": "strongest",
 "ammoUseEffect": "casing3",

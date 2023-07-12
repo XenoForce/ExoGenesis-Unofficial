@@ -7,7 +7,7 @@ health: 8660
 "unitSort": "strongest",
 "maxAmmo": 20,
 "ammoPerShot": 20,
-"reloadTime": 500,
+"reload": 500,
 "range": 1000,
 "shootLength": 8,
 // "coolantUsage": 3,

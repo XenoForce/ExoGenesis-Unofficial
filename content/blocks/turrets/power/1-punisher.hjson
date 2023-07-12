@@ -6,7 +6,7 @@ health: 360
 
 "range": 200,
 "shootLength": 5,
-"reloadTime": 125,
+"reload": 125,
 "targetAir": true,
 "targetGround": true,
 "shootCone": 45,

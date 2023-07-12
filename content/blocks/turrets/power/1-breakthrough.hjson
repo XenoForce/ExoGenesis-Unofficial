@@ -4,7 +4,7 @@ size: 5
 
 health: 180
 
-"reloadTime": 130,
+"reload": 130,
 "range": 285,
 "targetAir": true, 
 "targetGround": true,

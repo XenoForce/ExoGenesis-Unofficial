@@ -5,7 +5,7 @@ size: 8
 health: 8660
 
 "unitSort": "strongest",
-"reloadTime": 170,
+"reload": 170,
 "range": 345,
 
 shoot: {

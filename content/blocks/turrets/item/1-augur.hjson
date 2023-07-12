@@ -6,7 +6,7 @@ health: 850
 
 "maxAmmo": 150,
 "ammoPerShot" : 10,
-"reloadTime": 400,
+"reload": 400,
 "range": 600,
 // "coolantUsage": 1.2,
 "ammoUseEffect": "casing3Double",

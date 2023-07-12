@@ -1,0 +1,53 @@
+type: GenericCrafter
+
+size: 6
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "E3EFF2FF"
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"itemCapacity": 50,
+"craftTime": 320,
+"craftEffect": "shockwave",
+"updateEffect": "none",
+
+consumes: {
+	power: 5
+	items: {
+		items: [
+			lead/10
+			azuid-azide/4
+			silicon/9
+			titanium/7
+		]
+	}
+}
+
+outputItem: osmium/30
+
+category: crafting
+
+requirements: [
+	metaglass/260
+	plastanium/430
+	thorium/340
+	titanium/200
+	silicon/400
+	osmium/330
+]
+
+research: {
+	requirements: [
+		metaglass/260
+		plastanium/430
+		thorium/340
+		titanium/200
+		silicon/400
+		osmium/330
+	]
+	parent: ton-forge
+}

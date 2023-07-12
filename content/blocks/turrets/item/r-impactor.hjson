@@ -381,709 +381,733 @@ graphite: {
 }
 
 volcanite: {
-    "type": "BasicBulletType",
-    "sprite": "xguctt-impactor",
-    "speed": 7,
-    "spin": 0.6,
-    "height": 45,
-    "shrinkY": 0,
-    "shrinkX": 0,
-    "width": 45,
-    "layer": 103,
-    "trailRotation": true,
-    "hitSoundVolume": 3,
-    "hitSound": "explosionbig",
-    "hitShake": 27,
-    "damage": 18000,
-    "knockback": 50,
-    "lifetime": 70,
+	"type": "BasicBulletType",
+	"sprite": "xguctt-impactor",
+	"speed": 7,
+	"spin": 0.6,
+	"height": 45,
+	"shrinkY": 0,
+	"shrinkX": 0,
+	"width": 45,
+	"layer": 103,
+	"trailRotation": true,
+	"hitSoundVolume": 3,
+	"hitSound": "explosionbig",
+	"hitShake": 27,
+	"damage": 18000,
+	"knockback": 50,
+	"lifetime": 70,
 	"frontColor": "FF8142FF",
-    "backColor": "FFFFFFF",
-    "trailColor": "363636FF",
-    "trailChance": 0.4,
-    "trailEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "length": 23,
-    "lifetime": 50,
-    "layer": 100,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -40,
-    "offset": 15,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 8,
-    "sizeTo": 0
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 3,
-    "length": 14,
-    "lifetime": 35,
-    "layer": 100,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -20,
-    "offset": 15,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 5,
-    "sizeTo": 0
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "length": 23,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -20,
-    "lightColor": "FF5845FF",
-    "offset": 5,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF",
-    "sizeFrom": 4,
-    "sizeTo": 0
-    }
-    ]
-	},
-    "trailParam": 5,
-    "trailLength": 12,
-    "trailWidth": 4.5,
-    "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 135,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 95,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "length": 80,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 6,
-    "sizeTo": 0,
-    "lightColor": "FF8142FF",
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142D8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 25,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 90,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 20,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 90,
-    "baseLength": 10,
-    "lifetime": 80,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 12.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 70,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 9.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "length": 125,
-    "cone": -360,
-    "lenFrom": 9,
-    "lenTo": 0,
-    "strokeFrom": 3.3,
-    "strokeTo": 0,
-    "lightColor": "FF8142FF",
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    }
-    ]    
-    },
-    "despawnEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 135,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 95,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "length": 80,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 6,
-    "sizeTo": 0,
-    "lightColor": "FF8142FF",
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142D8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 25,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 90,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 20,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 90,
-    "baseLength": 10,
-    "lifetime": 80,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 12.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 70,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 9.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "length": 125,
-    "cone": -360,
-    "lenFrom": 9,
-    "lenTo": 0,
-    "strokeFrom": 3.3,
-    "strokeTo": 0,
-    "lightColor": "FF8142FF",
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142FF"
-    }
-    ]    
-    },
-    "splashDamage": 1000,
-    "splashDamageRadius": 50,
-    "fragBullets": 13,
+	"backColor": "FFFFFFF",
+	"trailColor": "363636FF",
+	"trailChance": 0.4,
+	
+	trailEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 5,
+			"length": 23,
+			"lifetime": 50,
+			"layer": 100,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -40,
+			"offset": 15,
+			"colorFrom": "7e7e7e",
+			"colorTo": "7e7e7eD8",
+			"sizeFrom": 8,
+			"sizeTo": 0
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 3,
+			"length": 14,
+			"lifetime": 35,
+			"layer": 100,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -20,
+			"offset": 15,
+			"colorFrom": "7e7e7e",
+			"colorTo": "7e7e7eD8",
+			"sizeFrom": 5,
+			"sizeTo": 0
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 5,
+			"length": 23,
+			"lifetime": 20,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -20,
+			"lightColor": "FF5845FF",
+			"offset": 5,
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF",
+			"sizeFrom": 4,
+			"sizeTo": 0
+		}
+		]
+	}
+	
+	"trailParam": 5,
+	"trailLength": 12,
+	"trailWidth": 4.5,
+	
+	hitEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 135,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 95,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 20,
+			"length": 80,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 6,
+			"sizeTo": 0,
+			"lightColor": "FF8142FF",
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142D8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 25,
+			"length": 100,
+			"baseLength": 10,
+			"lifetime": 90,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 20,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 90,
+			"baseLength": 10,
+			"lifetime": 80,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 12.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{ 
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 70,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 9.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 20,
+			"lifetime": 30,
+			"length": 125,
+			"cone": -360,
+			"lenFrom": 9,
+			"lenTo": 0,
+			"strokeFrom": 3.3,
+			"strokeTo": 0,
+			"lightColor": "FF8142FF",
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		}
+		]    
+	}
+	
+	despawnEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 135,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 95,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 20,
+			"length": 80,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 6,
+			"sizeTo": 0,
+			"lightColor": "FF8142FF",
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142D8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 25,
+			"length": 100,
+			"baseLength": 10,
+			"lifetime": 90,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 20,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 90,
+			"baseLength": 10,
+			"lifetime": 80,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 12.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{ 
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 70,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 9.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 20,
+			"lifetime": 30,
+			"length": 125,
+			"cone": -360,
+			"lenFrom": 9,
+			"lenTo": 0,
+			"strokeFrom": 3.3,
+			"strokeTo": 0,
+			"lightColor": "FF8142FF",
+			"colorFrom": "FF8142FF",
+			"colorTo": "FF8142FF"
+		}
+		]    
+	}
+	
+	"splashDamage": 1000,
+	"splashDamageRadius": 50,
+	"fragBullets": 13,
 	"fragCone": 360,
-	"fragBullet": {
-    "type": "basicBulletType",
-    "speed": 5,
-    "damage": 200,
-    "trailRotation": true,
-    "collidesTiles": true,
-    "trailChance": 1,
-    "trailEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 20,
-    "lifetime": 30,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "FF8142FF",
-    "colorTo": "FF8142d8",
-    "sizeFrom": 3,
-    "sizeTo": 1
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 0,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 5,
-    "sizeTo": 1
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 20,
-    "lifetime": 50,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 2,
-    "sizeTo": 0
-    }
-    ]
-	},
-    "lifetime": 60,
-    "splashDamage": 600,
-    "splashDamageRadius": 50,
-    "homingRange": 200,
-    "homingPower": 0.03,
-    "height": 6,
-    "width": 6,
-    "hitEffect": "blastExplosion",
-    "despawnEffect": "blastExplosion",
-    "frontColor": "FFFFFFF",
-    "backColor": "FF8142FF"
-    }
+	
+	fragBullet: {
+		"type": "basicBulletType",
+		"speed": 5,
+		"damage": 200,
+		"trailRotation": true,
+		"collidesTiles": true,
+		"trailChance": 1,
+		
+		trailEffect: {
+			type: multiEffect
+			
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 20,
+				"lifetime": 30,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "FF8142FF",
+				"colorTo": "FF8142d8",
+				"sizeFrom": 3,
+				"sizeTo": 1
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 0,
+				"lifetime": 40,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "7e7e7e",
+				"colorTo": "7e7e7eD8",
+				"sizeFrom": 5,
+				"sizeTo": 1
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 20,
+				"lifetime": 50,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "7e7e7e",
+				"colorTo": "7e7e7eD8",
+				"sizeFrom": 2,
+				"sizeTo": 0
+			}
+			]
+		}
+		
+		"lifetime": 60,
+		"splashDamage": 600,
+		"splashDamageRadius": 50,
+		"homingRange": 200,
+		"homingPower": 0.03,
+		"height": 6,
+		"width": 6,
+		"hitEffect": "blastExplosion",
+		"despawnEffect": "blastExplosion",
+		"frontColor": "FFFFFFF",
+		"backColor": "FF8142FF"
+	}
 }
 
 osmium: {
-    "type": "BasicBulletType",
-    "sprite": "xguctt-impactor",
-    "speed": 7,
-    "spin": 0.6,
-    "height": 45,
-    "width": 45,
-    "shrinkY": 0,
-    "shrinkX": 0,
-    "trailRotation": true,
-    "layer": 103,
-    "hitSoundVolume": 3,
-    "hitSound": "explosionbig",
-    "hitShake": 27,
-    "damage": 25000,
-    "knockback": 70,
-    "lifetime": 70,
+	"type": "BasicBulletType",
+	"sprite": "xguctt-impactor",
+	"speed": 7,
+	"spin": 0.6,
+	"height": 45,
+	"width": 45,
+	"shrinkY": 0,
+	"shrinkX": 0,
+	"trailRotation": true,
+	"layer": 103,
+	"hitSoundVolume": 3,
+	"hitSound": "explosionbig",
+	"hitShake": 27,
+	"damage": 25000,
+	"knockback": 70,
+	"lifetime": 70,
 	"frontColor": "E2F5FBFF",
-    "backColor": "FFFFFFF",
-    "trailChance": 0.4,
-    "trailEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "length": 23,
-    "lifetime": 50,
-    "layer": 100,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -40,
-    "offset": 15,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 8,
-    "sizeTo": 0
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 3,
-    "length": 14,
-    "lifetime": 35,
-    "layer": 100,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -20,
-    "offset": 15,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 5,
-    "sizeTo": 0
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 5,
-    "length": 23,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -20,
-    "layer": 100,
-    "lightColor": "E2F5FBFF",
-    "offset": 5,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF",
-    "sizeFrom": 4,
-    "sizeTo": 0
-    }
-    ]
-	},
-    "trailColor": "363636FF",
-    "trailParam": 5,
-    "trailLength": 12,
-    "trailWidth": 4.5,
-    "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 135,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 95,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "length": 80,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 6,
-    "sizeTo": 0,
-    "lightColor": "E2F5FBFF",
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBd8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 25,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 90,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 20,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 90,
-    "baseLength": 10,
-    "lifetime": 80,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 12.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 70,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 9.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "length": 125,
-    "cone": -360,
-    "lenFrom": 9,
-    "lenTo": 0,
-    "strokeFrom": 3.3,
-    "strokeTo": 0,
-    "lightColor": "E2F5FBFF",
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    }
-    ]    
-    },
-    "despawnEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 135,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 95,
-    "interp": "circleOut",
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "length": 80,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 6,
-    "sizeTo": 0,
-    "lightColor": "E2F5FBFF",
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBd8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 25,
-    "length": 100,
-    "baseLength": 10,
-    "lifetime": 90,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 20,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 90,
-    "baseLength": 10,
-    "lifetime": 80,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 12.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    { 
-    "type": "ParticleEffect",
-    "lightOpacity": 0,
-    "particles": 20,
-    "length": 70,
-    "baseLength": 10,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "sizeFrom": 9.5,
-    "sizeTo": 0,
-    "colorFrom": "3F3F3FFF",
-    "colorTo": "3F3F3FD8"
-    },
-    {    
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "length": 125,
-    "cone": -360,
-    "lenFrom": 9,
-    "lenTo": 0,
-    "strokeFrom": 3.3,
-    "strokeTo": 0,
-    "lightColor": "E2F5FBFF",
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBFF"
-    }
-    ]    
-    },
-    "splashDamage": 1500,
-    "splashDamageRadius": 50,
-    "fragBullets": 13,
+	"backColor": "FFFFFFF",
+	"trailChance": 0.4,
+	
+	trailEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 5,
+			"length": 23,
+			"lifetime": 50,
+			"layer": 100,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -40,
+			"offset": 15,
+			"colorFrom": "7e7e7e",
+			"colorTo": "7e7e7eD8",
+			"sizeFrom": 8,
+			"sizeTo": 0
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 3,
+			"length": 14,
+			"lifetime": 35,
+			"layer": 100,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -20,
+			"offset": 15,
+			"colorFrom": "7e7e7e",
+			"colorTo": "7e7e7eD8",
+			"sizeFrom": 5,
+			"sizeTo": 0
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 5,
+			"length": 23,
+			"lifetime": 20,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"cone": -20,
+			"layer": 100,
+			"lightColor": "E2F5FBFF",
+			"offset": 5,
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF",
+			"sizeFrom": 4,
+			"sizeTo": 0
+		}
+		]
+	}
+	
+	"trailColor": "363636FF",
+	"trailParam": 5,
+	"trailLength": 12,
+	"trailWidth": 4.5,
+	
+	hitEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 135,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 95,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 20,
+			"length": 80,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 6,
+			"sizeTo": 0,
+			"lightColor": "E2F5FBFF",
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBd8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 25,
+			"length": 100,
+			"baseLength": 10,
+			"lifetime": 90,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 20,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 90,
+			"baseLength": 10,
+			"lifetime": 80,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 12.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{ 
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 70,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 9.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 20,
+			"lifetime": 30,
+			"length": 125,
+			"cone": -360,
+			"lenFrom": 9,
+			"lenTo": 0,
+			"strokeFrom": 3.3,
+			"strokeTo": 0,
+			"lightColor": "E2F5FBFF",
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		}
+		]    
+	}
+	
+	despawnEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 135,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 95,
+			"interp": "circleOut",
+			"strokeFrom": 3,
+			"strokeTo": 0,
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 20,
+			"length": 80,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 6,
+			"sizeTo": 0,
+			"lightColor": "E2F5FBFF",
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBd8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 25,
+			"length": 100,
+			"baseLength": 10,
+			"lifetime": 90,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 20,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 90,
+			"baseLength": 10,
+			"lifetime": 80,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 12.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{ 
+			"type": "ParticleEffect",
+			"lightOpacity": 0,
+			"particles": 20,
+			"length": 70,
+			"baseLength": 10,
+			"lifetime": 70,
+			"interp": "circleOut",
+			"sizeInterp": "pow5In",
+			"sizeFrom": 9.5,
+			"sizeTo": 0,
+			"colorFrom": "3F3F3FFF",
+			"colorTo": "3F3F3FD8"
+		},
+		{    
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 20,
+			"lifetime": 30,
+			"length": 125,
+			"cone": -360,
+			"lenFrom": 9,
+			"lenTo": 0,
+			"strokeFrom": 3.3,
+			"strokeTo": 0,
+			"lightColor": "E2F5FBFF",
+			"colorFrom": "E2F5FBFF",
+			"colorTo": "E2F5FBFF"
+		}
+		]    
+	}
+	
+	"splashDamage": 1500,
+	"splashDamageRadius": 50,
+	"fragBullets": 13,
 	"fragCone": 360,
-	"fragBullet": {
-    "type": "basicBulletType",
-    "speed": 5,
-    "damage": 200,
-    "trailRotation": true,
-    "trailChance": 1,
-    "trailEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 20,
-    "lifetime": 30,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "E2F5FBFF",
-    "colorTo": "E2F5FBd8",
-    "sizeFrom": 3,
-    "sizeTo": 1
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 0,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 5,
-    "sizeTo": 1
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 10,
-    "length": 20,
-    "lifetime": 50,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": -10,
-    "offset": 5,
-    "colorFrom": "7e7e7e",
-    "colorTo": "7e7e7eD8",
-    "sizeFrom": 2,
-    "sizeTo": 0
-    }
-    ]
-    },
-    "lifetime": 60,
-    "splashDamage": 800,
-    "splashDamageRadius": 60,
-    "homingRange": 200,
-    "homingPower": 0.03,
-    "height": 6,
-    "width": 6,
-    "hitEffect": "flakExplosion",
-    "despawnEffect": "flakExplosion",
-    "frontColor": "E2F5FBFF",
-    "backColor": "C9DDE3FF"
-    }
+	
+	fragBullet: {
+		"type": "basicBulletType",
+		"speed": 5,
+		"damage": 200,
+		"trailRotation": true,
+		"trailChance": 1,
+		
+		trailEffect: {
+			type: multiEffect
+			
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 20,
+				"lifetime": 30,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "E2F5FBFF",
+				"colorTo": "E2F5FBd8",
+				"sizeFrom": 3,
+				"sizeTo": 1
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 0,
+				"lifetime": 40,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "7e7e7e",
+				"colorTo": "7e7e7eD8",
+				"sizeFrom": 5,
+				"sizeTo": 1
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 10,
+				"length": 20,
+				"lifetime": 50,
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": -10,
+				"offset": 5,
+				"colorFrom": "7e7e7e",
+				"colorTo": "7e7e7eD8",
+				"sizeFrom": 2,
+				"sizeTo": 0
+			}
+			]
+		}
+		
+		"lifetime": 60,
+		"splashDamage": 800,
+		"splashDamageRadius": 60,
+		"homingRange": 200,
+		"homingPower": 0.03,
+		"height": 6,
+		"width": 6,
+		"hitEffect": "flakExplosion",
+		"despawnEffect": "flakExplosion",
+		"frontColor": "E2F5FBFF",
+		"backColor": "C9DDE3FF"
+	}
 }
 }
 
 category: turret
 
 requirements: [
-    graphite/600
-    silicon/700
-    jupiteium/900
-    volcanite/1200
-    xanium/1000
-    primal-red/2000
+	graphite/600
+	silicon/700
+	jupiteium/900
+	volcanite/1200
+	xanium/1000
+	primal-red/2000
 ]
 
 research: {
-  requirements: [
-      graphite/600
-      silicon/700
-      jupiteium/900
-      volcanite/1200
-      xanium/1000
-      primal-red/2000
-  ]
-  parent: r-demon
+	requirements: [
+		graphite/600
+		silicon/700
+		jupiteium/900
+		volcanite/1200
+		xanium/1000
+		primal-red/2000
+	]
+	parent: r-demon
 }

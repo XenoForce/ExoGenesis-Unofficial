@@ -1,0 +1,48 @@
+type: GenericCrafter
+
+size: 4
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "E3EFF2FF"
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"itemCapacity": 30,
+"craftTime": 250,
+"craftEffect": "shockwave",
+"updateEffect": "none",
+
+consumes: {
+	power: 3
+	items: {
+		items: [
+			silicon/3
+			titanium/2
+			lead/6
+		]
+	}
+}
+
+outputItem: osmium/6
+
+category: crafting
+
+requirements: [
+	silicon/160
+	titanium/260
+	lead/140
+	graphite/230
+]
+
+research: {
+	requirements: [
+		silicon/160
+		titanium/260
+		lead/140
+		graphite/230
+	]
+	parent: crystallizer
+}

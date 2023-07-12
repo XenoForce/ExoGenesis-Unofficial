@@ -1,0 +1,50 @@
+type: GenericCrafter
+
+size: 4
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "DEFFCFFF"
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"itemCapacity": 80,
+"craftTime": 220,
+"craftEffect": "plasticburn",
+"updateEffect": "none",
+
+consumes: {
+	power: 5
+	items: {
+		items: [
+			titanium/7
+			silicon/9
+			plastanium/5
+		]
+	}
+}
+
+outputItem: xanium/7
+
+category: crafting
+
+requirements: [
+	xanium/230
+	plastanium/470
+	titanium/400
+	silicon/400
+	osmium/330
+]
+
+research: {
+	requirements: [
+		xanium/230
+		plastanium/470
+		titanium/400
+		silicon/400
+		osmium/330
+	]
+	parent: xanium-crucible
+}

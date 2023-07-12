@@ -29,7 +29,7 @@ consumes: {
 }
 
 outputItems: [
-	genvunite/1"
+	genvunite/1
 	silicon/3
 ]
 

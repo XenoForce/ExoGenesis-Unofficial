@@ -16,7 +16,7 @@ drawer: {
 "updateEffect": "none",
 
 consumes: {
-	power: 2,
+	power: 2
 	items: {
 		items: [
 			titanium/3
@@ -27,9 +27,7 @@ consumes: {
 	}
 }
 
-outputItem: {
-	alpha-yellow/2
-}
+outputItem: alpha-yellow/2
 
 category: crafting
 

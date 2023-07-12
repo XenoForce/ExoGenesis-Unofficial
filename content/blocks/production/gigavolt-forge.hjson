@@ -61,5 +61,5 @@ research: {
 		alpha-yellow/500
 		titanium/300
 	]
-	parent: alloy-kiln
+	parent: alpha-forge
 }

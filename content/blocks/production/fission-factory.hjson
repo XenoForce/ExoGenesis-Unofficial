@@ -81,5 +81,5 @@ research: {
 		surge-alloy/200
 		phase-fabric/100
 	]
-	parent: alloy-kiln
+	parent: fission-furnace
 }

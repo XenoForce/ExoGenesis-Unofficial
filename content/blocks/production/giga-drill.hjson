@@ -1,0 +1,47 @@
+type: Drill
+
+size: 9
+
+"tier": 14,
+"rotateSpeed": 4,
+"drillTime": 30,
+"liquidBoostIntensity": 3,
+"drawRim": true,
+"warmupSpeed": 0.0478,
+"updateEffectChance": 0.05,
+"hasLiquids": true,
+"liquidCapacity": 25,
+"expanded": true,
+
+consumes: {
+	power: 15
+	liquid: {
+		"liquid": "water",
+		"amount": 0.31,
+		"booster": true,
+		"optional": true
+	}
+}
+
+category: production
+
+requirements: [
+	silicon/850
+	titanium/370
+	plastanium/750
+	osmium/500
+	surge-alloy/285
+	jupiteium/558
+]
+
+research: {
+	requirements: [
+		silicon/850
+		titanium/370
+		plastanium/750
+		osmium/500
+		surge-alloy/285
+		jupiteium/558
+	]
+	parent: exogenesis-production
+}

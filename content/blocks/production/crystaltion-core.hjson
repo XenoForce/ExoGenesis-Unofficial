@@ -1,0 +1,53 @@
+type: GenericCrafter
+
+size: 5
+
+drawer: {
+	"type": "DrawRotator",
+	"spinSpeed": 3.5
+}
+
+"hasPower": true,
+"hasItems": true,
+"itemCapacity": 30,
+"craftTime": 80,
+"updateEffectChance": 0.03,
+"craftEffect": "healWave",
+"updateEffect": "greenCloud",
+"ambientSound": "techloop",
+"ambientSoundVolume": 1,
+
+consumes: {
+	power: 6
+	items: {
+		items: [
+			lead/3
+			graphite/8
+			titanium/5
+		]
+	}
+}
+
+outputItems: [
+	genvunite/1"
+	silicon/3
+]
+
+category: crafting
+
+requirements: [
+	silicon/450
+	titanium/400
+	plastanium/200
+	thorium/300
+]
+
+research: {
+	requirements: [
+		silicon/450
+		titanium/400
+		plastanium/200
+		thorium/300
+	]
+	parent: crystallizer
+}

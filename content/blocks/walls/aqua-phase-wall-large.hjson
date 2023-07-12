@@ -1,0 +1,24 @@
+type: Wall
+
+size: 2
+
+health: 2400
+
+"flashHit": true,
+"placeableLiquid": "true",
+"chanceDeflect": 10,
+
+category: defense
+
+requirements: [
+	metaglass/24
+	phase-fabric/24
+]
+
+research: {
+	requirements: [
+		metaglass/24
+		phase-fabric/24
+	]
+	parent: aqua-phase-wall
+}

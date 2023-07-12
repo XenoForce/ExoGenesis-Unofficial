@@ -5,7 +5,7 @@ size: 6
 health: 4680
 
 "range": 300,
-"reloadTime": 100,
+"reload": 100,
 "shootSound": "bang",
 "rotateSpeed": 2.5,
 "shootShake": 4.5,

@@ -6,7 +6,7 @@ health: 400
 
 "targetGround": "true",
 "targetAir": "false",
-"reloadTime": 70,
+"reload": 70,
 "range": 500,
 "shootEffect": "none",
 "recoilAmount": 4,

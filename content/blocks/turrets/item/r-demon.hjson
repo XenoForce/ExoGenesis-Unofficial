@@ -4,7 +4,7 @@ size: 3
 
 health: 2650
 
-"reloadTime": 300,
+"reload": 300,
 "range": 300,
 "restitution": 0.2,
 "minRange": 70,

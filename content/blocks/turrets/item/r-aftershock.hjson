@@ -6,7 +6,7 @@ health: 8660
 
 "accurateDelay": true,
 "range": 500,
-"reloadTime" : 650,
+"reload" : 650,
 "shots" : 1,
 "shootLength": 18,
 "cooldown": 0.0076,

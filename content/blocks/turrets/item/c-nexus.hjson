@@ -10,7 +10,7 @@ shoot: {
 }
 
 "shootShake": 3,
-"reloadTime": 8.25,
+"reload": 8.25,
 "range": 430,
 "shootLength": 9,
 "recoilAmount": 4.2,

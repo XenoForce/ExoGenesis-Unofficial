@@ -4,7 +4,7 @@ size: 5
 
 health: 1600
 
-"reloadTime": 80,
+"reload": 80,
 "cooldown": 0.030,
 "range": 380,
 "recoilAmount": 3,

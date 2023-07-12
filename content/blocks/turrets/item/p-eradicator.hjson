@@ -5,7 +5,7 @@ size: 8
 health: 2500
 
 "targetAir": false,
-"reloadTime": 56,
+"reload": 56,
 "coolantMultiplier": 0.3,
 "restitution" : 0.08, 
 "range": 520,

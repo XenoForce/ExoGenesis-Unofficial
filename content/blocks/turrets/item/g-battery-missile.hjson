@@ -4,7 +4,7 @@ size: 3
 
 health: 1200
 
-"reloadTime": 17,
+"reload": 17,
 "range": 265,
 "recoilAmount": 2,
 "shootShake": 4,

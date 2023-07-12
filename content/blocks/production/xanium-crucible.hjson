@@ -1,0 +1,49 @@
+type: GenericCrafter
+
+size: 3
+
+drawer: {
+	"type": "DrawSmelter",
+	"flameColor": "DEFFCFFF"
+}
+
+"hasPower": true,
+"hasLiquids": false,
+"hasItems": true,
+"itemCapacity": 30,
+"craftTime": 120,
+"craftEffect": "heal",
+"updateEffect": "none",
+
+consumes: {
+	power: 2
+	items: {
+		items: [
+			silicon/8
+			plastanium/5
+		]
+	}
+}
+
+outputItem: xanium/4
+
+category: crafting
+
+requirements: [
+	silicon/360
+	lead/380
+	metaglass/140
+	osmium/160
+	plastanium/300
+]
+
+research: {
+	requirements: [
+		silicon/360
+		lead/380
+		metaglass/140
+		osmium/160
+		plastanium/300
+	]
+	parent: plastanium-press
+}

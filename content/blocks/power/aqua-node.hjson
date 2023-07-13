@@ -1,0 +1,31 @@
+type: PowerNode
+name: "Aqua Node"
+
+size: 1
+
+health: 50
+
+"laserRange": 6,
+"maxNodes": 10,
+"hasPower": true,
+
+"placeableLiquid": "true",
+"laserColor1": "FFFFFFFF",
+"laserColor2": "CCE7FFFF",
+
+category: power
+
+requirements: [
+	copper/1
+	lead/3
+	metaglass/2
+]
+
+research: {
+	requirements: [
+		copper/1
+		lead/3
+		metaglass/2
+	]
+	parent: root-node-for-exogenesis
+}

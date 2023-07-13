@@ -1,18 +1,30 @@
-{
-	"type": "CoreBlock",
-	"health": 9870,
-	"size": 7,
-	"itemCapacity": 16500,
-	"unitCapModifier": 60,
-    "researchCostMultiplier": 0.06,
-    "unitType": "asgard",
-	"requirements": [
-		{ "item": "silicon", "amount": 4200 },
-		{ "item": "surge-alloy", "amount": 3000 },
-		{ "item": "thorium", "amount": 4900},
-		{ "item": "osmium", "amount": 6000 },
-		{ "item": "alpha-yellow", "amount": 1000 }
-	],
-  "category": "effect",
-	"research": "core-nucleus"
+type: CoreBlock
+
+size: 7
+
+health: 9870
+
+itemCapacity: 16500
+unitCapModifier: 60
+unitType: asgard
+
+category: effect
+
+requirements: [
+	silicon/4200
+	surge-alloy/3000
+	thorium/4900
+	osmium/6000
+	alpha-yellow/1000
+]
+
+research: {
+	requirements: [
+		silicon/4200
+		surge-alloy/3000
+		thorium/4900
+		osmium/6000
+		alpha-yellow/1000
+	]
+	parent: exogenesis-distribution
 }

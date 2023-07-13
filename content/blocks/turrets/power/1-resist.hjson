@@ -15,20 +15,20 @@ statusDuration: 10
 status: electrified
 
 consumes: {
-  power: 1.2
+	power: 1.2
 }
 
 category: turret
 
 requirements: [
-  lead/40
-  silicon/60
+	lead/40
+	silicon/60
 ]
 
 research: {
-  requirements: [
-    lead/40
-    silicon/60
-  ]
-  parent: exogenesis-turrets
+	requirements: [
+		lead/40
+		silicon/60
+	]
+	parent: exogenesis-turrets
 }

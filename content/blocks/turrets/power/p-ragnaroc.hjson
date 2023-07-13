@@ -4,7 +4,7 @@ size: 16
 
 health: 8789000
 
-"reloadTime": 740,
+"reload": 740,
 "recoilAmount": 0,
 "rotateSpeed": 0,
 "canOverdrive": false,

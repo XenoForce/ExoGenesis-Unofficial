@@ -4,7 +4,7 @@ size: 7
 
 health: 6880
 
-"reloadTime": 450,
+"reload": 450,
 "range": 400,
 "maxAmmo": 36,
 "heatColor": "A9D8FFFF",

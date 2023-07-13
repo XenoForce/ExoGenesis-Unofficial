@@ -7,7 +7,7 @@ health: 1600
 "range": 130,
 "cooldown": 0.0076,
 "restitution": 0.08,
-"reloadTime" : 6,
+"reload" : 6,
 "heatColor": "FFFFFFF",
 
 shoot: {

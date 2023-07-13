@@ -4,7 +4,7 @@ size: 4
 
 health: 880
 
-"reloadTime": 10,
+"reload": 10,
 "range": 200,
 "inaccuracy": 2,
 "alternate": true,

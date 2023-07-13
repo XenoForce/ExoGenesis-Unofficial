@@ -109,5 +109,5 @@ research: {
 		silicon/730
 		osmium/530
 	]
-	parent: alloy-smelter
+	parent: cold-plasma-fuser
 }

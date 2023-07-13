@@ -64,8 +64,13 @@ weapons: [
 	"rotateSpeed": 4,
 	"recoil": 2,
 	"inaccuracy": 10,
-	"shots": 5,
-	"shotDelay": 3,
+	
+	shoot: {
+		type: ShootPattern
+		shots: 5
+		shotDelay: 3
+	}
+	
 	"shootSound": "shoot",
 	
 	bullet: {
@@ -155,9 +160,15 @@ weapons: [
 	"ejectEffect": "none",
 	"rotateSpeed": 2.5,
 	"rotate": true,
-	"alternate": false,
 	"mirror": true,
-	"shots": 1,
+	
+	shoot: {
+		type: ShootAlternate
+		barrels: 2
+		spread: 0
+		shots: 1
+	}
+	
 	"reload": 175,
 	"recoil": 2,
 	"shake": 0.1,
@@ -223,14 +234,19 @@ weapons: [
 	"top": false,
 	"shake": 15,
 	"shootY": 1,
-	"shots": 1,
+	
+	shoot: {
+		type: ShootPattern
+		shots: 1
+		firstShotDelay: 140
+	}
+	
 	"shootStatus": "unmoving",
 	"shootStatusDuration": 180,
 	"reload": 800,
 	"heatColor": "FFFFFFF",
 	"cooldownTime": 500,
 	"recoil": 0,
-	"firstShotDelay": 140,
 	"soundPitchMin": 1,
 	"chargeSound": "lasercharge",
 	"shootSound": "coolplasmaboom",
@@ -696,12 +712,17 @@ weapons: [
 	"y": 1,
 	"mirror": false,
 	"top": false,
-	"shots": 28,
+	
+	shoot: {
+		type: ShootPattern
+		shots: 28
+		firstShotDelay: 140
+	}
+	
 	"velocityRnd": 0.4,
 	"inaccuracy": 360,
 	"reload": 800,
 	"recoil": 0,
-	"firstShotDelay": 140,
 	"soundPitchMin": 1,
 	"chargeSound": "none",
 	"shootSound": "laserblast",

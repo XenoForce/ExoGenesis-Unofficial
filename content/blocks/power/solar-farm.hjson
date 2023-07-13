@@ -1,0 +1,28 @@
+type: SolarGenerator
+name: "Solar Farm"
+
+size: 8
+
+"hasPower": true,
+"powerProduction": 24,
+
+category: power
+
+requirements: [
+	metaglass/200
+	phase-fabric/70
+	titanium/220
+	surge-alloy/40
+	silicon/380
+]
+
+research: {
+	requirements: [
+		metaglass/200
+		phase-fabric/70
+		titanium/220
+		surge-alloy/40
+		silicon/380
+	]
+	parent: aqua-node-large
+}

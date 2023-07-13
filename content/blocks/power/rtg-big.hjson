@@ -1,0 +1,42 @@
+type: DecayGenerator
+
+size: 4
+health: 400
+
+localizedName: "Mass Decay Plant"
+description: "A larger version of the RTG. As much power as 4 RTGs."
+
+"powerProduction": 18.5,
+"hasItems": true,
+"itemCapacity": 10,
+"itemDuration": 740,
+"randomlyExplode": false,
+"generateEffect": "smelt",
+"heatColor": "FF7141FF",
+"minItemEfficiency": 0.1,
+
+"loopSound": "hum",
+"loopSoundVolume": 1.95,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.25
+
+category: power
+
+requirements: [
+	thorium/500
+	silicon/690
+	phase-fabric/670
+	osmium/780
+	plastanium/600
+]
+
+research: {
+	requirements: [
+		thorium/500
+		silicon/690
+		phase-fabric/670
+		osmium/780
+		plastanium/600
+	]
+	parent: solar-farm
+}

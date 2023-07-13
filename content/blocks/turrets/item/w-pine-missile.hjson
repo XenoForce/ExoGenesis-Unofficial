@@ -12,7 +12,7 @@ health: 85
 "targetGround": true,
 "rotateSpeed": 3,
 "inaccuracy": 5,
-"recoilAmount": 2,
+"recoil": 2,
 "restitution": 0.8,
 "shootSound": "missile",
 

@@ -9,11 +9,11 @@ shoot: {
 	shots: 1
 }
 
-"shootShake": 3,
+"shake": 3,
 "reload": 8.25,
 "range": 430,
 "shootLength": 9,
-"recoilAmount": 4.2,
+"recoil": 4.2,
 "restitution": 0.1,
 "coolantMultiplier": 0.84,
 "ammoUseEffect": "casing2",

@@ -9,8 +9,8 @@ size: 7
 "restitution": 0.1,
 "ammoUseEffect": "casing4",
 "range": 500,
-"recoilAmount": 8,
-"shootShake": 10,
+"recoil": 8,
+"shake": 10,
 
 consumes: {
 	liquid: {

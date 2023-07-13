@@ -15,7 +15,7 @@ health: 1500
 "targetGround" : true,
 "shootCone" : 0.01,
 "spread" : 0.5,
-"recoilAmount" : 3,
+"recoil" : 3,
 "restitution" : 0.6,
 "rotateSpeed": 3,
 "shootSound" : "shotgun",

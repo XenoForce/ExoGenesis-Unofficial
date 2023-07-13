@@ -17,10 +17,10 @@ shoot: {
 "targetAir" : true, 
 "targetGround" : true,
 "shootCone" : 1,
-"recoilAmount" : 7,
+"recoil" : 7,
 "restitution" : 0.08, 
 "rotateSpeed": 0.96,
-"shootShake" : 20,
+"shake" : 20,
 "shootSound" : "plasmaboom",
 
 ammoTypes: {

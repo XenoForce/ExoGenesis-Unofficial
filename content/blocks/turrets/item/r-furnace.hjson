@@ -8,7 +8,7 @@ health: 4680
 "reload": 100,
 "shootSound": "bang",
 "rotateSpeed": 2.5,
-"shootShake": 4.5,
+"shake": 4.5,
 "cooldown": 0.03,
 
 consumes: {
@@ -27,7 +27,7 @@ consumes: {
 "targetAir": true,
 "targetGround": true,
 "heatColor": "5B4CB0FF",
-"recoilAmount": 3,
+"recoil": 3,
 
 ammoTypes: {
 thorium: {

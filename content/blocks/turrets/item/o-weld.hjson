@@ -16,10 +16,10 @@ shoot: {
 "restitution": 0.2,
 "shootCone": 20,
 "maxAmmo": "60",
-"shootShake": 4,
+"shake": 4,
 "shootSound": "shotgun",
 "ammoPerShot": 2,
-"recoilAmount": 2,
+"recoil": 2,
 
 ammoTypes: {
 surge-alloy: {

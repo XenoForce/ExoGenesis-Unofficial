@@ -7,8 +7,8 @@ health: 520
 "targetAir": false,
 "reload": 86,
 "range": 400,
-"recoilAmount": 3,
-"shootShake": 4,
+"recoil": 3,
+"shake": 4,
 "ammoUseEffect": "casing1",
 "inaccuracy": 0,
 

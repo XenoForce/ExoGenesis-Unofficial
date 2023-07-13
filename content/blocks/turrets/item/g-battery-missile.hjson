@@ -6,8 +6,8 @@ health: 1200
 
 "reload": 17,
 "range": 265,
-"recoilAmount": 2,
-"shootShake": 4,
+"recoil": 2,
+"shake": 4,
 "ammoUseEffect": "none",
 "inaccuracy": 10,
 "shots": 7,

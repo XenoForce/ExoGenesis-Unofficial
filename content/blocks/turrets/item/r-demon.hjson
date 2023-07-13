@@ -10,7 +10,7 @@ health: 2650
 "minRange": 70,
 "maxAmmo": "50",
 "rotateSpeed": 2,
-"shootShake": 4,
+"shake": 4,
 
 shoot: {
 	type: ShootPattern
@@ -19,7 +19,7 @@ shoot: {
 
 "shootSound": "artillery",
 "ammoPerShot": 10,
-"recoilAmount": 5,
+"recoil": 5,
 
 ammoTypes: {
 coal: {

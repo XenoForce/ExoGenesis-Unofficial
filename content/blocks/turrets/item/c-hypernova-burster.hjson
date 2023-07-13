@@ -17,7 +17,7 @@ shoot: {
 }
 
 "targetAir" : true, 
-"recoilAmount": 8,
+"recoil": 8,
 "targetGround" : true,
 "update": true,
 "hasPower": true,
@@ -198,7 +198,7 @@ chargeBeginEffect: {
 }
 
 "chargeEffect": "none",
-"shootShake": 4,
+"shake": 4,
 "restitution" : 0.04, 
 "cooldown": 0.045,
 "rotateSpeed": 0.7,

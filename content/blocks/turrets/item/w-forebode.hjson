@@ -11,7 +11,7 @@ health: 900
 "targetAir": true,
 "targetGround": true,
 "rotateSpeed": 4,
-"recoilAmount": 7,
+"recoil": 7,
 "restitution": 0.2,
 "shootSound": "railgun",
 "ammoUseEffect": "casing3",

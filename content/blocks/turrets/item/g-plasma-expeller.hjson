@@ -11,7 +11,7 @@ health: 1600
 "targetAir" : false, 
 "targetGround" : true,
 "shootCone" : 20,
-"recoilAmount" : 0,
+"recoil" : 0,
 "inaccuracy" : 12, 
 "rotateSpeed": 4.0,
 "shootSound": "flame2",

@@ -12,11 +12,11 @@ health: 1600
 "targetAir" : true, 
 "targetGround" : true,
 
-"recoilAmount" : 3,
+"recoil" : 3,
 "heatColor": "CB1D1DFF",
 "restitution" : 0.08, 
 "rotateSpeed": 4.0,
-"shootShake" : 4,
+"shake" : 4,
 
 "shootSound" : "plasmaboom",
 "chargeTime" : 30,

@@ -18,10 +18,10 @@ shoot: {
 "heatColor": "A9D8FFFF",
 "maxAmmo": "48",
 "rotateSpeed": 1,
-"shootShake": 4,
+"shake": 4,
 "shootSound": "artillery",
 "ammoPerShot": 6,
-"recoilAmount": 5,
+"recoil": 5,
 
 ammoTypes: {
 omega-blue: {

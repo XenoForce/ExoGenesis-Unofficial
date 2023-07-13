@@ -17,7 +17,7 @@ shoot: {
 
 "targetAir": true,
 "targetGround": true,
-"recoilAmount": 0.7,
+"recoil": 0.7,
 "restitution": 0.06,
 "rotateSpeed": 3,
 "shootSound": "shoot",

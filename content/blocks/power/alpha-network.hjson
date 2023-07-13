@@ -1,0 +1,29 @@
+type: PowerNode
+name: "Alpha Network"
+
+size: 4
+
+health: 500
+
+"laserRange": 46,
+"maxNodes": 20,
+"hasPower": true,
+
+category: power
+
+requirements: [
+	phase-fabric/200
+	osmium/200
+	silicon/370
+	surge-alloy/150
+]
+
+research: {
+	requirements: [
+		phase-fabric/200
+		osmium/200
+		silicon/370
+		surge-alloy/150
+	]
+	parent: aqua-node-large
+}

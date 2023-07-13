@@ -1,35 +1,50 @@
-{
-    "type": "MendProjector",
-    "health": 960,
-    "size": 3,
-    "hasPower": true,
-    "baseColor": "84f491",
-    "phaseColor": "ffd59e",
-    "healPercent": 44,
-    "phaseBoost": 6,
-    "range": 155,
-    "reload": 350,
-    "phaseRangeBoost": 30,
-    "itemCapacity": 20,
-    "useTime": 450,
-    "consumes": {
-		"power": 18,
-		"items": {
-			"items": [
-				{"item": "phase-fabric", "amount": 2}
-			],
-			"booster": true,
-			"optional": true
-		}
-    },
-    "requirements": [
-		{"item": "lead", "amount": 200},
-		{"item": "osmium", "amount": 440},
-		{"item": "xanium", "amount": 340},
-		{"item": "titanium", "amount": 400},
-		{"item": "silicon", "amount": 380},
-		{"item": "phase-fabric", "amount": 610}
-    ],
-    "category": "effect",
-    "research": "aqua-node-large"
+type: MendProjector
+
+size: 3
+
+health: 960
+
+"hasPower": true,
+"baseColor": "84f491",
+"phaseColor": "ffd59e",
+"healPercent": 44,
+"phaseBoost": 6,
+"range": 155,
+"reload": 350,
+"phaseRangeBoost": 30,
+"itemCapacity": 20,
+"useTime": 450,
+
+consumes: {
+	power: 18
+	items: {
+		items: [
+			phase-fabric/2
+		]
+		"booster": true,
+		"optional": true
+	}
+}
+
+category: effect
+
+requirements: [
+	lead/200
+	osmium/440
+	xanium/340
+	titanium/400
+	silicon/380
+	phase-fabric/610
+]
+
+research: {
+	requirements: [
+		lead/200
+		osmium/440
+		xanium/340
+		titanium/400
+		silicon/380
+		phase-fabric/610
+	]
+	parent: aqua-node-large
 }

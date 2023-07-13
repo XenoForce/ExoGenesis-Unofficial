@@ -377,8 +377,14 @@ weapons: [
 	"y": -30,
 	"top": true,
 	"mirror": true,
-	"alternate": true,
-	"shots": 4,
+	
+	shoot: {
+		type: ShootAlternate
+		barrels: 2
+		spread: 0
+		shots: 4
+	}
+	
 	"rotate": true,
 	"rotateSpeed": 2,
 	"inaccuracy": 8,
@@ -535,8 +541,14 @@ weapons: [
 	"y": 7,
 	"top": true,
 	"mirror": true,
-	"alternate": true,
-	"shots": 4,
+	
+	shoot: {
+		type: ShootAlternate
+		barrels: 2
+		spread: 0
+		shots: 4
+	}
+	
 	"rotate": true,
 	"rotateSpeed": 2,
 	"inaccuracy": 8,

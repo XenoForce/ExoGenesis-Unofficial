@@ -1,0 +1,59 @@
+type: ImpactReactor
+
+size: 5
+
+health: 1200
+
+"itemCapacity": 200,
+"lightColor": "EBFFFEFF",
+"baseExplosiveness": 900000,
+"explosionRadius": 400,
+"explosionDamage": 100000,
+"hasLiquids": true,
+"powerProduction": 570,
+"warmupSpeed": 0.001,
+"itemDuration": 380,
+"plasma1": "EC905AFF",
+"plasma2": "D99F6BFF",
+
+"loopSound": "pulse",
+"loopSoundVolume": 1.0,
+"ambientSound": "hum",
+"ambientSoundVolume": 0.85
+
+consumes: {
+	power: 80.0
+	items: {
+		items: [
+			jupiteium/15
+			azuid-azide/15
+		]
+	}
+	liquid: {
+		"liquid": "cryofluid",
+		"amount": 1.0
+	}
+}
+
+category: power
+
+requirements: [
+	lead/1000
+	osmium/700
+	silicon/1290
+	metaglass/470
+	titanium/780
+	alpha-yellow/600
+]
+
+research: {
+	requirements: [
+		lead/1000
+		osmium/700
+		silicon/1290
+		metaglass/470
+		titanium/780
+		alpha-yellow/600
+	]
+	parent: rtg-big
+}

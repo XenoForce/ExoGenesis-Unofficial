@@ -2,10 +2,12 @@ type: GenericCrafter
 
 size: 3
 
+/*
 drawer: {
-	"type": "DrawSmelter",
+	"type": "DrawFlame",
 	"flameColor": "F3E979FF"
 }
+*/
 
 "hasPower": true,
 "hasLiquids": false,

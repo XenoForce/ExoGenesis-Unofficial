@@ -44,5 +44,5 @@ research: {
 		surge-alloy/285
 		jupiteium/558
 	]
-	parent: exogenesis-production
+	parent: exogenesis-distribution
 }

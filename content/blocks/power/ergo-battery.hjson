@@ -1,0 +1,39 @@
+type: Battery
+
+size: 6
+
+health: 5000
+
+"absorbLasers": true,
+"fullLightColor": "79F2EEFF",
+"emptyLightColor": "565666FF",
+"hasPower": true,
+"outputsPower": true,
+"consumesPower": true,
+"hasItems": false,
+"canOverdrive": false,
+
+consumes: {
+	powerBuffered: 837000
+}
+
+category: power
+
+requirements: [
+	titanium/280
+	silicon/480
+	alpha-yellow/290
+	phase-fabric/520
+	surge-alloy/100
+]
+
+research: {
+	requirements: [
+		titanium/280
+		silicon/480
+		alpha-yellow/290
+		phase-fabric/520
+		surge-alloy/100
+	]
+	parent: aqua-node-large
+}

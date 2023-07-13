@@ -1,0 +1,30 @@
+type: PowerNode
+name: "Large Aqua Node"
+
+size: 2
+
+health: 100
+
+"laserRange": 9.5,
+"maxNodes": 15,
+"hasPower": true,
+"placeableLiquid": "true",
+
+category: power
+
+requirements: [
+	titanium/5
+	lead/10
+	silicon/3
+	metaglass/6
+]
+
+research: {
+	requirements: [
+		titanium/5
+		lead/10
+		silicon/3
+		metaglass/6
+	]
+	parent: aqua-node
+}

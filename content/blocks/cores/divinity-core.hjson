@@ -4,7 +4,7 @@ size: 7
 
 health: 9870
 
-itemCapacity: 16500
+itemCapacity: 16000
 unitCapModifier: 60
 unitType: asgard
 

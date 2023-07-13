@@ -61,5 +61,5 @@ research: {
 		silicon/730
 		osmium/530
 	]
-	parent: alloy-kiln
+	parent: primal-forge
 }

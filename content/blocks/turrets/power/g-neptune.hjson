@@ -13,7 +13,7 @@ health: 10000
 "shootLength": 14,
 "rotateSpeed": 1.5,
 "shots" : 2,
-"recoilAmount" : 6,
+"recoil" : 6,
 "restitution" : 0.08, 
 "shootSound": "plasmaboom",
 // "powerUse" : 25,

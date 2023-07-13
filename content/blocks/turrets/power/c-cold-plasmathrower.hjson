@@ -21,7 +21,7 @@ shoot: {
 "targetAir" : false, 
 "targetGround" : true,
 "shootCone" : 20,
-"recoilAmount" : 0,
+"recoil" : 0,
 "inaccuracy" : 5, 
 "rotateSpeed": 4.0,
 "shootSound": "flame",

@@ -3,7 +3,7 @@ type: PowerTurret
 size: 3
 
 "reload": 240,
-"recoilAmount": 0,
+"recoil": 0,
 "rotateSpeed": 0,
 "shootCone": 360,
 "range": 200,

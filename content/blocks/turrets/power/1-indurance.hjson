@@ -8,7 +8,7 @@ health: 1000
 "reload": 15,
 "shootSound": "laser",
 "rotateSpeed": 4,
-"shootShake": 1.5,
+"shake": 1.5,
 "cooldown": 0.03,
 
 shoot: {
@@ -20,7 +20,7 @@ shoot: {
 
 "targetAir": true,
 "targetGround": true,
-"recoilAmount": 4,
+"recoil": 4,
 // "powerUse": 17,
 
 shootType: {

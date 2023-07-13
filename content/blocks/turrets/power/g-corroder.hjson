@@ -26,7 +26,7 @@ shootEffect: {
 "targetAir" : true, 
 "spread": 16,
 "targetGround" : true,
-"recoilAmount" : 1.5,
+"recoil" : 1.5,
 "restitution" : 0.04, 
 "rotateSpeed": 3,
 "shootSound" : "laser",

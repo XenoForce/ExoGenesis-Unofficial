@@ -17,8 +17,8 @@ shoot: {
 	shots: 3
 }
 
-"recoilAmount": 4,
-"shootShake": 2.5,
+"recoil": 4,
+"shake": 2.5,
 "restitution": 0.05,
 "shootSound": "shotgun",
 "hasPower": true,

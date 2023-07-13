@@ -16,7 +16,7 @@ health: 1500
 "rotateSpeed": 3,
 "inaccuracy": 1,
 "shots" : 2,
-"recoilAmount" : 3,
+"recoil" : 3,
 "restitution" : 0.08, 
 "shootSound" : "laser",
 

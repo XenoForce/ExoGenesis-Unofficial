@@ -6,7 +6,7 @@ health: 3180
 
 "reload": 25,
 "range": 300,
-"recoilAmount": 0,
+"recoil": 0,
 
 shoot: {
 	type: ShootSpread

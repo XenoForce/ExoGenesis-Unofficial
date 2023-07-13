@@ -18,8 +18,8 @@ shoot: {
 	shots: 3
 }
 
-"recoilAmount": 2,
-"shootShake": 1,
+"recoil": 2,
+"shake": 1,
 "restitution": 0.05,
 "shootSound": "laser",
 "hasPower": true,

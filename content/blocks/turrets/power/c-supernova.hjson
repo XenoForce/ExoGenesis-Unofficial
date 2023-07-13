@@ -16,7 +16,7 @@ shoot: {
 }
 
 "targetAir" : true, 
-"recoilAmount": 5,
+"recoil": 5,
 "targetGround" : true,
 // "powerUse": 63,
 "update": true,
@@ -181,7 +181,7 @@ chargeEffect: {
 	]
 }
 
-"shootShake": 4,
+"shake": 4,
 "shootSound": "coolplasmaboom",
 "rotateSpeed": 4,
 

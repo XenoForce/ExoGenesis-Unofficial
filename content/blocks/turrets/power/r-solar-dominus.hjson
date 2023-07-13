@@ -29,10 +29,10 @@ shootEffect: {
 	"colorTo": "DE4136Dff"
 }
 
-"shootShake": 6,
+"shake": 6,
 "shootSound": "plasmaboom",
 "cooldown": 0.02,
-"recoilAmount" : 6.5,
+"recoil" : 6.5,
 "restitution" : 0.04, 
 "rotateSpeed": 1.5,
 

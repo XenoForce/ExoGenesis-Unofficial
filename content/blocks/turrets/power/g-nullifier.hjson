@@ -10,10 +10,10 @@ health: 5660
 "targetAir" : true,
 "targetGround" : true,
 "shootCone" : 1,
-"recoilAmount" : 4,
+"recoil" : 4,
 "restitution" : 0.08, 
 "rotateSpeed": 2,
-"shootShake" : 2,
+"shake" : 2,
 
 "shootSound": "plasmaboom",
 "chargeSound": "lasercharge",

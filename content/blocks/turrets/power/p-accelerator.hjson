@@ -12,7 +12,7 @@ health: 240
 "targetAir": true,
 "targetGround": true,
 "shootCone": 0.08,
-"recoilAmount": 1,
+"recoil": 1,
 "restitution": 0.06,
 "rotateSpeed": 5,
 "shootSound": "sap",

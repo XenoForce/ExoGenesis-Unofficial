@@ -17,10 +17,10 @@ shoot: {
 	spread: 0
 }
 
-"recoilAmount": 4,
+"recoil": 4,
 "restitution": 0.08, 
 "rotateSpeed": 6,
-"shootShake": 2,
+"shake": 2,
 
 "shootSound": "laser",
 "chargeSound": "lasercharge2",

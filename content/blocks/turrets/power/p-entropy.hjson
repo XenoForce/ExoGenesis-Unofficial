@@ -9,7 +9,7 @@ health: 1000
 "shootSound": "railgun",
 "rotateSpeed": 2,
 "shootCone": 20,
-"shootShake": 1.5,
+"shake": 1.5,
 "cooldown": 0.00789,
 "spread": 4,
 "alternate": true,
@@ -17,7 +17,7 @@ health: 1000
 "targetAir": true,
 "targetGround": true,
 "heatColor": "A170F4FF",
-"recoilAmount": 3,
+"recoil": 3,
 // "powerUse": 27,
 
 shootType: {

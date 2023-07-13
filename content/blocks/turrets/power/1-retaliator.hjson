@@ -9,8 +9,8 @@ health: 8660
 "range": 350,
 "shootCone": 30,
 "inaccuracy": 10,
-"recoilAmount": 4,
-"shootShake": 4,
+"recoil": 4,
+"shake": 4,
 "velocityInaccuracy": 0.3,
 
 shoot: {

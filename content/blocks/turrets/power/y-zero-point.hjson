@@ -12,10 +12,10 @@ health: 4360
 "targetGround" : false,
 "shootCone" : 1,
 "spread" : 2,
-"recoilAmount": 4,
+"recoil": 4,
 "restitution": 0.08, 
 "rotateSpeed": 6,
-"shootShake": 2,
+"shake": 2,
 
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
@@ -24,26 +24,26 @@ health: 4360
 "chargeEffects" : 1,
 
 chargeEffect: {
-  "type": "WaveEffect",
-  "lifetime": 75,
-  "sizeFrom": 50,
-  "sizeTo": 0,
-  "strokeFrom": 4,
-  "strokeTo": 0,
-  "colorFrom": "FFDA45FF",
-  "colorTo": "F3E979FF"
+	"type": "WaveEffect",
+	"lifetime": 75,
+	"sizeFrom": 50,
+	"sizeTo": 0,
+	"strokeFrom": 4,
+	"strokeTo": 0,
+	"colorFrom": "FFDA45FF",
+	"colorTo": "F3E979FF"
 }
 
 chargeBeginEffect: {
-  "type": "ParticleEffect",
-  "particles": 1,
-  "sizeFrom": 1,
-  "sizeTo": 7,
-  "length": 0,
-  "lifetime": 90,
-  "colorFrom": "FFDA45FF",
-  "colorTo": "F3E979FF",
-  "cone": 360
+	"type": "ParticleEffect",
+	"particles": 1,
+	"sizeFrom": 1,
+	"sizeTo": 7,
+	"length": 0,
+	"lifetime": 90,
+	"colorFrom": "FFDA45FF",
+	"colorTo": "F3E979FF",
+	"cone": 360
 }
 
 // "powerUse" : 30,
@@ -70,65 +70,65 @@ shootType: {
 	"shrinkY": 0,
 	"spin" : 6,
 	
-    hitEffect: {
-        type: multiEffect
-        
-        effects: [
-        {
-          "type": "ParticleEffect",
-          "line": true,
-          "particles": 35,
-          "lifetime": 30,
-          "offset": 60,
-          "length": 115,
-          "cone": -360,
-          "strokeFrom": 0, 
-          "strokeTo": 3.5,
-          "sizeFrom": 15,
-          "sizeTo": 0,
-          "colorFrom": "F3E979FF",
-          "colorTo": "FFDA45FF"
-        }
-        
-        {
-          "type": "ParticleEffect",
-          "particles": 35,
-          "offset": 30,
-          "sizeFrom": 4,
-          "sizeTo": 0,
-          "length": 105,
-          "lifetime": 30,
-          "colorFrom": "F3E979FF",
-          "colorTo": "FFDA45FF",
-          "cone": 360
-        }
-        
-        {
-          "type": "ParticleEffect",
-          "particles": 45,
-          "sizeFrom": 7,
-          "sizeTo": 0.30,
-          "offset": 60,
-          "length": 100,
-          "lifetime": 100,
-          "colorFrom": "F3E979FF",
-          "colorTo": "FFDA45FF",
-          "cone": 360
-        }
-        
-        {
-          "type": "WaveEffect",
-          "lifetime": 40,
-          "sizeFrom": 0,
-          "sizeTo": 100,
-          "strokeFrom": 8,
-          "strokeTo": 0.25,
-          "colorFrom": "F3E979FF",
-          "colorTo": "FFDA45FF"
-        }
-        ]
-    }
-    
+	hitEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 35,
+			"lifetime": 30,
+			"offset": 60,
+			"length": 115,
+			"cone": -360,
+			"strokeFrom": 0, 
+			"strokeTo": 3.5,
+			"sizeFrom": 15,
+			"sizeTo": 0,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF"
+		}
+		
+		{
+			"type": "ParticleEffect",
+			"particles": 35,
+			"offset": 30,
+			"sizeFrom": 4,
+			"sizeTo": 0,
+			"length": 105,
+			"lifetime": 30,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF",
+			"cone": 360
+		}
+		
+		{
+			"type": "ParticleEffect",
+			"particles": 45,
+			"sizeFrom": 7,
+			"sizeTo": 0.30,
+			"offset": 60,
+			"length": 100,
+			"lifetime": 100,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF",
+			"cone": 360
+		}
+		
+		{
+			"type": "WaveEffect",
+			"lifetime": 40,
+			"sizeFrom": 0,
+			"sizeTo": 100,
+			"strokeFrom": 8,
+			"strokeTo": 0.25,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF"
+		}
+		]
+	}
+	
 	"despawnEffect": "instBomb",
 	"shootEffect": "flakExplosion",
 	"pierce": false,
@@ -139,12 +139,12 @@ shootType: {
 	
 	fragBullet: {
 		"type": "flakBulletType",
-	    "explodeRange": 20,
+		"explodeRange": 20,
 		"sprite" : "large-bomb",
 		"status" : "melting",
 		"collidesTiles": false,
-        "collidesGround": false,
-        "collidesAir": true,
+		"collidesGround": false,
+		"collidesAir": true,
 		"height" : 15,
 		"width" : 15,
 		"shrinkX": 0,
@@ -165,20 +165,20 @@ shootType: {
 category: turret
 
 requirements: [
-    silicon/1000
-    plastanium/900
-    oltuxium/650
-    surge-alloy/500
-    alpha-yellow/400
+	silicon/1000
+	plastanium/900
+	oltuxium/650
+	surge-alloy/500
+	alpha-yellow/400
 ]
 
 research: {
-  requirements: [
-      silicon/1000
-      plastanium/900
-      oltuxium/650
-      surge-alloy/500
-      alpha-yellow/400
-  ]
-  parent: y-vanguard
+	requirements: [
+		silicon/1000
+		plastanium/900
+		oltuxium/650
+		surge-alloy/500
+		alpha-yellow/400
+	]
+	parent: y-vanguard
 }

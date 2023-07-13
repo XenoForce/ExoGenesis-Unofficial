@@ -11,7 +11,7 @@ health: 2500
 "inaccuracy": 0,
 "reload": 15,
 "shots": 6,
-"recoilAmount": 4,
+"recoil": 4,
 "shootCone": 2,
 "rotateSpeed": 5,
 "range": 200,

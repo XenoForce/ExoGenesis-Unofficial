@@ -12,7 +12,7 @@ health: 840
 "targetAir": true,
 "targetGround": false,
 "shootCone": 20,
-"recoilAmount": 1,
+"recoil": 1,
 "restitution": 0.06,
 "rotateSpeed": 3,
 "hasPower": true,

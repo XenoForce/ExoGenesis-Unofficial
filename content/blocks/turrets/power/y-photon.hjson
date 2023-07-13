@@ -17,7 +17,7 @@ shoot: {
 "targetAir": true,
 "targetGround": true,
 "shootCone": 20,
-"recoilAmount": 1,
+"recoil": 1,
 "restitution": 0.06,
 "rotateSpeed": 2,
 "shootSound": "lasershoot",

@@ -32,7 +32,7 @@ shootEffect: {
 "targetAir" : true, 
 "targetGround" : true,
 "shootCone" : 30,
-"recoilAmount" : 1.5,
+"recoil" : 1.5,
 "restitution" : 0.04, 
 "rotateSpeed": 5,
 "shootSound" : "laser",

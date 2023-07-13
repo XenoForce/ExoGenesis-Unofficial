@@ -213,10 +213,10 @@ shootEffect: {
 	"colorTo": "FFC1BBFF"
 }
 
-"shootShake": 7,
+"shake": 7,
 "firingMoveFract": 0.35,
 "shootDuration": 460,
-"recoilAmount" : 9,
+"recoil" : 9,
 "restitution" : 0.04, 
 "rotateSpeed": 1.5,
 

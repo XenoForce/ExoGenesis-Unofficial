@@ -16,8 +16,8 @@ health: 8789000
 "update": true,
 "hasPower": true,
 "shootSound": "bigLaserShoot",
-"shootShake": 6,
-"recoilAmount" : 3.5,
+"shake": 6,
+"recoil" : 3.5,
 "restitution" : 0.04, 
 "rotateSpeed": 1,
 

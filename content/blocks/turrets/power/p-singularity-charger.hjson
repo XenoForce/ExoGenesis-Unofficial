@@ -5,7 +5,7 @@ size: 7
 health: 1000
 
 "range": 500,
-"reloadTime": 240,
+"reload": 240,
 "shootSound": "bigLaserShoot",
 "rotateSpeed": 2,
 "shootCone": 20,

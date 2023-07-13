@@ -4,7 +4,7 @@ size: 13
 
 health: 1000000
 
-"reloadTime": 300,
+"reload": 300,
 "range": 550,
 
 shoot: {

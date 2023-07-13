@@ -4,7 +4,7 @@ size: 1
 
 health: 240
 
-"reloadTime": 60,
+"reload": 60,
 "shots": 1,
 "targetAir": true,
 "targetGround": true,

@@ -5,7 +5,7 @@ size: 2
 health: 300
 
 "range": 120,
-"reloadTime": 120,
+"reload": 120,
 "shootSound": "laser",
 "rotateSpeed": 3,
 "shootShake": 2.5,

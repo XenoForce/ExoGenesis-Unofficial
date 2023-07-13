@@ -4,7 +4,7 @@ size: 3
 
 health: 840
 
-"reloadTime": 60,
+"reload": 60,
 "range": 340,
 "burstSpacing": 3,
 "inaccuracy": 7,

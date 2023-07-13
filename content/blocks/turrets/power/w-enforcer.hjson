@@ -6,7 +6,7 @@ health: 360
 
 "range": 500,
 "burstSpacing": 10,
-"reloadTime": 25,
+"reload": 25,
 "inaccuracy": 3,
 "targetAir": true,
 "targetGround": true,

@@ -5,7 +5,7 @@ size: 3
 health: 1100
 
 "range": 160,
-"reloadTime": 3.5,
+"reload": 3.5,
 
 shoot: {
 	type: ShootPattern

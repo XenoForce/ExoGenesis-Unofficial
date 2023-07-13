@@ -2,7 +2,7 @@ type: powerTurret
 
 size: 6
 
-"reloadTime": 5,
+"reload": 5,
 "recoilAmount": 0,
 "rotateSpeed": 20,
 "range": 280,

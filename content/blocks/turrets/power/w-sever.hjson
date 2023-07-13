@@ -5,7 +5,7 @@ size: 3
 health: 1200
 
 "shootLength": 10,
-"reloadTime": 7,
+"reload": 7,
 "rotateSpeed": 8,
 "range": 220,
 "bulletDamage": 50,

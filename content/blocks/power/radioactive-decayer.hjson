@@ -1,0 +1,47 @@
+type: DecayGenerator
+
+size: 4
+
+health: 400
+
+"powerProduction": 24.5,
+"hasItems": true,
+"itemCapacity": 15,
+"itemDuration": 240,
+"randomlyExplode": false,
+"ambientSound": "hum",
+"ambientSoundVolume": 0.25
+"heatColor": "FFFFFF",
+"minItemEfficiency": 0.1,
+
+generateEffect: {
+	"type": "WaveEffect",
+	"lifetime": 15,
+	"sizeFrom": 0,
+	"sizeTo": 35,
+	"strokeFrom": 4,
+	"strokeTo": 0,
+	"colorFrom": "73FFAEFF",
+	"colorTo": "57D993FF"
+}
+
+category: power
+
+requirements: [
+	thorium/600
+	plastanium/500
+	gamma-green/450
+	silicon/600
+	phase-fabric/300
+]
+
+research: {
+	requirements: [
+		thorium/600
+		plastanium/500
+		gamma-green/450
+		silicon/600
+		phase-fabric/300
+	]
+	parent: rtg-big
+}

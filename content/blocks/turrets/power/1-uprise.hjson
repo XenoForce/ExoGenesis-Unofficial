@@ -41,7 +41,6 @@ consumes: {
 "loopSound": "beam",
 "loopSoundVolume": 4.5,
 "recoil": 4.5,
-"restitution": 0.04, 
 "rotateSpeed": 2,
 
 shootType: {
@@ -74,9 +73,8 @@ shootType: {
 	"pierce": true,
 	"incendSpread": 7,
 	"incendAmount": 4,
-	"spaceMag": 45,
 	"fragBullets": 1,
-	"fragCone": 360,
+	"fragAngle": 360,
 	
 	fragBullet: {
 		"type": "ShrapnelBulletType",

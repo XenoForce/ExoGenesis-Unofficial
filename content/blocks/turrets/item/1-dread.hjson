@@ -6,7 +6,6 @@ health: 8660
 
 "coolantMultiplier": 1.5,
 "reload": 10,
-"restitution": 0.1,
 "unitSort": "strongest",
 "ammoUseEffect": "casing3",
 "ammoEjectBack": 2,
@@ -980,7 +979,7 @@ voltirium-alloy: {
 	"lifetime": 55,
 	"fragBullets": 10,
 	"fragVelocityMin": 4,
-	"fragCone": 360,
+	"fragSpread": 36,
 	"fragLifeMin": 0.3,
 	
 	fragBullet: {

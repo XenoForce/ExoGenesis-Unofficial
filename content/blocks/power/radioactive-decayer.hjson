@@ -1,4 +1,4 @@
-type: DecayGenerator
+type: ConsumeGenerator
 
 size: 4
 

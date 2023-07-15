@@ -1,4 +1,4 @@
-type: DecayGenerator
+type: ConsumeGenerator
 
 size: 4
 health: 400
@@ -11,7 +11,7 @@ description: "A larger version of the RTG. As much power as 4 RTGs."
 "itemCapacity": 10,
 "itemDuration": 740,
 "randomlyExplode": false,
-"generateEffect": "smelt",
+"generateEffect": "smeltsmoke",
 "heatColor": "FF7141FF",
 "minItemEfficiency": 0.1,
 

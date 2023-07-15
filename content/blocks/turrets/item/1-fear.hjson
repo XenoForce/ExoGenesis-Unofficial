@@ -9,7 +9,6 @@ health: 8660
 "ammoPerShot": 20,
 "reload": 500,
 "range": 1000,
-"shootLength": 8,
 // "coolantUsage": 3,
 "ammoUseEffect": "casing3Double",
 "coolantMultiplier": 0.5,
@@ -18,8 +17,7 @@ health: 8660
 "recoil": 6,
 "shake": 6,
 "inaccuracy": 0,
-"restitution" : 0.009,
-"cooldown": 0.009,
+"cooldownTime": 200,
 "rotateSpeed": 1,
 "shootSound": "railgun",
 
@@ -134,8 +132,6 @@ surge-alloy: {
 	"speed": 1000,
 	"hitShake": 7,
 	"trailSpacing": 30,
-	"colorFrom": "F3E979FF",
-	"colorTo": "D99F6BFF",
 	"hitColor": "F3E979FF",
 	
 	trailEffect: { 
@@ -348,8 +344,6 @@ phase-fabric: {
 	"speed": 1000,
 	"hitShake": 7,
 	"trailSpacing": 30,
-	"frontColor":"FFD59EFF" ,
-	"backColor": "F19583FF",
 	"hitColor": "F3E979FF",
 	
 	trailEffect: {

@@ -5,8 +5,7 @@ size: 4
 health: 1600
 
 "range": 130,
-"cooldown": 0.0076,
-"restitution": 0.08,
+"cooldownTime": 3,
 "reload" : 6,
 "heatColor": "FFFFFFF",
 
@@ -16,7 +15,6 @@ shoot: {
 	shots: 4
 }
 
-"shootLength": 3,
 "hasPower": true,
 "targetAir" : false, 
 "targetGround" : true,

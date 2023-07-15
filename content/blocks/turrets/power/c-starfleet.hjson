@@ -12,13 +12,11 @@ shoot: {
 	shots: 4
 }
 
-"burstSpacing": 3,
 "targetAir": true,
 "targetGround": true,
 "xRand": 12,
 "shootCone": 0.08,
 "recoil": 0.7,
-"restitution": 0.06,
 "rotateSpeed": 5,
 "shootSound": "laser",
 // "powerUse": 1,

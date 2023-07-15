@@ -13,7 +13,6 @@ shoot: {
 	shots: 1
 }
 
-"restitution": 0.2,
 "shootCone": 15,
 "heatColor": "A9D8FFFF",
 "maxAmmo": "48",

@@ -6,7 +6,7 @@ size: 6
 "destructible": true,
 
 drawer: {
-	"type": "DrawSmelter",
+	"type": "DrawFlame",
 	"flameRadius": 6.0,
 	"flameRadiusIn": 2.0,
 	"flameRadiusScl": 6.5,

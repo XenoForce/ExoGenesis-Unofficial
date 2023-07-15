@@ -11,7 +11,6 @@ health: 8660
 "inaccuracy": 10,
 "recoil": 4,
 "shake": 4,
-"velocityInaccuracy": 0.3,
 
 shoot: {
 	type: ShootSpread
@@ -29,7 +28,6 @@ shootType: {
 	"shootEffect": "greenBomb",
 	"lifetime": 70,
 	"healPercent": 0.1,
-	"scaleVelocity": true,
 	"frontColor": "FFFFFFF",
 	"backColor": "84F491FF",
 	"trailColor": "84F491ff",

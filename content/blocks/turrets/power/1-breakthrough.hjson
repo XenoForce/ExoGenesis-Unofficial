@@ -47,7 +47,7 @@ shootType: {
 	"status": "melting",
 	"statusDuration": 50,
 	"oscScl": 2,
-	"oscMag":	3,
+	"oscMag": 3,
 	
 	hitEffect: {
 		"type": "ParticleEffect",
@@ -67,9 +67,8 @@ shootType: {
 	"incendChance": 10,
 	"incendSpread": 7,
 	"incendAmount": 4,
-	"spaceMag": 40,
 	"fragBullets": 1,
-	"fragCone": 360,
+	"fragAngle": 360,
 	
 	fragBullet: {
 		"type": "ShrapnelBulletType",

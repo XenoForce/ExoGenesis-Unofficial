@@ -6,9 +6,7 @@ health: 480
 
 "reload": 98,
 "range": 230,
-"shootLength": 3,
 "inaccuracy": 7,
-"burstSpacing": 4,
 
 shoot: {
 	type: ShootSpread
@@ -36,7 +34,6 @@ shootEffect: {
 }
 
 "recoil": 4.5,
-"restitution": 0.04,
 "rotateSpeed": 3,
 "shootSound": "laser",
 

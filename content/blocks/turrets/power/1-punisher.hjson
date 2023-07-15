@@ -5,7 +5,6 @@ size: 3
 health: 360
 
 "range": 200,
-"shootLength": 5,
 "reload": 125,
 "targetAir": true,
 "targetGround": true,
@@ -19,7 +18,6 @@ shoot: {
 
 "recoil": 4,
 "shake": 2.5,
-"restitution": 0.05,
 "shootSound": "shotgun",
 "hasPower": true,
 // "powerUse": 14,
@@ -43,7 +41,7 @@ shootType: {
 	"frontColor": "FFFFFFF",
 	"backColor": "84F491FF",
 	"fragBullets": 1,
-	"fragCone": 1,
+	"fragSpread": 1,
 	"fragVelocityMin": 0.9,
 	"fragVelocityMax": 0.9,
 	

@@ -17,7 +17,6 @@ shoot: {
 "targetAir": true, 
 "targetGround": true,
 "shootCone": 25,
-"restitution": 0.04, 
 "rotateSpeed": 3,
 "shootSound": "laser",
 
@@ -139,7 +138,7 @@ shootType: {
 		}
 		
 		"fragBullets": 1,
-		"fragCone": 1, 
+		"fragSpread": 1,
 		"fragVelocityMin": 1,
 		
 		fragBullet: {

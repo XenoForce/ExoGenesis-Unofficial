@@ -1,0 +1,84 @@
+type: flying
+flying: true
+
+health: 2520
+armor: 6
+
+speed: 1
+
+research: {
+	requirements: [
+		astrolite/1200
+		lead/2340
+		silicon/1400
+	]
+	parent: "gacrux"
+}
+
+"lowAltitude": true,
+"accel": 0.1,
+"drag": 0.02,
+"hitSize": 29,
+"engineOffset": 14,
+"engineSize": 3.4,
+"range": 150,
+"targetAir": true,
+
+// "commandLimit": 12,
+
+"faceTarget": true,
+
+weapons: [
+{
+	"name": "nubaB-weapon",
+	"shootCone": 15,
+	"alternate": true,
+	"mirror": true,
+	"rotate": true,
+	"rotateSpeed": 2,
+	"top": true,
+	"x": 6.5,
+	"y": 4.8,
+	"reload": 30,
+	"shootSound": "laser",
+	"recoil": 1,
+	
+	shoot: {
+		type: ShootPattern
+		shots: 1
+	}
+	
+	"shootY": 6,
+	
+	bullet: {
+		"type": "LaserBulletType",
+		"length": 150,
+		"width": 15,
+		"damage": 80,
+		"hitEffect": "lightningShoot",
+		"shootEffect": "lightningShoot",
+		"colors": ["66B1FFFF", "A9D8FFFF", "FFFFFF"],
+		"sideAngle": 25,
+		"sideLength": 0,
+		"sideWidth": 0
+	}
+}
+]
+
+abilities: [
+{
+	"type": "UnitSpawnAbility",
+	"spawnX": -7,
+	"spawnY": -6.5,
+	"unit": "drone-B",
+	"spawnTime": 300
+}
+
+{
+	"type": "UnitSpawnAbility",
+	"spawnX": 7,
+	"spawnY": -6.5,
+	"unit": "drone-A",
+	"spawnTime": 280
+}
+]

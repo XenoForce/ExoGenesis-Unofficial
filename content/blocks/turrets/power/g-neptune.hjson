@@ -10,11 +10,14 @@ health: 10000
 "targetAir" : false, 
 "targetGround" : true, 
 "placeableLiquid": "true",
-"shootLength": 14,
 "rotateSpeed": 1.5,
-"shots" : 2,
+
+shoot: {
+	type: ShootPattern
+	shots: 2
+}
+
 "recoil" : 6,
-"restitution" : 0.08, 
 "shootSound": "plasmaboom",
 // "powerUse" : 25,
 "hasPower" : true,

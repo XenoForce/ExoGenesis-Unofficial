@@ -6,13 +6,17 @@ health: 140
 
 "reload": 70,
 "range": 70,
-"shots": 1,
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 1
+}
+
 "targetAir": false,
 "targetGround": true,
 "shootCone": 10,
-"spread": 1,
 "recoil": 3,
-"restitution": 0.5,
 "rotateSpeed": 5,
 "shootSound": "shotgun",
 "ammoPerShot": 2,

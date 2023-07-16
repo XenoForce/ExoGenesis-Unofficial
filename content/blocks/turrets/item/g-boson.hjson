@@ -17,7 +17,6 @@ shoot: {
 "targetGround": true,
 "shootCone": 0.08,
 "recoil": 0.7,
-"restitution": 0.06,
 "rotateSpeed": 3,
 "shootSound": "laser",
 
@@ -61,7 +60,7 @@ valvanite: {
 	"frontColor": "FFFFFFF",
 	"backColor": "73FFAEFF",
 	"fragBullets": 3,
-	"fragCone": 30,
+	"fragSpread": 120,
 	
 	fragBullet: {
 		"type": "BasicBulletType",

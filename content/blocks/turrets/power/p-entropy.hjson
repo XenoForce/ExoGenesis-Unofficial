@@ -10,10 +10,15 @@ health: 1000
 "rotateSpeed": 2,
 "shootCone": 20,
 "shake": 1.5,
-"cooldown": 0.00789,
-"spread": 4,
-"alternate": true,
-"shots": 3,
+"cooldownTime": 9,
+
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	spread: 4
+	shots: 3
+}
+
 "targetAir": true,
 "targetGround": true,
 "heatColor": "A170F4FF",

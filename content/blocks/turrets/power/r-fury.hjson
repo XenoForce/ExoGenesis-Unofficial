@@ -9,7 +9,7 @@ health: 300
 "shootSound": "laser",
 "rotateSpeed": 3,
 "shake": 2.5,
-"cooldown": 0.03,
+"cooldownTime": 60,
 
 shoot: {
 	type: ShootPattern

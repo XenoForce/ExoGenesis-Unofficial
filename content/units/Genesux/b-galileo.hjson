@@ -27,7 +27,7 @@ research: {
 "legCount": 4,
 "legMoveSpace": 1.2,
 "legLength": 10,
-"visualElevation": 0.67,
+"shadowElevation": 0.67,
 "allowLegStep": true,
 "hovering": true,
 

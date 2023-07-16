@@ -43,7 +43,7 @@ research: {
 "rippleScale": 10.5,
 "legSplashDamage": 476,
 "legSplashRange": 46,
-"visualElevation": 0.75,
+"shadowElevation": 0.75,
 "allowLegStep": true,
 "hovering": true,
 

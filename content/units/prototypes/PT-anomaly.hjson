@@ -48,7 +48,7 @@ research: {
 "legSplashDamage": 56,
 "legSplashRange": 30,
 
-"visualElevation": 0.75,
+"shadowElevation": 0.75,
 "allowLegStep": true,
 "hovering": true,
 

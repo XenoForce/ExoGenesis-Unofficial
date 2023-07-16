@@ -27,7 +27,7 @@
 	"legCount": 4,
 	"legMoveSpace": 1.6,
 	"legLength": 15,
-	"visualElevation": 0.65,
+	"shadowElevation": 0.65,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [

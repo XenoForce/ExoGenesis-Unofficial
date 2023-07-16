@@ -37,7 +37,7 @@
             
     "hovering": true,
     "allowLegStep": true,
-    "visualElevation": 0.65,
+    "shadowElevation": 0.65,
 
     "weapons": [
     {

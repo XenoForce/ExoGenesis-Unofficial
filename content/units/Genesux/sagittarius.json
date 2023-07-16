@@ -28,7 +28,7 @@
     "rippleScale": 10.5,
     "legSplashDamage": 886,
     "legSplashRange": 88,
-	"visualElevation": 2,
+	"shadowElevation": 2,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [

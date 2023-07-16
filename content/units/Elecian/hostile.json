@@ -37,7 +37,7 @@
 	"landShake": 1,
     "legSplashDamage": 32,
     "legSplashRange": 30,
-	"visualElevation": 0.65,
+	"shadowElevation": 0.65,
 	"allowLegStep": true,
 	"hovering": true,
 	"immunities": [

@@ -29,7 +29,6 @@ updateEffect: {
 "heatColor": "73FFAEFF",
 "hardnessDrillMultiplier": 10,
 "liquidCapacity": 25,
-"expanded": true,
 
 consumes: {
 	power: 15

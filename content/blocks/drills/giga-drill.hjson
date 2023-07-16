@@ -12,7 +12,6 @@ size: 9
 "updateEffectChance": 0.05,
 "hasLiquids": true,
 "liquidCapacity": 25,
-"expanded": true,
 
 consumes: {
 	power: 15

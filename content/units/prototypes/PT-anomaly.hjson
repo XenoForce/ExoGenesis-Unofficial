@@ -72,7 +72,12 @@ weapons: [
   "cooldownTime": 40,
   "heatColor": "A9D8FFFF",
   "rotate": true,
-  "shots": 1,
+  
+  shoot: {
+    type: ShootPattern
+    shots: 1
+  }
+  
   "shootSound": "laser",
   "shootCone": 45,
   
@@ -188,11 +193,16 @@ weapons: [
   "shake": 1,
   "rotate": true,
   "rotateSpeed": 1,
-  "shots": 1,
+  
+  shoot: {
+    type: ShootPattern
+    shots: 1
+  }
+  
   "shootSound": "railgun",
   "shootCone": 45,
-
-  "bullet": {
+  
+  bullet: {
     "type" : "RailBulletType",
     "damage": 2570,
     "length" : 600,

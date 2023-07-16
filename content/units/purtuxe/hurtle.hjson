@@ -170,7 +170,7 @@ weapons: [
         "smokeEffect": "smokeCloud",
         "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
         "fragBullets": 1,
-        "fragCone": 360,
+        "fragSpread": 180,
         
         fragBullet: {
             "type": "ShrapnelBulletType",

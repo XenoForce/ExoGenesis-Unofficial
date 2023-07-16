@@ -60,7 +60,8 @@
 	"frontColor": "FF5845FF",
     "backColor": "DE4136FF",
     "fragBullets": 6,
-    "fragCone": 360,
+    "fragSpread": 60,
+    
 	"fragBullet": {
 	"type": "LiquidBulletType",
 	"liquid": "slag",

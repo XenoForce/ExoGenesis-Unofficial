@@ -348,7 +348,8 @@
     "colorTo": "BF92F9FF"
           },
      	"fragBullets": 7,
-     	"fragCone": 360,
+     	"fragSpread": 50,
+     	
 		"fragBullet": {
         "type": "ShrapnelBulletType",
         "serrations": 1,

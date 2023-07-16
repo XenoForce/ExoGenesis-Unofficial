@@ -488,7 +488,7 @@
   "frontColor": "ffffff",
   "backColor": "BF92F9FF",
   "fragBullets": 1,
-  "fragCone": 1,
+  "fragAngle": 1,
   "fragVelocityMin": 1,
   "fragBullet": {
   "type": "BasicBulletType",
@@ -851,7 +851,8 @@
   "frontColor": "180F2AFF",
   "backColor": "A170F4FF",
   "fragBullets":12,
-  "fragCone": 360,
+  "fragSpread": 30,
+  
   "fragBullet": {
     "type": "BasicBulletType",
     "sprite": "xguctt-armored-bullet",

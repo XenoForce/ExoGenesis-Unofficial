@@ -106,7 +106,7 @@ shootType: {
 	}
 	
 	"fragBullets": 5,
-	"fragCone": 30,
+	"fragAngle": 30,
 	
 	fragBullet: {
 		"type": "LaserBulletType",

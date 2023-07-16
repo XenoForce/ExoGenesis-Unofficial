@@ -282,7 +282,7 @@ shootType: {
 	"frontColor": "FFFFFFFF",
 	"backColor": "73FFAEFF",
 	"fragBullets": 12,
-	"fragCone": 40,
+	"fragAngle": 40,
 	
 	fragBullet: {
 		"type": "basicBulletType",

@@ -365,7 +365,7 @@ shootType: {
 	"backColor": "66B1FFFF",
 	"fragBullets":12,
 	"fragLifeMin": 0.8,
-	"fragCone": 360,
+	"fragSpread": 30,
 	
 	fragBullet: {
 		"type": "BasicBulletType",

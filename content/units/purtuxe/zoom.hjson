@@ -167,7 +167,7 @@ weapons: [
         "statusDuration": 100,
         "colors":["774ACFFF", "A170F4FF", "FFFFFF"],
         "fragBullets": 5,
-        "fragCone": 360,
+        "fragSpread": 60,
         
         fragBullet: {
             "type": "ShrapnelBulletType",

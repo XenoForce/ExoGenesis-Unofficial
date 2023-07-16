@@ -283,7 +283,7 @@ thorium: {
 	"weaveScale": 0,
 	"weaveMag": 0,
 	"fragBullets": 9,
-	"fragCone": 360,
+	"fragSpread": 40,
 	
 	fragBullet: {
 		"type": "BasicBulletType",
@@ -561,7 +561,7 @@ surge-alloy: {
 	"weaveScale": 0,
 	"weaveMag": 0,
 	"fragBullets": 5,
-	"fragCone": 70,
+	"fragAngle": 70,
 	
 	fragBullet: {
 		"type": "LaserBulletType",
@@ -853,8 +853,7 @@ primal-red: {
 	"weaveScale": 0,
 	"weaveMag": 0,
 	"fragBullets": 7,
-	"fragAngle": 10,
-	"fragCone": 60,
+	"fragAngle": 60,
 	
 	"fragBullet": {
 		"damage": 400,

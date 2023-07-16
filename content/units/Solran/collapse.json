@@ -762,7 +762,8 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF",
     "fragBullets": 12,
-    "fragCone": 360,
+    "fragCone": 30,
+    
 	"fragBullet": {
     "type": "ArtilleryBulletType",
     "hitEffect": {

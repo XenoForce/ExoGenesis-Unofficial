@@ -191,8 +191,9 @@
     "frontColor": "FFDCD8FF",
     "fragBullets": 10,
     "fragVelocityMin": 4,
-    "fragCone": 60,
+    "fragAngle": 60,
     "fragLifeMin": 0.3,
+    
 	"fragBullet": {
 	"type": "BasicBulletType",
 	"status" : "melting",

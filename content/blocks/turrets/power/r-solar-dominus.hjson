@@ -100,7 +100,6 @@ shootType: {
 	"backColor": "FF5845FF",
 	"fragBullets": 5,
 	"fragAngle": 30,
-	"fragCone": 360,
 	
 	fragBullet: {
 		"type": "BasicBulletType",
@@ -168,7 +167,6 @@ shootType: {
 		"backColor": "FF5845FF",
 		"fragBullets": 5,
 		"fragAngle": 5,
-		"fragCone": 360,
 		
 		fragBullet: {
 			"type": "BasicBulletType",

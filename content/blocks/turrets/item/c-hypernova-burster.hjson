@@ -643,7 +643,7 @@ calamity-crystal: {
 		"hitEffect": "none",
 		"despawnEffect": "none",
 		"fragBullets": 1,
-		"fragCone": 0,
+		"fragAngle": 0,
 		
 		fragBullet: {
 			"type": "basicBulletType",
@@ -928,7 +928,7 @@ calamity-crystal: {
 			"frontColor": "A9D8FFFF",
 			"backColor": "66B1FFFF",
 			"fragBullets": 5,
-			"fragCone": 360,
+			"fragSpread": 60,
 			"fragLifeMin": 0.5,
 			
 			fragBullet: {
@@ -1055,7 +1055,7 @@ calamity-crystal: {
 				"frontColor": "A9D8FFFF",
 				"backColor": "66B1FFFF",
 				"fragBullets": 6,
-				"fragCone": 360,
+				"fragSpread": 60,
 				"fragLifeMin": 0.3,
 				
 				fragBullet: {
@@ -1108,7 +1108,7 @@ calamity-crystal: {
 					"frontColor": "A9D8FFFF",
 					"backColor": "66B1FFFF",
 					"fragBullets": 1,
-					"fragCone": 1,
+					"fragAngle": 1,
 					
 					fragBullet: {
 						"type": "ShrapnelBulletType",

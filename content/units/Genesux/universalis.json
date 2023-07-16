@@ -408,8 +408,9 @@
     "hitEffect": "none",
     "despawnEffect": "none",
     "fragBullets": 2,
-	   "fragCone": -2,
-	   "fragBullet": {
+	"fragAngle": 4,
+	
+	"fragBullet": {
     "type": "LightningBulletType",
     "lightningLength": 8,
     "lightningLengthRand": 17,

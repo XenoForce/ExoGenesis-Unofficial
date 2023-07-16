@@ -306,7 +306,7 @@ graphite: {
 	"frontColor": "95ABD9FF",
 	"backColor": "FFFFFFF",
 	"fragBullets": 9,
-	"fragCone": 360,
+	"fragSpread": 40,
 	
 	fragBullet: {
 		"type": "basicBulletType",
@@ -659,8 +659,8 @@ volcanite: {
 	
 	"splashDamage": 1000,
 	"splashDamageRadius": 50,
-	"fragBullets": 13,
-	"fragCone": 360,
+	"fragBullets": 12,
+	"fragSpread": 30,
 	
 	fragBullet: {
 		"type": "basicBulletType",
@@ -1014,8 +1014,8 @@ osmium: {
 	
 	"splashDamage": 1500,
 	"splashDamageRadius": 50,
-	"fragBullets": 13,
-	"fragCone": 360,
+	"fragBullets": 12,
+	"fragSpread": 30,
 	
 	fragBullet: {
 		"type": "basicBulletType",

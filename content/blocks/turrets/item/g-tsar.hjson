@@ -218,7 +218,7 @@ phase-fabric: {
 	
 	"smokeEffect": "none",
 	"fragBullets": 3,
-	"fragCone": 40,
+	"fragAngle": 40,
 	
 	fragBullet: {
 		"type": "LaserBulletType",

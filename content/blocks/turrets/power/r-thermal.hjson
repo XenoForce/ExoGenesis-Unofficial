@@ -27,7 +27,8 @@ slag: {
 	"drag": 0.07,
 	"orbSize": 5,
 	"fragBullets": 3,
-	"fragCone": 360,
+	"fragSpread": 120,
+	
 	"fragBullet": {
 	"type": "LiquidBulletType",
 	"liquid": "slag",

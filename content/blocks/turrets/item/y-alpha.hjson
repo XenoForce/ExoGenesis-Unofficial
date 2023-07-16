@@ -116,7 +116,7 @@ plastanium: {
 	"backColor": "EDF2A8FF",
 	"fragBullets": 10,
 	"fragVelocityMin": 4,
-	"fragCone": 360,
+	"fragSpread": 36,
 	"fragLifeMin": 1,
 	
 	fragBullet: {

@@ -3,8 +3,8 @@ type: GenericCrafter
 size: 5
 
 drawer: {
-	"type": "DrawRotator",
-	"spinSpeed": 3.5
+	"type": "DrawBlurSpin",
+	"rotateSpeed": 3.5
 }
 
 "hasPower": true,

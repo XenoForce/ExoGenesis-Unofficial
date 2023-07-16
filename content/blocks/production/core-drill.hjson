@@ -2,8 +2,12 @@ type: Separator
 
 size: 9
 
+drawer: {
+	"type": "DrawBlurSpin",
+	"rotateSpeed": 4
+}
+
 "liquidCapacity": 50,
-"spinnerSpeed": 4,
 "craftTime": 4,
 "hasItems": true,
 "hasLiquids": true,

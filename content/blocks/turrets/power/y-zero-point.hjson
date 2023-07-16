@@ -13,7 +13,6 @@ health: 4360
 "shootCone" : 1,
 "spread" : 2,
 "recoil": 4,
-"restitution": 0.08, 
 "rotateSpeed": 6,
 "shake": 2,
 

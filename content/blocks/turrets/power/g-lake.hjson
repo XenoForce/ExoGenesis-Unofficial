@@ -17,7 +17,6 @@ health: 1500
 "inaccuracy": 1,
 "shots" : 2,
 "recoil" : 3,
-"restitution" : 0.08, 
 "shootSound" : "laser",
 
 // "powerUse" : 3,

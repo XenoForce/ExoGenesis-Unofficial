@@ -17,7 +17,6 @@ shoot: {
 "targetGround": true,
 "shootCone": 0.08,
 "recoil": 5,
-"restitution": 0.06,
 "rotateSpeed": 0.8,
 "shootSound": "laserblast",
 // "powerUse": 37,

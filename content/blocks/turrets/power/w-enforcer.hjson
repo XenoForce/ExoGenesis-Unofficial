@@ -20,7 +20,6 @@ shoot: {
 
 "recoil": 2,
 "shake": 1,
-"restitution": 0.05,
 "shootSound": "laser",
 "hasPower": true,
 // "powerUse": 18,

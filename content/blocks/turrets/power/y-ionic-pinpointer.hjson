@@ -15,7 +15,6 @@ health: 3180
 "shootCone" : 2,
 "spread" : 0,
 "recoil" : 1.5,
-"restitution" : 0.04, 
 "rotateSpeed": 8,
 "shootSound" : "railgun",
 

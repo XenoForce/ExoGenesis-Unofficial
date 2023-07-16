@@ -18,7 +18,6 @@ shoot: {
 "shootCone": 2,
 
 "recoil": 2,
-"restitution": 0.04,
 "rotateSpeed": 4,
 "shootSound": "laser",
 // "powerUse": 7,

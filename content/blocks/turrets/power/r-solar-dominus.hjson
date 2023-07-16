@@ -33,7 +33,6 @@ shootEffect: {
 "shootSound": "plasmaboom",
 "cooldown": 0.02,
 "recoil" : 6.5,
-"restitution" : 0.04, 
 "rotateSpeed": 1.5,
 
 shootType: {

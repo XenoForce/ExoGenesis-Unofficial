@@ -33,7 +33,6 @@ shootEffect: {
 "targetGround" : true,
 "shootCone" : 30,
 "recoil" : 1.5,
-"restitution" : 0.04, 
 "rotateSpeed": 5,
 "shootSound" : "laser",
 // "powerUse": 60,

@@ -11,7 +11,6 @@ health: 5660
 "targetGround" : true,
 "shootCone" : 1,
 "recoil" : 4,
-"restitution" : 0.08, 
 "rotateSpeed": 2,
 "shake" : 2,
 

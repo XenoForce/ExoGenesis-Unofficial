@@ -217,7 +217,6 @@ shootEffect: {
 "firingMoveFract": 0.35,
 "shootDuration": 460,
 "recoil" : 9,
-"restitution" : 0.04, 
 "rotateSpeed": 1.5,
 
 shootType: {

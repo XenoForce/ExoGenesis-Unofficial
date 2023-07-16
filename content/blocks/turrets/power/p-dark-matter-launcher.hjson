@@ -6,8 +6,11 @@ health: 880
 
 "reload": 190,
 "range": 270,
-"shots": 1,
-"shootLength": 0,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
 
 shootEffect: {
 	"type": "ParticleEffect",
@@ -87,7 +90,7 @@ shootType: {
 	
 	"smokeEffect": "smokeCloud",
 	"fragBullets": 15,
-	"fragCone": 360,
+	"fragSpread": 24,
 	
 	fragBullet: {
 		"type": "MissileBulletType",

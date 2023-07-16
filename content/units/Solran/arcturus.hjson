@@ -27,13 +27,13 @@
     "legLength": 82,
     "legBaseOffset": 28,
     "legExtension": -20,
-    "landShake": 7.1,
+    "stepShake": 2.1,
     "legSpeed": 0.7,
     "legLengthScl": 1,
     "rippleScale": 9,
     "legSplashDamage": 700,
     "legSplashRange": 95,
-    "visualElevation": 0.75,
+    "shadowElevation": 0.75,
     "allowLegStep": true,
     "hovering": true,
     
@@ -61,10 +61,10 @@
     "shocked",
     "electrified",
     "spore-slowed"
-	],
-	"weapons": [
-	{
+]
 
+weapons: [
+{
     "name": "arcturus-spiker",
     "x": 40,
     "y": 42,
@@ -72,11 +72,17 @@
     "alternate": true,
     "top": true,
     "shootCone": 20,
-    "shots": 1,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 1
+    }
+    
     "inaccuracy": 3,
     "shootSound": "laser",
     "ejectEffect": "casing1",
-    "bullet": {
+    
+    bullet: {
     "type" : "basicBulletType",
     "sprite" : "xguctt-peircer",
     "status": "melting",
@@ -129,8 +135,9 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF"
 	       }
-	    },
-     {
+}
+
+{
     "name": "arcturus-spiker",
     "x": 57,
     "y": 25,
@@ -138,11 +145,17 @@
     "alternate": true,
     "top": true,
     "shootCone": 20,
-    "shots": 1,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 1
+    }
+    
     "inaccuracy": 3,
     "shootSound": "laser",
     "ejectEffect": "casing1",
-    "bullet": {
+    
+    bullet: {
     "type" : "basicBulletType",
     "sprite" : "xguctt-peircer",
     "status": "melting",
@@ -195,8 +208,9 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF"
     }
-	    },
-     {
+}
+
+{
     "name": "arcturus-spiker",
     "x": 66,
     "y": 2,
@@ -204,11 +218,17 @@
     "alternate": true,
     "top": true,
     "shootCone": 20,
-    "shots": 1,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 1
+    }
+    
     "inaccuracy": 3,
     "shootSound": "laser",
     "ejectEffect": "casing1",
-    "bullet": {
+    
+    bullet: {
     "type" : "basicBulletType",
     "sprite" : "xguctt-peircer",
     "status": "melting",
@@ -261,14 +281,20 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF"
 	 }
-	 },
-     {
+}
+
+{
     "name": "arcturus-annihilater",
     "reload": 60,
     "alternate": true,
     "top": false,
-    "shots": 3,
-    "shotDelay": 8,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 3
+		shotDelay: 8
+    }
+    
     "inaccuracy": 6,
     "mirror": true,
     "heatColor": "FF5845FF",
@@ -283,7 +309,8 @@
     "rotate": false,
     "shootSound": "jupiterShoot",
     "shootCone": 45,
-    "bullet": {
+    
+    bullet: {
     "type": "BasicBulletType",
 	"sprite" : "xguctt-arcturus-bullet",
 	"damage": 5500,	
@@ -488,15 +515,21 @@
     "frontColor": "FFFFFFF",
     "backColor": "FF5845FF"
     }
-    },
-    {
+}
+
+{
     "name": "arcturus-heavy-artillery",
     "y": -25,
     "x": 45,
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 4,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 4
+    }
+    
     "inaccuracy": 10,
     "velocityRnd": 0.4,
     "rotate": true,
@@ -507,7 +540,8 @@
     "shake": 3,
     "ejectEffect": "casing2",
     "shootSound": "artillery",
-    "bullet": {
+    
+    bullet: {
     "type": "ArtilleryBulletType",
     "shootEffect": "shootBig2",
     "hitEffect": {
@@ -608,15 +642,21 @@
     "backColor": "FF5845FF",
     "frontColor": "FFC1BBFF"
     }
-    },
-    {
+}
+
+{
     "name": "arcturus-heavy-artillery",
     "y": -20,
     "x": 25,
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 4,
+    
+    shoot: {
+		type: ShootPattern
+		shots: 4
+    }
+    
     "inaccuracy": 10,
     "velocityRnd": 0.4,
     "rotate": true,
@@ -627,7 +667,8 @@
     "shake": 3,
     "ejectEffect": "casing2",
     "shootSound": "artillery",
-    "bullet": {
+    
+    bullet: {
     "type": "ArtilleryBulletType",
     "shootEffect": "shootBig2",
     "hitEffect": {

@@ -29,7 +29,7 @@
 	"flying": false,
 	"targetAir": true,
 	"legSpeed": 0.09,
-	"maxStretch": 1.5,
+	"legMaxLength": 1.5,
 	"legCount": 8,
 	"legBaseOffset": 15,
     "legLengthScl": 0.93,

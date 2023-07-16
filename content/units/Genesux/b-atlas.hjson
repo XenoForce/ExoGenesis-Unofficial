@@ -31,7 +31,7 @@ research: {
 "flipBackLegs": true,
 "legGroupSize": 3,
 "legPairOffset": 2,
-"maxStretch": 70.52,
+"legMaxLength": 1.52,
 "legExtension": -15,
 "legCount": 6,
 "legMoveSpace": 0.8,

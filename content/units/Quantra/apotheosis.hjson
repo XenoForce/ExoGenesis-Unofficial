@@ -832,7 +832,7 @@
     "unitDamageScl": 0.3,
     "status": "electrified",
     "statusDuration": 100,
-    "BuildingDamageMultiplier": 6,
+    "buildingDamageMultiplier": 6,
     "speed": 4,
     "width": 30,
     "height": 30,

@@ -16,7 +16,7 @@
     
     // "commandLimit": 10,
   
-  "type": "legs",
+    "type": "legs",
 	"speed": 0.24,
 	"hitSize": 67,
 	"health": 200000,
@@ -29,7 +29,7 @@
 	"aimDst": 600,
 	"flying": false,
 	"targetAir": true,
-    "maxStretch": 1.7,
+    "legMaxLength": 1.7,
 	"legCount": 10,
 	"legBaseOffset": 20,
     "legLengthScl": 0.90,

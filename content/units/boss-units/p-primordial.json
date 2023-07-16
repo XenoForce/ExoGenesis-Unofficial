@@ -2,6 +2,7 @@
     "singleTarget": true,
 	"lightRadius": 350,
 	"groundLayer": 75,
+	
     "type": "legs",
 	"speed": 0.36,
 	"hitSize": 114,
@@ -16,7 +17,7 @@
 	"flipBackLegs": true,
 	"legGroupSize": 2,
 	"legPairOffset": 3,
-	"maxStretch": 88,
+	"legMaxLength": 88,
 	"legExtension": -20,
 	"legCount": 6,
     "legMoveSpace": 0.8,

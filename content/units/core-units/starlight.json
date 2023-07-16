@@ -20,7 +20,7 @@
 	"legCount": 6,
 	"legPairOffset": 3,
 	"legMoveSpace": 1.4,
-    "maxStretch": 1.4,
+    "legMaxLength": 1.4,
 	"legLength": 30,
 	"shadowElevation": 0.67,
 	"allowLegStep": true,

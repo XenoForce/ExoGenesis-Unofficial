@@ -30,7 +30,7 @@
 	"aimDst": 340,
 	"flying": false,
 	"targetAir": true,
-    "maxStretch": 1.6,
+    "legMaxLength": 1.6,
 	"legCount": 8,
 	"legBaseOffset": 10,
     "legLengthScl": 0.98,

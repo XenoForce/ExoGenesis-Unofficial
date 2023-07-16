@@ -25,7 +25,7 @@
 	"rotateSpeed": 1,
 	"legCount": 6,
     "legMoveSpace": 0.85,
-	"maxStretch": 1.6,
+	"legMaxLength": 1.6,
 	"legExtension": -15,
 	"legLength": 80,
     "legPairOffset": 2,

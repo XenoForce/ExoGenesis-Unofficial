@@ -28,10 +28,10 @@
     "trailY": -37,
     "trailScl": 4,
     "trailLength": 75,
-    "rotateShooting": false,
+    "faceTarget": false,
 
-	"weapons": [
-		{
+"weapons": [
+{
 	"name": "energy-gun",
     "mirror": true,
     "alternate": true,

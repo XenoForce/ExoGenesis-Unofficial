@@ -29,7 +29,7 @@ research: {
 "trailY": -20,
 "trailScl": 5,
 "trailLength": 55,
-"rotateShooting": false,
+"faceTarget": false,
 
 weapons: [
 {

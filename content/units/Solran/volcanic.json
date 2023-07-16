@@ -21,7 +21,7 @@
     "mechSideSway": 0,
 	"armor": 34,
 	"canDrown": false,
-    "rotateShooting": false,
+    "faceTarget": false,
     "singleTarget": true,
 	"flying": false,
 	"targetAir": true,

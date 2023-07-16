@@ -1,5 +1,6 @@
 {
 "name": "Magma",
+
 "research": {
 "parent": "molten",
 "requirements": [
@@ -8,6 +9,7 @@
 "silicon/400"
 ]
 },
+
 "outlineColor": "313131FF",
 "type": "mech",
 "armor": 17,
@@ -20,11 +22,12 @@
 
 "mechFrontSway": 0,
 "mechSideSway": 0,
-"rotateShooting": false,
+"faceTarget": false,
 "singleTarget": true,
 "speed": 0.9,
 "health": 4800,
 "range": 185,
+
 "immunities": [
 		"melting",
 		"blasted",

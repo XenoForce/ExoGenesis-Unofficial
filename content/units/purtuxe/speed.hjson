@@ -20,7 +20,7 @@ research: {
 "accel": 0.4,
 "rotateSpeed": 3.3,
 "trailLength": 20,
-"rotateShooting": false,
+"faceTarget": false,
 
 weapons: [
 {

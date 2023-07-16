@@ -15,7 +15,7 @@
 
 // "commandLimit": 6,
 
-"rotateShooting": false,
+"faceTarget": false,
 "mechStepParticles": false,
 "mechStepShake": 0,
 "speed": 1.1,

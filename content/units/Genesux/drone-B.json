@@ -5,7 +5,6 @@
         "accel": 0.1,
         "drag": 0.02,
         "flying": true,
-        "rotateShooting": false,
         "circleTarget": true,
         "health": 700,
         "hitSize": 8,
@@ -18,8 +17,9 @@
         // "commandLimit": 8,
         
         "faceTarget": true,
-	    "weapons": [
-	   {
+
+"weapons": [
+{
     "name": "drone-weapon",
     "shootCone": 180,
     "mirror": false,

@@ -15,7 +15,7 @@
 "mechStepShake": 0,
 "mechFrontSway": 0,
 "mechSideSway": 0,
-"rotateShooting": false,
+"faceTarget": false,
 
 // "commandLimit": 8,
 

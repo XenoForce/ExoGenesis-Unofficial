@@ -22,7 +22,8 @@
     "trailY": -89.0,
     "trailScl": 5.8,
     "trailLength": 150.0,
-    "rotateShooting": false,
+    "faceTarget": false,
+    
   	"immunities": [
     "tarred",
     "melting",

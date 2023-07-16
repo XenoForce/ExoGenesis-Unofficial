@@ -39,7 +39,7 @@ research: {
 
 // "commandLimit": 8,
 
-"rotateShooting": false,
+"faceTarget": false,
 
 weapons: [
 {

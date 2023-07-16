@@ -4,6 +4,7 @@
     "singleTarget": true,
     "drawShields": false,
     "fallSpeed": 0.006,
+    
     "research": {
     "parent": "hex",
     "requirements": [
@@ -17,8 +18,8 @@
     "silicon/1800"
     ]
     },
+    
     "lowAltitude": true,
-    "rotateShooting": false,
     "lightRadius": 200,
     "rotateSpeed": 1,
     "crashDamageMultiplier": 18,

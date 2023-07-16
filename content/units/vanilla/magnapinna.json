@@ -11,6 +11,7 @@
     "silicon/1300"
     ]
     },
+    
     "type": "naval",
     "armor": 37,
     "drag": 0.18,
@@ -33,9 +34,10 @@
     "trailY": -37,
     "trailScl": 5.6,
     "trailLength": 85,
-    "rotateShooting": false,
-	"weapons": [
-	{
+    "faceTarget": false,
+    
+"weapons": [
+{
     "name": "magnapinna-weapon",
     "y": 0,
     "x": 29,

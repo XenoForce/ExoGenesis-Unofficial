@@ -9,7 +9,7 @@ itemCapacity: 30
 craftTime: 150
 
 drawer: {
-	"type": "drawArcSmelter",
+	"type": "DrawArcSmelt",
 	"flameColor": "66B1FFFF",
 	"midColor": "A9D8FFFF",
 	"flameRad": 1.6,

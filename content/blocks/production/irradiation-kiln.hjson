@@ -3,7 +3,7 @@ type: GenericCrafter
 size: 5
 
 drawer: {
-	"type": "drawArcSmelter",
+	"type": "DrawArcSmelt",
 	"flameColor": "73FFAEFF",
 	"midColor": "57D993FF",
 	"flameRad": 2,

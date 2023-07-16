@@ -13,7 +13,6 @@ health: 85
 "rotateSpeed": 3,
 "inaccuracy": 5,
 "recoil": 2,
-"restitution": 0.8,
 "shootSound": "missile",
 
 ammoTypes: {

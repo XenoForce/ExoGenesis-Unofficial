@@ -5,14 +5,19 @@ size: 8
 health: 8660
 
 "reload": 50,
-"cooldown": 10,
+"cooldownTime": 10,
 "range": 600,
 "recoil": 7,
 "shake": 5,
 "ammoUseEffect": "none",
 "inaccuracy": 0,
-"shots": 1,
-"spread": 0,
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 0
+}
+
 "rotateSpeed": 0.89,
 "shootSound": "jupiterShoot",
 

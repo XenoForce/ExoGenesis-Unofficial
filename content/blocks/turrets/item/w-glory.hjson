@@ -19,7 +19,6 @@ shoot: {
 "targetGround": true,
 "shootCone": 0.08,
 "recoil": 5,
-"restitution": 0.06,
 "rotateSpeed": 4,
 "shootSound": "shotgun",
 "xRand": 1,

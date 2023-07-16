@@ -6,7 +6,12 @@ health: 1900
 
 "reload": 220,
 "range": 250,
-"shots": 1,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "targetAir": true, 
 "targetGround": true,
 // "powerUse": 28,
@@ -51,7 +56,6 @@ shootEffect: {
 "shootDuration": 400,
 "shootSound": "beam",
 "recoil": 2,
-"restitution": 0.04,
 "rotateSpeed": 2,
 
 shootType: {
@@ -78,7 +82,7 @@ shootType: {
 	
 	"drawSize": 260,
 	"fragBullets": 1,
-	"fragCone": 360,
+	"fragAngle": 360,
 	
 	fragBullet: {
 		"type" : "basicBulletType",

@@ -1,16 +1,21 @@
 type: itemTurret
 
+size: 5
+
 health: 1900
 
 "coolantMultiplier": 1.0,
 "reload": 185,
-"restitution": 0.1,
 "ammoUseEffect": "casing4",
 "range": 450,
 "recoil": 7,
 "shake": 5,
-"shots": 1,
-"size":  5,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "shootSound": "shootBig",
 
 ammoTypes: {

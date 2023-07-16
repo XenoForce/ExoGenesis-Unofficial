@@ -6,7 +6,6 @@ health: 2650
 
 "reload": 300,
 "range": 300,
-"restitution": 0.2,
 "minRange": 70,
 "maxAmmo": "50",
 "rotateSpeed": 2,
@@ -44,7 +43,7 @@ coal: {
 	"hitSize": 16,
 	"fragBullets": 15,
 	"fragLifeMin": 0.1,
-	"fragCone": 360,
+	"fragSpread": 24,
 	
 	fragBullet: {
 		"speed": 2.5,
@@ -93,7 +92,7 @@ pyratite: {
 	"hitSize": 16,
 	"fragBullets": 15,
 	"fragLifeMin": 0.1,
-	"fragCone": 360,
+	"fragSpread": 24,
 	
 	fragBullet: {
 		"speed": 2.5,
@@ -233,7 +232,7 @@ blast-compound: {
 	"hitSize": 16,
 	"fragBullets": 15,
 	"fragLifeMin": 0.1,
-	"fragCone": 360,
+	"fragSpread": 24,
 	
 	fragBullet: {
 		"speed": 2.5,

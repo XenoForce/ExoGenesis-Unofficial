@@ -6,7 +6,11 @@ size: 3
 "hasItems": true,
 "itemCapacity": 20,
 "craftTime": 80,
-"flameColor": "FFFFFF00",
+
+drawer: {
+	"type": "DrawFlame",
+	"flameColor": "FFFFFF00",
+}
 
 consumes: {
 	power: 1

@@ -96,7 +96,7 @@ surge-alloy: {
 	"backColor": "F3E979FF",
 	"hitEffect": "flakExplosionBig",
 	"shootEffect": "shootBig",
-	"mokeEffect": "shootBigSmoke2",
+	"smokeEffect": "shootBigSmoke2",
 	"fragBullets": 7,
 	
 	fragBullet: {

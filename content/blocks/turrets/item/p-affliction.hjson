@@ -10,8 +10,13 @@ health: 1400
 "rotateSpeed": 1,
 "shootCone": 20,
 "shake": 1.5,
-"cooldown": 0.03,
-"shots": 3,
+"cooldownTime": 15,
+
+shoot: {
+	type: ShootPattern
+	shots: 3
+}
+
 "targetAir": true,
 "targetGround": true,
 "heatColor": "A170F4FF",

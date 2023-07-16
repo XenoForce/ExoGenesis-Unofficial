@@ -7,14 +7,18 @@ health: 2500
 "targetAir": false,
 "reload": 56,
 "coolantMultiplier": 0.3,
-"restitution" : 0.08, 
 "range": 520,
 "recoil": 7,
 "shake": 6,
 "ammoUseEffect": "none",
 "inaccuracy": 0,
-"shots": 1,
-"spread": 0,
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 0
+}
+
 "rotateSpeed": 1.4,
 "shootSound": "explosionbig",
 

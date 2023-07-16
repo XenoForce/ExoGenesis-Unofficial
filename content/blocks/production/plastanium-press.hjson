@@ -4,7 +4,6 @@ size: 4
 
 "hasPower": true,
 "hasItems": true,
-"hasLiquid": true,
 "liquidCapacity": 80,
 "itemCapacity": 20,
 "craftTime": 100,

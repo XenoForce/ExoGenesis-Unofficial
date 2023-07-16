@@ -12,7 +12,6 @@ health: 900
 "targetGround": true,
 "rotateSpeed": 4,
 "recoil": 7,
-"restitution": 0.2,
 "shootSound": "railgun",
 "ammoUseEffect": "casing3",
 

@@ -7,9 +7,8 @@ size: 3
 "rotateSpeed": 0,
 "shootCone": 360,
 "range": 200,
-"shootLength": 0,
 "heatColor": "bbdefb",
-"cooldown": 0.030,
+"cooldownTime": 120,
 "shootSound": "laser",
 
 shoot: {

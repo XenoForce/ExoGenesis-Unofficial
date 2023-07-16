@@ -18,7 +18,6 @@ shoot: {
 "targetGround" : true,
 "shootCone" : 1,
 "recoil" : 7,
-"restitution" : 0.08, 
 "rotateSpeed": 0.96,
 "shake" : 20,
 "shootSound" : "plasmaboom",
@@ -234,7 +233,7 @@ rutuxium: {
 	"frontColor": "322252FF",
 	"backColor": "9057F2FF",
 	"fragBullets": 10,
-	"fragCone": 360,
+	"fragSpread": 36,
 	
 	fragBullet: {
 		"type": "BasicBulletType",

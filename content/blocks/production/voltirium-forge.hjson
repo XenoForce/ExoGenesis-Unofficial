@@ -9,7 +9,7 @@ itemCapacity: 40
 craftTime: 250
 
 drawer: {
-	"type": "DrawSmelter",
+	"type": "DrawFlame",
 	"flameRadius": 5,
 	"flameColor": "8894FFFF"
 }

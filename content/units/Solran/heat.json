@@ -1,6 +1,7 @@
 {
 "name": "Heat",
 "outlineColor": "313131FF",
+
 "research": {
     "parent": "sol-factory",
     "requirements": [
@@ -8,11 +9,12 @@
         "silicon/200"
     ]
 },
+
 "type": "mech",
 "armor": 8,
 "hitSize": 15,
 "mechStepParticles": false,
-"mechStepShake": 0,
+"stepShake": 0,
 "mechFrontSway": 0,
 "mechSideSway": 0,
 "faceTarget": false,

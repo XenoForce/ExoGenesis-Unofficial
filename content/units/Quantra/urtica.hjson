@@ -27,7 +27,7 @@ research: {
 "outlineRadius": 0,
 "drownTimeMultiplier": 5,
 "mechStepParticles": true,
-"mechStepShake": 0.45,
+"stepShake": 0.45,
 "singleTarget": true,
 "range": 215,
 

@@ -1,6 +1,8 @@
 {
 "name": "Government",
-    "research": "organization",
+
+"research": "organization",
+
 "type": "mech",
 "lightColor": "C2FF70FF",
 "lightRadius": 200,
@@ -14,12 +16,13 @@
 // "commandLimit": 10,
 
 "mechStepParticles": true,
-"mechStepShake": 3,
+"stepShake": 3,
 "singleTarget": true,
 "buildSpeed": 6.7,
 "speed": 0.46,
 "health": 218000,
 "range": 380,
+
 "immunities": [
 		"burning",
 		"wet",

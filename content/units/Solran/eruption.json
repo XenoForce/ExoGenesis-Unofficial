@@ -9,13 +9,14 @@
     "silicon/1000"
     ]
     },
+    
     "type": "mech",
     "outlineColor": "313131FF",
 	"speed": 0.5,
 	"hitSize": 61,
 	"health": 50000,
     "mechStepParticles": false,
-    "mechStepShake": 0,
+    "stepShake": 0,
     "mechFrontSway": 0,
     "mechSideSway": 0,
 	"armor": 35,
@@ -25,6 +26,7 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1,
+	
 	"immunities": [
 		"burning", 
 		"melting",
@@ -176,7 +178,8 @@
     "frontColor": "FFC1BBFF",
     "backColor": "FF5845FF",
     "fragBullets": 7,
-    "fragCone": 360,
+    "fragSpread": 51,
+    
 	"fragBullet": {
 	"type": "LiquidBulletType",
 	"liquid": "slag",

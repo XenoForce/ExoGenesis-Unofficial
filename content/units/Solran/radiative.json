@@ -20,7 +20,7 @@
 
 "mechLegColor": "313131FF",
 "mechStepParticles": true,
-"mechStepShake": 2,
+"stepShake": 2,
 "singleTarget": true,
 "speed": 0.30,
 "health": 9500,

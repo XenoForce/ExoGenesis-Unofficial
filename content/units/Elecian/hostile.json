@@ -34,7 +34,7 @@
 	"legMoveSpace": 1,
 	"legExtension": -15,
 	"legLength": 45,
-	"landShake": 1,
+	"stepShake": 1,
     "legSplashDamage": 32,
     "legSplashRange": 30,
 	"shadowElevation": 0.65,

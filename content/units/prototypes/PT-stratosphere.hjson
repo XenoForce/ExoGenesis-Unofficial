@@ -43,7 +43,7 @@ research: {
 "legLength": 78,
 "legBaseOffset": 19,
 "legTrns": 0.62,
-"landShake": 1.3,
+"stepShake": 1.3,
 "legSpeed": 0.8,
 "rippleScale": 3.5,
 "legSplashDamage": 86,

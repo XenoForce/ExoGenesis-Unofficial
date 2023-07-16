@@ -29,7 +29,7 @@
     "legMoveSpace": 0.6,
     "legLength": 27,
     "legTrns": 0.56,
-    "landShake": 0.8,
+    "stepShake": 0.8,
     "legSpeed": 0.005,
     "rippleScale": 2,
     "legSplashDamage": 86,

@@ -35,7 +35,7 @@
     "legLength": 90,
     "legExtension": -15,
     "legBaseOffset": 18,
-    "landShake": 5,
+    "stepShake": 5,
     "legLengthScl": 0.96,
     "rippleScale": 6.5,
     "legSplashDamage": 756,

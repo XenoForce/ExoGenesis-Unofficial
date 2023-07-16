@@ -38,7 +38,7 @@
 	"legExtension": -10,
 	"legLength": 100,
 	"rippleScale": 7,
-	"landShake": 3,
+	"stepShake": 3,
     "legSplashDamage": 420,
     "legSplashRange": 42,
 	"shadowElevation": 0.7,

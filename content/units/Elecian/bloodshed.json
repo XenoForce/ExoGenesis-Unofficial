@@ -38,7 +38,7 @@
 	"legLength": 75,
 	"rippleScale": 3,
 	"legLengthScl": 0.93,
-	"landShake": 2,
+	"stepShake": 2,
     "legSplashDamage": 60,
     "legSplashRange": 35,
 	"shadowElevation": 0.65,

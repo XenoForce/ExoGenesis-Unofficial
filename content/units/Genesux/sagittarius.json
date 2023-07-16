@@ -24,7 +24,7 @@
     "legBaseOffset": 41,
     "legLengthScl": 1,
     "legMoveSpace": 0.8,
-    "landShake": 3.4,
+    "stepShake": 3.4,
     "rippleScale": 10.5,
     "legSplashDamage": 886,
     "legSplashRange": 88,

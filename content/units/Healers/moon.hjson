@@ -49,8 +49,13 @@ weapons: [
     "alternate": true,
     "rotate": true,
     "rotateSpeed": 3,
-    "shotDelay": 4,
-    "shots": 3,
+    
+    shoot: {
+        type: ShootPattern
+        shotDelay: 4
+        shots: 3
+    }
+    
     "inaccuracy": 4,
     "x": 28,
     "y": 6.5,
@@ -120,8 +125,13 @@ weapons: [
     "rotateSpeed": 100,
     "inaccuracy": 6,
     "reload": 128,
-    "shots": 3,
-    "firstShotDelay": 38,
+    
+    shoot: {
+        type: ShootPattern
+        shots: 3
+        firstShotDelay: 38
+    }
+    
     "recoil": 0.5,
     "shootSound": "plasmaboom",
     "bullet": {

@@ -10,10 +10,15 @@ health: 1000
 "rotateSpeed": 4,
 "shootCone": 20,
 "shake": 1.5,
-"cooldown": 0.03,
-"spread": 9,
-"alternate": true,
-"shots": 3,
+"cooldownTime": 5,
+
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	spread: 9
+	shots: 3
+}
+
 "targetAir": true,
 "targetGround": true,
 "heatColor": "5B4CB0FF",
@@ -22,7 +27,7 @@ health: 1000
 
 shootType: {
 	"type": "LaserBulletType",
-	"colors":["ECD36FAA", "F3E979FF", "FFFFFF"],
+	"colors": ["ECD36FAA", "F3E979FF", "FFFFFF"],
 	"length": 240,
 	"width": 20,
 	"damage": 125,

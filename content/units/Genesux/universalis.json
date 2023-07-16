@@ -1,6 +1,7 @@
 {
     "singleTarget": true,
     "drawShields": false,
+    
     "research": {
     "parent": "altair",
     "requirements": [
@@ -11,6 +12,7 @@
     "silicon/9670"
     ]
     },
+    
     "lightRadius": 200,
     "rotateSpeed": 0.7,
     "speed": 0.33,
@@ -39,12 +41,18 @@
     "shootY": 11,
     "rotateSpeed": 1.6,
     "reload": 45,
-    "shots": 6,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 6
+    },
+    
     "velocityRnd": 0.34,
     "recoil": 4, 
     "inaccuracy": 8,
     "shootSound": "artillery",
     "rotate": true,
+    
     "bullet": {
       "type": "ArtilleryBulletType",
       "width": 16,
@@ -128,12 +136,18 @@
     "rotateSpeed": 4,
     "reload": 15,
     "recoil": 2,
-    "shots": 1,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 1
+    },
+    
     "inaccuracy": 2,
     "shootSound": "bang",
     "mirror": true,
     "alternate": true,
     "rotate": true,
+    
     "bullet": {
       "type": "basicBulletType",
       "damage": 200,
@@ -194,9 +208,14 @@
   "shootStatusDuration": 150,
   "reload": 725,
   "recoil": 0,
-  "shots": 2,
-  "shotDelay": 2,
-  "firstShotDelay": 130,
+  
+  "shoot": {
+      "type": "ShootPattern",
+      "shots": 2,
+      "shotDelay": 2,
+      "firstShotDelay": 130
+  },
+  
   "soundPitchMin": 0.95,
   "soundPitchMax": 2.05,
     "chargeSound": "lasercharge",

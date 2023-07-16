@@ -7,10 +7,15 @@ health: 280
 "reload": 12,
 "range": 300,
 "inaccuracy": 3,
-"spread": 8,
-"alternate": true,
+
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	spread: 8
+	shots: 4
+}
+
 "shake": 2,
-"shots": 4,
 "targetAir": true,
 "targetGround": true,
 "shootCone": 0.08,

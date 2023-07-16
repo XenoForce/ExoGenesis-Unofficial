@@ -2,7 +2,7 @@
     "research": {
     "parent": "eruption",
     "requirements": [
-   "volcanite/1220",
+"volcanite/1220",
 "surge-alloy/1000",
 "plastanium/940",
 "primal-red/850",
@@ -10,6 +10,7 @@
 "silicon/1300"
     ]
     },
+    
     "type": "mech",
     "outlineColor": "313131FF",
 	"speed": 0.43,
@@ -26,14 +27,16 @@
 	"flying": false,
 	"targetAir": true,
 	"rotateSpeed": 1.1,
-	"immunities": [
-		"burning", 
-		"melting",
-		"xguctt-molten1",
-		"blasted"
-	],
-	"weapons": [
-	 {
+	
+"immunities": [
+	"burning", 
+	"melting",
+	"xguctt-molten1",
+	"blasted"
+],
+
+"weapons": [
+{
   "name": "volcanic-weapon",
   "x": 0,
   "y": 0,
@@ -44,14 +47,20 @@
   "rotate": true,
   "layerOffset": 3,
   "rotateSpeed": 2.5,
-  "shots": 1,
+  
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1
+  },
+  
   "shake": 6,
   "shootX": 9,
   "shootY": 50,
   "reload": 65,
   "recoil": 4,
   "shootSound": "powerfulblast",
-    "bullet": {
+  
+  "bullet": {
 	"type" : "basicBulletType",
 	"sprite" : "xguctt-gauss-bullet",
 	"status": "xguctt-molten1",
@@ -247,7 +256,12 @@
     "layerOffset": 2,  
     "controllable": false,
     "autoTarget": true,
-    "shots": 2,
+    
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 2
+    },
+    
     "rotate": true,
     "rotateSpeed": 2,
     "inaccuracy": 3,
@@ -255,6 +269,7 @@
     "reload": 5,
     "recoil": 0,
     "shootSound": "flame",
+    
     "bullet": { 
     "type": "BasicBulletType",
     "collidesAir": true,
@@ -378,12 +393,13 @@
     "colorTo": "FF5845FF"
 	},
 	"pierce": true,
-"pierceCap": 3,
- "pierceBuilding": true,
+    "pierceCap": 3,
+    "pierceBuilding": true,
 	"incendAmount": 2
    }
-  },
-  {
+},
+
+{
     "name": "volcanic-mount",
     "top": true,
     "mirror": true,
@@ -392,7 +408,12 @@
     "x": 26,
     "y": -24,
     "autoTarget": true,
-    "shots": 2,
+    
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 2
+    },
+    
     "rotate": true,
     "rotateSpeed": 2,
     "inaccuracy": 3,
@@ -400,6 +421,7 @@
     "reload": 5,
     "recoil": 0,
     "shootSound": "flame",
+    
     "bullet": { 
     "type": "BasicBulletType",
     "collidesAir": true,
@@ -409,6 +431,7 @@
     "damage": 20,
     "width": 0.1,
     "height": 0.1,
+    
     "shootEffect": {
     "type": "multiEffect",
     "layer": 110,

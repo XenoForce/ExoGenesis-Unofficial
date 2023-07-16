@@ -230,10 +230,16 @@
     "y": 0,
     "shootY": 0,
     "reload": 365,
-    "shots": 1,
+    
+    shoot: {
+      type: ShootPattern
+      shots: 1
+    }
+    
     "shootSound": "apoth-gauss",
     "rotateSpeed": 5,
     "rotate": true,
+    
     "bullet": {
     "type": "basicBulletType",
     "damage": 75000,
@@ -408,8 +414,9 @@
     "frontColor": "FFFFFF",
     "backColor": "73FFAEFF"
     }
-	 },
-	 {
+}
+
+{
     "name": "apotheosis-deathray",
     "x": 0,
     "y": 0,
@@ -420,17 +427,23 @@
     "shootStatusDuration": 400,
     "rotateSpeed": 0.9,
     "mirror": false,
-    "shots": 1,
+    
+    shoot: {
+      type: ShootPattern
+      shots: 1
+      firstShotDelay: 120
+    }
+    
     "reload": 745,
     "recoil": 0,
     "shake": 5,
     "shootCone": 20,
     "cooldownTime": 145,
-    "firstShotDelay": 120,
     "chargeSound": "pulse",
     "shootSound": "beam",
     "continuous": true,
-    "bullet": { 
+    
+    bullet: { 
     "shootEffect": {
     "type": "multiEffect",
     "lifetime": 120,
@@ -597,15 +610,21 @@
     },
     "incendChance": 1
     }
-    },
-    {
+}
+
+{
     "name": "apotheosis-emp-weapon",
     "y": -19,
     "x": 48,
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
+    
+    shoot: {
+      type: ShootPattern
+      shots: 1
+    }
+    
     "rotate": true,
     "rotateSpeed": 2,
     "shootY": 19,
@@ -615,7 +634,8 @@
     "shootCone": 20,
     "ejectEffect": "casing2",
     "shootSound": "laserblast",
-    "bullet": { 
+    
+    bullet: { 
     "type": "EmpBulletType",
     "hitColor": "73FFAEFF",
     "chainEffect": {

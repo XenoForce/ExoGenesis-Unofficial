@@ -71,9 +71,14 @@ weapons: [
   "rotateSpeed": 100,
   "inaccuracy": 20,
   "reload": 480,
-  "shots": 7,
-  "shotDelay": 9,
-  "firstShotDelay": 38,
+  
+  shoot: {
+    type: ShootPattern
+    shots: 7
+    shotDelay: 9
+    firstShotDelay: 38
+  }
+  
   "recoil": 0.5,
   "soundPitchMin": 1,
   "shootSound": "plasmaboom",
@@ -196,8 +201,13 @@ weapons: [
   "shootY": 0,
   "ignoreRotation": true,
   "rotate": false,
-  "shots": 20,
-  "shotDelay": 2,
+  
+  shoot: {
+    type: ShootPattern
+    shots: 20
+    shotDelay: 2
+  }
+  
   "inaccuracy": 360,
   "shootSound": "spark",
   "shootCone": 360,
@@ -230,10 +240,16 @@ weapons: [
 "rotate": true,
 "rotateSpeed": 7,
 "inaccuracy": 10,
-"shots": 1,
+
+shoot: {
+  type: ShootPattern
+  shots: 1
+}
+
 "shootSound": "laser",
 "shootCone": 45,
-"bullet": {
+
+bullet: {
 "sprite": "xguctt-plasma",
 "lightColor": "A9D8FFFF",
 
@@ -350,7 +366,12 @@ hitEffect: {
 "rotate": true,
 "rotateSpeed": 7,
 "inaccuracy": 10,
-"shots": 1,
+
+shoot: {
+  type: ShootPattern
+  shots: 1
+}
+
 "shootSound": "laser",
 "shootCone": 45,
 

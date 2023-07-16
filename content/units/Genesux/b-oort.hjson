@@ -1,47 +1,52 @@
-    {
-  "research": {
-  "parent": "b-kuiper",
-  "requirements": [
-  "astrolite/2500",
-  "plastanium/2400",
-  "lead/2640",
-  "silicon/2800"
-  ]
-  },
-    "groundLayer": 75,
-    "drawShields": false,
-    "type": "legs",
-    "speed": 0.42,
-	"hitSize": 52,
-	"health": 12000,
-	"faceTarget": true,
-	"armor": 12,
-	"drag": 0.2,
-	"range": 180,
-	"outlineColor": "464A59FF",
-	"flying": false,
-	"targetAir": true,
-	"rotateSpeed": 1.5,
-	"legCount": 4,
-    "legMoveSpace": 1.1,
-    "legLength": 18.5,
-    "legBaseOffset": 16,
-    "legTrns": 0.62,
-    "stepShake": 1.0,
-    "legSpeed": 0.001,
-    "rippleScale": 2.8,
-    "legSplashDamage": 56,
-    "legSplashRange": 30,
-	"shadowElevation": 0.75,
-	"allowLegStep": true,
-	"hovering": true,
-	"immunities": [
-		"burning", 
-		"melting",
-		"freezing"
-	],
-	"weapons": [
- {
+type: legs
+flying: false
+
+health: 12000
+armor: 12
+
+speed: 0.42
+
+research: {
+	requirements: [
+		astrolite/2500
+		plastanium/2400
+		lead/2640
+		silicon/2800
+	]
+	parent: "b-kuiper"
+}
+  
+"groundLayer": 75,
+"drawShields": false,
+"hitSize": 52,
+"faceTarget": true,
+"drag": 0.2,
+"range": 180,
+"outlineColor": "464A59FF",
+"targetAir": true,
+"rotateSpeed": 1.5,
+"legCount": 4,
+"legMoveSpace": 1.1,
+"legLength": 18.5,
+"legBaseOffset": 16,
+"legTrns": 0.62,
+"stepShake": 1.0,
+"legSpeed": 0.001,
+"rippleScale": 2.8,
+"legSplashDamage": 56,
+"legSplashRange": 30,
+"shadowElevation": 0.75,
+"allowLegStep": true,
+"hovering": true,
+
+immunities: [
+	"burning", 
+	"melting",
+	"freezing"
+]
+
+weapons: [
+{
     "name": "oort-laser",
     "reload": 29,
     "alternate": true,
@@ -53,11 +58,18 @@
     "shake": 1,
     "rotateSpeed": 2,
     "rotate": true,
-    "shots": 1,
+    
+    shoot: {
+      type: ShootPattern
+      shots: 1
+    }
+    
     "shootSound": "laser",
     "shootCone": 45,
-	"bullet": {
-	"shootEffect": {
+    
+	bullet: {
+	
+	shootEffect: {
     "type": "WaveEffect",
     "lifetime": 25,
     "sizeFrom": 0,
@@ -66,13 +78,15 @@
     "strokeTo": 0,
     "colorFrom": "66B1FFFF",
     "colorTo": "66B1FFFF"
-	},
+	}
+	
     "type": "LaserBulletType",
     "length": 200,
     "width": 20,
     "damage": 100,
     "lightColor": "A9D8FFFF",
-    "hitEffect": {
+    
+    hitEffect: {
     "type": "ParticleEffect",
     "line": true,
     "particles": 15,
@@ -84,14 +98,16 @@
     "lenTo": 0,
     "colorFrom": "A9D8FFFF",
     "colorTo": "66B1FFFF"
-    },
+    }
+    
     "colors": ["66B1FFFF", "A9D8FFFF", "FFFFFF"],
     "sideAngle": 25,
     "sideLength": 0,
     "sideWidth": 0
 	}
-   },
-  {
+}
+
+{
     "type": "RepairBeamWeapon",  
     "mirror": true,
     "alternate": false,
@@ -112,8 +128,10 @@
     "pulseRadius": 6,
     "pulseStroke": 2,
     "repairSpeed": 1.75,
-	"bullet": {
-	"shootEffect": {
+    
+	bullet: {
+	
+	shootEffect: {
     "type": "WaveEffect",
     "lifetime": 25,
     "sizeFrom": 0,
@@ -122,19 +140,27 @@
     "strokeTo": 0,
     "colorFrom": "66B1FFFF",
     "colorTo": "66B1FFFF"
-	},
+	}
+	
 	"maxRange": 460
 	}
-    },
-    {
- "name": "oort-weapon",
+}
+
+{
+  "name": "oort-weapon",
   "x": 0,
   "y": 0,
   "mirror": false,
   "top": false,
   "shake": 4,
   "shootY": 7,
-  "shots": 8,
+  
+  shoot: {
+    type: ShootPattern
+    shots: 8
+    firstShotDelay: 90
+  }
+  
   "velocityRnd": 0.22,
   "inaccuracy": 10,
   "shootStatus": "unmoving",
@@ -142,16 +168,18 @@
   "reload": 400,
   "cooldownTime": 390,
   "recoil": 0,
-  "firstShotDelay": 90,
   "soundPitchMin": 1,
-    "chargeSound": "lasercharge",
-    "shootSound": "coolplasmaboom",
-    "bullet": {
+  "chargeSound": "lasercharge",
+  "shootSound": "coolplasmaboom",
+  
+  bullet: {
     "keepVelocity": false,
-    "shootEffect": {
+    
+    shootEffect: {
     "type": "multiEffect",
     "lifetime": 80,
-    "effects": [
+    
+    effects: [
     {
     "type": "WaveEffect",
     "lifetime": 85,
@@ -268,11 +296,13 @@
     "cone": 360
     }
     ]
-    },
+    }
+    
     "type": "EmpBulletType",
-    "hitEffect": {
+    
+    hitEffect: {
     "type": "multiEffect",
-    "effects": [
+    effects: [
     {
     "type": "ParticleEffect",
     "line": true,
@@ -332,12 +362,14 @@
     "frontColor": "FFFFFFFF",
     "backColor": "66B1FFFF"
     }
-  }
-     ],
-    "abilities": [
-        {
+}
+]
+
+abilities: [
+{
         "type": "mindustry.entities.abilities.RepairFieldAbility",
-        "activeEffect": {
+        
+        activeEffect: {
         "type": "WaveEffect",
         "lifetime": 25,
         "sizeFrom": 0,
@@ -346,8 +378,9 @@
         "strokeTo": 0,
         "colorFrom": "A9D8FFFF",
         "colorTo": "A9D8FFFF"
-        },
-        "healEffect": {
+        }
+        
+        healEffect: {
         "type": "ParticleEffect",
         "line": true,
         "particles": 15,
@@ -361,10 +394,10 @@
         "lenTo": 0,
         "colorFrom": "FFFFFF",
         "colorTo": "A9D8FFFF"
-        },
+        }
+        
         "range": 120,
         "amount": 485,
         "reload": 280
-        }
-    ]
 }
+]

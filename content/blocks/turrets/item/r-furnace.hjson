@@ -9,7 +9,7 @@ health: 4680
 "shootSound": "bang",
 "rotateSpeed": 2.5,
 "shake": 4.5,
-"cooldown": 0.03,
+"cooldownTime": 30,
 
 consumes: {
 	liquid: {
@@ -21,9 +21,14 @@ consumes: {
 }
 
 "inaccuracy": 6,
-"spread": 11,
-"alternate": true,
-"shots": 3,
+
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	spread: 11
+	shots: 3
+}
+
 "targetAir": true,
 "targetGround": true,
 "heatColor": "5B4CB0FF",

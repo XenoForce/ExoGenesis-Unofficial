@@ -6,11 +6,16 @@ health: 8660
 
 "reload": 350,
 "range": 380,
-"shots": 3,
+
+shoot: {
+	type: ShootSpread
+	shots: 3
+	spread: 30
+}
+
 "targetAir": true, 
 "targetGround": true,
 "shootCone": 30,
-"spread": 30,
 // "powerUse": 83,
 "update": true,
 "hasPower": true,
@@ -31,7 +36,7 @@ shootEffect: {
 
 "shake": 6,
 "shootSound": "plasmaboom",
-"cooldown": 0.02,
+"cooldownTime": 100,
 "recoil" : 6.5,
 "rotateSpeed": 1.5,
 

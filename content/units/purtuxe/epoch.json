@@ -69,10 +69,16 @@
     "shootY": -7,
     "reload": 500,
     "recoil": 6,
-    "shots": 1,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 1,
+        "firstShotDelay": 140
+    },
+    
     "shootStatus": "xguctt-dark-energy-invincibility",
     "shootStatusDuration": 150,
-    "firstShotDelay": 140,
+    
     "soundPitchMin": 1,
     "chargeSound": "chargeup",
     "shootSound": "powerfulblast",

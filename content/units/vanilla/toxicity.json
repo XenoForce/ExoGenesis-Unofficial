@@ -11,6 +11,7 @@
     "silicon/1300"
     ]
     },
+    
   "groundLayer": 75,
   
   // "commandLimit": 8,
@@ -60,14 +61,20 @@
   "rotate": false,
   "shootY": 27,
   "cooldownTime": 660,
-  "shots": 1,
+  
+  "shoot": {
+      "type": "ShootPattern",
+      "shots": 1,
+      "firstShotDelay": 120
+  },
+  
   "shootStatus": "unmoving",
   "chargeSound": "lasercharge",
   "shootStatusDuration": 125,
-  "firstShotDelay": 120,
   "shake": 3,
   "shootSound": "laserblast",
   "ejectEffect": "none",
+  
   "bullet": { 
   "type": "BasicBulletType",
   "sprite" : "circle-bullet",
@@ -276,18 +283,24 @@
     "alternate": true,
     "y": -9,
     "x": 23,
-    "shots": 4,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 4,
+        "shotDelay": 3
+    },
+    
     "rotate": true,
     "rotateSpeed": 3,
     "inaccuracy": 8,
     "shootY": 8,
-    "shotDelay": 3,
     "reload": 36,
     "recoil": 3,
     "shake": 0.5,
     "velocityRnd": 0.2,
     "ejectEffect": "casing2",
     "shootSound": "laser",
+    
     "bullet": { 
     "type": "BasicBulletType",
     "hitEffect": {

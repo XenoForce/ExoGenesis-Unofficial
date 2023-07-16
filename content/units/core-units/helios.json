@@ -1,6 +1,7 @@
 {
 "name": "Helios",
 "type": "mech",
+
 "boostMultiplier": 2,
 "canBoost": true,
 "mineSpeed": 6,
@@ -8,7 +9,6 @@
 "mineTier": 5,
 "itemCapacity": 100,
 "engineOffset": 8.5,
-"isCounted": false,
 "armor": 8,
 "hitSize": 23,
 "mechFrontSway": 0.55,
@@ -19,23 +19,31 @@
 "flying": false,
 "health": 2700,
 "range": 120,
+
 "immunities": [
-		"burning"
-		],
+	"burning"
+],
+
 "weapons": [
-  {
-  "name": "helios-gun",
-   "shootCone": 15,
+{
+    "name": "helios-gun",
+    "shootCone": 15,
     "mirror": true,
     "alternate": true,
     "top": false, 
     "x": 10,
     "y": 0.4,
     "shootY": 6,
-    "shots": 1,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 1
+    },
+    
     "reload": 38,
     "recoil": 2,
     "shootSound": "artillery",
+    
     "bullet": { 
     "type": "artilleryBulletType",
     "shootEffect": "shootBig",

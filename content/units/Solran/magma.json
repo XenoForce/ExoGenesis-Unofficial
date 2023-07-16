@@ -44,8 +44,13 @@
     "shake": 2,
     "rotate": true,
     "rotateSpeed": 5,
-    "shots": 4,
-    "shotDelay": 3,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 4,
+        "shotDelay": 3
+    },
+    
     "xRand": 4,
     "inaccuracy": 6,
     "shootSound": "laser",

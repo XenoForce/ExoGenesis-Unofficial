@@ -8,6 +8,7 @@
     "silicon/800"
     ]
     },
+    
     "type": "legs",
     "speed": 0.43,
     "groundLayer": 75,
@@ -47,11 +48,16 @@
     "alternate": true,
     "x": 10,
     "y": -6,
-    "shots": 6,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 6,
+        "shotDelay": 5
+    },
+    
     "rotate": true,
     "rotateSpeed": 2,
     "shootY": 10,
-    "shotDelay": 5,
     "inaccuracy": 10,
     "reload": 47,
     "recoil": 3,
@@ -60,6 +66,7 @@
     "velocityRnd": 0.4,
     "ejectEffect": "casing2",
     "shootSound": "artillery",
+    
     "bullet": { 
     "type": "basicBulletType",
     "hitEffect": "blastExplosion",
@@ -86,7 +93,12 @@
     "shootCone": 15,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 1
+    },
+    
     "x": 8,
     "y": 9,
     "reload": 25,

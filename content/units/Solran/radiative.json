@@ -1,5 +1,6 @@
 {
 "name": "Radiative",
+
 "research": {
 "parent": "photosphere",
 "requirements": [
@@ -9,6 +10,7 @@
 "silicon/800"
 ]
 },
+
 "type": "mech",
 "armor": 15,
 "rotateSpeed": 2.8,
@@ -39,12 +41,18 @@
   "top": false,
   "recoil": 3,
   "shake": 3,
-  "shots": 2,
+  
+  "shoot": {
+      "type": "ShootPattern",
+      "shots": 2,
+      "shotDelay": 3
+  },
+  
   "inaccuracy": 2,
-  "shotDelay": 3,
   "cooldownTime": 78, 
   "shootSound": "plasmaboom",
   "ejectEffect": "casing1",
+  
   "bullet": {
     "type": "BasicBulletType",
 	"sprite" : "circle-bullet",
@@ -168,17 +176,24 @@
     "frontColor": "FFC1BBFF",
     "backColor": "FF5845FF"
     }
-    },
-    {
-   "name": "solran-gunner",
+}
+
+{
+  "name": "solran-gunner",
   "x": 12.5,
   "y": -7,
   "reload": 28,
   "alternate": true,
   "top": true,
-  "shots": 3,
+  
+  "shoot": {
+      "type": "ShootPattern",
+      "shots": 3
+  },
+  
   "shootSound": "laser",
   "ejectEffect": "casing1",
+  
   "bullet": {
 		"type" : "basicBulletType",
 		"sprite" : "xguctt-peircer",

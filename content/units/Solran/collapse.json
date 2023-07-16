@@ -1,6 +1,7 @@
 {
 "name": "Collapse",
 "type": "legs",
+
 "research": {
 "parent": "fusion",
 "requirements": [
@@ -12,6 +13,7 @@
 "silicon/1670"
 ]
 },
+
 "armor": 30,
 "rotateSpeed": 1.3,
 "hitSize": 60,
@@ -35,16 +37,19 @@
 // "commandLimit": 5,
 
 "singleTarget": true,
+
 "speed": 0.22,
 "health": 250000,
+
 "immunities": [
-		"burning",
-		"melting",
-		"slow",
-		"blasted"
-		],
+	"burning",
+	"melting",
+	"slow",
+	"blasted"
+],
+
 "weapons": [
-  {
+{
   "name": "supernova",
   "x": 0,
   "y": 0,
@@ -54,12 +59,18 @@
   "top": false,
   "rotate": false,
   "shootY": 0,
-  "shots": 1,
-  "firstShotDelay": 130,
+  
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 1,
+		"firstShotDelay": 130
+	},
+  
   "shake": 20,
   "chargeSound": "chargeup",
   "shootSound": "jupiterImpact",
   "ejectEffect": "none",
+  
   "bullet": { 
   "type": "BasicBulletType",
   "status": "blasted",
@@ -317,13 +328,19 @@
   "top": false,
   "recoil": 3,
   "shake": 3,
-  "shots": 1,
+  
+  "shoot": {
+    "type": "ShootPattern",
+    "shots": 1,
+    "shotDelay": 3
+  },
+  
   "shootY": 38,
   "inaccuracy": 2,
-  "shotDelay": 3,
   "cooldownTime": 168, 
   "shootSound": "plasmaboom",
   "ejectEffect": "casing1",
+  
   "bullet": {
   "type": "BasicBulletType",
   "sprite" : "xguctt-star-core-bullet",
@@ -708,7 +725,12 @@
     "top": true,
     "mirror": true,
     "alternate": true,
-    "shots": 1,
+    
+    "shoot": {
+      "type": "ShootPattern",
+      "shots": 1
+    },
+    
     "rotate": true,
     "rotateSpeed": 2,
     "shootY": 14,
@@ -717,9 +739,11 @@
     "shake": 3,
     "ejectEffect": "casing2",
     "shootSound": "artillery",
+    
     "bullet": {
     "type": "ArtilleryBulletType",
     "shootEffect": "shootBig2",
+    
     "hitEffect": {
     "type": "ExplosionEffect",  
     "waveColor": "FF5845FF",

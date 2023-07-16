@@ -45,7 +45,12 @@
     "name": "eon-blaster",
     "top": false,
     "shootY": 8,
-    "shots": 6,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 6
+    },
+    
     "shootCone": 28,
     "inaccuracy": 10,
     "reload": 78,
@@ -177,15 +182,21 @@
     "shootCone": 25,
     "mirror": true,
     "alternate": true,
-    "shots": 3,
+    
+    "shoot": {
+        "type": "ShootPattern",
+        "shots": 3,
+        "shotDelay": 4
+    },
+    
     "shootY": 9,
     "inaccuracy": 4,
     "x": 13,
     "y": -7,
-    "shotDelay": 4,
     "reload": 15,
     "recoil": 3,
     "shootSound": "shootBig",
+    
     "bullet": {
     "type": "BasicBulletType",
     "speed": 5,
@@ -229,7 +240,12 @@
   "rotate": true,
   "alternate": false,
   "mirror": true,
-  "shots": 1,
+  
+  "shoot": {
+      "type": "ShootPattern",
+      "shots": 1
+  },
+  
   "reload": 145,
   "recoil": 4,
   "shake": 0.1,
@@ -237,7 +253,8 @@
   "shootSound": "beam",
   "chargeSound": "lasercharge2",
   "continuous": true,
-    "bullet": { 
+  
+  "bullet": { 
     "type": "ContinuousLaserBulletType",
     "damage": 37,
     "width": 5.4,

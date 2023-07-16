@@ -10,7 +10,12 @@ health: 2500
 // "powerUse": 20,
 "inaccuracy": 0,
 "reload": 15,
-"shots": 6,
+
+shoot: {
+	type: ShootPattern
+	shots: 6
+}
+
 "recoil": 4,
 "shootCone": 2,
 "rotateSpeed": 5,

@@ -13,7 +13,6 @@ shoot: {
 	shots: 5
 }
 
-"restitution": 0.2,
 "shootCone": 20,
 "maxAmmo": "60",
 "shake": 4,

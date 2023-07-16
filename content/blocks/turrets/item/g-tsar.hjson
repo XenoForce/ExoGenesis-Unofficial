@@ -15,7 +15,6 @@ health: 280
 "targetGround": true,
 "shootCone": 0.08,
 "recoil": 4.5,
-"restitution": 0.06,
 "rotateSpeed": 2,
 "shootSound": "shootBig",
 

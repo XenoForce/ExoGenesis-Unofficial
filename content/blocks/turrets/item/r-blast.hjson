@@ -14,7 +14,6 @@ health: 1600
 
 "recoil" : 3,
 "heatColor": "CB1D1DFF",
-"restitution" : 0.08, 
 "rotateSpeed": 4.0,
 "shake" : 4,
 

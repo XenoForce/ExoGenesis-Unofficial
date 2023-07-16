@@ -199,7 +199,6 @@ chargeBeginEffect: {
 
 "chargeEffect": "none",
 "shake": 4,
-"restitution" : 0.04, 
 "cooldown": 0.045,
 "rotateSpeed": 0.7,
 

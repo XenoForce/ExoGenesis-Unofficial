@@ -22,7 +22,6 @@ shoot: {
 "shake": 2,
 "recoil": 3,
 "cooldown": 0.06,
-"restitution": 0.06,
 "rotateSpeed": 2,
 "shootSound": "shootBig",
 

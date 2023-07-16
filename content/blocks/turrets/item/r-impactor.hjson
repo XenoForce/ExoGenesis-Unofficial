@@ -6,7 +6,6 @@ size: 7
 "ammoPerShot": 30,
 "ammoCapacity": 90,
 "reload": 260,
-"restitution": 0.1,
 "ammoUseEffect": "casing4",
 "range": 500,
 "recoil": 8,

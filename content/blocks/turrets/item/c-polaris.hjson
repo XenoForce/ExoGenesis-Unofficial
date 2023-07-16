@@ -13,7 +13,6 @@ health: 850
 "recoil" : 15,
 "shake" : 12,
 "inaccuracy": 0,
-"restitution" : 0.1,
 "rotateSpeed": 2,
 "shootSound" : "railgun",
 

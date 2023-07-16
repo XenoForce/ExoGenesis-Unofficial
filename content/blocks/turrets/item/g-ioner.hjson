@@ -7,9 +7,14 @@ health: 240
 reload: 20
 range: 180
 inaccuracy: 1
-shots: 2
-spread: 3
-alternate: true
+
+shoot: {
+	type: ShootAlternate
+	barrels: 2
+	shots: 2
+	spread: 3
+}
+
 targetAir: true
 targetGround: true
 

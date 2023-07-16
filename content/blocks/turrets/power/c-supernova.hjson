@@ -5,7 +5,7 @@ size: 5
 health: 3880
 
 "reload": 300,
-"cooldown": 0.0076,
+"cooldownTime": 150,
 "range": 300,
 "heatColor": "FFFFFFF ",
 

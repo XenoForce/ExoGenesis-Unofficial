@@ -12,7 +12,7 @@
 "type": "mech",
 "armor": 17,
 "mechStepParticles": false,
-"mechStepShake": 0,
+"stepShake": 0,
 "rotateSpeed": 2.8,
 "hitSize": 31,
 

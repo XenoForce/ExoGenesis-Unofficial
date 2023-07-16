@@ -14,7 +14,7 @@
 	"hitSize": 41,
 	"health": 9800,
     "mechStepParticles": false,
-    "mechStepShake": 0,
+    "stepShake": 0,
     "mechFrontSway": 0,
     "mechSideSway": 0,
 	"armor": 24,

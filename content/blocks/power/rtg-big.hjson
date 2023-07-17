@@ -10,10 +10,8 @@ description: "A larger version of the RTG. As much power as 4 RTGs."
 "hasItems": true,
 "itemCapacity": 10,
 "itemDuration": 740,
-"randomlyExplode": false,
 "generateEffect": "smeltsmoke",
-"heatColor": "FF7141FF",
-"minItemEfficiency": 0.1,
+// "heatColor": "FF7141FF",
 
 "loopSound": "hum",
 "loopSoundVolume": 1.95,

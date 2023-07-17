@@ -8,11 +8,10 @@ health: 400
 "hasItems": true,
 "itemCapacity": 15,
 "itemDuration": 240,
-"randomlyExplode": false,
+
 "ambientSound": "hum",
 "ambientSoundVolume": 0.25
-"heatColor": "FFFFFF",
-"minItemEfficiency": 0.1,
+// "heatColor": "FFFFFF",
 
 generateEffect: {
 	"type": "WaveEffect",

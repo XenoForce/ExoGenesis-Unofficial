@@ -8,7 +8,7 @@ health: 8789000
 "recoil": 0,
 "rotateSpeed": 0,
 "canOverdrive": false,
-"acceptsCoolant": false,
+// "acceptsCoolant": false,
 "shootCone": 720,
 
 shootEffect: {
@@ -196,9 +196,8 @@ shootEffect: {
 }
 
 "range": 1800,
-"shootLength": 0,
 "heatColor": "9B61FFFF",
-"cooldown": 0.030,
+"cooldownTime": 300,
 "shootSound": "release",
 
 shoot: {

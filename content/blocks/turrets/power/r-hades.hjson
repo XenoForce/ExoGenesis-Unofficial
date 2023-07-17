@@ -19,7 +19,6 @@ shoot: {
 "liquidCapacity": 400,
 "targetAir": true, 
 "targetGround": true,
-"shootLength": 6,
 "heatColor": "FFFFFF",
 // "powerUse": 200,
 "coolantMultiplier": 0.8,

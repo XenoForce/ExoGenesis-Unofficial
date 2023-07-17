@@ -18,10 +18,9 @@ consumes: {
 }
 
 "inaccuracy": 15,
-"shootLength": 0,
 "velocityInaccuracy": 0.33,
 "heatColor": "FF5845FF", 
-"cooldown": 0.030,
+"cooldownTime": 3,
 
 shoot: {
 	type: ShootPattern

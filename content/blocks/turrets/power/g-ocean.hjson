@@ -11,11 +11,15 @@ health: 1500
 "targetAir" : false, 
 "targetGround" : true, 
 "placeableLiquid": "true",
-
 "rotateSpeed": 2,
 "inaccuracy": 5,
-"shots" : 3,
-"burstSpacing": 3,
+
+shoot: {
+	type: ShootSpread
+	shots: 3
+	spread: 3
+}
+
 "recoil" : 3,
 "shootSound" : "laser",
 

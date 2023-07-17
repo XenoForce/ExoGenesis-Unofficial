@@ -6,8 +6,13 @@ health: 1600
 
 "range": 100,
 "reload" : 10,
-"burstSpacing": 5,
-"shots" : 3,
+
+shoot: {
+	type: ShootSpread
+	shots: 3
+	spread: 5
+}
+
 "targetAir" : false, 
 "targetGround" : true,
 "shootCone" : 20,

@@ -6,15 +6,12 @@ health: 880
 
 "reload": 30,
 "range": 200,
-"shootLength": 6,
 
 shoot: {
 	type: ShootSpread
 	spread: 10
 	shots: 10
 }
-
-"burstSpacing": 10,
 
 shootEffect: {
 	"type": "ParticleEffect",
@@ -39,16 +36,16 @@ shootEffect: {
 "hasPower" : true,
 
 shootType: {
-	"type" : "BasicBulletType",
-	"sprite" : "xguctt-slice",
+	"type": "BasicBulletType",
+	"sprite": "xguctt-slice",
 	"status": "xguctt-irradiated",
 	"damage": 80,
-	"height" : 13,
+	"height": 13,
 	"spin": 7,
-	"width" : 13,
+	"width": 13,
 	"hitSize": 10,
 	"speed": 7,
-	"lifetime" : 50,
+	"lifetime": 50,
 	"shrinkX": 0,
 	"weaveMag": 2.2,
 	"weaveScale": 7,

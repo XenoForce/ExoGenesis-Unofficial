@@ -6,14 +6,18 @@ health: 8660
 
 "range": 800,
 "reload" : 380,
-"shots" : 1,
+
+shoot: {
+	type: ShootPattern
+	shots : 1
+}
+
 "targetAir" : true, 
 "targetGround" : true,
 "shootCone" : 1,
 "recoil" : 4,
 "rotateSpeed": 2,
 "shake" : 2,
-
 "shootSound": "release",
 "chargeSound": "lasercharge",
 "chargeTime" : 80,

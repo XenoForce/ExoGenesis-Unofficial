@@ -10,9 +10,13 @@ health: 1200
 "shake": 4,
 "ammoUseEffect": "none",
 "inaccuracy": 10,
-"shots": 7,
-"burstSpacing": 4,
-"spread": 5,
+
+shoot: {
+	type: ShootSpread
+	shots: 7
+	spread: 5
+}
+
 "xRand": 8,
 "rotateSpeed": 6,
 "shootSound": "missile",

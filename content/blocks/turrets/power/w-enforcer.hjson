@@ -5,7 +5,6 @@ size: 3
 health: 360
 
 "range": 500,
-"burstSpacing": 10,
 "reload": 25,
 "inaccuracy": 3,
 "targetAir": true,
@@ -14,8 +13,8 @@ health: 360
 
 shoot: {
 	type: ShootSpread
-	spread: 2
 	shots: 3
+	spread: 4
 }
 
 "recoil": 2,

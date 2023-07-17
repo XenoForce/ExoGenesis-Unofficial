@@ -6,13 +6,17 @@ health: 8789000
 
 "reload": 850,
 "range": 1000,
-"shots" : 1,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "targetAir" : true, 
 "targetGround" : true,
 // "powerUse": 753,
 "coolantMultiplier": 2.7,
 "heatColor": "74C2E8FF",
-"shootLength": -17,
 "update": true,
 "hasPower": true,
 "shootSound": "bigLaserShoot",

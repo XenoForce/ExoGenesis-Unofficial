@@ -9,11 +9,11 @@ health: 240
 "inaccuracy": 2,
 
 shoot: {
-	type: ShootPattern
+	type: ShootSpread
 	shots: 5
+	spread: 5
 }
 
-"burstSpacing": 5,
 "ammoUseEffect": "casing2",
 "ammoEjectBack": 3,
 "targetAir": true,
@@ -21,7 +21,7 @@ shoot: {
 "shootCone": 0.08,
 "shake": 2,
 "recoil": 3,
-"cooldown": 0.06,
+"cooldownTime": 26,
 "rotateSpeed": 2,
 "shootSound": "shootBig",
 

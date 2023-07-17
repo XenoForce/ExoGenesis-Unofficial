@@ -6,21 +6,25 @@ health: 8660
 
 "accurateDelay": true,
 "range": 500,
-"reload" : 650,
-"shots" : 1,
-"shootLength": 18,
-"cooldown": 0.0076,
-"targetAir" : true, 
-"targetGround" : true,
-"recoil" : 4,
+"reload": 650,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
+"cooldownTime": 270,
+"targetAir": true, 
+"targetGround": true,
+"recoil": 4,
 "heatColor": "FFFFFF",
 "rotateSpeed": 1.0,
-"shake" : 14,
-"shootSound" : "red",
+"shake": 14,
+"shootSound": "red",
 "chargeSound": "lasercharge2",
-"chargeTime" : 100,
-"chargeMaxDelay" : 10,
-"chargeEffects" : 5,
+"chargeTime": 100,
+"chargeMaxDelay": 10,
+"chargeEffects": 5,
 
 chargeBeginEffect: {
 	type: multiEffect

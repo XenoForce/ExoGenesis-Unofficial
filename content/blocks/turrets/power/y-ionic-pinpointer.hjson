@@ -7,19 +7,21 @@ health: 3180
 "reload": 140,
 "range": 280,
 "inaccuracy": 0,
-"shots" : 3,
-"burstSpacing": 5,
 
-"targetAir" : false, 
-"targetGround" : true,
-"shootCone" : 2,
-"spread" : 0,
-"recoil" : 1.5,
+shoot: {
+	type: ShootSpread
+	shots: 3
+	spread: 5
+}
+
+"targetAir": false, 
+"targetGround": true,
+"shootCone": 2,
+"recoil": 1.5,
 "rotateSpeed": 8,
-"shootSound" : "railgun",
-
+"shootSound": "railgun",
 // "powerUse" : 18,
-"hasPower" : true,
+"hasPower": true,
 
 shootType : {
     "type" : "pointBulletType",

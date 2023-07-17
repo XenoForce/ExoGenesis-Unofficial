@@ -7,11 +7,11 @@ health: 240
 "reload": 64,
 "range": 270,
 "inaccuracy": 12,
-"burstSpacing": 5,
 
 shoot: {
-	type: ShootPattern
+	type: ShootSpread
 	shots: 5
+	spread: 5
 }
 
 "targetAir": true,

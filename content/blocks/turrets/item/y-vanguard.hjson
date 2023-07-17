@@ -9,15 +9,19 @@ health: 1500
 "maxAmmo": 300,
 "inaccuracy": 5,
 "velocityInaccuracy": 0.2,
-"shots" : 25,
 
-"targetAir" : false, 
-"targetGround" : true,
-"shootCone" : 0.01,
-"spread" : 0.5,
-"recoil" : 3,
+shoot: {
+	type: ShootSpread
+	shots: 25
+	spread: 5
+}
+
+"targetAir": false, 
+"targetGround": true,
+"shootCone": 0.01,
+"recoil": 3,
 "rotateSpeed": 3,
-"shootSound" : "shotgun",
+"shootSound": "shotgun",
 "ammoPerShot": 24,
 
 ammoTypes: {

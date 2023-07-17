@@ -7,15 +7,19 @@ health: 4360
 "range": 800,
 "reload" : 280,
 "inaccuracy": 2,
-"shots" : 1,
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 2
+}
+
 "targetAir" : true, 
 "targetGround" : false,
 "shootCone" : 1,
-"spread" : 2,
 "recoil": 4,
 "rotateSpeed": 6,
 "shake": 2,
-
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
 "chargeTime" : 90,

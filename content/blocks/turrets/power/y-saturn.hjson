@@ -7,15 +7,19 @@ health: 8660
 "reload": 150,
 "range": 400,
 "inaccuracy": 0,
-"shots": 1,
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 1
+}
+
 "targetAir": true,
 "targetGround": true,
 "shootCone": 2,
-"spread": 1,
 "recoil": 2.5,
 "rotateSpeed": 1,
 "shootSound": "railgun",
-
 "chargeSound": "lasercharge2",
 "chargeTime": 65,
 "chargeMaxDelay": 10,

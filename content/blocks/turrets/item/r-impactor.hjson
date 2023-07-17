@@ -4,7 +4,7 @@ size: 7
 
 "coolantMultiplier": 0.9,
 "ammoPerShot": 30,
-"ammoCapacity": 90,
+"itemCapacity": 90,
 "reload": 260,
 "ammoUseEffect": "casing4",
 "range": 500,
@@ -20,7 +20,11 @@ consumes: {
 	}
 }
 
-"shots": 1,
+shoot: {
+	type: ShootPattern
+	shots: 1
+}
+
 "shootSound": "shootBig",
 
 ammoTypes: {

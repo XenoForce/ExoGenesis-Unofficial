@@ -7,9 +7,14 @@ health: 880
 "reload": 120,
 "range": 200,
 "inaccuracy": 360,
-"shots": 35,
+
+shoot: {
+	type: ShootSpread
+	shots: 35
+	spread: 3
+}
+
 "recoil": 0,
-"burstSpacing": 0.5,
 "heatColor": "FFFFFF",
 
 shootEffect: {
@@ -28,7 +33,6 @@ shootEffect: {
 "targetAir" : true, 
 "targetGround" : true,
 "shootCone" : 360,
-"shootLength": 0,
 "rotateSpeed": 0,
 "shootSound" : "laser",
 // "powerUse": 20,

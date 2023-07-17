@@ -15,7 +15,6 @@ shoot: {
 "shootCone": 20,
 "shootSound": "shotgun",
 "inaccuracy": 7,
-"velocityInaccuracy": 0.3,
 
 shootEffect: {
 	type: multiEffect

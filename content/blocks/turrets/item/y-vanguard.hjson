@@ -8,7 +8,6 @@ health: 1500
 "range": 170,
 "maxAmmo": 300,
 "inaccuracy": 5,
-"velocityInaccuracy": 0.2,
 
 shoot: {
 	type: ShootSpread

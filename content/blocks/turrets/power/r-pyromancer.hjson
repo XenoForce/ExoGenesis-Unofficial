@@ -18,7 +18,6 @@ consumes: {
 }
 
 "inaccuracy": 15,
-"velocityInaccuracy": 0.33,
 "heatColor": "FF5845FF", 
 "cooldownTime": 3,
 

@@ -13,7 +13,6 @@ shoot: {
 }
 
 "inaccuracy": 0.7,
-"velocityInaccuracy": 0.4,
 "shootEffect": "hitMeltdown",
 
 ammoTypes: {

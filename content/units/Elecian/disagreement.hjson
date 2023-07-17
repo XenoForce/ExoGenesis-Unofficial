@@ -115,13 +115,13 @@ weapons: [
 	"recoil": 3,
 	
 	shoot: {
-		type: ShootPattern
+		type: ShootSpread
 		shots: 4
+		spread: 10
 		shotDelay: 1
 	}
 	
 	"shootY": 2,
-	"spacing": 10,
 	"inaccuracy": 7,
 	"xRand": 8,
 	"shootSound": "missile",

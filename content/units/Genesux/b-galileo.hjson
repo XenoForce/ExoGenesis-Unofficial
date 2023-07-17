@@ -53,7 +53,7 @@ weapons: [
 	}
 	
 	"inaccuracy": 2,
-	"cooldown": 50,
+	"cooldownTime": 20,
 	"heatColor": "FFFFFFF",
 	"x": 8.5,
 	"y": 0,

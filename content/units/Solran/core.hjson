@@ -47,11 +47,11 @@ weapons: [
 	"shake": 2,
 	
 	shoot: {
-		type: ShootPattern
+		type: ShootSpread
 		shots: 3
+		spread: 4
 	}
 	
-	"spacing": 4,
 	"shootY": 22,
 	"shootSound": "shotgun",
 	"ejectEffect": "casing1",

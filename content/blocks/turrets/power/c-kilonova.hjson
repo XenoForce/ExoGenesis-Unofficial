@@ -183,7 +183,7 @@ chargeEffect: {
 
 "shake": 4,
 "shootSound": "coolplasmaboom",
-"cooldown": 0.045,
+"cooldownTime": 250,
 "rotateSpeed": 2.5,
 
 shootType: {

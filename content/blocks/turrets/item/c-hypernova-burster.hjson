@@ -199,7 +199,7 @@ chargeBeginEffect: {
 
 "chargeEffect": "none",
 "shake": 4,
-"cooldown": 0.045,
+"cooldownTime": 450,
 "rotateSpeed": 0.7,
 
 ammoTypes: {

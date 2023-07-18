@@ -22,30 +22,6 @@ shoot: {
 "rotateSpeed": 1,
 "shootSound": "railgun",
 "chargeSound": "lasercharge2",
-
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 10,
-	"sizeTo": 1,
-	"length": 0,
-	"lifetime": 65,
-	"colorFrom": "F3E979FF",
-	"colorTo": "FFFFFF",
-	"cone": 360
-}
-
-chargeEffect: {
-	"type": "WaveEffect",
-	"lifetime": 60,
-	"sizeFrom": 45,
-	"sizeTo": 0,
-	"strokeFrom": 0,
-	"strokeTo": 5,
-	"colorFrom": "F3E979FF",
-	"colorTo": "FFFFFF"
-}
-
 // "powerUse": 20,
 "hasPower": true,
 
@@ -57,6 +33,34 @@ shootType: {
 	"pierce": false,
 	"trailColor": "F3E979FF",
 	"trailParam": 5,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 10,
+			"sizeTo": 1,
+			"length": 0,
+			"lifetime": 65,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFFFFF",
+			"cone": 360
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 60,
+			"sizeFrom": 45,
+			"sizeTo": 0,
+			"strokeFrom": 0,
+			"strokeTo": 5,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFFFFF"
+		}
+		]
+	}
+	
 	"trailEffect": "none",
 	"trailLength": 16,
 	"trailInterval": 13,

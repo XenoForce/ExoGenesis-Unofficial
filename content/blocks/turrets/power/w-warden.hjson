@@ -21,8 +21,6 @@ shoot: {
 "recoil": 2.5,
 "rotateSpeed": 3,
 "shootSound": "laser",
-"chargeEffect": "lancerLaserCharge",
-"chargeBeginEffect": "lancerLaserChargeBegin",
 // "powerUse": 8,
 "hasPower": true,
 
@@ -35,6 +33,15 @@ shootType: {
 	"damage": 248,
 	"height": 48,
 	"width": 20,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
+	
 	"hitEffect": "hitLaser",
 	"despawnEffect": "hitLaser",
 	"pierce": false,

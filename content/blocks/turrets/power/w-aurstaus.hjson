@@ -78,8 +78,6 @@ shootEffect: {
 	]
 }
 
-"chargeEffect": "none",
-
 shootType: {
 	"type": "LaserBulletType",
 	"colors": ["74C2E8AA", "94FFFBFF", "ffffff"],
@@ -90,6 +88,7 @@ shootType: {
 	"collidesTiles": true,
 	"lightColor": "BF92F9FF",
 	"lightRadius": 20,
+	"chargeEffect": "none",
 	"smokeEffect": "smokeCloud",
 	"largeHit": true,
 	"sideAngle": 35,

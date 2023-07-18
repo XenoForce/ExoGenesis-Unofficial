@@ -275,7 +275,7 @@ weapons: [
 	"shootSound": "railgun",
 	
 	bullet: {
-		"type" : "railBulletType",
+		"type" : "RailBulletType",
 		"damage": 33270,
 		"length" : 900,
 		"ammoMultiplier": 3,
@@ -285,9 +285,8 @@ weapons: [
 		"collidesAir": true,
 		"collidesGround": true,
 		"collidesTiles" : true,
-		"updateEffectSeg": 40,
 		
-		updateEffect: { 
+		endEffect: {
 			"type": "ParticleEffect",
 			"particles": 1,
 			"length": 0,

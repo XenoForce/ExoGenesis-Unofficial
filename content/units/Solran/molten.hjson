@@ -93,9 +93,7 @@ weapons: [
 			]
 		}
 		
-		"updateEffectSeg": 17,
-		
-		updateEffect: {
+		endEffect: {
 			"type": "ParticleEffect",
 			"particles": 1,
 			"lifetime": 34,

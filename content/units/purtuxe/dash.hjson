@@ -124,9 +124,9 @@ weapons: [
 	"shootSound": "railgun",
 	
 	bullet: {
-		"type" : "RailBulletType",
+		"type": "RailBulletType",
 		"damage": 570,
-		"length" : 600,
+		"length": 600,
 		"status": "sapped",
 		"ammoMultiplier": 3,
 		"pierce": true,
@@ -134,11 +134,10 @@ weapons: [
 		"pierceDamageFactor": 0.3,
 		"collidesAir": true,
 		"collidesGround": true,
-		"collidesTiles" : true,
-		"updateEffectSeg": 40,
-		"updateEffect": "railTrail",
-		"pierceEffect" : "railHit",
-		"hitEffect" : "massiveExplosion"
+		"collidesTiles": true,
+		"pierceEffect": "railHit",
+		"endEffect": "railTrail",
+		"hitEffect": "massiveExplosion"
 	}
 }
 ]

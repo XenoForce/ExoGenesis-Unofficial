@@ -986,9 +986,8 @@ weapons: [
 		"collidesAir": true,
 		"collidesGround": true,
 		"collidesTiles" : true,
-		"updateEffectSeg": 26,
 		
-		updateEffect: {
+		endEffect: {
 			"type": "ParticleEffect",
 			"particles": 1,
 			"lifetime": 34,

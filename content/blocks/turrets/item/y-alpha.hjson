@@ -29,7 +29,7 @@ jupiteium: {
 	"damage": 8260,
 	"drag": 0.006,
 	"status": "slow",
-	"duration": 100,
+	"statusDuration": 100,
 	"width": 30,
 	"height": 47,
 	"frontColor": "C28590FF",

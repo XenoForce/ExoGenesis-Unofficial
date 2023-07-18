@@ -13,11 +13,16 @@ health: 1200
 "powerProduction": 570,
 "warmupSpeed": 0.001,
 "itemDuration": 380,
-"plasma1": "EC905AFF",
-"plasma2": "D99F6BFF",
+
+drawer: {
+	"type": "DrawPlasma"
+	"plasma1": "EC905AFF"
+	"plasma2": "D99F6BFF"
+}
 
 "loopSound": "pulse",
 "loopSoundVolume": 1.0,
+
 "ambientSound": "hum",
 "ambientSoundVolume": 0.85
 

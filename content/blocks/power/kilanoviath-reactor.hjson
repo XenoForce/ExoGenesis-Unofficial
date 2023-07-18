@@ -14,8 +14,13 @@ health: 10000
 "powerProduction": 2000,
 "warmupSpeed": 0.001,
 "itemDuration": 500,
-"plasma1": "B3F7FFFF",
-"plasma2": "DDFF9EFF",
+
+drawer: {
+	"type": "DrawPlasma"
+	"plasma1": "B3F7FFFF"
+	"plasma2": "DDFF9EFF"
+}
+
 "loopSound": "pulse",
 "loopSoundVolume": 2,
 "ambientSound": "hum",

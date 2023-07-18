@@ -18,8 +18,11 @@ health: 1200
 "ambientSound": "pulse",
 "ambientSoundVolume": 0.85,
 
-"plasma1": "73FFAEFF",
-"plasma2": "57D993FF",
+drawer: {
+	"type": "DrawPlasma"
+	"plasma1": "73FFAEFF"
+	"plasma2": "57D993FF"
+}
 
 consumes: {
 	power: 60.0

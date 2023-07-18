@@ -5,11 +5,12 @@ size: 8
 health: 8660
 
 "range": 580,
-"reload" : 210,
+"reload": 210,
 
 shoot: {
 	type: ShootPattern
 	shots : 1
+	firstShotDelay: 80
 }
 
 "targetAir" : false, 
@@ -18,12 +19,8 @@ shoot: {
 "recoil" : 6,
 "rotateSpeed": 1.0,
 "shake" : 10,
-
 "shootSound": "matter",
 "chargeSound": "grinding",
-"chargeTime" : 80,
-"chargeMaxDelay" : 10,
-"chargeEffects" : 1,
 
 chargeBeginEffect: {
 	"type": "ParticleEffect",
@@ -507,16 +504,16 @@ xanium: {
 		}
 		
 		{
-			type": "WaveEffect",
-			lifetime": 25,
-			sizeFrom": 0,
-			sizeTo": 100,
-			lightColor": "DBFFBDFF",
-			interp": "circleOut",
-			strokeFrom": 7,
-			strokeTo": 0,
-			colorFrom": "DBFFBDFF",
-			colorTo": "DBFFBDFF"
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 0,
+			"sizeTo": 100,
+			"lightColor": "DBFFBDFF",
+			"interp": "circleOut",
+			"strokeFrom": 7,
+			"strokeTo": 0,
+			"colorFrom": "DBFFBDFF",
+			"colorTo": "DBFFBDFF"
 		}
 		]
 	}

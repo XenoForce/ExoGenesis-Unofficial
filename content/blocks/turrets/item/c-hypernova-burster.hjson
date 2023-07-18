@@ -12,19 +12,18 @@ health: 8789000
 
 shoot: {
 	type: ShootSpread
-	spread: 0
 	shots: 1
+	spread: 0
+	firstShotDelay: 200
 }
 
-"targetAir" : true, 
+"targetAir": true,
+"targetGround": true,
 "recoil": 8,
-"targetGround" : true,
 "update": true,
 "hasPower": true,
 "shootSound": "laserblast",
 "chargeSound": "none",
-"chargeTime": 200,
-"chargeEffects": 1,
 
 chargeBeginEffect: {
 	type: multiEffect

@@ -11,6 +11,7 @@ health: 240
 shoot: {
 	type: ShootPattern
 	shots: 1
+	firstShotDelay: 10
 }
 
 "targetAir": false,
@@ -18,8 +19,6 @@ shoot: {
 "shootCone": 0.08,
 "recoil": 0.7,
 "rotateSpeed": 5,
-"chargeMaxDelay": 10,
-"chargeEffects": 2,
 
 chargeBeginEffect: {
 	"type": "ParticleEffect",

@@ -10,6 +10,7 @@ health: 1000000
 shoot: {
 	type: ShootPattern
 	shots: 1
+	firstShotDelay: 120
 }
 
 "shootSound": "laserbig",
@@ -25,8 +26,6 @@ shoot: {
 "update": true,
 "hasPower": true,
 "chargeSound": "lasercharge",
-"chargeTime": 120,
-"chargeEffects": 1,
 
 chargeBeginEffect: {
 	type: multiEffect

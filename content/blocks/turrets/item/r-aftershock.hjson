@@ -11,6 +11,7 @@ health: 8660
 shoot: {
 	type: ShootPattern
 	shots: 1
+	firstShotDelay: 100
 }
 
 "cooldownTime": 270,
@@ -22,9 +23,6 @@ shoot: {
 "shake": 14,
 "shootSound": "red",
 "chargeSound": "lasercharge2",
-"chargeTime": 100,
-"chargeMaxDelay": 10,
-"chargeEffects": 5,
 
 chargeBeginEffect: {
 	type: multiEffect

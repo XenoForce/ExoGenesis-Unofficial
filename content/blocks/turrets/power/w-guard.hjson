@@ -12,6 +12,7 @@ shoot: {
 	type: ShootSpread
 	spread: 0
 	shots: 1
+	firstShotDelay: 45
 }
 
 "targetAir": true,
@@ -20,12 +21,8 @@ shoot: {
 "recoil": 1.5,
 "rotateSpeed": 8,
 "shootSound": "lasershoot",
-"chargeTime": 45,
-"chargeMaxDelay": 28,
-"chargeEffects": 5,
 "chargeEffect": "lancerLaserCharge",
 "chargeBeginEffect": "lancerLaserChargeBegin",
-
 // "powerUse": 2,
 "hasPower": true,
 

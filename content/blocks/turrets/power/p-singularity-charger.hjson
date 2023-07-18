@@ -18,8 +18,12 @@ health: 1000
 "hasPower": true,
 // "powerUse": 67,
 "chargeSound": "lasercharge",
-"chargeTime" : 80,
-"chargeEffects" : 1,
+
+shoot: {
+	type: ShootPattern
+	shots: 1
+	firstShotDelay: 80
+}
 
 chargeBeginEffect: {
 	"type": "ParticleEffect",

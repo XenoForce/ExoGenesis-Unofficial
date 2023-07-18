@@ -15,16 +15,14 @@ shoot: {
 	type: ShootSpread
 	shots: 1
 	spread: 0
+	firstShotDelay: 100
 }
 
 "recoil": 4,
 "rotateSpeed": 6,
 "shake": 2,
-
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
-"chargeTime" : 100,
-"chargeEffects" : 1,
 
 chargeEffect: {
     "type": "WaveEffect",

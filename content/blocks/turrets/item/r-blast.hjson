@@ -11,20 +11,16 @@ health: 1600
 shoot: {
 	type: ShootPattern
 	shots: 1
+	firstShotDelay: 30
 }
 
 "targetAir": true, 
 "targetGround": true,
-
 "recoil": 3,
 "heatColor": "CB1D1DFF",
 "rotateSpeed": 4.0,
 "shake": 4,
-
 "shootSound": "plasmaboom",
-"chargeTime": 30,
-"chargeMaxDelay": 10,
-"chargeEffects": 2,
 
 chargeBeginEffect: {
   "type": "ParticleEffect",

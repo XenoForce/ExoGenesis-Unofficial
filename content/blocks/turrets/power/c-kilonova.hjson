@@ -13,6 +13,7 @@ health: 6880
 shoot: {
 	type: ShootPattern
 	shots: 1
+	firstShotDelay: 150
 }
 
 "targetAir" : true, 
@@ -57,8 +58,6 @@ shootEffect: {
 }
 
 "chargeSound": "lasercharge2",
-"chargeTime": 150,
-"chargeEffects": 1,
 
 chargeBeginEffect: {
 	type: multiEffect

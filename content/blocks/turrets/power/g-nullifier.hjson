@@ -5,24 +5,22 @@ size: 7
 health: 5660
 
 "range": 500,
-"reload" : 380,
+"reload": 380,
 
 shoot: {
 	type: ShootPattern
 	shots : 1
+	firstShotDelay: 80
 }
 
-"targetAir" : true,
-"targetGround" : true,
-"shootCone" : 1,
-"recoil" : 4,
+"targetAir": true,
+"targetGround": true,
+"shootCone": 1,
+"recoil": 4,
 "rotateSpeed": 2,
-"shake" : 2,
-
+"shake": 2,
 "shootSound": "plasmaboom",
 "chargeSound": "lasercharge",
-"chargeTime" : 80,
-"chargeEffects" : 1,
 
 chargeBeginEffect: {
     "type": "ParticleEffect",

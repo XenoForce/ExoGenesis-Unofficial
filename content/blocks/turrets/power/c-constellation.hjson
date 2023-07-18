@@ -11,6 +11,7 @@ shoot: {
 	type: ShootSpread
 	spread: 0
 	shots: 1
+	firstShotDelay: 80
 }
 
 "targetAir": true,
@@ -21,8 +22,6 @@ shoot: {
 "shootSound": "laserblast",
 // "powerUse": 37,
 "chargeSound": "lasercharge",
-"chargeTime": 80,
-"chargeEffects": 1,
 
 chargeEffect: {
 	"type": "MultiEffect",

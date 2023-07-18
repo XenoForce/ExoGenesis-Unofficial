@@ -12,6 +12,7 @@ shoot: {
 	type: ShootSpread
 	shots: 1
 	spread: 1
+	firstShotDelay: 65
 }
 
 "targetAir": true,
@@ -21,9 +22,6 @@ shoot: {
 "rotateSpeed": 1,
 "shootSound": "railgun",
 "chargeSound": "lasercharge2",
-"chargeTime": 65,
-"chargeMaxDelay": 10,
-"chargeEffects": 1,
 
 chargeBeginEffect: {
 	"type": "ParticleEffect",

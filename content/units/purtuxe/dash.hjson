@@ -21,8 +21,8 @@ research: {
 
 "accel": 0.3,
 "rotateSpeed": 1.9,
-"trailX": 15,
-"trailY": -6,
+"waveTrailX": 15,
+"waveTrailY": -6,
 "trailScl": 3,
 "trailLength": 45,
 "faceTarget": false,

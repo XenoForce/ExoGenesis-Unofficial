@@ -18,11 +18,10 @@ research: {
 "drag": 0.17,
 "targetAir": true,
 "hitSize": 26,
-
 "accel": 0.2,
 "rotateSpeed": 1.9,
-"trailX": 7,
-"trailY": -9,
+"waveTrailX": 7,
+"waveTrailY": -9,
 "trailScl": 1.5,
 "trailLength": 20,
 "faceTarget": false,

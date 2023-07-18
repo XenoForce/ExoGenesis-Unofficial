@@ -21,16 +21,13 @@ research: {
 }
 
 "drag": 0.17,
-
 // "commandLimit": 12,
-
 "targetAir": true,
 "hitSize": 97,
-
 "accel": 0.11,
 "rotateSpeed": 0.8,
-"trailX": 27,
-"trailY": -50,
+"waveTrailX": 27,
+"waveTrailY": -50,
 "trailScl": 8,
 "trailLength": 95,
 "faceTarget": false,

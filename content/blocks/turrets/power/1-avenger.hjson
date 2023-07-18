@@ -23,7 +23,6 @@ shoot: {
 "shake": 2,
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
-"colors": ["84F49170", "84F491FF", "FFFFFF"],
 // "powerUse": 40,
 "hasPower": true,
 

@@ -46,8 +46,7 @@ weapons: [
 	"ejectEffect": "casing2",
 	
 	bullet: {
-		"colors": ["50A385B0", "57D993FF", "73FFAEFF", "FFFFFFF"],
-		"type": "basicBulletType",
+		"type": "BasicBulletType",
 		"sprite": "xguctt-energy-partical",
 		"damage": 10,
 		"spin": 5,

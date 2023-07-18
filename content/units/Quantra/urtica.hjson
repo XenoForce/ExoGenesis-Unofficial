@@ -58,8 +58,7 @@ weapons: [
 	"ejectEffect": "none",
 	
 	bullet: {
-		"colors": ["50A385B0", "57D993FF", "73FFAEFF", "FFFFFFF"],
-		"type": "basicBulletType",
+		"type": "BasicBulletType",
 		"sprite": "xguctt-large-disk-bullet",
 		"damage": 280,
 		"splashDamage": 50,
@@ -156,7 +155,7 @@ weapons: [
 	"shootSound": "shoot",
 	
 	bullet: { 
-		"type": "basicBulletType",
+		"type": "BasicBulletType",
 		"splashDamageRadius": 1,
 		"splashDamage": 1,
 		

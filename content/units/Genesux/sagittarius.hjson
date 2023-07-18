@@ -582,7 +582,6 @@ weapons: [
 		"damage": 80000,
 		"shrinkX": 0,
 		"shrinkY": 0,
-		"scaleVelocity": true,
 		"splashDamage": 6750,
 		"splashDamageRadius": 120,
 		"width": 68,

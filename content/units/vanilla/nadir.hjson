@@ -428,7 +428,6 @@ weapons: [
 		"lightRadius": 80,
 		"lightColor": "ff9c5a",
 		"damage": 880,
-		"scaleVelocity": "true",
 		"splashDamage": 7250,
 		"splashDamageRadius": 110,	
 		"height": 28.5,

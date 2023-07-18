@@ -261,7 +261,6 @@ calamity-crystal: {
 	"trailLength": 19,
 	"collidesGround": false,
 	"collidesAir": false,
-	"scaleVelocity": true,
 	"trailWidth": 8,
 	"trailInterval": 30,
 	"trailRotation": true,
@@ -1288,7 +1287,6 @@ omega-blue: {
 	
 	"trailEffect": "none",
 	"homingRange": 230,
-	"scaleVelocity": true,
 	"trailColor": "66B1FFFF",
 	"trailParam": 5,
 	"trailLength": 28,

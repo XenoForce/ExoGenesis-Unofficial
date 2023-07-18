@@ -832,7 +832,6 @@
     "trailLength": 16,
     "trailInterval": 13,
     "trailWidth": 6,
-    "scaleVelocity": true,
     "lightningColor": "73FFAEFF",
     "lightning": 8,
     "lightningDamage": 78,

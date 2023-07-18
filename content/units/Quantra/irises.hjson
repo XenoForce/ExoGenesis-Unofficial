@@ -52,7 +52,6 @@ weapons: [
 		"spin": 5,
 		"healPercent": 0.5,
 		"collidesTeam": true,
-		"scaleVelocity": true,
 		"buildingDamageMultiplier": 0.25,
 		"splashDamage": 30,
 		"splashDamageRadius": 26,

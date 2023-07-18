@@ -29,7 +29,7 @@ research: {
 "legMoveSpace": 1.1,
 "legLength": 18.5,
 "legBaseOffset": 16,
-"legTrns": 0.62,
+"legForwardScl": 0.62,
 "stepShake": 1.0,
 "legSpeed": 0.001,
 "rippleScale": 2.8,

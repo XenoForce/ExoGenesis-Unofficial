@@ -20,7 +20,7 @@
 	"range": 180,
 	"targetAir": false,
 	"rotateSpeed": 3,
-	"legTrns": 0.6,
+	"legForwardScl": 0.6,
 	"legCount": 4,
 	"rippleScale": 0.6,
 	"legBaseOffset": 3,

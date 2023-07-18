@@ -22,7 +22,7 @@ research: {
 "range": 180,
 "targetAir": true,
 "rotateSpeed": 3,
-"legTrns": 0.6,
+"legForwardScl": 0.6,
 "legBaseOffset": 4,
 "legCount": 4,
 "legMoveSpace": 1.2,

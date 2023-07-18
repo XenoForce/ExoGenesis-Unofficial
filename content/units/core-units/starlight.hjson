@@ -17,7 +17,7 @@ speed: 1.4
 "targetAir": true,
 "rotateSpeed": 3,
 "legBaseOffset": 9,
-"legTrns": 0.38,
+"legForwardScl": 0.38,
 "legCount": 6,
 "legPairOffset": 3,
 "legMoveSpace": 1.4,

@@ -27,7 +27,7 @@ research: {
 "targetAir": true,
 "rotateSpeed": 7,
 "legSpeed": 0.7,
-"legTrns": 0.6,
+"legForwardScl": 0.6,
 "legCount": 6,
 "legMoveSpace": 1.3,
 "legLength": 28,

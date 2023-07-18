@@ -23,67 +23,69 @@ shoot: {
 "shake": 2,
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
-
-chargeEffect: {
-    "type": "WaveEffect",
-    "lifetime": 90,
-    "sizeFrom": 50,
-    "sizeTo": 0,
-    "strokeFrom": 0,
-    "strokeTo": 5,
-    "colorFrom": "84F491FF",
-    "colorTo": "84F491FF"
-}
-
 "colors": ["84F49170", "84F491FF", "FFFFFF"],
-
-chargeBeginEffect: {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "region": "xguctt-energy-partical-back",
-    "sizeFrom": 0,
-    "sizeTo": 17,
-    "interp": "swingOut",
-    "length": 0,
-    "lifetime": 100,
-    "colorFrom": "84F491FF",
-    "colorTo": "84F491FF"
-}
-
 // "powerUse": 40,
 "hasPower": true,
 
 shootType: {
-    "type" : "EmpBulletType",
-    "sprite": "xguctt-energy-partical",
-	"damage": 150,	
+	"type" : "EmpBulletType",
+	"sprite": "xguctt-energy-partical",
+	"damage": 150,
 	"splashDamage" : 500,
-	"splashDamageRadius" : 80,	
+	"splashDamageRadius" : 80,
 	"hitShake" : 10,
 	"height" : 70,
-	"width" : 70,			
+	"width" : 70,
 	"speed": 5,
 	"lifetime" : 90,
 	"homingPower": 0.00769,
 	"homingRange": 128,
 	"trailColor": "84F491FF",
-    "trailParam": 5,
-    "trailLength": 19,
-    "trailWidth": 6.5,
-    "radius": 80,
-    "timeIncrease": 2.5,
-    "powerDamageScl": 5.5,
-    "powerSclDecrease": 0.55,
-    "unitDamageScl": 0.6,
+	"trailParam": 5,
+	"trailLength": 19,
+	"trailWidth": 6.5,
+	"radius": 80,
+	"timeIncrease": 2.5,
+	"powerDamageScl": 5.5,
+	"powerSclDecrease": 0.55,
+	"unitDamageScl": 0.6,
 	"shrinkX": 0,
 	"shrinkY": 0,
 	"spin": 6,
 	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"region": "xguctt-energy-partical-back",
+			"sizeFrom": 0,
+			"sizeTo": 17,
+			"interp": "swingOut",
+			"length": 0,
+			"lifetime": 100,
+			"colorFrom": "84F491FF",
+			"colorTo": "84F491FF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 90,
+			"sizeFrom": 50,
+			"sizeTo": 0,
+			"strokeFrom": 0,
+			"strokeTo": 5,
+			"colorFrom": "84F491FF",
+			"colorTo": "84F491FF"
+		}
+		]
+	}
+	
 	hitEffect: {
-    type: multiEffect
-    
-    effects: [
-    {
+	type: multiEffect
+	
+	effects: [
+	{
         "type": "WaveEffect",
         "lifetime": 30,
         "sizeFrom": 40,

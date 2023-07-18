@@ -32,7 +32,11 @@ research: {
 "faceTarget": true,
 "hitSize": 80,
 "engineOffset": 46,
-"targetFlag": "reactor",
+
+targetFlags: [
+	reactor
+]
+
 "engineSize": 7,
 "lowAltitude": true,
 "targetAir": true,

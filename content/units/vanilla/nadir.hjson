@@ -33,7 +33,11 @@ research: {
 "faceTarget": true,
 "hitSize": 90,
 "engineOffset": 47,
-"targetFlag": "reactor",
+
+targetFlags: [
+	reactor
+]
+
 "engineSize": 12,
 "targetAir": true,
 // "commandLimit": 8,

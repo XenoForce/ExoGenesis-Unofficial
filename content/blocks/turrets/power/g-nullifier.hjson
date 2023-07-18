@@ -21,30 +21,6 @@ shoot: {
 "shake": 2,
 "shootSound": "plasmaboom",
 "chargeSound": "lasercharge",
-
-chargeBeginEffect: {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "sizeFrom": 0,
-    "sizeTo": 10,
-    "length": 0,
-    "lifetime": 80,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF",
-    "cone": 360
-}
-
-chargeEffect: {
-    "type": "WaveEffect",
-    "lifetime": 80,
-    "sizeFrom": 40,
-    "sizeTo": 0,
-    "strokeFrom": 0,
-    "strokeTo": 6,
-    "colorFrom": "73FFAEFF",
-    "colorTo": "73FFAEFF"
-}
-
 // "powerUse" : 40,
 "hasPower" : true,
 
@@ -67,12 +43,39 @@ shootType: {
 	"homingRange": 128,
 	"shrinkX": 0,
 	"shrinkY": 0,
-    
-    hitEffect: {
-        type: multiEffect
-        
-        effects: [
-        {
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 0,
+			"sizeTo": 10,
+			"length": 0,
+			"lifetime": 80,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF",
+			"cone": 360
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 80,
+			"sizeFrom": 40,
+			"sizeTo": 0,
+			"strokeFrom": 0,
+			"strokeTo": 6,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		}
+		]
+	}
+	
+	hitEffect: {
+		type: multiEffect
+		
+		effects: [
+		{
            "type": "ParticleEffect",
            "line": true,
            "particles": 35,

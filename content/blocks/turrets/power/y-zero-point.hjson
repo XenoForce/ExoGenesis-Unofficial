@@ -23,30 +23,6 @@ shoot: {
 "shake": 2,
 "shootSound": "laser",
 "chargeSound": "lasercharge2",
-
-chargeEffect: {
-	"type": "WaveEffect",
-	"lifetime": 75,
-	"sizeFrom": 50,
-	"sizeTo": 0,
-	"strokeFrom": 4,
-	"strokeTo": 0,
-	"colorFrom": "FFDA45FF",
-	"colorTo": "F3E979FF"
-}
-
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 1,
-	"sizeTo": 7,
-	"length": 0,
-	"lifetime": 90,
-	"colorFrom": "FFDA45FF",
-	"colorTo": "F3E979FF",
-	"cone": 360
-}
-
 // "powerUse" : 30,
 "hasPower" : true,
 
@@ -70,6 +46,33 @@ shootType: {
 	"shrinkX": 0,
 	"shrinkY": 0,
 	"spin" : 6,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 7,
+			"length": 0,
+			"lifetime": 90,
+			"colorFrom": "FFDA45FF",
+			"colorTo": "F3E979FF",
+			"cone": 360
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 75,
+			"sizeFrom": 50,
+			"sizeTo": 0,
+			"strokeFrom": 4,
+			"strokeTo": 0,
+			"colorFrom": "FFDA45FF",
+			"colorTo": "F3E979FF"
+		}
+		]
+	}
 	
 	hitEffect: {
 		type: multiEffect

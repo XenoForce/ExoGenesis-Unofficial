@@ -19,32 +19,6 @@ shoot: {
 "shootCone": 0.08,
 "recoil": 0.7,
 "rotateSpeed": 3,
-
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 0,
-	"sizeTo": 4,
-	"length": 0,
-	"lifetime": 30,
-	"colorFrom": "FFDA45FF",
-	"colorTo": "F3E979FF",
-	"cone": 360
-}
-
-chargeEffect: {
-	"type": "ParticleEffect",
-	"line": true,
-	"particles": 5,
-	"lifetime": 20,
-	"length": 45,
-	"cone": 40,
-	"lenFrom": 10,
-	"lenTo": 0,
-	"colorFrom": "FFDA45FF",
-	"colorTo": "F3E979FF"
-}
-
 "shootSound": "lasershoot",
 // "powerUse": 4,
 "hasPower": true,
@@ -65,6 +39,35 @@ shootType: {
 	"statusDuration": 30,
 	"height": 18,
 	"width": 18,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 0,
+			"sizeTo": 4,
+			"length": 0,
+			"lifetime": 30,
+			"colorFrom": "FFDA45FF",
+			"colorTo": "F3E979FF",
+			"cone": 360
+		},
+		{
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 5,
+			"lifetime": 20,
+			"length": 45,
+			"cone": 40,
+			"lenFrom": 10,
+			"lenTo": 0,
+			"colorFrom": "FFDA45FF",
+			"colorTo": "F3E979FF"
+		}
+		]
+	}
 	
 	hitEffect: {
 		"type": "WaveEffect",

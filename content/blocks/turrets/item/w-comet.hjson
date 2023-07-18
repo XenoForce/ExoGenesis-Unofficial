@@ -20,8 +20,6 @@ shoot: {
 "recoil": 1.5,
 "rotateSpeed": 5,
 "shootSound": "lasershoot",
-"chargeEffect": "lancerLaserCharge",
-"chargeBeginEffect": "lancerLaserChargeBegin",
 
 ammoTypes: {
 graphite: {
@@ -47,7 +45,15 @@ graphite: {
 	"splashDamage": 27,
 	"trailColor": "95ABD9FF",
 	"frontColor": "6B77A1FF",
-	"backColor": "95ABD9FF"
+	"backColor": "95ABD9FF",
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 
 silicon: {
@@ -73,7 +79,15 @@ silicon: {
 	"splashDamage": 43,
 	"trailColor": "767A84FF",
 	"frontColor": "8E9097FF",
-	"backColor": "767A84FF"
+	"backColor": "767A84FF",
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 }
 

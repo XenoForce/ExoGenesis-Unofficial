@@ -22,37 +22,6 @@ shoot: {
 "shootSound": "laser",
 // "powerUse": 7,
 
-chargeEffect: {
-	"type": "ParticleEffect",
-	"line": true,
-	"particles": 7,
-	"lifetime": 23,
-	"offset": 50,
-	"length": 65,
-	"baseLength": -65,
-	"cone": 360,
-	"interp": "pow3In",
-	"sizeInterp": "pow5Out",    
-	"strokeFrom": 0,
-	"strokeTo": 1.6,    
-	"lenFrom": 0,
-	"lenTo": 6,
-	"colorFrom": "A9D8FFFF",
-	"colorTo": "66B1FFFF"
-}
-
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 1,
-	"sizeTo": 5,
-	"length": 0,
-	"lifetime": 25,
-	"colorFrom": "66B1FFFF",
-	"colorTo": "A9D8FFFF",
-	"cone": 360
-}
-
 shootType: {
 	"type": "basicBulletType",
 	"sprite": "circle-bullet",
@@ -64,6 +33,41 @@ shootType: {
 	"shrinkX": 0,
 	"height": 15,
 	"width": 15,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 5,
+			"length": 0,
+			"lifetime": 25,
+			"colorFrom": "66B1FFFF",
+			"colorTo": "A9D8FFFF",
+			"cone": 360
+		},
+		{
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 7,
+			"lifetime": 23,
+			"offset": 50,
+			"length": 65,
+			"baseLength": -65,
+			"cone": 360,
+			"interp": "pow3In",
+			"sizeInterp": "pow5Out",    
+			"strokeFrom": 0,
+			"strokeTo": 1.6,    
+			"lenFrom": 0,
+			"lenTo": 6,
+			"colorFrom": "A9D8FFFF",
+			"colorTo": "66B1FFFF"
+		}
+		]
+	}
 	
 	hitEffect: {
 		type: multiEffect

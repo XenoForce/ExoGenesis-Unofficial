@@ -20,58 +20,81 @@ shoot: {
 "recoil": 2,
 "rotateSpeed": 2.5,
 "shootSound": "lasershoot",
-"chargeEffect": "lancerLaserCharge",
+
+
+/*
+   This was moved down, to be under: "BulletType.chargeEffect".
+
 "chargeBeginEffect": "lancerLaserChargeBegin",
+"chargeEffect": "lancerLaserCharge",
+*/
+
 
 ammoTypes: {
 graphite: {
-		"type": "artilleryBulletType",
-		"sprite": "xguctt-plasma",
-		"speed": 3,
-		"lifetime": 280,
-		"shrinkY": 0,
-		"shrinkX": 0,
-		"damage": 65,
-		"height": 18,
-		"width": 18,
-		"hitEffect": "producesmoke",
-		"despawnEffect": "producesmoke",
-		"trailChance": 1,
-		"collides": true,
-		"collidesAir": false,
-		"collidesTiles": true,
-		"homingRange": 200,
-		"homingPower": 0.0567,
-		"splashDamageRadius": 54,
-		"splashDamage": 26,
-		"trailColor": "95ABD9FF",
-		"frontColor": "6B77A1FF",
-		"backColor": "95ABD9FF"
+	"type": "artilleryBulletType",
+	"sprite": "xguctt-plasma",
+	"speed": 3,
+	"lifetime": 280,
+	"shrinkY": 0,
+	"shrinkX": 0,
+	"damage": 65,
+	"height": 18,
+	"width": 18,
+	"hitEffect": "producesmoke",
+	"despawnEffect": "producesmoke",
+	"trailChance": 1,
+	"collides": true,
+	"collidesAir": false,
+	"collidesTiles": true,
+	"homingRange": 200,
+	"homingPower": 0.0567,
+	"splashDamageRadius": 54,
+	"splashDamage": 26,
+	"trailColor": "95ABD9FF",
+	"frontColor": "6B77A1FF",
+	"backColor": "95ABD9FF"
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 
 silicon: {
-		"type": "artilleryBulletType",
-		"sprite": "xguctt-plasma",
-		"speed": 3.4,
-		"lifetime": 290,
-		"shrinkY": 0,
-		"shrinkX": 0,
-		"damage": 73,
-		"height": 18,
-		"width": 18,
-		"hitEffect": "flakExplosion",
-		"despawnEffect": "flakExplosion",
-		"trailChance": 1,
-		"collides": true,
-		"collidesAir": false,
-		"collidesTiles": true,
-		"homingRange": 200,
-		"homingPower": 0.0667,
-		"splashDamageRadius": 64,
-		"splashDamage": 37,
-		"trailColor": "767A84FF",
-		"frontColor": "8E9097FF",
-		"backColor": "767A84FF"
+	"type": "artilleryBulletType",
+	"sprite": "xguctt-plasma",
+	"speed": 3.4,
+	"lifetime": 290,
+	"shrinkY": 0,
+	"shrinkX": 0,
+	"damage": 73,
+	"height": 18,
+	"width": 18,
+	"hitEffect": "flakExplosion",
+	"despawnEffect": "flakExplosion",
+	"trailChance": 1,
+	"collides": true,
+	"collidesAir": false,
+	"collidesTiles": true,
+	"homingRange": 200,
+	"homingPower": 0.0667,
+	"splashDamageRadius": 64,
+	"splashDamage": 37,
+	"trailColor": "767A84FF",
+	"frontColor": "8E9097FF",
+	"backColor": "767A84FF"
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 
 metaglass: {
@@ -96,6 +119,14 @@ metaglass: {
 	"frontColor": "D0D0E0FF",
 	"backColor": "EBEEF5FF",
 	"fragBullets": 18,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 	
 	fragBullet: {
 		"type": "BasicBulletType",
@@ -130,7 +161,15 @@ osmium: {
 	"homingPower": 0.0467,
 	"trailColor": "C9DDE3FF",
 	"frontColor": "E2F5FBFF",
-	"backColor": "C9DDE3FF"
+	"backColor": "C9DDE3FF",
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 }
 

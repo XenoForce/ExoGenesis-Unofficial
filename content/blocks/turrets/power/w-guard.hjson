@@ -21,8 +21,16 @@ shoot: {
 "recoil": 1.5,
 "rotateSpeed": 8,
 "shootSound": "lasershoot",
-"chargeEffect": "lancerLaserCharge",
+
+
+/*  
+   Moved this to be under "shootType.chargeEffect".
+
 "chargeBeginEffect": "lancerLaserChargeBegin",
+"chargeEffect": "lancerLaserCharge",
+*/
+
+
 // "powerUse": 2,
 "hasPower": true,
 
@@ -37,6 +45,15 @@ shootType: {
 	"shrinkX": 0,
 	"height": 20,
 	"width": 13,
+	
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
+	
 	"hitEffect": "hitLaser",
 	"despawnEffect": "hitLaser",
 	"pierce": true,

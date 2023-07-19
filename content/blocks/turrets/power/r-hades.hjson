@@ -50,7 +50,7 @@ shootType: {
 	"damage": 7000,
 	"width": 14,
 	"length": 560,
-	"hitLarge": true,
+	"largeHit": true,
 	"status": "xguctt-plasma-vaporisation",
 	"statusDuration": 150,
 	

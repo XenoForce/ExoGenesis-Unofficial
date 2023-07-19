@@ -2,7 +2,7 @@
 
 **Current status:**
 
-This collection of ExoGenesis assets has been released to the public domain under the GPLv3.
+This collection of ExoGenesis assets (sprites, JSON/HJSON code, and playable Mindustry mod) have all been released to the public domain, under the GPLv3.
 
 <br>
 

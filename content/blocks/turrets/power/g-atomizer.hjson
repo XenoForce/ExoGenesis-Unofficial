@@ -21,55 +21,11 @@ shoot: {
 "shake": 2,
 "shootSound": "release",
 "chargeSound": "lasercharge",
-
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 0,
-	"sizeTo": 10,
-	"length": 0,
-	"lifetime": 80,
-	"colorFrom": "73FFAEFF",
-	"colorTo": "73FFAEFF",
-	"cone": 360
-}
-
-chargeEffect: {
-	type: MultiEffect
-	lifetime: 80
-	
-	effects: [
-	{
-		"type": "WaveEffect",
-		"lifetime": 80,
-		"sizeFrom": 0,
-		"sizeTo": 40,
-		"strokeFrom": 0,
-		"strokeTo": 6,
-		"colorFrom": "73FFAEFF",
-		"colorTo": "73FFAEFF"
-	}
-	
-	{
-		"type": "ParticleEffect",
-		"particles": 10,
-		"sizeFrom": 5,
-		"sizeTo": 0,
-		"length": 45,
-		"baseLength": -45,
-		"lifetime": 80,
-		"colorFrom": "73FFAEFF",
-		"colorTo": "73FFAEFF",
-		"cone": 360
-	}
-	]
-}
-
-// "powerUse" : 40,
-"hasPower" : true,
+// "powerUse": 40,
+"hasPower": true,
 
 shootType: {
-	"type" : "basicBulletType",
+	"type" : "BasicBulletType",
 	"sprite" : "xguctt-plasma",
 	"hitSound": "plasmaboom",
 	"status" : "xguctt-irradiated",
@@ -87,6 +43,47 @@ shootType: {
 	"homingRange": 128,
 	"shrinkX": 0,
 	"shrinkY": 0,
+	
+	chargeEffect: {
+		type: MultiEffect
+		lifetime: 80
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 0,
+			"sizeTo": 10,
+			"length": 0,
+			"lifetime": 80,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF",
+			"cone": 360
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 80,
+			"sizeFrom": 0,
+			"sizeTo": 40,
+			"strokeFrom": 0,
+			"strokeTo": 6,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 10,
+			"sizeFrom": 5,
+			"sizeTo": 0,
+			"length": 45,
+			"baseLength": -45,
+			"lifetime": 80,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF",
+			"cone": 360
+		}
+		]
+	}
 	
 	hitEffect: {
 		type: multiEffect

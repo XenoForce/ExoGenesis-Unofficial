@@ -7,4 +7,4 @@ ExoGenesis Mod - Unofficial Playable Clone
 
     This project does NOT break any licensing requirements.
 
-    For more information, see the text file: "abc".
+    For more information, see file: "Licensing Information.md".

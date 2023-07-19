@@ -20,10 +20,20 @@ Rather, I will explain here, how this particular project ("ExoGenesis-Unofficial
 
 1.) A snapshot was taken of the original Exogenesis mod, as on 27 Feb. 2022. On this date, the Exogenesis mod was still released under the GPLv3, by its author.
 
-2.) Extensive work was done on the JSON source code, in order to make the various components of the mod work under the v7 Mindustry game engine. (During this task, more than 500 source code commits were pushed/uploaded to the github source code repository.)
+2.) Extensive work was then done on the JSON source code, in order to make the various components of the mod work under the v7 Mindustry game engine. (During this task, more than 500 source code commits were pushed/uploaded to the github source code repository.)
 
 3.) In many cases, the original JSON source code was converted to the more user-friendly HJSON format and syntax.
 
 4.) The project was continuously tested for errors and warnings against the v7 Mindustry game engine, until all errors and warnings were dealt with successfully.
+
+<br>
+
+**Final Words:**
+
+The starting point for this particular project was a code base that was originally released to the public domain, under the GPLv3.
+
+All additional work that was done on this code base, is also released under the GPLv3, by me, the author of these changes.
+
+Therefore, the final product is a project that is fully released to the public domain, under the GPLv3. This includes all the assets of this project, including the source code and sprites.
 
 <The End>

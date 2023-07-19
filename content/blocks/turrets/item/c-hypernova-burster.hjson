@@ -24,179 +24,6 @@ shoot: {
 "hasPower": true,
 "shootSound": "laserblast",
 "chargeSound": "none",
-
-chargeBeginEffect: {
-	type: multiEffect
-	lifetime: 200
-	
-	effects: [
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -48,
-		"layer": 109,
-		"lifetime": 130,
-		"region": "xguctt-hypernova-light-rune8",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -48,
-		"layer": 109,
-		"lifetime": 130,
-		"region": "xguctt-hypernova-light-rune7",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -48,
-		"layer": 109,
-		"lifetime": 140,
-		"region": "xguctt-hypernova-light-rune6",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -47.7,
-		"layer": 109,
-		"lifetime": 150,
-		"region": "xguctt-hypernova-light-rune5",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -47.7,
-		"layer": 109,
-		"lifetime": 160,
-		"region": "xguctt-hypernova-light-rune4",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -47.7,
-		"layer": 109,
-		"lifetime": 170,
-		"region": "xguctt-hypernova-light-rune3",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -47.7,
-		"layer": 109,
-		"lifetime": 180,
-		"region": "xguctt-hypernova-light-rune2",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 48,
-		"sizeTo": 48,
-		"length": 0,
-		"offsetX": -47.7,
-		"layer": 109,
-		"lifetime": 200,
-		"region": "xguctt-hypernova-light-rune1",
-		"colorFrom": "303136FF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "WaveEffect",
-		"lifetime": 25,
-		"sizeFrom": 150,
-		"sizeTo": 0,
-		"strokeFrom": 6,
-		"strokeTo": 0,
-		"colorFrom": "A9D8FFFF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 2,
-		"sizeTo": 50,
-		"length": 0,
-		"spin": 10,
-		"layer": 109,
-		"lifetime": 200,
-		"region": "xguctt-wide",
-		"colorFrom": "66B1FFFF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 2,
-		"sizeTo": 80,
-		"length": 0,
-		"spin": -10,
-		"layer": 109,
-		"lifetime": 200,
-		"region": "xguctt-tall",
-		"colorFrom": "66B1FFFF",
-		"colorTo": "66B1FFFF"
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 1,
-		"sizeTo": 27,
-		"length": 0,
-		"lifetime": 200,
-		"layer": 109,
-		"colorFrom": "66B1FFFF",
-		"colorTo": "66B1FFFF",
-		"cone": 360
-	},
-	{
-		"type": "ParticleEffect",
-		"particles": 1,
-		"sizeFrom": 1,
-		"sizeTo": 10.5,
-		"length": 0,
-		"lifetime": 200,
-		"colorFrom": "FFFFFFF",
-		"colorTo": "FFFFFFF",
-		"cone": 360
-	}
-	]
-}
-
-"chargeEffect": "none",
 "shake": 4,
 "cooldownTime": 450,
 "rotateSpeed": 0.7,
@@ -206,6 +33,177 @@ calamity-crystal: {
 	"type": "basicBulletType",
 	"sprite": "circle-bullet",
 	"status": "freezing",
+	
+	chargeEffect: {
+		type: multiEffect
+		lifetime: 200
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 130,
+			"region": "xguctt-hypernova-light-rune8",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 130,
+			"region": "xguctt-hypernova-light-rune7",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 140,
+			"region": "xguctt-hypernova-light-rune6",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 150,
+			"region": "xguctt-hypernova-light-rune5",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 160,
+			"region": "xguctt-hypernova-light-rune4",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 170,
+			"region": "xguctt-hypernova-light-rune3",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 180,
+			"region": "xguctt-hypernova-light-rune2",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-hypernova-light-rune1",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 150,
+			"sizeTo": 0,
+			"strokeFrom": 6,
+			"strokeTo": 0,
+			"colorFrom": "A9D8FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 2,
+			"sizeTo": 50,
+			"length": 0,
+			"spin": 10,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-wide",
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 2,
+			"sizeTo": 80,
+			"length": 0,
+			"spin": -10,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-tall",
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 27,
+			"length": 0,
+			"lifetime": 200,
+			"layer": 109,
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF",
+			"cone": 360
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 10.5,
+			"length": 0,
+			"lifetime": 200,
+			"colorFrom": "FFFFFFF",
+			"colorTo": "FFFFFFF",
+			"cone": 360
+		}
+		]
+	}
 	
 	shootEffect: {
 		type: multiEffect
@@ -1130,6 +1128,177 @@ omega-blue: {
 	"type": "basicBulletType",
 	"sprite": "xguctt-star-bullet",
 	"spin": 9,
+	
+	chargeEffect: {
+		type: multiEffect
+		lifetime: 200
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 130,
+			"region": "xguctt-hypernova-light-rune8",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 130,
+			"region": "xguctt-hypernova-light-rune7",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -48,
+			"layer": 109,
+			"lifetime": 140,
+			"region": "xguctt-hypernova-light-rune6",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 150,
+			"region": "xguctt-hypernova-light-rune5",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 160,
+			"region": "xguctt-hypernova-light-rune4",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 170,
+			"region": "xguctt-hypernova-light-rune3",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 180,
+			"region": "xguctt-hypernova-light-rune2",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 48,
+			"sizeTo": 48,
+			"length": 0,
+			"offsetX": -47.7,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-hypernova-light-rune1",
+			"colorFrom": "303136FF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 25,
+			"sizeFrom": 150,
+			"sizeTo": 0,
+			"strokeFrom": 6,
+			"strokeTo": 0,
+			"colorFrom": "A9D8FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 2,
+			"sizeTo": 50,
+			"length": 0,
+			"spin": 10,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-wide",
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 2,
+			"sizeTo": 80,
+			"length": 0,
+			"spin": -10,
+			"layer": 109,
+			"lifetime": 200,
+			"region": "xguctt-tall",
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 27,
+			"length": 0,
+			"lifetime": 200,
+			"layer": 109,
+			"colorFrom": "66B1FFFF",
+			"colorTo": "66B1FFFF",
+			"cone": 360
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 1,
+			"sizeTo": 10.5,
+			"length": 0,
+			"lifetime": 200,
+			"colorFrom": "FFFFFFF",
+			"colorTo": "FFFFFFF",
+			"cone": 360
+		}
+		]
+	}
 	
 	status: {
 		"name": "celestial-blaze",

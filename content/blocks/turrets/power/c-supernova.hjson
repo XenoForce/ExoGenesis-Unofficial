@@ -242,7 +242,6 @@ shootType: {
 			"lifetime": 25,
 			"sizeFrom": 0,
 			"sizeTo": 100,
-			"baseLength": 10,
 			"strokeFrom": 7,
 			"strokeTo": 0,
 			"colorFrom": "A9D8FF10",

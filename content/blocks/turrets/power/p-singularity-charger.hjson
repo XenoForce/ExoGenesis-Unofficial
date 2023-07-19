@@ -25,50 +25,49 @@ shoot: {
 	firstShotDelay: 80
 }
 
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 0,
-	"sizeTo": 10,
-	"length": 0,
-	"lifetime": 80,
-	"colorFrom": "A170F4FF",
-	"colorTo": "180F2AFF",
-	"cone": 360
-}
-
-chargeEffect: {
-	type: MultiEffect
-	
-	effects: [
-	{     
-		"type": "WaveEffect",
-		"lifetime": 80,
-		"sizeFrom": 0,
-		"sizeTo": 40,
-		"strokeFrom": 4,
-		"strokeTo": 0,
-		"colorFrom": "A170F4FF",
-		"colorTo": "180F2AFF"
-	},
-	{     
-		"type": "ParticleEffect",
-		"particles": 10,
-		"sizeFrom": 5,
-		"sizeTo": 0,
-		"length": 45,
-		"baseLength": -45,
-		"lifetime": 80,
-		"colorFrom": "A170F4FF",
-		"colorTo": "180F2AFF",
-		"cone": 360
-	}
-	]
-}
-
 shootType: {
 	"type": "BasicBulletType",
 	"sprite": "circle-bullet",
+	
+	chargeEffect: {
+		type: MultiEffect
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 0,
+			"sizeTo": 10,
+			"length": 0,
+			"lifetime": 80,
+			"colorFrom": "A170F4FF",
+			"colorTo": "180F2AFF",
+			"cone": 360
+		},
+		{
+			"type": "WaveEffect",
+			"lifetime": 80,
+			"sizeFrom": 0,
+			"sizeTo": 40,
+			"strokeFrom": 4,
+			"strokeTo": 0,
+			"colorFrom": "A170F4FF",
+			"colorTo": "180F2AFF"
+		},
+		{
+			"type": "ParticleEffect",
+			"particles": 10,
+			"sizeFrom": 5,
+			"sizeTo": 0,
+			"length": 45,
+			"baseLength": -45,
+			"lifetime": 80,
+			"colorFrom": "A170F4FF",
+			"colorTo": "180F2AFF",
+			"cone": 360
+		}
+		]
+	}
 	
 	status: {
 		"name": "singularity-warped",

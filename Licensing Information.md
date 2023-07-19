@@ -1,4 +1,4 @@
-**Important Information about Licensing:**
+# Important Information about Licensing:
 
 **Current status:**
 

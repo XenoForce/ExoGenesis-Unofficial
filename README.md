@@ -3,7 +3,7 @@ ExoGenesis Mod: Free version (Released under the GPLv3.)
 
 <br>
 
-This project serves two purposes:
+**This project serves two purposes:**
 
 1.) It is a fully playable version of the ExoGenesis mod for Mindustry, as it stood on 27 Feb 2022, before the author foolishly changed the licensing of the mod.
 

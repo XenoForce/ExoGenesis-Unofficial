@@ -13,68 +13,66 @@ shoot: {
 	firstShotDelay: 80
 }
 
-"targetAir" : false, 
-"targetGround" : true,
+"targetAir": false, 
+"targetGround": true,
 "heatColor": "73FFAEFF",
-"recoil" : 6,
+"recoil": 6,
 "rotateSpeed": 1.0,
-"shake" : 10,
+"shake": 10,
 "shootSound": "matter",
 "chargeSound": "grinding",
 
-chargeBeginEffect: {
-	"type": "ParticleEffect",
-	"particles": 1,
-	"sizeFrom": 10,
-	"sizeTo": 1,
-	"interp": "bounceOut",
-	"length": 0,
-	"lifetime": 80,
-	"colorFrom": "73FFAEFF",
-	"colorTo": "73FFAEFF",
-	"cone": 360
-}
-
-chargeEffect: {
-	"type": "MultiEffect",
-	"lifetime": 80,
-	
-	effects: [
-	{     
-		"type": "ParticleEffect",
-		"line": true,
-		"particles": 15,
-		"lifetime": 30,
-		"length": 45,
-		"offset": 4,
-		"baseLength": -45,
-		"cone": -360,
-		"lenFrom": 20,
-		"lenTo": 0,
-		"colorFrom": "73FFAEFF",
-		"colorTo": "73FFAEFF"
-	}
-	
-	{     
-		"type": "WaveEffect",
-		"lifetime": 70,
-		"sizeFrom": 65,
-		"sizeTo": 0,
-		"strokeFrom": 0,
-		"strokeTo": 7,
-		"colorFrom": "73FFAEFF",
-		"colorTo": "73FFAEFF"
-	}
-	]
-}
-
 ammoTypes: {
 gamma-green: {
-	"type" : "BasicBulletType",
-	"sprite" : "xguctt-electric-pulse",
+	"type": "BasicBulletType",
+	"sprite": "xguctt-electric-pulse",
 	"trailChance": 1,
 	
-	"trailEffect": {
+	chargeEffect: {
+		"type": "MultiEffect",
+		"lifetime": 80,
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 10,
+			"sizeTo": 1,
+			"interp": "bounceOut",
+			"length": 0,
+			"lifetime": 80,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF",
+			"cone": 360
+		},
+		{     
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 15,
+			"lifetime": 30,
+			"length": 45,
+			"offset": 4,
+			"baseLength": -45,
+			"cone": -360,
+			"lenFrom": 20,
+			"lenTo": 0,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		},
+		{     
+			"type": "WaveEffect",
+			"lifetime": 70,
+			"sizeFrom": 65,
+			"sizeTo": 0,
+			"strokeFrom": 0,
+			"strokeTo": 7,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		}
+		]
+	}
+	
+	trailEffect: {
 		"type": "ParticleEffect",
 		"particles": 1,
 		"sizeFrom": 25,
@@ -303,6 +301,50 @@ xanium: {
 	"sprite" : "xguctt-plasma",
 	"trailChance": 1,
 	"trailRotation": true,
+	
+	chargeEffect: {
+		"type": "MultiEffect",
+		"lifetime": 80,
+		
+		effects: [
+		{
+			"type": "ParticleEffect",
+			"particles": 1,
+			"sizeFrom": 10,
+			"sizeTo": 1,
+			"interp": "bounceOut",
+			"length": 0,
+			"lifetime": 80,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF",
+			"cone": 360
+		},
+		{     
+			"type": "ParticleEffect",
+			"line": true,
+			"particles": 15,
+			"lifetime": 30,
+			"length": 45,
+			"offset": 4,
+			"baseLength": -45,
+			"cone": -360,
+			"lenFrom": 20,
+			"lenTo": 0,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		},
+		{     
+			"type": "WaveEffect",
+			"lifetime": 70,
+			"sizeFrom": 65,
+			"sizeTo": 0,
+			"strokeFrom": 0,
+			"strokeTo": 7,
+			"colorFrom": "73FFAEFF",
+			"colorTo": "73FFAEFF"
+		}
+		]
+	}
 	
 	trailEffect: {
 		"type": "ParticleEffect",

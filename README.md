@@ -11,6 +11,12 @@ ExoGenesis Mod: Free version (Released under the GPLv3.)
 
 <br>
 
+**WARNING:**
+
+Fair warning to Mindustry players: This is effectively a cheat mod. This mod gives the player access to over-powered units and/or components. Don't use this mod, if you don't want the original game-play of the game spoiled for you!
+
+<br>
+
 **IMPORTANT NOTICE:**
 
     This project does NOT break any licensing requirements.

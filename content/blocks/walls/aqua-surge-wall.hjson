@@ -1,0 +1,23 @@
+type: Wall
+
+size: 1
+
+health: 920
+
+"lightningChance": 0.05,
+"placeableLiquid": "true",
+
+category: defense
+
+requirements: [
+	metaglass/6
+	surge-alloy/6
+]
+
+research: {
+	requirements: [
+		metaglass/6
+		surge-alloy/6
+	]
+	parent: exogenesis-walls
+}

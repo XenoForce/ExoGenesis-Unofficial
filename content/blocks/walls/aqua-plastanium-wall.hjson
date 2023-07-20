@@ -1,0 +1,25 @@
+type: Wall
+
+size: 1
+
+health: 130
+
+"placeableLiquid": "true",
+"insulated": true,
+"absorbLasers": true,
+"schematicPriority": 10,
+
+category: defense
+
+requirements: [
+	metaglass/3
+	plastanium/6
+]
+
+research: {
+	requirements: [
+		metaglass/3
+		plastanium/6
+	]
+	parent: exogenesis-walls
+}

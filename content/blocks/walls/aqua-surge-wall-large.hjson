@@ -1,0 +1,23 @@
+type: Wall
+
+size: 2
+
+health: 3680
+
+"placeableLiquid": "true",
+"lightningChance": 0.05,
+
+category: defense
+
+requirements: [
+	metaglass/24
+	surge-alloy/24
+]
+
+research: {
+	requirements: [
+		metaglass/24
+		surge-alloy/24
+	]
+	parent: "aqua-surge-wall"
+}

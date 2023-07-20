@@ -1,0 +1,22 @@
+type: Wall
+
+size: 2
+
+health: 3200
+
+"placeableLiquid": "true",
+
+category: defense
+
+requirements: [
+	metaglass/24
+	thorium/24
+]
+
+research: {
+	requirements: [
+		metaglass/24
+		thorium/24
+	]
+	parent: "aqua-thorium-wall"
+}

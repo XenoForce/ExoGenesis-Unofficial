@@ -1,135 +1,139 @@
+flying: true
+
+health: 174000
+armor: 36
+
+speed: 0.33
+
+research: {
+	requirements: [
+		astrolite/10000
+		plastanium/7040
+		omega-blue/6000
+		osmium/6440
+		silicon/9670
+	]
+	parent: "altair"
+}
+
+"singleTarget": true,
+"drawShields": false,
+"lightRadius": 200,
+"rotateSpeed": 0.7,
+"accel": 0.4,
+"drag": 0.4,
+"range": 380,
+"maxRange": 380,
+"aimDst": 340,
+"faceTarget": true,
+"hitSize": 92,
+"engineOffset": 0,
+"engineSize": 0.01,
+"lowAltitude": true,
+"targetAir": true,
+// "commandLimit": 8,
+
+weapons: [
 {
-    "singleTarget": true,
-    "drawShields": false,
-    
-    "research": {
-    "parent": "altair",
-    "requirements": [
-    "astrolite/10000",
-    "plastanium/7040",
-    "omega-blue/6000",
-    "osmium/6440",
-    "silicon/9670"
-    ]
-    },
-    
-    "lightRadius": 200,
-    "rotateSpeed": 0.7,
-    "speed": 0.33,
-    "accel": 0.4,
-    "drag": 0.4,
-    "range": 380,
-    "maxRange": 380,
-    "aimDst": 340,
-    "faceTarget": true,
-    "flying": true,
-    "health": 174000,
-    "hitSize": 92,
-    "armor": 36,
-    "engineOffset": 0,
-    "engineSize": 0.01,
-    "lowAltitude": true,
-    "targetAir": true,
-    
-    // "commandLimit": 8,
-    
-	"weapons": [
-	   {
-    "name": "cold-plasma-artillery",
-    "x": 47,
-    "y": -15,
-    "shootY": 11,
-    "rotateSpeed": 1.6,
-    "reload": 45,
-    
-    "shoot": {
-        "type": "ShootPattern",
-        "shots": 6
-    },
-    
-    "velocityRnd": 0.34,
-    "recoil": 4, 
-    "inaccuracy": 8,
-    "shootSound": "artillery",
-    "rotate": true,
-    
-    "bullet": {
-      "type": "ArtilleryBulletType",
-      "width": 16,
-      "height": 16,
-      "status": "freezing",
-      "splashDamage": 256,
-      "splashDamageRadius": 20,
-      "statusDuration": 300,
-	  "lightning": 4,
-      "lightningLength": 10,
-      "lightningLengthRand": 6,
-      "lightningDamage": 20,
-      "lightColor": "A9D8FFFF",
-      "lightningColor": "66B1FFFF",
-      "speed": 5.5,
-      "lifetime": 80,
-      "frontColor": "A9D8FFFF",
-      "backColor": "66B1FFFF",
-      "hitEffect": {
-      "type": "multiEffect",
-      "effects": [
-      {
-      "type": "ParticleEffect",
-      "particles": 8,
-      "length": 60,
-      "lifetime": 46,
-      "interp": "circleOut",
-      "cone": 360,
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "66B1FFFF",
-      "sizeFrom": 5,
-      "sizeTo": 0
-      },
-      {
-      "type": "WaveEffect",
-      "lifetime": 15,
-      "sizeFrom": 0,
-      "sizeTo": 45,
-      "strokeFrom": 4,
-      "strokeTo": 0,
-      "colorFrom": "66B1FFFF",
-      "colorTo": "A9D8FFFF"
-      } 
-      ]
-      },
-      "despawnEffect": {
-      "type": "multiEffect",
-      "effects": [
-      {
-      "type": "ParticleEffect",
-      "particles": 8,
-      "length": 60,
-      "lifetime": 46,
-      "interp": "circleOut",
-      "cone": 360,
-      "colorFrom": "A9D8FFFF",
-      "colorTo": "66B1FFFF",
-      "sizeFrom": 5,
-      "sizeTo": 0
-      },
-      {
-      "type": "WaveEffect",
-      "lifetime": 15,
-      "sizeFrom": 0,
-      "sizeTo": 45,
-      "strokeFrom": 4,
-      "strokeTo": 0,
-      "colorFrom": "66B1FFFF",
-      "colorTo": "A9D8FFFF"
-      } 
-      ]
-      },
-      "shootEffect": "shootBig"
-    }
-  },
-  {
-  "name": "cold-plasma-gunner",
+	"name": "cold-plasma-artillery",
+	"x": 47,
+	"y": -15,
+	"shootY": 11,
+	"rotateSpeed": 1.6,
+	"reload": 45,
+	
+	shoot: {
+		"type": "ShootPattern",
+		"shots": 6
+	}
+	
+	"velocityRnd": 0.34,
+	"recoil": 4, 
+	"inaccuracy": 8,
+	"shootSound": "artillery",
+	"rotate": true,
+	
+	bullet: {
+		"type": "ArtilleryBulletType",
+		"width": 16,
+		"height": 16,
+		"status": "freezing",
+		"splashDamage": 256,
+		"splashDamageRadius": 20,
+		"statusDuration": 300,
+		"lightning": 4,
+		"lightningLength": 10,
+		"lightningLengthRand": 6,
+		"lightningDamage": 20,
+		"lightColor": "A9D8FFFF",
+		"lightningColor": "66B1FFFF",
+		"speed": 5.5,
+		"lifetime": 80,
+		"frontColor": "A9D8FFFF",
+		"backColor": "66B1FFFF",
+		
+		hitEffect: {
+			"type": "multiEffect",
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 8,
+				"length": 60,
+				"lifetime": 46,
+				"interp": "circleOut",
+				"cone": 360,
+				"colorFrom": "A9D8FFFF",
+				"colorTo": "66B1FFFF",
+				"sizeFrom": 5,
+				"sizeTo": 0
+			},
+			{
+				"type": "WaveEffect",
+				"lifetime": 15,
+				"sizeFrom": 0,
+				"sizeTo": 45,
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"colorFrom": "66B1FFFF",
+				"colorTo": "A9D8FFFF"
+			} 
+			]
+		}
+		
+		despawnEffect: {
+			"type": "multiEffect",
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 8,
+				"length": 60,
+				"lifetime": 46,
+				"interp": "circleOut",
+				"cone": 360,
+				"colorFrom": "A9D8FFFF",
+				"colorTo": "66B1FFFF",
+				"sizeFrom": 5,
+				"sizeTo": 0
+			},
+			{
+				"type": "WaveEffect",
+				"lifetime": 15,
+				"sizeFrom": 0,
+				"sizeTo": 45,
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"colorFrom": "66B1FFFF",
+				"colorTo": "A9D8FFFF"
+			} 
+			]
+		}
+		
+		"shootEffect": "shootBig"
+	}
+}
+
+{
+    "name": "cold-plasma-gunner",
     "x": 18,
     "y": 7,
     "shootY": 9,
@@ -137,10 +141,10 @@
     "reload": 15,
     "recoil": 2,
     
-    "shoot": {
+    shoot: {
         "type": "ShootPattern",
         "shots": 1
-    },
+    }
     
     "inaccuracy": 2,
     "shootSound": "bang",
@@ -148,7 +152,7 @@
     "alternate": true,
     "rotate": true,
     
-    "bullet": {
+    bullet: {
       "type": "basicBulletType",
       "damage": 200,
       "width": 12,
@@ -195,8 +199,9 @@
       },
       "shootEffect": "shootSmall"
     }
-  },
-  {
+}
+
+{
   "name": "arbiter-weapon",
   "x": 0,
   "y": 0,
@@ -296,28 +301,32 @@
     "sideLength": 1,
     "sideWidth": 1
     }
-  }
-    ],
-    "abilities": [
-    {
+}
+]
+
+abilities: [
+{
     "type": "mindustry.entities.abilities.ForceFieldAbility",
     "radius": 120,
     "regen": 5,
     "max": 5700,
     "cooldown": 200
-    },
-    {
+}
+
+{
     "type": "mindustry.entities.abilities.ForceFieldAbility",
     "radius": 90,
     "regen": 8,
     "max": 9700,
     "cooldown": 280
-    },
-    {
+}
+
+{
     "type": "EnergyFieldAbility",
     "statusDuration": 100,
     "shootSound": "none",
-    "healEffect": {
+    
+    healEffect: {
     "type": "WaveEffect",
     "lifetime": 20,
     "sizeFrom": 0,
@@ -358,8 +367,9 @@
     "colorTo": "66B1FFFF"
     }
     }
-    },
-    {
+}
+
+{
     "type": "MoveLightningAbility",
     "minSpeed": -1,
     "maxSpeed": 0,
@@ -368,9 +378,10 @@
     "length": 1,
     "color": "00000000",
     "shootSound": "none",
-    "shootEffect": {
+    
+    shootEffect: {
     "type": "multiEffect",
-    "effects": [
+    effects: [
     {
       "type": "ParticleEffect",
       "particles": 1,
@@ -399,8 +410,9 @@
     }
     ]
     }
-    },
-    {
+}
+
+{
     "type": "MoveLightningAbility",
     "minSpeed": -1,
     "maxSpeed": 0,
@@ -437,12 +449,14 @@
     "lightningColor": "A9D8FFFF"
 	}
     }
-    },
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": -30,
     "spawnY": -26,
-    "spawnEffect": {
+    
+    spawnEffect: {
     "type": "WaveEffect",
     "lifetime": 20,
     "sizeFrom": 0,
@@ -455,8 +469,9 @@
     },
     "unit": "drone-L",
     "spawnTime": 250
-	},
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": -45,
     "spawnY": -34,
@@ -473,8 +488,9 @@
     },
     "unit": "drone-A",
     "spawnTime": 150
-    },
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": -54,
     "spawnY": -27,
@@ -491,8 +507,9 @@
     },
     "unit": "drone-B",
     "spawnTime": 150
-   },
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": 30,
     "spawnY": -26,
@@ -509,8 +526,9 @@
     },
     "unit": "drone-L",
     "spawnTime": 250
-	},
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": 45,
     "spawnY": -34,
@@ -527,8 +545,9 @@
     },
     "unit": "drone-A",
     "spawnTime": 150
-    },
-    {
+}
+
+{
     "type": "UnitSpawnAbility",
     "spawnX": 54,
     "spawnY": -27,
@@ -545,6 +564,5 @@
     },
     "unit": "drone-B",
     "spawnTime": 150
-    }
-    ]
 }
+]

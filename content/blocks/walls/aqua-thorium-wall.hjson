@@ -1,0 +1,22 @@
+type: Wall
+
+size: 1
+
+health: 800
+
+"placeableLiquid": "true",
+
+category: defense
+
+requirements: [
+	metaglass/6
+	thorium/6
+]
+
+research: {
+	requirements: [
+		metaglass/6
+		thorium/6
+	]
+	parent: exogenesis-walls
+}

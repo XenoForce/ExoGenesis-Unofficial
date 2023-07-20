@@ -1,41 +1,43 @@
-{
-    "research": {
-    "parent": "eruption",
-    "requirements": [
-"volcanite/1220",
-"surge-alloy/1000",
-"plastanium/940",
-"primal-red/850",
-"osmium/1240",
-"silicon/1300"
-    ]
-    },
-    
-    "type": "mech",
-    "outlineColor": "313131FF",
-	"speed": 0.43,
-	"hitSize": 68,
-	"health": 70000,
-    "mechStepParticles": false,
-    "stepShake": 0,
-    "mechFrontSway": 0,
-    "mechSideSway": 0,
-	"armor": 34,
-	"canDrown": false,
-    "faceTarget": false,
-    "singleTarget": true,
-	"flying": false,
-	"targetAir": true,
-	"rotateSpeed": 1.1,
-	
-"immunities": [
+type: mech
+
+health: 70000
+armor: 34
+
+speed: 0.43
+
+research: {
+parent: "eruption"
+requirements: [
+	"volcanite/1220",
+	"surge-alloy/1000",
+	"plastanium/940",
+	"primal-red/850",
+	"osmium/1240",
+	"silicon/1300"
+]
+}
+
+"outlineColor": "313131FF",
+"hitSize": 68,
+"mechStepParticles": false,
+"stepShake": 0,
+"mechFrontSway": 0,
+"mechSideSway": 0,
+"canDrown": false,
+"faceTarget": false,
+"singleTarget": true,
+"flying": false,
+"targetAir": true,
+"rotateSpeed": 1.1,
+
+immunities: [
 	"burning", 
 	"melting",
 	"xguctt-molten1",
 	"blasted"
-],
+]
 
-"weapons": [
+weapons: [
 {
   "name": "volcanic-weapon",
   "x": 0,
@@ -614,6 +616,5 @@
     ]
     },
     "shootSound": "none"
-    }
- ]
 }
+]

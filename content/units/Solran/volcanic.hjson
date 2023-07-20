@@ -6,15 +6,15 @@ armor: 34
 speed: 0.43
 
 research: {
-parent: "eruption"
-requirements: [
-	"volcanite/1220",
-	"surge-alloy/1000",
-	"plastanium/940",
-	"primal-red/850",
-	"osmium/1240",
-	"silicon/1300"
-]
+	requirements: [
+		volcanite/1220
+		surge-alloy/1000
+		plastanium/940
+		primal-red/850
+		osmium/1240
+		silicon/1300
+	]
+	parent: "eruption"
 }
 
 "outlineColor": "313131FF",
@@ -39,190 +39,197 @@ immunities: [
 
 weapons: [
 {
-  "name": "volcanic-weapon",
-  "x": 0,
-  "y": 0,
-  "ejectEffect": "casing3",
-  "mirror": true,
-  "alternate": true,
-  "top": true,
-  "rotate": true,
-  "layerOffset": 3,
-  "rotateSpeed": 2.5,
-  
-  "shoot": {
-    "type": "ShootPattern",
-    "shots": 1
-  },
-  
-  "shake": 6,
-  "shootX": 9,
-  "shootY": 50,
-  "reload": 65,
-  "recoil": 4,
-  "shootSound": "powerfulblast",
-  
-  "bullet": {
-	"type" : "basicBulletType",
-	"sprite" : "xguctt-gauss-bullet",
-	"status": "xguctt-molten1",
-	"damage": 2000,
-        "pierceBuilding": true,
-        "pierceCap": 2,
-	"height" : 26,
-	"width" : 26,
-	"speed": 17,
-	"lifetime" : 30,
-        "smokeEffect": {
-	"type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 8,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "offset": 30,
-    "cone": 30,
-    "length": 60,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lenFrom": 6,
-    "lenTo": 6,
-    "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF"
-    }
-    ]
-    },
-	"hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 20,
-    "length": 65,
-    "baseLength": 20,
-    "lifetime": 120,
-    "lightColor": "FF5845FF",
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": 360,
-     "colorFrom": "FF5845FF",
-    "colorTo": "3f3f3fff",
-    "sizeFrom": 10,
-    "sizeTo": 0
-    },
-    {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 25,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "offset": 30,
-    "length": 80,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lenFrom": 10,
-    "lenTo": 10,
-    "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-   "type": "ParticleEffect",
-    "line": true,
-    "particles": 25,
-    "lifetime": 40,
-    "interp": "circleOut",
-    "offset": 30,
-    "cone": 30,
-    "length": 90,
-    "lightColor": "FF5845FF",
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lenFrom": 10,
-    "lenTo": 10,
-    "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF"
-    },
-    {
-    "type": "ParticleEffect",
-    "particles": 15,
-    "length": 65,
-    "baseLength": 20,
-    "lifetime": 100,
-    "lightColor": "FF5845FF",
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "cone": 360,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845ff",
-    "sizeFrom": 7,
-    "sizeTo": 0
-    },
-    {
-    "type": "WaveEffect",
-    "lifetime": 20,
-    "sizeFrom": 20,
-    "sizeTo": 80,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "lightColor": "FF5845FF",
-    "colorFrom": "FFDCD8FF",
-    "colorTo": "FF5845FF"
-    }
-    ]
-    },
-    "despawnHit": true,
-	"shootEffect": {
-	"type": "multiEffect",
-      "followParent": true,
-      "rotWithParent": true,
-    "effects": [
-    {
-    "type": "ParticleEffect",
-    "particles": 1,
-    "lifetime": 10,
-    "length": 0,
-    "region": "xguctt-tall",
-    "sizeFrom": 42,
-    "sizeTo": 0,
-    "colorFrom": "FF5845FF",
-    "colorTo": "FF5845FF"
-    }
-    ]
-	},
-	"trailParam": 5,
-	"trailLength": 19,
-    "trailWidth": 5,
-	"trailEffect": "none",
-	"trailColor": "FF5845FF",
-    "backColor": "FF5845FF",
-    "frontColor": "FFDCD8FF",
-    "fragBullets": 10,
-    "fragVelocityMin": 4,
-    "fragAngle": 60,
-    "fragLifeMin": 0.3,
-    
-	"fragBullet": {
-	"type": "BasicBulletType",
-	"status" : "melting",
-	"height" : 12,
-	"width" : 12,
-	"lifetime": 20,
-	"damage" : 50,
-        "backColor": "FF5845FF",
-         "frontColor": "FFDCD8FF",
-	"pierce": true,
-	"pierceBuilding": true,
-	"splashDamage" : 50,
-	"splashDamageRadius" : 25,	
-    "hitEffect": "flakExplosion"
-    }
-    }
-    },
-    {
+	"name": "volcanic-weapon",
+	"x": 0,
+	"y": 0,
+	"ejectEffect": "casing3",
+	"mirror": true,
+	"alternate": true,
+	"top": true,
+	"rotate": true,
+	"layerOffset": 3,
+	"rotateSpeed": 2.5,
+	
+	shoot: {
+		"type": "ShootPattern",
+		"shots": 1
+	}
+	
+	"shake": 6,
+	"shootX": 9,
+	"shootY": 50,
+	"reload": 65,
+	"recoil": 4,
+	"shootSound": "powerfulblast",
+	
+	bullet: {
+		"type" : "basicBulletType",
+		"sprite" : "xguctt-gauss-bullet",
+		"status": "xguctt-molten1",
+		"damage": 2000,
+		"pierceBuilding": true,
+		"pierceCap": 2,
+		"height" : 26,
+		"width" : 26,
+		"speed": 17,
+		"lifetime" : 30,
+		
+		smokeEffect: {
+			"type": "multiEffect",
+			"effects": [
+			{
+				"type": "ParticleEffect",
+				"line": true,
+				"particles": 8,
+				"lifetime": 40,
+				"interp": "circleOut",
+				"offset": 30,
+				"cone": 30,
+				"length": 60,
+				"lightColor": "FF5845FF",
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"lenFrom": 6,
+				"lenTo": 6,
+				"colorFrom": "FFDCD8FF",
+				"colorTo": "FF5845FF"
+			}
+			]
+		}
+		
+		hitEffect: {
+			"type": "multiEffect",
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 20,
+				"length": 65,
+				"baseLength": 20,
+				"lifetime": 120,
+				"lightColor": "FF5845FF",
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": 360,
+				 "colorFrom": "FF5845FF",
+				"colorTo": "3f3f3fff",
+				"sizeFrom": 10,
+				"sizeTo": 0
+			},
+			{
+				"type": "ParticleEffect",
+				"line": true,
+				"particles": 25,
+				"lifetime": 40,
+				"interp": "circleOut",
+				"offset": 30,
+				"length": 80,
+				"lightColor": "FF5845FF",
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"lenFrom": 10,
+				"lenTo": 10,
+				"colorFrom": "FFDCD8FF",
+				"colorTo": "FF5845FF"
+			},
+			{
+				"type": "ParticleEffect",
+				"line": true,
+				"particles": 25,
+				"lifetime": 40,
+				"interp": "circleOut",
+				"offset": 30,
+				"cone": 30,
+				"length": 90,
+				"lightColor": "FF5845FF",
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"lenFrom": 10,
+				"lenTo": 10,
+				"colorFrom": "FFDCD8FF",
+				"colorTo": "FF5845FF"
+			},
+			{
+				"type": "ParticleEffect",
+				"particles": 15,
+				"length": 65,
+				"baseLength": 20,
+				"lifetime": 100,
+				"lightColor": "FF5845FF",
+				"interp": "circleOut",
+				"sizeInterp": "pow5In",
+				"cone": 360,
+				"colorFrom": "FF5845FF",
+				"colorTo": "FF5845ff",
+				"sizeFrom": 7,
+				"sizeTo": 0
+			},
+			{
+				"type": "WaveEffect",
+				"lifetime": 20,
+				"sizeFrom": 20,
+				"sizeTo": 80,
+				"strokeFrom": 4,
+				"strokeTo": 0,
+				"lightColor": "FF5845FF",
+				"colorFrom": "FFDCD8FF",
+				"colorTo": "FF5845FF"
+			}
+			]
+		}
+		
+		"despawnHit": true,
+		
+		shootEffect: {
+			"type": "multiEffect",
+			"followParent": true,
+			"rotWithParent": true,
+			
+			effects: [
+			{
+				"type": "ParticleEffect",
+				"particles": 1,
+				"lifetime": 10,
+				"length": 0,
+				"region": "xguctt-tall",
+				"sizeFrom": 42,
+				"sizeTo": 0,
+				"colorFrom": "FF5845FF",
+				"colorTo": "FF5845FF"
+			}
+			]
+		}
+		
+		"trailParam": 5,
+		"trailLength": 19,
+		"trailWidth": 5,
+		"trailEffect": "none",
+		"trailColor": "FF5845FF",
+		"backColor": "FF5845FF",
+		"frontColor": "FFDCD8FF",
+		"fragBullets": 10,
+		"fragVelocityMin": 4,
+		"fragAngle": 60,
+		"fragLifeMin": 0.3,
+		
+		fragBullet: {
+			"type": "BasicBulletType",
+			"status" : "melting",
+			"height" : 12,
+			"width" : 12,
+			"lifetime": 20,
+			"damage" : 50,
+			"backColor": "FF5845FF",
+			"frontColor": "FFDCD8FF",
+			"pierce": true,
+			"pierceBuilding": true,
+			"splashDamage" : 50,
+			"splashDamageRadius" : 25,	
+			"hitEffect": "flakExplosion"
+		}
+	}
+}
+
+{
   "name": "volcanic-body",
   "x": 0,
   "y": 0,
